@@ -931,19 +931,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U$3" library="lio" deviceset="LM5050-1" device=""/>
 <part name="U$4" library="lio" deviceset="LM5050-1" device=""/>
-<part name="MOS_STBD" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
-<part name="MOS_PORT" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
+<part name="U$1" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
+<part name="U$2" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
 <part name="U$5" library="5530843-6" deviceset="5530843" device=""/>
-<part name="BATTERY_STBD" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
-<part name="BATTERY_PORT" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
-<part name="BATTERY_BALANCED" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="P1" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="P2" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="P3" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
-<part name="B_STBD" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
+<part name="LED1" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
-<part name="B_PORT" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
+<part name="LED2" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
-<part name="B_BALANCED" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
+<part name="LED3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ_KIT-1/4W-5%" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -952,19 +952,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="U$3" gate="G$1" x="81.28" y="101.6"/>
 <instance part="U$4" gate="G$1" x="83.82" y="35.56"/>
-<instance part="MOS_STBD" gate="G$1" x="81.28" y="129.54"/>
-<instance part="MOS_PORT" gate="G$1" x="83.82" y="63.5"/>
-<instance part="U$5" gate="G$1" x="91.44" y="-22.86"/>
-<instance part="BATTERY_STBD" gate="G$1" x="20.32" y="119.38"/>
-<instance part="BATTERY_PORT" gate="G$1" x="20.32" y="53.34"/>
-<instance part="BATTERY_BALANCED" gate="G$1" x="187.96" y="81.28" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="81.28" y="129.54"/>
+<instance part="U$2" gate="G$1" x="83.82" y="63.5"/>
+<instance part="U$5" gate="G$1" x="165.1" y="2.54"/>
+<instance part="P1" gate="G$1" x="20.32" y="119.38"/>
+<instance part="P2" gate="G$1" x="20.32" y="53.34"/>
+<instance part="P3" gate="G$1" x="187.96" y="81.28" rot="MR0"/>
 <instance part="C1" gate="G$1" x="154.94" y="76.2"/>
 <instance part="R1" gate="G$1" x="40.64" y="114.3" rot="R90"/>
-<instance part="B_STBD" gate="G$1" x="40.64" y="101.6" rot="R90"/>
+<instance part="LED1" gate="G$1" x="40.64" y="101.6" rot="R90"/>
 <instance part="R2" gate="G$1" x="40.64" y="48.26" rot="R90"/>
-<instance part="B_PORT" gate="G$1" x="40.64" y="35.56" rot="R90"/>
-<instance part="R3" gate="G$1" x="170.18" y="58.42" rot="R90"/>
-<instance part="B_BALANCED" gate="G$1" x="170.18" y="38.1" rot="R90"/>
+<instance part="LED2" gate="G$1" x="40.64" y="35.56" rot="R90"/>
+<instance part="R3" gate="G$1" x="170.18" y="66.04" rot="R90"/>
+<instance part="LED3" gate="G$1" x="170.18" y="53.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -987,32 +987,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="50.8" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="83.82" x2="5.08" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="2"/>
+<pinref part="P1" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="121.92" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="129.54" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="3"/>
+<pinref part="P1" gate="G$1" pin="3"/>
 <wire x1="10.16" y1="121.92" x2="10.16" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="119.38" x2="12.7" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="1"/>
+<pinref part="P1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
 <junction x="10.16" y="121.92"/>
 <wire x1="5.08" y1="121.92" x2="10.16" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="3"/>
+<pinref part="P2" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="1"/>
+<pinref part="P2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="55.88" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="55.88" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="7.62" y="55.88"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="2"/>
+<pinref part="P2" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <junction x="50.8" y="17.78"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="3"/>
+<pinref part="P3" gate="G$1" pin="3"/>
 <wire x1="40.64" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="81.28" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
@@ -1020,45 +1020,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="195.58" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="91.44" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="1"/>
+<pinref part="P3" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="83.82" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 <junction x="195.58" y="91.44"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="2"/>
+<pinref part="P3" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="83.82" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="180.34" y="91.44"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <junction x="154.94" y="73.66"/>
-<pinref part="B_BALANCED" gate="G$1" pin="1"/>
+<pinref part="LED3" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="17.78" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="17.78" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 <junction x="83.82" y="17.78"/>
-<pinref part="B_STBD" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="96.52" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <junction x="40.64" y="83.82"/>
-<pinref part="B_PORT" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="30.48" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="17.78"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="63.5" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="71.12" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 <junction x="170.18" y="73.66"/>
 </segment>
 </net>
 <net name="LOAD_2" class="0">
 <segment>
 <wire x1="33.02" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="MOS_PORT" gate="G$1" pin="SOURCE"/>
+<pinref part="U$2" gate="G$1" pin="SOURCE"/>
 <pinref part="U$4" gate="G$1" pin="IN"/>
 <wire x1="40.64" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
 <junction x="73.66" y="55.88"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="4"/>
+<pinref part="P2" gate="G$1" pin="4"/>
 <wire x1="27.94" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="53.34" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="6"/>
+<pinref part="P2" gate="G$1" pin="6"/>
 <wire x1="27.94" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="50.8" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <junction x="33.02" y="53.34"/>
-<pinref part="BATTERY_PORT" gate="G$1" pin="5"/>
+<pinref part="P2" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
@@ -1076,18 +1076,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.64" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="111.76" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <junction x="71.12" y="121.92"/>
-<pinref part="MOS_STBD" gate="G$1" pin="SOURCE"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="5"/>
+<pinref part="U$1" gate="G$1" pin="SOURCE"/>
+<pinref part="P1" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="116.84" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="111.76" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="4"/>
+<pinref part="P1" gate="G$1" pin="4"/>
 <wire x1="30.48" y1="116.84" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <junction x="30.48" y="119.38"/>
-<pinref part="BATTERY_STBD" gate="G$1" pin="6"/>
+<pinref part="P1" gate="G$1" pin="6"/>
 <wire x1="27.94" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
 <junction x="30.48" y="116.84"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -1095,10 +1095,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="40.64" y="121.92"/>
 </segment>
 </net>
-<net name="GATE1" class="0">
+<net name="GATE_1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="GATE"/>
-<pinref part="MOS_STBD" gate="G$1" pin="GATE"/>
+<pinref part="U$1" gate="G$1" pin="GATE"/>
 <wire x1="81.28" y1="121.92" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1124,17 +1124,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="101.6" y="121.92"/>
 <wire x1="101.6" y1="30.48" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <junction x="101.6" y="55.88"/>
-<pinref part="MOS_STBD" gate="G$1" pin="DRAIN"/>
-<pinref part="MOS_PORT" gate="G$1" pin="DRAIN"/>
+<pinref part="U$1" gate="G$1" pin="DRAIN"/>
+<pinref part="U$2" gate="G$1" pin="DRAIN"/>
 <pinref part="U$4" gate="G$1" pin="OUT"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="93.98" y="55.88"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="4"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="6"/>
+<pinref part="P3" gate="G$1" pin="4"/>
+<pinref part="P3" gate="G$1" pin="6"/>
 <wire x1="180.34" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <junction x="177.8" y="81.28"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="5"/>
+<pinref part="P3" gate="G$1" pin="5"/>
 <wire x1="195.58" y1="78.74" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
@@ -1143,31 +1143,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="154.94" y="81.28"/>
 </segment>
 </net>
-<net name="GATE2" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="GATE"/>
-<pinref part="MOS_PORT" gate="G$1" pin="GATE"/>
+<pinref part="U$2" gate="G$1" pin="GATE"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="B_BALANCED" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="43.18" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="58.42" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="B_STBD" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="109.22" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="B_PORT" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="43.18" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>

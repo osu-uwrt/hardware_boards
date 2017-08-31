@@ -931,8 +931,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U$3" library="lio" deviceset="LM5050-1" device=""/>
 <part name="U$4" library="lio" deviceset="LM5050-1" device=""/>
-<part name="MOS_STBD" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
-<part name="MOS_PORT" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
+<part name="U$1" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
+<part name="U$2" library="IXFK64N60P3" deviceset="IXFK64N60P3" device=""/>
 <part name="U$5" library="5530843-6" deviceset="5530843" device=""/>
 <part name="BATTERY_STBD" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
 <part name="BATTERY_PORT" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
@@ -952,8 +952,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="U$3" gate="G$1" x="81.28" y="101.6"/>
 <instance part="U$4" gate="G$1" x="83.82" y="35.56"/>
-<instance part="MOS_STBD" gate="G$1" x="81.28" y="129.54"/>
-<instance part="MOS_PORT" gate="G$1" x="83.82" y="63.5"/>
+<instance part="U$1" gate="G$1" x="81.28" y="129.54"/>
+<instance part="U$2" gate="G$1" x="83.82" y="63.5"/>
 <instance part="U$5" gate="G$1" x="91.44" y="-22.86"/>
 <instance part="BATTERY_STBD" gate="G$1" x="20.32" y="119.38"/>
 <instance part="BATTERY_PORT" gate="G$1" x="20.32" y="53.34"/>
@@ -1046,7 +1046,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="LOAD_2" class="0">
 <segment>
 <wire x1="33.02" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="MOS_PORT" gate="G$1" pin="SOURCE"/>
+<pinref part="U$2" gate="G$1" pin="SOURCE"/>
 <pinref part="U$4" gate="G$1" pin="IN"/>
 <wire x1="40.64" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
@@ -1076,7 +1076,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.64" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="111.76" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
 <junction x="71.12" y="121.92"/>
-<pinref part="MOS_STBD" gate="G$1" pin="SOURCE"/>
+<pinref part="U$1" gate="G$1" pin="SOURCE"/>
 <pinref part="BATTERY_STBD" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="116.84" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="116.84" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
@@ -1095,10 +1095,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="40.64" y="121.92"/>
 </segment>
 </net>
-<net name="GATE1" class="0">
+<net name="GATE_1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="GATE"/>
-<pinref part="MOS_STBD" gate="G$1" pin="GATE"/>
+<pinref part="U$1" gate="G$1" pin="GATE"/>
 <wire x1="81.28" y1="121.92" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1124,8 +1124,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="101.6" y="121.92"/>
 <wire x1="101.6" y1="30.48" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <junction x="101.6" y="55.88"/>
-<pinref part="MOS_STBD" gate="G$1" pin="DRAIN"/>
-<pinref part="MOS_PORT" gate="G$1" pin="DRAIN"/>
+<pinref part="U$1" gate="G$1" pin="DRAIN"/>
+<pinref part="U$2" gate="G$1" pin="DRAIN"/>
 <pinref part="U$4" gate="G$1" pin="OUT"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <junction x="93.98" y="55.88"/>
@@ -1143,10 +1143,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="154.94" y="81.28"/>
 </segment>
 </net>
-<net name="GATE2" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="GATE"/>
-<pinref part="MOS_PORT" gate="G$1" pin="GATE"/>
+<pinref part="U$2" gate="G$1" pin="GATE"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
