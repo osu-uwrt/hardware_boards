@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="WE-HCM_7050">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="0" x2="-0.5" y2="0" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
+<smd name="2" x="2.65" y="0" dx="2" dy="3.05" layer="1"/>
+<smd name="1" x="-2.65" y="0" dx="2" dy="3.05" layer="1"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="51"/>
+<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="39"/>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="39"/>
+<wire x1="4" y1="-4" x2="4" y2="4" width="0.127" layer="39"/>
+<wire x1="4" y1="4" x2="-4" y2="4" width="0.127" layer="39"/>
+<wire x1="-1" y1="3.5" x2="-1" y2="-3.5" width="0.127" layer="43"/>
+<wire x1="-1" y1="-3.5" x2="1" y2="-3.5" width="0.127" layer="43"/>
+<wire x1="1" y1="-3.5" x2="1" y2="3.5" width="0.127" layer="43"/>
+<wire x1="1" y1="3.5" x2="-1" y2="3.5" width="0.127" layer="43"/>
+</package>
+<package name="WE-HCM_1050">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-5.1" y1="3.5" x2="5.1" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-3.5" x2="5.1" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="3.5" x2="-5.1" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="5.1" y1="3.5" x2="5.1" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
+<wire x1="1" y1="0" x2="3.5" y2="0" width="0.127" layer="51"/>
+<smd name="2" x="4.175" y="0" dx="2" dy="3.05" layer="1"/>
+<smd name="1" x="-4.175" y="0" dx="2" dy="3.05" layer="1"/>
+<text x="-3.175" y="4.31" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="-5.58" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="51"/>
+<wire x1="-5.5" y1="4" x2="-5.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="-5.5" y1="-4" x2="5.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="5.5" y1="-4" x2="5.5" y2="4" width="0.127" layer="39"/>
+<wire x1="5.5" y1="4" x2="-5.5" y2="4" width="0.127" layer="39"/>
+<wire x1="-2.5" y1="3.5" x2="-2.5" y2="-3.5" width="0.127" layer="43"/>
+<wire x1="-2.5" y1="-3.5" x2="2.5" y2="-3.5" width="0.127" layer="43"/>
+<wire x1="2.5" y1="-3.5" x2="2.5" y2="3.5" width="0.127" layer="43"/>
+<wire x1="2.5" y1="3.5" x2="-2.5" y2="3.5" width="0.127" layer="43"/>
+</package>
+<package name="WE-HCM_7070">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-3.7" y1="-3.6" x2="3.7" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="3.6" x2="3.7" y2="3.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="3.6" x2="3.7" y2="-3.6" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="3.6" x2="-3.7" y2="-3.6" width="0.127" layer="51"/>
+<smd name="2" x="2.525" y="0" dx="2.55" dy="2.2" layer="1"/>
+<smd name="1" x="-2.525" y="0" dx="2.55" dy="2.2" layer="1"/>
+<text x="-3.7" y="-5.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.7" y="4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.5" y1="4" x2="-4.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-4" x2="4.5" y2="-4" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-4" x2="4.5" y2="4" width="0.127" layer="39"/>
+<wire x1="4.5" y1="4" x2="-4.5" y2="4" width="0.127" layer="39"/>
+</package>
+<package name="WE-HCM_1070">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-5.2" y1="3.8" x2="5.2" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-3.8" x2="5.2" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="3.8" x2="-5.2" y2="-3.8" width="0.127" layer="51"/>
+<wire x1="5.2" y1="3.8" x2="5.2" y2="-3.8" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
+<wire x1="1" y1="0" x2="3.5" y2="0" width="0.127" layer="51"/>
+<smd name="2" x="3.6" y="0" dx="3.6" dy="2.6" layer="1"/>
+<smd name="1" x="-3.6" y="0" dx="3.6" dy="2.6" layer="1"/>
+<text x="-3.175" y="4.31" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="-5.58" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="51"/>
+<wire x1="-5.75" y1="4.25" x2="-5.75" y2="-4.25" width="0.127" layer="39"/>
+<wire x1="-5.75" y1="-4.25" x2="5.75" y2="-4.25" width="0.127" layer="39"/>
+<wire x1="5.75" y1="-4.25" x2="5.75" y2="4.25" width="0.127" layer="39"/>
+<wire x1="5.75" y1="4.25" x2="-5.75" y2="4.25" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="3.75" x2="-1.5" y2="-3.75" width="0.127" layer="43"/>
+<wire x1="-1.5" y1="-3.75" x2="1.5" y2="-3.75" width="0.127" layer="43"/>
+<wire x1="1.5" y1="-3.75" x2="1.5" y2="3.75" width="0.127" layer="43"/>
+<wire x1="1.5" y1="3.75" x2="-1.5" y2="3.75" width="0.127" layer="43"/>
+</package>
+<package name="WE-HCM_1052">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-3.5" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
+<wire x1="1" y1="0" x2="3.5" y2="0" width="0.127" layer="51"/>
+<wire x1="-5.25" y1="5.15" x2="5.25" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="-5.15" x2="5.25" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="5.15" x2="-5.25" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="5.25" y1="5.15" x2="5.25" y2="-5.15" width="0.127" layer="51"/>
+<smd name="2" x="4.125" y="0" dx="2.45" dy="2.7" layer="1"/>
+<smd name="1" x="-4.125" y="0" dx="2.45" dy="2.7" layer="1"/>
+<text x="-3.175" y="5.61" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="-6.88" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="51"/>
+<wire x1="-2.5" y1="5" x2="-2.5" y2="-5" width="0.127" layer="43"/>
+<wire x1="-2.5" y1="-5" x2="2.5" y2="-5" width="0.127" layer="43"/>
+<wire x1="2.5" y1="-5" x2="2.5" y2="5" width="0.127" layer="43"/>
+<wire x1="2.5" y1="5" x2="-2.5" y2="5" width="0.127" layer="43"/>
+<wire x1="-6" y1="5.5" x2="-6" y2="-5.5" width="0.127" layer="39"/>
+<wire x1="-6" y1="-5.5" x2="6" y2="-5.5" width="0.127" layer="39"/>
+<wire x1="6" y1="-5.5" x2="6" y2="5.5" width="0.127" layer="39"/>
+<wire x1="6" y1="5.5" x2="-6" y2="5.5" width="0.127" layer="39"/>
+</package>
+<package name="WE-HCM_1350">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-5.5" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
+<wire x1="1" y1="0" x2="5.5" y2="0" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="6.65" x2="6.75" y2="6.65" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-6.65" x2="6.75" y2="-6.65" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="6.65" x2="-6.75" y2="-6.65" width="0.127" layer="51"/>
+<wire x1="6.75" y1="6.65" x2="6.75" y2="-6.65" width="0.127" layer="51"/>
+<smd name="2" x="5.45" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="1" x="-5.45" y="0" dx="2.9" dy="5.4" layer="1"/>
+<text x="-3.175" y="7.61" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="-8.88" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="51"/>
+<wire x1="-3.5" y1="6.5" x2="-3.5" y2="-6.5" width="0.127" layer="43"/>
+<wire x1="-3.5" y1="-6.5" x2="3.5" y2="-6.5" width="0.127" layer="43"/>
+<wire x1="3.5" y1="-6.5" x2="3.5" y2="6.5" width="0.127" layer="43"/>
+<wire x1="3.5" y1="6.5" x2="-3.5" y2="6.5" width="0.127" layer="43"/>
+<wire x1="-7.5" y1="7.5" x2="-7.5" y2="-7.5" width="0.127" layer="39"/>
+<wire x1="-7.5" y1="-7.5" x2="7.5" y2="-7.5" width="0.127" layer="39"/>
+<wire x1="7.5" y1="-7.5" x2="7.5" y2="7.5" width="0.127" layer="39"/>
+<wire x1="7.5" y1="7.5" x2="-7.5" y2="7.5" width="0.127" layer="39"/>
+</package>
+<package name="WE-HCM_1240">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-5" y1="-5.9" x2="5" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="5" y1="-5.9" x2="5" y2="5.9" width="0.127" layer="51"/>
+<wire x1="5" y1="5.9" x2="-5" y2="5.9" width="0.127" layer="21"/>
+<wire x1="-5" y1="5.9" x2="-5" y2="-5.9" width="0.127" layer="51"/>
+<smd name="1" x="-4.7" y="0" dx="2.6" dy="4.5" layer="1"/>
+<smd name="2" x="4.7" y="0" dx="2.6" dy="4.5" layer="1"/>
+<text x="-6.4976" y="7.0917" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.4976" y="-8.3698" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="-6.5" y2="-6.5" width="0.127" layer="39"/>
+<wire x1="-6.5" y1="-6.5" x2="6.5" y2="-6.5" width="0.127" layer="39"/>
+<wire x1="6.5" y1="-6.5" x2="6.5" y2="6.5" width="0.127" layer="39"/>
+<wire x1="6.5" y1="6.5" x2="-6.5" y2="6.5" width="0.127" layer="39"/>
+<wire x1="-3" y1="5.5" x2="-3" y2="-5.5" width="0.127" layer="43"/>
+<wire x1="-3" y1="-5.5" x2="3" y2="-5.5" width="0.127" layer="43"/>
+<wire x1="3" y1="-5.5" x2="3" y2="5.5" width="0.127" layer="43"/>
+<wire x1="3" y1="5.5" x2="-3" y2="5.5" width="0.127" layer="43"/>
+</package>
+<package name="WE-HCM_1190">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-5.25" y1="-5.5" x2="5.25" y2="-5.5" width="0.127" layer="51"/>
+<wire x1="5.25" y1="-5.5" x2="5.25" y2="5.5" width="0.127" layer="51"/>
+<wire x1="5.25" y1="5.5" x2="-5.25" y2="5.5" width="0.127" layer="51"/>
+<wire x1="-5.25" y1="5.5" x2="-5.25" y2="-5.5" width="0.127" layer="51"/>
+<wire x1="-5.3" y1="5.5" x2="5.3" y2="5.5" width="0.127" layer="21"/>
+<wire x1="5.3" y1="5.5" x2="5.3" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="5.5" x2="-5.3" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="-1.8" x2="-5.3" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="-5.5" x2="5.3" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-5.5" x2="5.3" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.127" layer="51"/>
+<smd name="1" x="-4.075" y="0" dx="3.95" dy="2.7" layer="1"/>
+<smd name="2" x="4.075" y="0" dx="3.95" dy="2.7" layer="1"/>
+<text x="-8.3516" y="6.2077" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.6016" y="-7.4858" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-0.5" x2="0.75" y2="0.5" layer="51"/>
+<wire x1="-1.5" y1="5.5" x2="-1.5" y2="-5.5" width="0.127" layer="43"/>
+<wire x1="-1.5" y1="-5.5" x2="1.5" y2="-5.5" width="0.127" layer="43"/>
+<wire x1="1.5" y1="-5.5" x2="1.5" y2="5.5" width="0.127" layer="43"/>
+<wire x1="1.5" y1="5.5" x2="-1.5" y2="5.5" width="0.127" layer="43"/>
+<wire x1="-6.5" y1="6" x2="-6.5" y2="-6" width="0.127" layer="39"/>
+<wire x1="-6.5" y1="-6" x2="6.5" y2="-6" width="0.127" layer="39"/>
+<wire x1="6.5" y1="-6" x2="6.5" y2="6" width="0.127" layer="39"/>
+<wire x1="6.5" y1="6" x2="-6.5" y2="6" width="0.127" layer="39"/>
+</package>
+<package name="WE-HCM_1390">
+<description>SMD High Current Flat Wire Power Inductor WE-HCM</description>
+<wire x1="-6.25" y1="-6.5" x2="6.25" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.5" x2="6.25" y2="6.5" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.5" x2="-6.25" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="6.5" x2="-6.25" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="0" x2="6" y2="0" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="3" x2="-6.25" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="6.5" x2="6.25" y2="6.5" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.5" x2="6.25" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-3" x2="-6.25" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.5" x2="6.25" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.5" x2="6.25" y2="-3" width="0.127" layer="21"/>
+<smd name="1" x="-6.25" y="0" dx="2.5" dy="5" layer="1"/>
+<smd name="2" x="6.25" y="0" dx="2.5" dy="5" layer="1"/>
+<text x="-6.8152" y="7.7061" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.8152" y="-8.9842" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="-0.75" x2="1.25" y2="0.75" layer="51"/>
+<wire x1="-4.5" y1="6.5" x2="-4.5" y2="-6.5" width="0.127" layer="43"/>
+<wire x1="-4.5" y1="-6.5" x2="4.5" y2="-6.5" width="0.127" layer="43"/>
+<wire x1="4.5" y1="-6.5" x2="4.5" y2="6.5" width="0.127" layer="43"/>
+<wire x1="4.5" y1="6.5" x2="-4.5" y2="6.5" width="0.127" layer="43"/>
+<wire x1="-8" y1="7" x2="-8" y2="-7" width="0.127" layer="39"/>
+<wire x1="-8" y1="-7" x2="8" y2="-7" width="0.127" layer="39"/>
+<wire x1="8" y1="-7" x2="8" y2="7" width="0.127" layer="39"/>
+<wire x1="8" y1="7" x2="-8" y2="7" width="0.127" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="-L">
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-2.54" x2="1.2701" y2="2.5401" layer="94" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HCM" prefix="L" uservalue="yes">
+<description>&lt;b&gt;SMD High Current Flat Wire Inductor WE-HCM&lt;/b&gt;&lt;p&gt;
+
+- Extremely low DC-resistance&lt;br&gt;
+- Special design for low EMI-noise&lt;br&gt;
+- Stable inductance at high DC-currents&lt;br&gt;
+- Low temperature rise at high DC-currents&lt;br&gt;
+- High saturation current up to 60A &lt;br&gt;&lt;br&gt;
+
+-- Polyphase switching regulator&lt;br&gt;
+-- Multiphase switching regulator&lt;br&gt;
+-- CPU / RAM power spply&lt;br&gt;
+-- Power PC&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_7050" package="WE-HCM_7050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744302007">
+<attribute name="MPN" value="744302007" constant="no"/>
+<attribute name="OC_FARNELL" value="1636257" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2556" constant="no"/>
+<attribute name="PACKAGE" value="7050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744302010">
+<attribute name="MPN" value="744302010" constant="no"/>
+<attribute name="OC_FARNELL" value="1636258" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2557" constant="no"/>
+<attribute name="PACKAGE" value="7050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744302015">
+<attribute name="MPN" value="744302015" constant="no"/>
+<attribute name="OC_FARNELL" value="1636259" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2558" constant="no"/>
+<attribute name="PACKAGE" value="7050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1050" package="WE-HCM_1050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744303012">
+<attribute name="MPN" value="744303012" constant="no"/>
+<attribute name="OC_FARNELL" value="1636260" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2559" constant="no"/>
+<attribute name="PACKAGE" value="1050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744303015">
+<attribute name="MPN" value="744303015" constant="no"/>
+<attribute name="OC_FARNELL" value="1636262" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2560" constant="no"/>
+<attribute name="PACKAGE" value="1050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744303022">
+<attribute name="MPN" value="744303022" constant="no"/>
+<attribute name="OC_FARNELL" value="1636263" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2561" constant="no"/>
+<attribute name="PACKAGE" value="1050" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7070" package="WE-HCM_7070">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744307012">
+<attribute name="MPN" value="744307012" constant="no"/>
+<attribute name="OC_FARNELL" value="2211639" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4602" constant="no"/>
+<attribute name="PACKAGE" value="7070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744307016">
+<attribute name="MPN" value="744307016" constant="no"/>
+<attribute name="OC_FARNELL" value="2211640" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4603" constant="no"/>
+<attribute name="PACKAGE" value="7070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744307022">
+<attribute name="MPN" value="744307022" constant="no"/>
+<attribute name="OC_FARNELL" value="2211641" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4604" constant="no"/>
+<attribute name="PACKAGE" value="7070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1070" package="WE-HCM_1070">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744308015">
+<attribute name="MPN" value="744308015" constant="no"/>
+<attribute name="OC_FARNELL" value="2211642" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4605" constant="no"/>
+<attribute name="PACKAGE" value="1070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744308020">
+<attribute name="MPN" value="744308020" constant="no"/>
+<attribute name="OC_FARNELL" value="2211643" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4606" constant="no"/>
+<attribute name="PACKAGE" value="1070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744308025">
+<attribute name="MPN" value="744308025" constant="no"/>
+<attribute name="OC_FARNELL" value="2211644" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4607" constant="no"/>
+<attribute name="PACKAGE" value="1070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744308033">
+<attribute name="MPN" value="744308033" constant="no"/>
+<attribute name="OC_FARNELL" value="2211645" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4608" constant="no"/>
+<attribute name="PACKAGE" value="1070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744308040">
+<attribute name="MPN" value="744308040" constant="no"/>
+<attribute name="OC_FARNELL" value="2211647" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4609" constant="no"/>
+<attribute name="PACKAGE" value="1070" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1052" package="WE-HCM_1052">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744306020">
+<attribute name="MPN" value="744306020" constant="no"/>
+<attribute name="OC_FARNELL" value="2211648" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4599" constant="no"/>
+<attribute name="PACKAGE" value="1052" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744306025">
+<attribute name="MPN" value="744306025" constant="no"/>
+<attribute name="OC_FARNELL" value="2211649" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4600" constant="no"/>
+<attribute name="PACKAGE" value="1052" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744306030">
+<attribute name="MPN" value="744306030" constant="no"/>
+<attribute name="OC_FARNELL" value="2211650" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4601" constant="no"/>
+<attribute name="PACKAGE" value="1052" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1350" package="WE-HCM_1350">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744305022">
+<attribute name="MPN" value="744305022" constant="no"/>
+<attribute name="OC_FARNELL" value="2211657" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4596" constant="no"/>
+<attribute name="PACKAGE" value="1350" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744305033">
+<attribute name="MPN" value="744305033" constant="no"/>
+<attribute name="OC_FARNELL" value="2211659" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4597" constant="no"/>
+<attribute name="PACKAGE" value="1350" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744305040">
+<attribute name="MPN" value="744305040" constant="no"/>
+<attribute name="OC_FARNELL" value="2211661" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4598" constant="no"/>
+<attribute name="PACKAGE" value="1350" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1240" package="WE-HCM_1240">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744304010">
+<attribute name="MPN" value="744304010" constant="no"/>
+<attribute name="OC_FARNELL" value="2211654" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4593" constant="no"/>
+<attribute name="PACKAGE" value="1240" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744304016">
+<attribute name="MPN" value="744304016" constant="no"/>
+<attribute name="OC_FARNELL" value="2211655" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4594" constant="no"/>
+<attribute name="PACKAGE" value="1240" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744304022">
+<attribute name="MPN" value="744304022" constant="no"/>
+<attribute name="OC_FARNELL" value="2211656" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4595" constant="no"/>
+<attribute name="PACKAGE" value="1240" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1190" package="WE-HCM_1190">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744301025">
+<attribute name="MPN" value="744301025" constant="no"/>
+<attribute name="OC_FARNELL" value="2211651" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4590" constant="no"/>
+<attribute name="PACKAGE" value="1190" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744301033">
+<attribute name="MPN" value="744301033" constant="no"/>
+<attribute name="OC_FARNELL" value="2211652" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4591" constant="no"/>
+<attribute name="PACKAGE" value="1190" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744301047">
+<attribute name="MPN" value="744301047" constant="no"/>
+<attribute name="OC_FARNELL" value="2211653" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4592" constant="no"/>
+<attribute name="PACKAGE" value="1190" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1390" package="WE-HCM_1390">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-744309025">
+<attribute name="MPN" value="744309025" constant="no"/>
+<attribute name="OC_FARNELL" value="2211662" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4610" constant="no"/>
+<attribute name="PACKAGE" value="1390" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744309033">
+<attribute name="MPN" value="744309033" constant="no"/>
+<attribute name="OC_FARNELL" value="2211663" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4611" constant="no"/>
+<attribute name="PACKAGE" value="1390" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-744309047">
+<attribute name="MPN" value="744309047" constant="no"/>
+<attribute name="OC_FARNELL" value="2211664" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4612" constant="no"/>
+<attribute name="PACKAGE" value="1390" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

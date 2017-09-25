@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="S">
+<description>SMD Power Inductor</description>
+<wire x1="-2.73" y1="0" x2="2.73" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="-2.225" x2="1.3" y2="-2.225" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2.225" x2="1.3" y2="2.225" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-0.75" x2="-3.3" y2="0.75" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-0.75" x2="3.3" y2="0.75" width="0.127" layer="51"/>
+<wire x1="3.3" y1="0.75" x2="1.3" y2="2.225" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="0.75" x2="-1.3" y2="2.225" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-0.75" x2="1.3" y2="-2.225" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-0.75" x2="-1.3" y2="-2.225" width="0.127" layer="51"/>
+<smd name="1" x="-2.73" y="0" dx="3.56" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="2.73" y="0" dx="3.56" dy="1.4" layer="1" rot="R90"/>
+<text x="-3.4925" y="2.8575" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.4925" y="-4.1275" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.2" y1="-0.7" x2="0.2001" y2="0.7001" layer="21" rot="R90"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="-3.75" y1="-2.5" x2="3.75" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="2.5" width="0.127" layer="39"/>
+<wire x1="3.75" y1="2.5" x2="-3.75" y2="2.5" width="0.127" layer="39"/>
+<wire x1="-1.75" y1="2.5" x2="-1.75" y2="-2.5" width="0.127" layer="43"/>
+<wire x1="-1.75" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="43"/>
+<wire x1="1.75" y1="-2.5" x2="1.75" y2="2.5" width="0.127" layer="43"/>
+<wire x1="1.75" y1="2.5" x2="-1.75" y2="2.5" width="0.127" layer="43"/>
+</package>
+<package name="X">
+<description>SMD Power Inductor</description>
+<wire x1="-7.685" y1="0" x2="7.685" y2="0" width="0.127" layer="51"/>
+<wire x1="-9.25" y1="-3.5" x2="-4" y2="-6" width="0.127" layer="21"/>
+<wire x1="9.25" y1="-3.5" x2="4" y2="-6" width="0.127" layer="21"/>
+<wire x1="4" y1="-6" x2="-4" y2="-5.95" width="0.127" layer="21" curve="-85.594804"/>
+<wire x1="9.25" y1="3.5" x2="4.05" y2="6" width="0.127" layer="21"/>
+<wire x1="-9.25" y1="3.5" x2="-3.95" y2="6" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="6" x2="4.05" y2="5.95" width="0.127" layer="21" curve="-85.594804"/>
+<wire x1="-9.25" y1="-3.5" x2="-9.25" y2="3.5" width="0.127" layer="51"/>
+<wire x1="9.25" y1="-3.5" x2="9.25" y2="3.5" width="0.127" layer="51"/>
+<smd name="1" x="-7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<smd name="2" x="7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<text x="-4.1275" y="7.9375" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.8575" y="-9.2075" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.4" y1="-1.4" x2="0.4001" y2="1.4001" layer="51" rot="R90"/>
+<circle x="0" y="0" radius="5.656853125" width="0.127" layer="43"/>
+<wire x1="-10" y1="8" x2="10" y2="8" width="0.127" layer="39"/>
+<wire x1="10" y1="8" x2="10" y2="-8" width="0.127" layer="39"/>
+<wire x1="10" y1="-8" x2="-10" y2="-8" width="0.127" layer="39"/>
+<wire x1="-10" y1="-8" x2="-10" y2="8" width="0.127" layer="39"/>
+</package>
+<package name="L">
+<description>SMD Power Inductor</description>
+<wire x1="-5.15" y1="0" x2="5.15" y2="0" width="0.3048" layer="51"/>
+<wire x1="-6.35" y1="-2.5" x2="-2.2" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.5" x2="2.2" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-4.4" x2="-2.1" y2="-4.45" width="0.127" layer="21" curve="-63.372735"/>
+<wire x1="-6.35" y1="2.45" x2="-2.2" y2="4.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.55" x2="2.2" y2="4.4" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="4.4" x2="2.2" y2="4.4" width="0.127" layer="21" curve="-73.428406"/>
+<wire x1="-6.35" y1="-2.5" x2="-6.35" y2="2.45" width="0.127" layer="51"/>
+<wire x1="6.35" y1="-2.5" x2="6.35" y2="2.55" width="0.127" layer="51"/>
+<smd name="1" x="-5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<text x="-2.8575" y="-7.3025" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.2225" y="6.6675" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.3" y1="-1.2" x2="0.3001" y2="1.2001" layer="21" rot="R90"/>
+<wire x1="-6.75" y1="5.25" x2="-6.75" y2="-5" width="0.127" layer="39"/>
+<wire x1="-6.75" y1="-5" x2="6.75" y2="-5" width="0.127" layer="39"/>
+<wire x1="6.75" y1="-5" x2="6.75" y2="5.25" width="0.127" layer="39"/>
+<wire x1="6.75" y1="5.25" x2="-6.75" y2="5.25" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="5.25" x2="-3.5" y2="-5" width="0.127" layer="43"/>
+<wire x1="-3.5" y1="-5" x2="3.5" y2="-5" width="0.127" layer="43"/>
+<wire x1="3.5" y1="-5" x2="3.5" y2="5.25" width="0.127" layer="43"/>
+<wire x1="3.5" y1="5.25" x2="-3.5" y2="5.25" width="0.127" layer="43"/>
+</package>
+<package name="M">
+<description>SMD Power Inductor</description>
+<wire x1="-5.15" y1="0" x2="5.15" y2="0" width="0.3048" layer="51"/>
+<wire x1="-6.35" y1="-2.5" x2="-2.2" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.5" x2="2.2" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-4.4" x2="-2.1" y2="-4.45" width="0.127" layer="21" curve="-63.372735"/>
+<wire x1="-6.35" y1="2.45" x2="-2.2" y2="4.4" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.55" x2="2.2" y2="4.4" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="4.4" x2="2.2" y2="4.4" width="0.127" layer="21" curve="-73.428406"/>
+<wire x1="-6.35" y1="-2.5" x2="-6.35" y2="2.45" width="0.127" layer="51"/>
+<wire x1="6.35" y1="-2.5" x2="6.35" y2="2.55" width="0.127" layer="51"/>
+<smd name="1" x="-5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<text x="-3.4925" y="5.3975" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="-6.6675" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.3" y1="-1.2" x2="0.3001" y2="1.2001" layer="21" rot="R90"/>
+<wire x1="-3.5" y1="5.25" x2="-3.5" y2="-5.25" width="0.127" layer="43"/>
+<wire x1="-3.5" y1="-5.25" x2="3.5" y2="-5.25" width="0.127" layer="43"/>
+<wire x1="3.5" y1="-5.25" x2="3.5" y2="5.25" width="0.127" layer="43"/>
+<wire x1="3.5" y1="5.25" x2="-3.5" y2="5.25" width="0.127" layer="43"/>
+<wire x1="-7" y1="5.25" x2="-7" y2="-5.25" width="0.127" layer="39"/>
+<wire x1="-7" y1="-5.25" x2="7" y2="-5.25" width="0.127" layer="39"/>
+<wire x1="7" y1="-5.25" x2="7" y2="5.25" width="0.127" layer="39"/>
+<wire x1="7" y1="5.25" x2="-7" y2="5.25" width="0.127" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="-L">
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-2.54" x2="1.2701" y2="2.5401" layer="94" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PD3" prefix="L" uservalue="yes">
+<description>&lt;b&gt;SMD-Shielded Power Inductor WE-PD3&lt;/b&gt;&lt;p&gt;
+
+- Magnetically shielded version which results in a low leakage field&lt;br&gt;
+- High storage capacity&lt;br&gt;
+- Low inherent-losses&lt;br&gt;
+- Extremely low profile of type M: 2,7mm&lt;br&gt;&lt;br&gt;
+
+-- Is recommended for the application with switching 
+regulators from National Semiconductor, Linear Technology,
+Texas Instruments and Fairchild Semiconductor&lt;br&gt;
+-- EMI filter&lt;br&gt;
+-- Perfectly suitable for switching regulators with extremely high efficiency</description>
+<gates>
+<gate name="G$1" symbol="-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_S" package="S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-7445101">
+<attribute name="MPN" value="7445101" constant="no"/>
+<attribute name="OC_FARNELL" value="1636057" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2630" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451022">
+<attribute name="MPN" value="74451022" constant="no"/>
+<attribute name="OC_FARNELL" value="1636058" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2631" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451047">
+<attribute name="MPN" value="74451047" constant="no"/>
+<attribute name="OC_FARNELL" value="1636060" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2632" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451068">
+<attribute name="MPN" value="74451068" constant="no"/>
+<attribute name="OC_FARNELL" value="1636061" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2633" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445110">
+<attribute name="MPN" value="7445110" constant="no"/>
+<attribute name="OC_FARNELL" value="1636062" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2634" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451115">
+<attribute name="MPN" value="74451115" constant="no"/>
+<attribute name="OC_FARNELL" value="1636063" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2635" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451122">
+<attribute name="MPN" value="74451122" constant="no"/>
+<attribute name="OC_FARNELL" value="1636064" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2636" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451147">
+<attribute name="MPN" value="74451147" constant="no"/>
+<attribute name="OC_FARNELL" value="1636065" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2637" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451168">
+<attribute name="MPN" value="74451168" constant="no"/>
+<attribute name="OC_FARNELL" value="1636067" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2638" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445120">
+<attribute name="MPN" value="7445120" constant="no"/>
+<attribute name="OC_FARNELL" value="1636068" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2639" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451215">
+<attribute name="MPN" value="74451215" constant="no"/>
+<attribute name="OC_FARNELL" value="1636069" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2640" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451222">
+<attribute name="MPN" value="74451222" constant="no"/>
+<attribute name="OC_FARNELL" value="1636070" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2641" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74451247">
+<attribute name="MPN" value="74451247" constant="no"/>
+<attribute name="OC_FARNELL" value="1636071" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2642" constant="no"/>
+<attribute name="PACKAGE" value="Type S" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_X" package="X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74459010">
+<attribute name="MPN" value="74459010" constant="no"/>
+<attribute name="OC_FARNELL" value="1636099" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2726" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459115">
+<attribute name="MPN" value="74459115" constant="no"/>
+<attribute name="OC_FARNELL" value="1636100" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2727" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459122">
+<attribute name="MPN" value="74459122" constant="no"/>
+<attribute name="OC_FARNELL" value="1636101" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2728" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459147">
+<attribute name="MPN" value="74459147" constant="no"/>
+<attribute name="OC_FARNELL" value="1636102" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2729" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459168">
+<attribute name="MPN" value="74459168" constant="no"/>
+<attribute name="OC_FARNELL" value="1636103" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2730" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445920">
+<attribute name="MPN" value="7445920" constant="no"/>
+<attribute name="OC_FARNELL" value="1636104" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2731" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459215">
+<attribute name="MPN" value="74459215" constant="no"/>
+<attribute name="OC_FARNELL" value="1636105" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2732" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459222">
+<attribute name="MPN" value="74459222" constant="no"/>
+<attribute name="OC_FARNELL" value="1636106" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2733" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459247">
+<attribute name="MPN" value="74459247" constant="no"/>
+<attribute name="OC_FARNELL" value="1636107" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2734" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74459268">
+<attribute name="MPN" value="74459268" constant="no"/>
+<attribute name="OC_FARNELL" value="1636109" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2735" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445930">
+<attribute name="MPN" value="7445930" constant="no"/>
+<attribute name="OC_FARNELL" value="1636111" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2736" constant="no"/>
+<attribute name="PACKAGE" value="Type X" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_L" package="L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74454010">
+<attribute name="MPN" value="74454010" constant="no"/>
+<attribute name="OC_FARNELL" value="1636087" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2653" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445402">
+<attribute name="MPN" value="7445402" constant="no"/>
+<attribute name="OC_FARNELL" value="1636084" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2654" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445404">
+<attribute name="MPN" value="7445404" constant="no"/>
+<attribute name="OC_FARNELL" value="1636085" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2655" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454068">
+<attribute name="MPN" value="74454068" constant="no"/>
+<attribute name="OC_FARNELL" value="1636086" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2656" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454115">
+<attribute name="MPN" value="74454115" constant="no"/>
+<attribute name="OC_FARNELL" value="1636088" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2657" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454122">
+<attribute name="MPN" value="74454122" constant="no"/>
+<attribute name="OC_FARNELL" value="1636089" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2658" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454147">
+<attribute name="MPN" value="74454147" constant="no"/>
+<attribute name="OC_FARNELL" value="1636090" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2659" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454168">
+<attribute name="MPN" value="74454168" constant="no"/>
+<attribute name="OC_FARNELL" value="1636092" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2660" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445420">
+<attribute name="MPN" value="7445420" constant="no"/>
+<attribute name="OC_FARNELL" value="1636093" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2661" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454215">
+<attribute name="MPN" value="74454215" constant="no"/>
+<attribute name="OC_FARNELL" value="1636094" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2662" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454220">
+<attribute name="MPN" value="74454220" constant="no"/>
+<attribute name="OC_FARNELL" value="1636095" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2663" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454247">
+<attribute name="MPN" value="74454247" constant="no"/>
+<attribute name="OC_FARNELL" value="1636096" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2664" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74454268">
+<attribute name="MPN" value="74454268" constant="no"/>
+<attribute name="OC_FARNELL" value="1636097" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2665" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445430">
+<attribute name="MPN" value="7445430" constant="no"/>
+<attribute name="OC_FARNELL" value="1636098" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2666" constant="no"/>
+<attribute name="PACKAGE" value="Type L" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_M" package="M">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-7445301">
+<attribute name="MPN" value="7445301" constant="no"/>
+<attribute name="OC_FARNELL" value="1636072" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2643 " constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74453010">
+<attribute name="MPN" value="74453010" constant="no"/>
+<attribute name="OC_FARNELL" value="1636076" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2644" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445302">
+<attribute name="MPN" value="7445302" constant="no"/>
+<attribute name="OC_FARNELL" value="1636073" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2645" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445304">
+<attribute name="MPN" value="7445304" constant="no"/>
+<attribute name="OC_FARNELL" value="1636074" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2646" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445306">
+<attribute name="MPN" value="7445306" constant="no"/>
+<attribute name="OC_FARNELL" value="1636075" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2647" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74453115">
+<attribute name="MPN" value="74453115" constant="no"/>
+<attribute name="OC_FARNELL" value="1636077" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2648" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74453122">
+<attribute name="MPN" value="74453122" constant="no"/>
+<attribute name="OC_FARNELL" value="1636079" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2649" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74453147">
+<attribute name="MPN" value="74453147" constant="no"/>
+<attribute name="OC_FARNELL" value="1636081" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2650" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-74453168">
+<attribute name="MPN" value="74453168" constant="no"/>
+<attribute name="OC_FARNELL" value="1636082" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2651" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+<technology name="-7445320">
+<attribute name="MPN" value="7445320" constant="no"/>
+<attribute name="OC_FARNELL" value="1636083" constant="no"/>
+<attribute name="OC_NEWARK" value="08P2652" constant="no"/>
+<attribute name="PACKAGE" value="Type M" constant="no"/>
+<attribute name="SUPPLIER" value="Würth Elektronik eiSos GmbH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
