@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="WE-PMI_0805">
+<description>Power Multilayer Inductor WE-PMI</description>
+<wire x1="-1" y1="-0.6" x2="1" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.6" x2="1" y2="0.6" width="0.127" layer="51"/>
+<wire x1="1" y1="0.6" x2="-1" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.127" layer="51"/>
+<smd name="1" x="-0.8" y="0" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.8" dy="1.4" layer="1"/>
+<text x="-2.7748" y="2.1081" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7748" y="-3.8862" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.25" x2="-1.75" y2="-1.25" width="0.127" layer="39"/>
+<wire x1="-1.75" y1="-1.25" x2="1.75" y2="-1.25" width="0.127" layer="39"/>
+<wire x1="1.75" y1="-1.25" x2="1.75" y2="1.25" width="0.127" layer="39"/>
+<wire x1="1.75" y1="1.25" x2="-1.75" y2="1.25" width="0.127" layer="39"/>
+</package>
+<package name="WE-PMI_0806">
+<description>Power Multilayer Inductor WE-PMI</description>
+<wire x1="-1" y1="-0.8" x2="1" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.8" x2="1" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1" y1="0.8" x2="-1" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.127" layer="51"/>
+<smd name="1" x="-0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
+<text x="-2.7748" y="2.1081" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7748" y="-3.8862" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.25" x2="-1.75" y2="-1.25" width="0.127" layer="39"/>
+<wire x1="-1.75" y1="-1.25" x2="1.75" y2="-1.25" width="0.127" layer="39"/>
+<wire x1="1.75" y1="-1.25" x2="1.75" y2="1.25" width="0.127" layer="39"/>
+<wire x1="1.75" y1="1.25" x2="-1.75" y2="1.25" width="0.127" layer="39"/>
+</package>
+<package name="WE-PMI_1008">
+<description>Power Multilayer Inductor WE-PMI</description>
+<wire x1="-1.25" y1="-1" x2="1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1" x2="1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1" x2="-1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
+<smd name="1" x="-1" y="0" dx="0.8" dy="2.2" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.8" dy="2.2" layer="1"/>
+<text x="-2.7748" y="2.1081" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.7748" y="-3.8862" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.5" x2="-1.75" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="-1.75" y1="-1.5" x2="1.75" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="1.75" y1="-1.5" x2="1.75" y2="1.5" width="0.127" layer="39"/>
+<wire x1="1.75" y1="1.5" x2="-1.75" y2="1.5" width="0.127" layer="39"/>
+</package>
+<package name="WE-PMI_0603">
+<description>Power Multilayer Inductor WE-PMI</description>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
+<smd name="2" x="0.625" y="0" dx="0.55" dy="1" layer="1"/>
+<smd name="1" x="-0.625" y="0" dx="0.55" dy="1" layer="1"/>
+<text x="-3.6864" y="1.1733" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.6864" y="-2.9514" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.25" y1="0.75" x2="-1.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-1.25" y1="-0.75" x2="1.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="1.25" y1="-0.75" x2="1.25" y2="0.75" width="0.127" layer="39"/>
+<wire x1="1.25" y1="0.75" x2="-1.25" y2="0.75" width="0.127" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="L">
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.54" y1="-1.27" x2="2.5401" y2="1.2701" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PMI" prefix="L" uservalue="yes">
+<description>&lt;b&gt;Power Multilayer Inductor WE-PMI&lt;/b&gt;&lt;p&gt;
+- Compact multilayer type &lt;br&gt;
+- Suitable for applocations with high currents up to 2.5 A&lt;br&gt;
+- No crosstalk &lt;p&gt;
+
+-- DC / DC converters especially at high switching frequencies&lt;br&gt;
+-- Portable devices like PDA and digital cameras</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="_0805" package="WE-PMI_0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74479774147">
+<attribute name="MPN" value="74479774147" constant="no"/>
+<attribute name="OC_FARNELL" value="2114309" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1230" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479774210">
+<attribute name="MPN" value="74479774210" constant="no"/>
+<attribute name="OC_FARNELL" value="2114310" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1231" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479774215">
+<attribute name="MPN" value="74479774215" constant="no"/>
+<attribute name="OC_FARNELL" value="2114311" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1232" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479774222">
+<attribute name="MPN" value="74479774222" constant="no"/>
+<attribute name="OC_FARNELL" value="2114312" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1233" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479775147">
+<attribute name="MPN" value="74479775147" constant="no"/>
+<attribute name="OC_FARNELL" value="1890699" constant="no"/>
+<attribute name="OC_NEWARK" value="46T8815 " constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479775147A">
+<attribute name="MPN" value="74479775147A" constant="no"/>
+<attribute name="OC_FARNELL" value="2066863" constant="no"/>
+<attribute name="OC_NEWARK" value="74T0900" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479775210">
+<attribute name="MPN" value="74479775210" constant="no"/>
+<attribute name="OC_FARNELL" value="1869749" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8582" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479775222">
+<attribute name="MPN" value="74479775222" constant="no"/>
+<attribute name="OC_FARNELL" value="1869750" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8583" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0806" package="WE-PMI_0806">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74479776222">
+<attribute name="MPN" value="74479776222" constant="no"/>
+<attribute name="OC_FARNELL" value="1869751" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8584" constant="no"/>
+<attribute name="PACKAGE" value="0806" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479776233">
+<attribute name="MPN" value="74479776233" constant="no"/>
+<attribute name="OC_FARNELL" value="1869752" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8585" constant="no"/>
+<attribute name="PACKAGE" value="0806" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479776247">
+<attribute name="MPN" value="74479776247" constant="no"/>
+<attribute name="OC_FARNELL" value="1869753" constant="no"/>
+<attribute name="OC_NEWARK" value="32T8586" constant="no"/>
+<attribute name="PACKAGE" value="0806" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1008" package="WE-PMI_1008">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74479787147A">
+<attribute name="MPN" value="74479787147A" constant="no"/>
+<attribute name="OC_FARNELL" value="2066864" constant="no"/>
+<attribute name="OC_NEWARK" value="74T0901" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479787210A">
+<attribute name="MPN" value="74479787210A" constant="no"/>
+<attribute name="OC_FARNELL" value="2066866" constant="no"/>
+<attribute name="OC_NEWARK" value="74T0902" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479787215">
+<attribute name="MPN" value="74479787215" constant="no"/>
+<attribute name="OC_FARNELL" value="2114362" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1234" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479787222">
+<attribute name="MPN" value="74479787222" constant="no"/>
+<attribute name="OC_FARNELL" value="2114363" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1235" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479787233">
+<attribute name="MPN" value="74479787233" constant="no"/>
+<attribute name="OC_FARNELL" value="2114364" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1236" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479787247">
+<attribute name="MPN" value="74479787247" constant="no"/>
+<attribute name="OC_FARNELL" value="2114365" constant="no"/>
+<attribute name="OC_NEWARK" value="06W1237" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479887210">
+<attribute name="MPN" value="74479887210" constant="no"/>
+<attribute name="OC_FARNELL" value="1795098" constant="no"/>
+<attribute name="OC_NEWARK" value="71R4750" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479887222">
+<attribute name="MPN" value="74479887222" constant="no"/>
+<attribute name="OC_FARNELL" value="1795099" constant="no"/>
+<attribute name="OC_NEWARK" value="71R4751" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479887247">
+<attribute name="MPN" value="74479887247" constant="no"/>
+<attribute name="OC_FARNELL" value="1795100" constant="no"/>
+<attribute name="OC_NEWARK" value="71R4752" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479887268">
+<attribute name="MPN" value="74479887268" constant="no"/>
+<attribute name="OC_FARNELL" value="1795101" constant="no"/>
+<attribute name="OC_NEWARK" value="71R4753" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479887310">
+<attribute name="MPN" value="74479887310" constant="no"/>
+<attribute name="OC_FARNELL" value="1795102" constant="no"/>
+<attribute name="OC_NEWARK" value="71R4754" constant="no"/>
+<attribute name="PACKAGE" value="1008" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603" package="WE-PMI_0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-74479763147">
+<attribute name="MPN" value="74479763147" constant="no"/>
+<attribute name="OC_FARNELL" value="2066861" constant="no"/>
+<attribute name="OC_NEWARK" value="74T0898" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+<technology name="-74479763210">
+<attribute name="MPN" value="74479763210" constant="no"/>
+<attribute name="OC_FARNELL" value="2066862" constant="no"/>
+<attribute name="OC_NEWARK" value="74T0899" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="SUPPLIER" value="WURTH ELEKTRONIK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

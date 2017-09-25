@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="WE-HCC_1210">
+<description>SMD High Current Cube Inductor WE-HCC</description>
+<wire x1="-6" y1="-5.75" x2="6" y2="-5.75" width="0.127" layer="21"/>
+<wire x1="-6" y1="5.75" x2="6" y2="5.75" width="0.127" layer="21"/>
+<wire x1="-6" y1="5.75" x2="-6" y2="-5.75" width="0.127" layer="51"/>
+<wire x1="6" y1="5.75" x2="6" y2="-5.75" width="0.127" layer="51"/>
+<smd name="2" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="1" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<text x="-5.65" y="6.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.65" y="-8.05" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3" y1="5.7" x2="-3" y2="-5.7" width="0.127" layer="43"/>
+<wire x1="-3" y1="-5.7" x2="3" y2="-5.7" width="0.127" layer="43"/>
+<wire x1="3" y1="-5.7" x2="3" y2="5.7" width="0.127" layer="43"/>
+<wire x1="3" y1="5.7" x2="-3" y2="5.7" width="0.127" layer="43"/>
+<wire x1="-6.8" y1="6.4" x2="-6.8" y2="-6.4" width="0.127" layer="39"/>
+<wire x1="-6.8" y1="-6.4" x2="6.8" y2="-6.4" width="0.127" layer="39"/>
+<wire x1="6.8" y1="-6.4" x2="6.8" y2="6.4" width="0.127" layer="39"/>
+<wire x1="6.8" y1="6.4" x2="-6.8" y2="6.4" width="0.127" layer="39"/>
+</package>
+<package name="WE-HCC_1090">
+<description>SMD High Current Cube Inductor WE-HCC</description>
+<wire x1="-5.45" y1="-5" x2="5.45" y2="-5" width="0.127" layer="21"/>
+<wire x1="5.45" y1="-5" x2="5.45" y2="5" width="0.127" layer="51"/>
+<wire x1="5.45" y1="5" x2="-5.45" y2="5" width="0.127" layer="21"/>
+<wire x1="-5.45" y1="5" x2="-5.45" y2="-5" width="0.127" layer="51"/>
+<smd name="2" x="4.6" y="0" dx="2.3" dy="3.6" layer="1"/>
+<smd name="1" x="-4.6" y="0" dx="2.3" dy="3.6" layer="1"/>
+<text x="-5.96" y="5.6957" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.96" y="-6.9738" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6" y1="5.4" x2="-6" y2="-5.4" width="0.127" layer="39"/>
+<wire x1="-6" y1="-5.4" x2="6" y2="-5.4" width="0.127" layer="39"/>
+<wire x1="6" y1="-5.4" x2="6" y2="5.4" width="0.127" layer="39"/>
+<wire x1="6" y1="5.4" x2="-6" y2="5.4" width="0.127" layer="39"/>
+<wire x1="-3" y1="4.8" x2="-3" y2="-4.8" width="0.127" layer="43"/>
+<wire x1="-3" y1="-4.8" x2="3" y2="-4.8" width="0.127" layer="43"/>
+<wire x1="3" y1="-4.8" x2="3" y2="4.8" width="0.127" layer="43"/>
+<wire x1="3" y1="4.8" x2="-3" y2="4.8" width="0.127" layer="43"/>
+</package>
+<package name="WE-HCC_8070">
+<description>SMD High Current Cube Inductor WE-HCC</description>
+<wire x1="-4.2" y1="-3.95" x2="4.2" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-3.95" x2="4.2" y2="3.95" width="0.127" layer="51"/>
+<wire x1="4.2" y1="3.95" x2="-4.2" y2="3.95" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="3.95" x2="-4.2" y2="-3.95" width="0.127" layer="51"/>
+<smd name="1" x="-3.35" y="0" dx="2.3" dy="3" layer="1"/>
+<smd name="2" x="3.35" y="0" dx="2.3" dy="3" layer="1"/>
+<text x="-4.1984" y="4.5717" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.1984" y="-5.9498" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.8" y1="4.4" x2="-4.8" y2="-4.4" width="0.127" layer="39"/>
+<wire x1="-4.8" y1="-4.4" x2="4.8" y2="-4.4" width="0.127" layer="39"/>
+<wire x1="4.8" y1="-4.4" x2="4.8" y2="4.4" width="0.127" layer="39"/>
+<wire x1="4.8" y1="4.4" x2="-4.8" y2="4.4" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="4" x2="-1.6" y2="-4" width="0.127" layer="43"/>
+<wire x1="-1.6" y1="-4" x2="1.6" y2="-4" width="0.127" layer="43"/>
+<wire x1="1.6" y1="-4" x2="1.6" y2="4" width="0.127" layer="43"/>
+<wire x1="1.6" y1="4" x2="-1.6" y2="4" width="0.127" layer="43"/>
+</package>
+</packages>
+<symbols>
+<symbol name="-L">
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-2.54" x2="1.2701" y2="2.5401" layer="94" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HCC" prefix="L" uservalue="yes">
+<description>&lt;b&gt;SMD High Current Cube Inductor WE-HCC&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+- magnetically shieled&lt;br&gt;
+- current capability up to 27A&lt;br&gt;
+- excellent saturation characteristics&lt;br&gt;&lt;br&gt;
+
+-- filter choke for DC/DC converter&lt;br&gt;
+-- single and polyphase buck converter&lt;br&gt;
+-- filter choke for motor electronics</description>
+<gates>
+<gate name="G$1" symbol="-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1210" package="WE-HCC_1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-7443320022">
+<attribute name="MPN" value="7443320022" constant="no"/>
+<attribute name="OC_FARNELL" value="1848225" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9746" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320033">
+<attribute name="MPN" value="7443320033" constant="no"/>
+<attribute name="OC_FARNELL" value="1848226" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9747" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320047">
+<attribute name="MPN" value="7443320047" constant="no"/>
+<attribute name="OC_FARNELL" value="1848228" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9748" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320068">
+<attribute name="MPN" value="7443320068" constant="no"/>
+<attribute name="OC_FARNELL" value="1848229" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9749" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320082">
+<attribute name="MPN" value="7443320082" constant="no"/>
+<attribute name="OC_FARNELL" value="1848230" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9750" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320100">
+<attribute name="MPN" value="7443320100" constant="no"/>
+<attribute name="OC_FARNELL" value="1848231" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9751" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320150">
+<attribute name="MPN" value="7443320150" constant="no"/>
+<attribute name="OC_FARNELL" value="1848232" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9752" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320220">
+<attribute name="MPN" value="7443320220" constant="no"/>
+<attribute name="OC_FARNELL" value="1848233" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9753" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320330">
+<attribute name="MPN" value="7443320330" constant="no"/>
+<attribute name="OC_FARNELL" value="1848234" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9754" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320470">
+<attribute name="MPN" value="7443320470" constant="no"/>
+<attribute name="OC_FARNELL" value="1848235" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9755" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320680">
+<attribute name="MPN" value="7443320680" constant="no"/>
+<attribute name="OC_FARNELL" value="1848236" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9756" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443320820">
+<attribute name="MPN" value="7443320820" constant="no"/>
+<attribute name="OC_FARNELL" value="1848237" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9757" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443321000">
+<attribute name="MPN" value="7443321000" constant="no"/>
+<attribute name="OC_FARNELL" value="1848238" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9758" constant="no"/>
+<attribute name="PACKAGE" value="1210" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1090" package="WE-HCC_1090">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-7443330022">
+<attribute name="MPN" value="7443330022" constant="no"/>
+<attribute name="OC_FARNELL" value="1848241" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9759" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330033">
+<attribute name="MPN" value="7443330033" constant="no"/>
+<attribute name="OC_FARNELL" value="1848242" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9760" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330047">
+<attribute name="MPN" value="7443330047" constant="no"/>
+<attribute name="OC_FARNELL" value="1848243" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9761" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330068">
+<attribute name="MPN" value="7443330068" constant="no"/>
+<attribute name="OC_FARNELL" value="1848244" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9762" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330082">
+<attribute name="MPN" value="7443330082" constant="no"/>
+<attribute name="OC_FARNELL" value="1848245" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9763" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330100">
+<attribute name="MPN" value="7443330100" constant="no"/>
+<attribute name="OC_FARNELL" value="1848246" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9764" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330150">
+<attribute name="MPN" value="7443330150" constant="no"/>
+<attribute name="OC_FARNELL" value="1848247" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9765" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330220">
+<attribute name="MPN" value="7443330220" constant="no"/>
+<attribute name="OC_FARNELL" value="1848248" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9766" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330330">
+<attribute name="MPN" value="7443330330" constant="no"/>
+<attribute name="OC_FARNELL" value="1848249" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9767" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330470">
+<attribute name="MPN" value="7443330470" constant="no"/>
+<attribute name="OC_FARNELL" value="1848250" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9768" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330680">
+<attribute name="MPN" value="7443330680" constant="no"/>
+<attribute name="OC_FARNELL" value="1848251" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9769" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443330820">
+<attribute name="MPN" value="7443330820" constant="no"/>
+<attribute name="OC_FARNELL" value="1848253" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9770" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443331000">
+<attribute name="MPN" value="7443331000" constant="no"/>
+<attribute name="OC_FARNELL" value="1848254" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9771" constant="no"/>
+<attribute name="PACKAGE" value="1090" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_8070" package="WE-HCC_8070">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-7443340030">
+<attribute name="MPN" value="7443340030" constant="no"/>
+<attribute name="OC_FARNELL" value="1848255" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9772" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340047">
+<attribute name="MPN" value="7443340047" constant="no"/>
+<attribute name="OC_FARNELL" value="1848256" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9773" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340068">
+<attribute name="MPN" value="7443340068" constant="no"/>
+<attribute name="OC_FARNELL" value="1848257" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9774" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340100">
+<attribute name="MPN" value="7443340100" constant="no"/>
+<attribute name="OC_FARNELL" value="1848258" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9775" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340150">
+<attribute name="MPN" value="7443340150" constant="no"/>
+<attribute name="OC_FARNELL" value="1848259" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9776" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340220">
+<attribute name="MPN" value="7443340220" constant="no"/>
+<attribute name="OC_FARNELL" value="1848260" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9777" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340330">
+<attribute name="MPN" value="7443340330" constant="no"/>
+<attribute name="OC_FARNELL" value="1848261" constant="no"/>
+<attribute name="OC_NEWARK" value="13T9778" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340470">
+<attribute name="MPN" value="7443340470" constant="no"/>
+<attribute name="OC_FARNELL" value="2211636" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4642" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443340680">
+<attribute name="MPN" value="7443340680" constant="no"/>
+<attribute name="OC_FARNELL" value="2211637" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4643" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-7443341000">
+<attribute name="MPN" value="7443341000" constant="no"/>
+<attribute name="OC_FARNELL" value="2211638" constant="no"/>
+<attribute name="OC_NEWARK" value="44W4644" constant="no"/>
+<attribute name="PACKAGE" value="8070" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

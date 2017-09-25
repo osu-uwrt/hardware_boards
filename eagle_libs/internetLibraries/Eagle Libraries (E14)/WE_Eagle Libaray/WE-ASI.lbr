@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="WE-ASI_L">
+<description>SMD-Wire Wound Inductor WE-ASI</description>
+<wire x1="-7.685" y1="0" x2="7.685" y2="0" width="0.127" layer="51"/>
+<wire x1="-9.2" y1="-4.1" x2="-4" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="9.3" y1="-4" x2="3.9" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="4" y1="-6.3" x2="-4.2" y2="-6.2" width="0.127" layer="21" curve="-65.927498"/>
+<wire x1="-9.25" y1="4.1" x2="-4" y2="6.3" width="0.127" layer="21"/>
+<wire x1="9.25" y1="4.1" x2="4" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-4" y1="6.3" x2="4" y2="6.25" width="0.127" layer="21" curve="-71.075356"/>
+<wire x1="-9.25" y1="-4.1" x2="-9.25" y2="4.1" width="0.127" layer="51"/>
+<wire x1="9.25" y1="-4.1" x2="9.25" y2="4.1" width="0.127" layer="51"/>
+<smd name="1" x="-7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<smd name="2" x="7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<text x="-9.175" y="-9.46" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-9.175" y="8.555" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.5" y1="-2" x2="0.5001" y2="2.0001" layer="51" rot="R90"/>
+<wire x1="-9.6" y1="7.6" x2="-9.6" y2="-7.6" width="0.127" layer="39"/>
+<wire x1="-9.6" y1="-7.6" x2="9.6" y2="-7.6" width="0.127" layer="39"/>
+<wire x1="9.6" y1="-7.6" x2="9.6" y2="7.6" width="0.127" layer="39"/>
+<wire x1="9.6" y1="7.6" x2="-9.6" y2="7.6" width="0.127" layer="39"/>
+<wire x1="-5.6" y1="7.6" x2="-5.6" y2="-7.6" width="0.127" layer="43"/>
+<wire x1="-5.6" y1="-7.6" x2="5.6" y2="-7.6" width="0.127" layer="43"/>
+<wire x1="5.6" y1="-7.6" x2="5.6" y2="7.6" width="0.127" layer="43"/>
+<wire x1="5.6" y1="7.6" x2="-5.6" y2="7.6" width="0.127" layer="43"/>
+</package>
+<package name="WE-ASI_M">
+<description>SMD-Wire Wound Inductor WE-ASI</description>
+<wire x1="-2.55" y1="0" x2="2.5" y2="0" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="7.7251" width="0.127" layer="21"/>
+<smd name="1" x="-3.25" y="0" dx="9.5" dy="3.75" layer="1" rot="R90"/>
+<smd name="2" x="3.25" y="0" dx="9.5" dy="3.75" layer="1" rot="R90"/>
+<text x="-5.8425" y="-10.0725" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.6275" y="8.3525" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.25" y1="-0.5" x2="0.2501" y2="0.5001" layer="51" rot="R90"/>
+<wire x1="-0.8" y1="7.6" x2="-0.8" y2="-7.6" width="0.127" layer="43"/>
+<wire x1="-0.8" y1="-7.6" x2="0.8" y2="-7.6" width="0.127" layer="43"/>
+<wire x1="0.8" y1="-7.6" x2="0.8" y2="7.6" width="0.127" layer="43"/>
+<wire x1="0.8" y1="7.6" x2="-0.8" y2="7.6" width="0.127" layer="43"/>
+<circle x="0" y="0" radius="8.004996875" width="0.127" layer="39"/>
+</package>
+<package name="WE-ASI_SENSOR">
+<description>&lt;b&gt;SMD-Wire Wound Inductor&lt;/b&gt;&lt;p&gt;
+Especially designed for Automation Standard Interface applications&lt;br&gt;
+- Specially constructed for sensors and actuators</description>
+<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="5.715" width="0.127" layer="21"/>
+<smd name="1" x="-2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<text x="-3.4925" y="6.0325" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.4925" y="-7.9375" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.25" y1="-0.5" x2="0.2501" y2="0.5001" layer="51" rot="R90"/>
+<circle x="0" y="0" radius="6.016640625" width="0.127" layer="39"/>
+<wire x1="-0.6" y1="5.6" x2="-0.6" y2="-5.6" width="0.127" layer="43"/>
+<wire x1="-0.6" y1="-5.6" x2="0.6" y2="-5.6" width="0.127" layer="43"/>
+<wire x1="0.6" y1="-5.6" x2="0.6" y2="5.6" width="0.127" layer="43"/>
+<wire x1="0.6" y1="5.6" x2="-0.6" y2="5.6" width="0.127" layer="43"/>
+</package>
+</packages>
+<symbols>
+<symbol name="-L">
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-2.54" x2="1.2701" y2="2.5401" layer="94" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-ASI" prefix="L" uservalue="yes">
+<description>&lt;b&gt;SMD-Wire Wound Inductor WE-ASI&lt;/b&gt;&lt;p&gt;
+
+- Specially constructed for sensors and actuators&lt;br&gt;
+- Highest possible current in the smallest case size&lt;br&gt;
+- High self resonant frequency&lt;br&gt;&lt;br&gt;
+
+-- Especially designed for Automation Standard Interface applications</description>
+<gates>
+<gate name="G$1" symbol="-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L" package="WE-ASI_L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-74458303">
+<attribute name="MPN" value="74458303" constant="no"/>
+<attribute name="OC_FARNELL" value="1961680" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8036" constant="no"/>
+<attribute name="PACKAGE" value="Type_L(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-74458304">
+<attribute name="MPN" value="74458304" constant="no"/>
+<attribute name="OC_FARNELL" value="1961681" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8037" constant="no"/>
+<attribute name="PACKAGE" value="Type_L(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-74458306">
+<attribute name="MPN" value="74458306" constant="no"/>
+<attribute name="OC_FARNELL" value="1961682" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8038" constant="no"/>
+<attribute name="PACKAGE" value="Type_L(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-74458308">
+<attribute name="MPN" value="74458308" constant="no"/>
+<attribute name="OC_FARNELL" value="1961683" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8039" constant="no"/>
+<attribute name="PACKAGE" value="Type_L(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_M" package="WE-ASI_M">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-744776333">
+<attribute name="MPN" value="744776333" constant="no"/>
+<attribute name="OC_FARNELL" value="1961675" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8045" constant="no"/>
+<attribute name="PACKAGE" value="Type_M(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744776347">
+<attribute name="MPN" value="744776347" constant="no"/>
+<attribute name="OC_FARNELL" value="1961677" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8046" constant="no"/>
+<attribute name="PACKAGE" value="Type_M(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744776360">
+<attribute name="MPN" value="744776360" constant="no"/>
+<attribute name="OC_FARNELL" value="1961678" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8047" constant="no"/>
+<attribute name="PACKAGE" value="Type_M(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744776381">
+<attribute name="MPN" value="744776381" constant="no"/>
+<attribute name="OC_FARNELL" value="1961679" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8048" constant="no"/>
+<attribute name="PACKAGE" value="Type_M(Actuator)" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SENSOR" package="WE-ASI_SENSOR">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="SUPPLIER" value="" constant="no"/>
+</technology>
+<technology name="-744775318">
+<attribute name="MPN" value="744775318" constant="no"/>
+<attribute name="OC_FARNELL" value="1961674" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8040" constant="no"/>
+<attribute name="PACKAGE" value="Sensor" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744775330">
+<attribute name="MPN" value="744775330" constant="no"/>
+<attribute name="OC_FARNELL" value="1961670" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8041" constant="no"/>
+<attribute name="PACKAGE" value="Sensor" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744775347">
+<attribute name="MPN" value="744775347" constant="no"/>
+<attribute name="OC_FARNELL" value="1961671" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8042" constant="no"/>
+<attribute name="PACKAGE" value="Sensor" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744775360">
+<attribute name="MPN" value="744775360" constant="no"/>
+<attribute name="OC_FARNELL" value="1961672" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8043" constant="no"/>
+<attribute name="PACKAGE" value="Sensor" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+<technology name="-744775380">
+<attribute name="MPN" value="744775380" constant="no"/>
+<attribute name="OC_FARNELL" value="1961673" constant="no"/>
+<attribute name="OC_NEWARK" value="61T8044" constant="no"/>
+<attribute name="PACKAGE" value="Sensor" constant="no"/>
+<attribute name="SUPPLIER" value="Wuerth Elektronik" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
