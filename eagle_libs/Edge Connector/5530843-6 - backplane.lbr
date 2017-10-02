@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="5530843-6-BACKPLANEMATE">
+<pad name="3.3V_1" x="0" y="0" drill="1.0922"/>
+<pad name="3.3V_2" x="2.54" y="0" drill="1.0922"/>
+<pad name="3.3V_3" x="5.08" y="0" drill="1.0922"/>
+<pad name="GND1" x="7.62" y="0" drill="1.0922"/>
+<pad name="GND2" x="10.16" y="0" drill="1.0922"/>
+<pad name="GND3" x="12.7" y="0" drill="1.0922"/>
+<pad name="SPARE29" x="15.24" y="0" drill="1.0922"/>
+<pad name="SPARE30" x="17.78" y="0" drill="1.0922"/>
+<pad name="SPARE31" x="20.32" y="0" drill="1.0922"/>
+<pad name="SPARE32" x="22.86" y="0" drill="1.0922"/>
+<pad name="SPARE33" x="25.4" y="0" drill="1.0922"/>
+<pad name="SPARE34" x="27.94" y="0" drill="1.0922"/>
+<pad name="SPARE35" x="30.48" y="0" drill="1.0922"/>
+<pad name="SPARE36" x="33.02" y="0" drill="1.0922"/>
+<pad name="SPARE37" x="35.56" y="0" drill="1.0922"/>
+<pad name="SPARE38" x="38.1" y="0" drill="1.0922"/>
+<pad name="SPARE39" x="40.64" y="0" drill="1.0922"/>
+<pad name="SPARE40" x="43.18" y="0" drill="1.0922"/>
+<pad name="SPARE41" x="45.72" y="0" drill="1.0922"/>
+<pad name="KILL_SWITCH" x="48.26" y="0" drill="1.0922"/>
+<pad name="CAN_H" x="50.8" y="0" drill="1.0922"/>
+<pad name="CNA_L" x="53.34" y="0" drill="1.0922"/>
+<pad name="SDA_DEPTH" x="55.88" y="0" drill="1.0922"/>
+<pad name="SCL_DEPTH" x="58.42" y="0" drill="1.0922"/>
+<pad name="SDA_SENSOR" x="60.96" y="0" drill="1.0922"/>
+<pad name="SCL_SENSOR" x="63.5" y="0" drill="1.0922"/>
+<pad name="SDA_ESC" x="66.04" y="0" drill="1.0922"/>
+<pad name="SCL_ESC" x="68.58" y="0" drill="1.0922"/>
+<pad name="SPARE1" x="0" y="4.8514" drill="1.0922"/>
+<pad name="SPARE2" x="2.54" y="4.8514" drill="1.0922"/>
+<pad name="SPARE3" x="5.08" y="4.8514" drill="1.0922"/>
+<pad name="SPARE4" x="7.62" y="4.8514" drill="1.0922"/>
+<pad name="SPARE5" x="10.16" y="4.8514" drill="1.0922"/>
+<pad name="SPARE6" x="12.7" y="4.8514" drill="1.0922"/>
+<pad name="SPARE7" x="15.24" y="4.8514" drill="1.0922"/>
+<pad name="SPARE8" x="17.78" y="4.8514" drill="1.0922"/>
+<pad name="SPARE9" x="20.32" y="4.8514" drill="1.0922"/>
+<pad name="SPARE10" x="22.86" y="4.8514" drill="1.0922"/>
+<pad name="SPARE11" x="25.4" y="4.8514" drill="1.0922"/>
+<pad name="SPARE12" x="27.94" y="4.8514" drill="1.0922"/>
+<pad name="SPARE13" x="30.48" y="4.8514" drill="1.0922"/>
+<pad name="SPARE14" x="33.02" y="4.8514" drill="1.0922"/>
+<pad name="SPARE15" x="35.56" y="4.8514" drill="1.0922"/>
+<pad name="SPARE16" x="38.1" y="4.8514" drill="1.0922"/>
+<pad name="SPARE17" x="40.64" y="4.8514" drill="1.0922"/>
+<pad name="SPARE18" x="43.18" y="4.8514" drill="1.0922"/>
+<pad name="SPARE19" x="45.72" y="4.8514" drill="1.0922"/>
+<pad name="SPARE20" x="48.26" y="4.8514" drill="1.0922"/>
+<pad name="SPARE21" x="50.8" y="4.8514" drill="1.0922"/>
+<pad name="SPARE22" x="53.34" y="4.8514" drill="1.0922"/>
+<pad name="SPARE23" x="55.88" y="4.8514" drill="1.0922"/>
+<pad name="SPARE24" x="58.42" y="4.8514" drill="1.0922"/>
+<pad name="SPARE25" x="60.96" y="4.8514" drill="1.0922"/>
+<pad name="SPARE26" x="63.5" y="4.8514" drill="1.0922"/>
+<pad name="SPARE27" x="66.04" y="4.8514" drill="1.0922"/>
+<pad name="SPARE28" x="68.58" y="4.8514" drill="1.0922"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="71.12" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="71.12" y1="-2.54" x2="71.12" y2="7.62" width="0.127" layer="21"/>
+<wire x1="71.12" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="21"/>
+<text x="-2.54" y="7.62" size="1.27" layer="21">TE-5530843-6</text>
+</package>
+</packages>
+<symbols>
+<symbol name="5530846-6-BP">
+<pin name="3.3V_1" x="-76.2" y="-25.4" length="middle" rot="R90"/>
+<pin name="3.3V_2" x="-71.12" y="-25.4" length="middle" rot="R90"/>
+<pin name="GND1" x="-58.42" y="-25.4" length="middle" rot="R90"/>
+<pin name="CAN_H" x="35.56" y="-25.4" length="middle" rot="R90"/>
+<pin name="CAN_L" x="40.64" y="-25.4" length="middle" rot="R90"/>
+<pin name="3.3V_3" x="-66.04" y="-25.4" length="middle" rot="R90"/>
+<pin name="GND2" x="-53.34" y="-25.4" length="middle" rot="R90"/>
+<pin name="GND3" x="-48.26" y="-25.4" length="middle" rot="R90"/>
+<pin name="SDA_DEPTH" x="45.72" y="-25.4" length="middle" rot="R90"/>
+<pin name="SCL_DEPTH" x="50.8" y="-25.4" length="middle" rot="R90"/>
+<pin name="SDA_SENSOR" x="55.88" y="-25.4" length="middle" rot="R90"/>
+<pin name="SCL_SENSOR" x="60.96" y="-25.4" length="middle" rot="R90"/>
+<pin name="KILL_SWITCH" x="27.94" y="-25.4" length="middle" rot="R90"/>
+<pin name="SDA_ESC" x="66.04" y="-25.4" length="middle" rot="R90"/>
+<pin name="SCL_ESC" x="71.12" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE1" x="-71.12" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE2" x="-66.04" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE3" x="-60.96" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE4" x="-55.88" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE5" x="-50.8" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE6" x="-45.72" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE7" x="-40.64" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE8" x="-35.56" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE9" x="-30.48" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE10" x="-25.4" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE11" x="-20.32" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE12" x="-15.24" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE13" x="-10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE14" x="-5.08" y="22.86" length="middle" rot="R270"/>
+<wire x1="-81.28" y1="-20.32" x2="-81.28" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="17.78" x2="76.2" y2="17.78" width="0.254" layer="94"/>
+<wire x1="76.2" y1="17.78" x2="76.2" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="76.2" y1="-20.32" x2="-81.28" y2="-20.32" width="0.254" layer="94"/>
+<pin name="SPARE15" x="0" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE16" x="5.08" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE17" x="10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE18" x="15.24" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE19" x="20.32" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE20" x="25.4" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE21" x="30.48" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE22" x="35.56" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE23" x="40.64" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE24" x="45.72" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE25" x="50.8" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE26" x="55.88" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE27" x="60.96" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE28" x="66.04" y="22.86" length="middle" rot="R270"/>
+<pin name="SPARE29" x="-40.64" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE30" x="-35.56" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE31" x="-30.48" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE32" x="-25.4" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE33" x="-20.32" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE34" x="-15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE35" x="-10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE36" x="-5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE37" x="0" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE38" x="5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE39" x="10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE40" x="15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="SPARE41" x="20.32" y="-25.4" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5530843_MATE">
+<gates>
+<gate name="G$1" symbol="5530846-6-BP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5530843-6-BACKPLANEMATE">
+<connects>
+<connect gate="G$1" pin="3.3V_1" pad="3.3V_1"/>
+<connect gate="G$1" pin="3.3V_2" pad="3.3V_2"/>
+<connect gate="G$1" pin="3.3V_3" pad="3.3V_3"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
+<connect gate="G$1" pin="CAN_L" pad="CNA_L"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="KILL_SWITCH" pad="KILL_SWITCH"/>
+<connect gate="G$1" pin="SCL_DEPTH" pad="SCL_DEPTH"/>
+<connect gate="G$1" pin="SCL_ESC" pad="SCL_ESC"/>
+<connect gate="G$1" pin="SCL_SENSOR" pad="SCL_SENSOR"/>
+<connect gate="G$1" pin="SDA_DEPTH" pad="SDA_DEPTH"/>
+<connect gate="G$1" pin="SDA_ESC" pad="SDA_ESC"/>
+<connect gate="G$1" pin="SDA_SENSOR" pad="SDA_SENSOR"/>
+<connect gate="G$1" pin="SPARE1" pad="SPARE1"/>
+<connect gate="G$1" pin="SPARE10" pad="SPARE10"/>
+<connect gate="G$1" pin="SPARE11" pad="SPARE11"/>
+<connect gate="G$1" pin="SPARE12" pad="SPARE12"/>
+<connect gate="G$1" pin="SPARE13" pad="SPARE13"/>
+<connect gate="G$1" pin="SPARE14" pad="SPARE14"/>
+<connect gate="G$1" pin="SPARE15" pad="SPARE15"/>
+<connect gate="G$1" pin="SPARE16" pad="SPARE16"/>
+<connect gate="G$1" pin="SPARE17" pad="SPARE17"/>
+<connect gate="G$1" pin="SPARE18" pad="SPARE18"/>
+<connect gate="G$1" pin="SPARE19" pad="SPARE19"/>
+<connect gate="G$1" pin="SPARE2" pad="SPARE2"/>
+<connect gate="G$1" pin="SPARE20" pad="SPARE20"/>
+<connect gate="G$1" pin="SPARE21" pad="SPARE21"/>
+<connect gate="G$1" pin="SPARE22" pad="SPARE22"/>
+<connect gate="G$1" pin="SPARE23" pad="SPARE23"/>
+<connect gate="G$1" pin="SPARE24" pad="SPARE24"/>
+<connect gate="G$1" pin="SPARE25" pad="SPARE25"/>
+<connect gate="G$1" pin="SPARE26" pad="SPARE26"/>
+<connect gate="G$1" pin="SPARE27" pad="SPARE27"/>
+<connect gate="G$1" pin="SPARE28" pad="SPARE28"/>
+<connect gate="G$1" pin="SPARE29" pad="SPARE29"/>
+<connect gate="G$1" pin="SPARE3" pad="SPARE3"/>
+<connect gate="G$1" pin="SPARE30" pad="SPARE30"/>
+<connect gate="G$1" pin="SPARE31" pad="SPARE31"/>
+<connect gate="G$1" pin="SPARE32" pad="SPARE32"/>
+<connect gate="G$1" pin="SPARE33" pad="SPARE33"/>
+<connect gate="G$1" pin="SPARE34" pad="SPARE34"/>
+<connect gate="G$1" pin="SPARE35" pad="SPARE35"/>
+<connect gate="G$1" pin="SPARE36" pad="SPARE36"/>
+<connect gate="G$1" pin="SPARE37" pad="SPARE37"/>
+<connect gate="G$1" pin="SPARE38" pad="SPARE38"/>
+<connect gate="G$1" pin="SPARE39" pad="SPARE39"/>
+<connect gate="G$1" pin="SPARE4" pad="SPARE4"/>
+<connect gate="G$1" pin="SPARE40" pad="SPARE40"/>
+<connect gate="G$1" pin="SPARE41" pad="SPARE41"/>
+<connect gate="G$1" pin="SPARE5" pad="SPARE5"/>
+<connect gate="G$1" pin="SPARE6" pad="SPARE6"/>
+<connect gate="G$1" pin="SPARE7" pad="SPARE7"/>
+<connect gate="G$1" pin="SPARE8" pad="SPARE8"/>
+<connect gate="G$1" pin="SPARE9" pad="SPARE9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
