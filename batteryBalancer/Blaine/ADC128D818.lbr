@@ -170,22 +170,22 @@ Source: 8x ADG1408_1409.pdf</description>
 <wire x1="-20.32" y1="-10.16" x2="-20.32" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="-20.32" y1="7.62" x2="20.32" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="20.32" y1="7.62" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
-<pin name="VREF" x="17.78" y="-15.24" length="middle" rot="R90"/>
-<pin name="SDA" x="12.7" y="-15.24" length="middle" rot="R90"/>
-<pin name="SCL" x="7.62" y="-15.24" length="middle" rot="R90"/>
-<pin name="GND" x="2.54" y="-15.24" length="middle" rot="R90"/>
-<pin name="V+" x="-2.54" y="-15.24" length="middle" rot="R90"/>
-<pin name="INT" x="-7.62" y="-15.24" length="middle" rot="R90"/>
-<pin name="A0" x="-12.7" y="-15.24" length="middle" rot="R90"/>
-<pin name="A1" x="-17.78" y="-15.24" length="middle" rot="R90"/>
-<pin name="IN0" x="17.78" y="12.7" length="middle" rot="R270"/>
-<pin name="IN1" x="12.7" y="12.7" length="middle" rot="R270"/>
-<pin name="IN2" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="IN3" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="IN4" x="-2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="IN5" x="-7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="IN6" x="-12.7" y="12.7" length="middle" rot="R270"/>
-<pin name="IN7" x="-17.78" y="12.7" length="middle" rot="R270"/>
+<pin name="VREF" x="17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="SDA" x="12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="SCL" x="7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="GND" x="2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="V+" x="-2.54" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="INT" x="-7.62" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="-12.7" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="A1" x="-17.78" y="-15.24" visible="pin" length="middle" rot="R90"/>
+<pin name="IN0" x="17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN1" x="12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN2" x="7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN3" x="2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN4" x="-2.54" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN5" x="-7.62" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN6" x="-12.7" y="12.7" visible="pin" length="middle" rot="R270"/>
+<pin name="IN7" x="-17.78" y="12.7" visible="pin" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>

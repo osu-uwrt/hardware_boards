@@ -155,7 +155,7 @@
 <pin name="VIOUT" x="-5.08" y="-12.7" length="middle" rot="R90"/>
 <pin name="BW_SEL" x="0" y="-12.7" length="middle" rot="R90"/>
 <pin name="GND" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="IP+1" x="-10.16" y="15.24" visible="pin" length="middle" rot="R270"/>
+<pin name="IP+1" x="-10.16" y="15.24" length="middle" rot="R270"/>
 <pin name="IP+2" x="-5.08" y="15.24" length="middle" rot="R270"/>
 <pin name="IP-2" x="5.08" y="15.24" length="middle" rot="R270"/>
 <pin name="IP-1" x="0" y="15.24" length="middle" rot="R270"/>

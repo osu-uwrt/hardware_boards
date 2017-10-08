@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -71,40 +71,40 @@
 </layers>
 <library>
 <packages>
-<package name="01220083Z">
-<pad name="P$1" x="-16.51" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$2" x="-8.89" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$3" x="10.16" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$4" x="17.78" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<wire x1="-20.32" y1="3.81" x2="21.59" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="21.59" y1="3.81" x2="21.59" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="21.59" y1="-3.81" x2="-20.32" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-20.32" y1="-3.81" x2="-20.32" y2="3.81" width="0.1524" layer="21"/>
+<package name="IXFX64N60P3">
+<wire x1="-11.43" y1="3.81" x2="10.16" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-3.81" x2="-11.43" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="3.81" width="0.1524" layer="21"/>
+<pad name="GATE" x="-6.604" y="0" drill="2.286" diameter="4.064"/>
+<pad name="DRAIN" x="-1.27" y="0" drill="2.286" diameter="4.064"/>
+<pad name="SOURCE" x="4.191" y="0" drill="2.286" diameter="4.064"/>
 </package>
 </packages>
 <symbols>
-<symbol name="01220083Z">
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<pin name="P$1" x="-12.7" y="0" length="middle"/>
-<pin name="P$2" x="12.7" y="0" length="middle" rot="R180"/>
+<symbol name="IXFX64N60P3">
+<description>Power MOSFET</description>
+<wire x1="-15.24" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
+<pin name="SOURCE" x="-10.16" y="-7.62" length="middle" rot="R90"/>
+<pin name="DRAIN" x="10.16" y="-7.62" length="middle" rot="R90"/>
+<pin name="GATE" x="0" y="-7.62" length="middle" rot="R90"/>
+<text x="-5.08" y="7.62" size="1.27" layer="94">IXFX64N60P3</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="01220083Z">
+<deviceset name="IXFX64N60P3">
 <gates>
-<gate name="G$1" symbol="01220083Z" x="0" y="0"/>
+<gate name="G$1" symbol="IXFX64N60P3" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="01220083Z">
+<device name="" package="IXFX64N60P3">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
-<connect gate="G$1" pin="P$2" pad="P$3 P$4"/>
+<connect gate="G$1" pin="DRAIN" pad="DRAIN"/>
+<connect gate="G$1" pin="GATE" pad="GATE"/>
+<connect gate="G$1" pin="SOURCE" pad="SOURCE"/>
 </connects>
 <technologies>
 <technology name=""/>
