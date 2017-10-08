@@ -88,6 +88,7 @@
 <text x="5.08" y="24.13" size="1.27" layer="21">+Vin</text>
 <text x="5.08" y="8.89" size="1.27" layer="21">+Vout</text>
 <text x="5.08" y="3.81" size="1.27" layer="21">-Vout</text>
+<text x="11.43" y="29.21" size="1.27" layer="21">On/Off</text>
 </package>
 </packages>
 <symbols>

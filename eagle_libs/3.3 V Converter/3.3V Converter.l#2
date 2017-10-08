@@ -71,15 +71,23 @@
 <hole x="19.05" y="24.638" drill="0.762"/>
 <hole x="2.54" y="24.638" drill="0.762"/>
 <hole x="2.54" y="27.178" drill="0.762"/>
-<pad name="P$1" x="2.54" y="27.178" drill="0.762" shape="square"/>
-<pad name="P$2" x="2.54" y="24.638" drill="0.762" shape="square"/>
-<pad name="P$3" x="2.54" y="9.398" drill="0.762" shape="square"/>
-<pad name="P$4" x="2.54" y="3.81" drill="0.6" shape="square"/>
-<pad name="P$5" x="19.05" y="3.81" drill="0.6" shape="square"/>
-<pad name="P$6" x="19.05" y="8.89" drill="0.6" shape="square"/>
-<pad name="P$7" x="19.05" y="24.13" drill="0.6" shape="square"/>
-<pad name="P$8" x="19.05" y="26.67" drill="0.6" shape="square"/>
-<pad name="P$9" x="19.05" y="29.21" drill="0.6" shape="square"/>
+<pad name="23" x="2.54" y="27.178" drill="0.762" shape="square"/>
+<pad name="22" x="2.54" y="24.638" drill="0.762" shape="square"/>
+<pad name="16" x="2.54" y="9.398" drill="0.762" shape="square"/>
+<pad name="14" x="2.54" y="4.318" drill="0.762" shape="square"/>
+<pad name="11" x="19.05" y="4.318" drill="0.762" shape="square"/>
+<pad name="9" x="19.05" y="9.398" drill="0.762" shape="square"/>
+<pad name="3" x="19.05" y="24.638" drill="0.762" shape="square"/>
+<pad name="2" x="19.05" y="27.178" drill="0.762" shape="square"/>
+<pad name="1" x="19.05" y="29.718" drill="0.762" shape="square"/>
+<text x="13.97" y="26.67" size="1.27" layer="21">-Vin</text>
+<text x="13.97" y="24.13" size="1.27" layer="21">-Vin</text>
+<text x="13.97" y="8.89" size="1.27" layer="21">ntc</text>
+<text x="13.97" y="3.81" size="1.27" layer="21">ntc</text>
+<text x="5.08" y="26.67" size="1.27" layer="21">+Vin</text>
+<text x="5.08" y="24.13" size="1.27" layer="21">+Vin</text>
+<text x="5.08" y="8.89" size="1.27" layer="21">+Vout</text>
+<text x="5.08" y="3.81" size="1.27" layer="21">-Vout</text>
 </package>
 </packages>
 <symbols>
