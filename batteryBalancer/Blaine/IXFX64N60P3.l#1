@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="5" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -71,58 +71,40 @@
 </layers>
 <library>
 <packages>
-<package name="LTST-S270GKT">
-<smd name="CATHODE" x="-1" y="0" dx="1.1" dy="1.1" layer="1"/>
-<smd name="ANODE" x="1" y="0" dx="1.1" dy="1.1" layer="1"/>
-<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.1524" layer="21"/>
-<wire x1="-2" y1="-1" x2="2" y2="-1" width="0.1524" layer="21"/>
-<wire x1="2" y1="-1" x2="2" y2="1" width="0.1524" layer="21"/>
+<package name="IXFX64N60P3">
+<wire x1="-11.43" y1="3.81" x2="10.16" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-3.81" x2="-11.43" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="3.81" width="0.1524" layer="21"/>
+<pad name="GATE" x="-6.604" y="0" drill="2.286" diameter="4.064"/>
+<pad name="DRAIN" x="-1.27" y="0" drill="2.286" diameter="4.064"/>
+<pad name="SOURCE" x="4.191" y="0" drill="2.286" diameter="4.064"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LTST-S270GKT">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="ANODE" x="-7.62" y="0" length="middle"/>
-<pin name="CATHODE" x="7.62" y="0" length="middle" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="LED">
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
+<symbol name="IXFX64N60P3">
+<description>Power MOSFET</description>
+<wire x1="-15.24" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="10.16" width="0.1524" layer="94"/>
+<pin name="SOURCE" x="-10.16" y="-7.62" length="middle" rot="R90"/>
+<pin name="DRAIN" x="10.16" y="-7.62" length="middle" rot="R90"/>
+<pin name="GATE" x="0" y="-7.62" length="middle" rot="R90"/>
+<text x="-5.08" y="7.62" size="1.27" layer="94">IXFX64N60P3</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTST-S270GKT">
+<deviceset name="IXFX64N60P3">
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="IXFX64N60P3" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LTST-S270GKT">
+<device name="" package="IXFX64N60P3">
 <connects>
-<connect gate="G$1" pin="A" pad="ANODE"/>
-<connect gate="G$1" pin="C" pad="CATHODE"/>
+<connect gate="G$1" pin="DRAIN" pad="DRAIN"/>
+<connect gate="G$1" pin="GATE" pad="GATE"/>
+<connect gate="G$1" pin="SOURCE" pad="SOURCE"/>
 </connects>
 <technologies>
 <technology name=""/>
