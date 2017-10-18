@@ -1803,16 +1803,16 @@ design rules under a new name.</description>
 <contactref element="STBD_FC" pad="2"/>
 <contactref element="PORT_FC" pad="2"/>
 <contactref element="C1" pad="1"/>
+<contactref element="BALANCED_STATUS" pad="CATHODE"/>
+<contactref element="MOTOR_POWER2" pad="4"/>
+<contactref element="MOTOR_POWER2" pad="6"/>
+<contactref element="MOTOR_POWER2" pad="5"/>
 <contactref element="BATTERY_BALANCED" pad="5"/>
 <contactref element="BATTERY_BALANCED" pad="4"/>
 <contactref element="BATTERY_BALANCED" pad="6"/>
 <contactref element="MOTOR_POWER1" pad="4"/>
 <contactref element="MOTOR_POWER1" pad="6"/>
 <contactref element="MOTOR_POWER1" pad="5"/>
-<contactref element="BALANCED_STATUS" pad="CATHODE"/>
-<contactref element="MOTOR_POWER2" pad="4"/>
-<contactref element="MOTOR_POWER2" pad="6"/>
-<contactref element="MOTOR_POWER2" pad="5"/>
 <wire x1="31.75" y1="-242.6001" x2="26.9875" y2="-242.6001" width="0" layer="19" extent="1-1"/>
 <wire x1="35.0125" y1="-239.7125" x2="31.75" y2="-242.6001" width="0" layer="19" extent="1-1"/>
 <wire x1="39.775" y1="-239.7125" x2="35.0125" y2="-239.7125" width="0" layer="19" extent="1-1"/>
@@ -1834,22 +1834,22 @@ design rules under a new name.</description>
 <wire x1="127" y1="-18.3007" x2="122.809" y2="-18.3007" width="0" layer="19" extent="1-1"/>
 <wire x1="131.191" y1="-18.3007" x2="127" y2="-18.3007" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
+<signal name="STBD_GATE">
 <contactref element="STBD_FC" pad="5"/>
 <contactref element="STBD_FET" pad="GATE"/>
 <wire x1="20.3835" y1="-20.6375" x2="31.75" y2="-239.9999" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$6">
+<signal name="PORT_GATE">
 <contactref element="PORT_FC" pad="5"/>
 <contactref element="PORT_FET" pad="GATE"/>
 <wire x1="72.771" y1="-20.6375" x2="26.9875" y2="-239.9999" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$8">
+<signal name="STBD_INDICATOR">
 <contactref element="R2" pad="2"/>
 <contactref element="STBD_STATUS" pad="CATHODE"/>
 <wire x1="76.7875" y1="-238.125" x2="42.775" y2="-239.7125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="BALANCED_INDICATOR">
 <contactref element="R3" pad="1"/>
 <contactref element="BALANCED_STATUS" pad="ANODE"/>
 <wire x1="85.1375" y1="-238.125" x2="44.5375" y2="-239.7125" width="0" layer="19" extent="1-1"/>
@@ -1883,7 +1883,7 @@ design rules under a new name.</description>
 <wire x1="26.6855" y1="3.175" x2="29.2255" y2="3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="24.1455" y1="3.175" x2="26.6855" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$14">
+<signal name="PORT_UNBALANCED">
 <contactref element="PORT_FC" pad="4"/>
 <contactref element="PORT_FET" pad="SOURCE"/>
 <contactref element="PORT_CS" pad="IP-1"/>
@@ -1892,7 +1892,7 @@ design rules under a new name.</description>
 <wire x1="27.9375" y1="-239.9999" x2="11.43" y2="-245.5037" width="0" layer="19" extent="1-1"/>
 <wire x1="83.566" y1="-20.6375" x2="27.9375" y2="-239.9999" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$16">
+<signal name="STBD_UNBALANCED">
 <contactref element="STBD_FET" pad="SOURCE"/>
 <contactref element="STBD_FC" pad="4"/>
 <contactref element="STBD_CS" pad="IP-2"/>
@@ -1901,7 +1901,7 @@ design rules under a new name.</description>
 <wire x1="32.7" y1="-239.9999" x2="5.08" y2="-245.5037" width="0" layer="19" extent="1-1"/>
 <wire x1="31.1785" y1="-20.6375" x2="32.7" y2="-239.9999" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$17">
+<signal name="SCL">
 <contactref element="ADC" pad="SCL"/>
 <contactref element="EDGE_CONNECTOR" pad="SCL_SENSOR"/>
 <wire x1="80.0255" y1="3.175" x2="14.5875" y2="-241.9125" width="0" layer="19" extent="1-1"/>
@@ -1923,21 +1923,21 @@ design rules under a new name.</description>
 <wire x1="19.0655" y1="3.175" x2="16.5255" y2="3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="21.6055" y1="3.175" x2="19.0655" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$11">
+<signal name="ADC_A0">
 <contactref element="R4" pad="1"/>
 <contactref element="ADC" pad="A0"/>
 <contactref element="R6" pad="2"/>
 <wire x1="49.3" y1="-239.7125" x2="14.5875" y2="-244.5125" width="0" layer="19" extent="1-1"/>
 <wire x1="61.825" y1="-239.7125" x2="49.3" y2="-239.7125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$13">
+<signal name="ADC_A1">
 <contactref element="ADC" pad="A1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R5" pad="1"/>
 <wire x1="54.0625" y1="-239.7125" x2="14.5875" y2="-245.1625" width="0" layer="19" extent="1-1"/>
 <wire x1="66.5875" y1="-239.7125" x2="54.0625" y2="-239.7125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$20">
+<signal name="STBD_FUSED">
 <contactref element="STBD_CS" pad="IP+1"/>
 <contactref element="STBD_CS" pad="IP+2"/>
 <contactref element="STBD_FUSE" pad="P$4"/>
@@ -1948,17 +1948,17 @@ design rules under a new name.</description>
 <wire x1="91.1225" y1="-103.1875" x2="78.7875" y2="-238.125" width="0" layer="19" extent="1-1"/>
 <wire x1="98.7425" y1="-103.1875" x2="91.1225" y2="-103.1875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$24">
+<signal name="PORT_CURRENT">
 <contactref element="PORT_CS" pad="VIOUT"/>
 <contactref element="ADC" pad="IN0"/>
 <wire x1="20.3375" y1="-240.6125" x2="8.89" y2="-240.2713" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$25">
+<signal name="STBD_CURRENT">
 <contactref element="STBD_CS" pad="VIOUT"/>
 <contactref element="ADC" pad="IN1"/>
 <wire x1="20.3375" y1="-241.2625" x2="2.54" y2="-240.2713" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
+<signal name="STBD_POWER">
 <contactref element="BATTERY_STBD" pad="3"/>
 <contactref element="BATTERY_STBD" pad="2"/>
 <contactref element="BATTERY_STBD" pad="1"/>
@@ -1969,7 +1969,7 @@ design rules under a new name.</description>
 <wire x1="66.675" y1="-65.0875" x2="70.866" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 <wire x1="62.484" y1="-65.0875" x2="66.675" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$19">
+<signal name="PORT_POWER">
 <contactref element="PORT_FUSE" pad="P$2"/>
 <contactref element="PORT_FUSE" pad="P$1"/>
 <contactref element="BATTERY_PORT" pad="3"/>
@@ -1980,7 +1980,7 @@ design rules under a new name.</description>
 <wire x1="22.225" y1="-65.0875" x2="26.416" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 <wire x1="18.034" y1="-65.0875" x2="22.225" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="BALANCED_POWER">
 <contactref element="BATTERY_BALANCED" pad="3"/>
 <contactref element="BATTERY_BALANCED" pad="2"/>
 <contactref element="BATTERY_BALANCED" pad="1"/>
@@ -2011,7 +2011,7 @@ design rules under a new name.</description>
 <wire x1="78.105" y1="-20.6375" x2="122.809" y2="-23.8125" width="0" layer="19" extent="1-1"/>
 <wire x1="25.7175" y1="-20.6375" x2="78.105" y2="-20.6375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$5">
+<signal name="MOTOR_POWER1">
 <contactref element="RELAY2" pad="LOAD-"/>
 <contactref element="MOTOR_POWER1" pad="3"/>
 <contactref element="MOTOR_POWER1" pad="2"/>
@@ -2022,7 +2022,7 @@ design rules under a new name.</description>
 <wire x1="115.316" y1="-65.0875" x2="111.125" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 <wire x1="106.934" y1="-65.0875" x2="111.125" y2="-65.0875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22">
+<signal name="MOTOR_POWER2">
 <contactref element="RELAY3" pad="LOAD-"/>
 <contactref element="MOTOR_POWER2" pad="2"/>
 <contactref element="MOTOR_POWER2" pad="1"/>
@@ -2033,7 +2033,7 @@ design rules under a new name.</description>
 <wire x1="22.225" y1="-106.3625" x2="26.416" y2="-106.3625" width="0" layer="19" extent="1-1"/>
 <wire x1="18.034" y1="-106.3625" x2="22.225" y2="-106.3625" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$7">
+<signal name="PORT_FUSED">
 <contactref element="PORT_FUSE" pad="P$4"/>
 <contactref element="PORT_FUSE" pad="P$3"/>
 <contactref element="PORT_STATUS" pad="ANODE"/>
@@ -2044,12 +2044,12 @@ design rules under a new name.</description>
 <wire x1="54.2925" y1="-144.4625" x2="72.4375" y2="-238.125" width="0" layer="19" extent="1-1"/>
 <wire x1="46.6725" y1="-144.4625" x2="54.2925" y2="-144.4625" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
+<signal name="SDA">
 <contactref element="EDGE_CONNECTOR" pad="SDA_SENSOR"/>
 <contactref element="ADC" pad="SDA"/>
 <wire x1="77.4855" y1="3.175" x2="14.5875" y2="-241.2625" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$12">
+<signal name="KILL_SWITCH">
 <contactref element="RLAY1" pad="CONTROL+"/>
 <contactref element="RELAY4" pad="CONTROL+"/>
 <contactref element="RELAY3" pad="CONTROL+"/>
@@ -2060,12 +2060,12 @@ design rules under a new name.</description>
 <wire x1="97.4925" y1="-142.875" x2="86.38" y2="-182.5625" width="0" layer="19" extent="1-1"/>
 <wire x1="64.7855" y1="3.175" x2="97.4925" y2="-142.875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10">
+<signal name="PORT_INDICATOR">
 <contactref element="R1" pad="2"/>
 <contactref element="PORT_STATUS" pad="CATHODE"/>
 <wire x1="70.4375" y1="-238.125" x2="38.0125" y2="-239.7125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$15">
+<signal name="OFF">
 <contactref element="PORT_FC" pad="3"/>
 <contactref element="STBD_FC" pad="3"/>
 <contactref element="OFF" pad="1"/>
