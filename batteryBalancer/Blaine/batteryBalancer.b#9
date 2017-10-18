@@ -1761,7 +1761,7 @@ design rules under a new name.</description>
 <element name="STBD_STATUS" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="77.7875" y="-238.125"/>
 <element name="PORT_STATUS" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="71.4375" y="-238.125"/>
 <element name="BALANCED_STATUS" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="84.1375" y="-238.125"/>
-<element name="EDGE_CONNECTOR" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843" x="15.875" y="0"/>
+<element name="EDGE_CONNECTOR" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843" x="15.7" y="0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1828,10 +1828,6 @@ design rules under a new name.</description>
 <wire x1="85.1375" y1="-238.125" x2="44.5375" y2="-239.7125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LOGIC_GND">
-<contactref element="RLAY1" pad="CONTROL-"/>
-<contactref element="RELAY4" pad="CONTROL-"/>
-<contactref element="RELAY3" pad="CONTROL-"/>
-<contactref element="RELAY2" pad="CONTROL-"/>
 <contactref element="ADC" pad="GND"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R5" pad="2"/>
@@ -1839,22 +1835,12 @@ design rules under a new name.</description>
 <contactref element="STBD_CS" pad="GND"/>
 <contactref element="STBD_CS" pad="BW_SEL"/>
 <contactref element="PORT_CS" pad="BW_SEL"/>
-<contactref element="EDGE_CONNECTOR" pad="GND3"/>
-<contactref element="EDGE_CONNECTOR" pad="GND1"/>
-<contactref element="EDGE_CONNECTOR" pad="GND2"/>
-<wire x1="26.8605" y1="3.175" x2="24.3205" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="29.4005" y1="3.175" x2="26.8605" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="14.5875" y1="-242.5625" x2="24.3205" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="-240.2713" x2="14.5875" y2="-242.5625" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="-240.2713" x2="11.43" y2="-240.2713" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="-240.2713" x2="10.16" y2="-240.2713" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="-240.2713" x2="5.08" y2="-240.2713" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="-219.075" x2="11.43" y2="-240.2713" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="-182.5625" x2="17.78" y2="-219.075" width="0" layer="19" extent="1-1"/>
-<wire x1="52.3" y1="-239.7125" x2="29.4005" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="-240.2713" x2="3.81" y2="-240.2713" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-240.2713" x2="5.08" y2="-240.2713" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="-240.2713" x2="10.16" y2="-240.2713" width="0" layer="19" extent="1-1"/>
+<wire x1="14.5875" y1="-242.5625" x2="11.43" y2="-240.2713" width="0" layer="19" extent="1-1"/>
+<wire x1="52.3" y1="-239.7125" x2="14.5875" y2="-242.5625" width="0" layer="19" extent="1-1"/>
 <wire x1="57.0625" y1="-239.7125" x2="52.3" y2="-239.7125" width="0" layer="19" extent="1-1"/>
-<wire x1="81.28" y1="-182.5625" x2="57.0625" y2="-239.7125" width="0" layer="19" extent="1-1"/>
-<wire x1="92.3925" y1="-142.875" x2="81.28" y2="-182.5625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="RLAY1" pad="CONTROL+"/>
@@ -1862,7 +1848,7 @@ design rules under a new name.</description>
 <contactref element="RELAY3" pad="CONTROL+"/>
 <contactref element="RELAY2" pad="CONTROL+"/>
 <contactref element="EDGE_CONNECTOR" pad="KILL_SWITCH"/>
-<wire x1="22.88" y1="-219.075" x2="64.9605" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="22.88" y1="-219.075" x2="64.7855" y2="3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="22.88" y1="-182.5625" x2="22.88" y2="-219.075" width="0" layer="19" extent="1-1"/>
 <wire x1="86.38" y1="-182.5625" x2="22.88" y2="-182.5625" width="0" layer="19" extent="1-1"/>
 <wire x1="97.4925" y1="-142.875" x2="86.38" y2="-182.5625" width="0" layer="19" extent="1-1"/>
@@ -1893,12 +1879,12 @@ design rules under a new name.</description>
 <signal name="N$17">
 <contactref element="ADC" pad="SCL"/>
 <contactref element="EDGE_CONNECTOR" pad="SCL_SENSOR"/>
-<wire x1="80.2005" y1="3.175" x2="14.5875" y2="-241.9125" width="0" layer="19" extent="1-1"/>
+<wire x1="80.0255" y1="3.175" x2="14.5875" y2="-241.9125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="ADC" pad="SDA"/>
 <contactref element="EDGE_CONNECTOR" pad="SDA_SENSOR"/>
-<wire x1="77.6605" y1="3.175" x2="14.5875" y2="-241.2625" width="0" layer="19" extent="1-1"/>
+<wire x1="77.4855" y1="3.175" x2="14.5875" y2="-241.2625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="ADC" pad="V+"/>
@@ -1909,9 +1895,9 @@ design rules under a new name.</description>
 <contactref element="EDGE_CONNECTOR" pad="3.3VP3"/>
 <contactref element="EDGE_CONNECTOR" pad="3.3VP2"/>
 <contactref element="EDGE_CONNECTOR" pad="3.3VP1"/>
-<wire x1="19.2405" y1="3.175" x2="16.7005" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="21.7805" y1="3.175" x2="19.2405" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="14.5875" y1="-243.2125" x2="21.7805" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="19.0655" y1="3.175" x2="16.5255" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6055" y1="3.175" x2="19.0655" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="14.5875" y1="-243.2125" x2="21.6055" y2="3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="-240.2713" x2="14.5875" y2="-243.2125" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="-240.2713" x2="7.62" y2="-240.2713" width="0" layer="19" extent="1-1"/>
 <wire x1="58.825" y1="-239.7125" x2="14.5875" y2="-243.2125" width="0" layer="19" extent="1-1"/>
@@ -2037,6 +2023,21 @@ design rules under a new name.</description>
 <wire x1="72.4375" y1="-238.125" x2="8.89" y2="-245.5037" width="0" layer="19" extent="1-1"/>
 <wire x1="54.2925" y1="-144.4625" x2="72.4375" y2="-238.125" width="0" layer="19" extent="1-1"/>
 <wire x1="46.6725" y1="-144.4625" x2="54.2925" y2="-144.4625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="RLAY1" pad="CONTROL-"/>
+<contactref element="RELAY4" pad="CONTROL-"/>
+<contactref element="RELAY3" pad="CONTROL-"/>
+<contactref element="RELAY2" pad="CONTROL-"/>
+<contactref element="EDGE_CONNECTOR" pad="GND3"/>
+<contactref element="EDGE_CONNECTOR" pad="GND1"/>
+<contactref element="EDGE_CONNECTOR" pad="GND2"/>
+<wire x1="17.78" y1="-182.5625" x2="17.78" y2="-219.075" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="-182.5625" x2="17.78" y2="-182.5625" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3925" y1="-142.875" x2="81.28" y2="-182.5625" width="0" layer="19" extent="1-1"/>
+<wire x1="29.2255" y1="3.175" x2="92.3925" y2="-142.875" width="0" layer="19" extent="1-1"/>
+<wire x1="26.6855" y1="3.175" x2="29.2255" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="24.1455" y1="3.175" x2="26.6855" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

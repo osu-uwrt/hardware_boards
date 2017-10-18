@@ -1803,7 +1803,7 @@ design rules under a new name.</description>
 <element name="BALANCED_STATUS" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="-19.125" y="29.8625" rot="R270"/>
 <element name="EDGE_CONNECTOR" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843" x="15.7" y="0"/>
 <element name="OFF" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="" x="-43" y="101" rot="R270"/>
-<element name="P2" library="con-molex-mini-fit" package="39-30-?02?" value="39-30-02?" x="-94" y="9"/>
+<element name="KILL_SWITCH_CONNECTOR" library="con-molex-mini-fit" package="39-30-?02?" value="39-30-02?" x="-94" y="9"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1884,7 +1884,7 @@ design rules under a new name.</description>
 <contactref element="EDGE_CONNECTOR" pad="GND3"/>
 <contactref element="EDGE_CONNECTOR" pad="GND1"/>
 <contactref element="EDGE_CONNECTOR" pad="GND2"/>
-<contactref element="P2" pad="2"/>
+<contactref element="KILL_SWITCH_CONNECTOR" pad="2"/>
 <wire x1="80.2075" y1="61.8588" x2="81.4775" y2="61.8588" width="0" layer="19" extent="1-1"/>
 <wire x1="62.8625" y1="17.155" x2="80.2075" y2="61.8588" width="0" layer="19" extent="1-1"/>
 <wire x1="54.25" y1="17.4675" x2="62.8625" y2="17.155" width="0" layer="19" extent="1-1"/>
@@ -2052,7 +2052,7 @@ design rules under a new name.</description>
 <contactref element="RELAY3" pad="CONTROL+"/>
 <contactref element="RELAY2" pad="CONTROL+"/>
 <contactref element="EDGE_CONNECTOR" pad="KILL_SWITCH"/>
-<contactref element="P2" pad="1"/>
+<contactref element="KILL_SWITCH_CONNECTOR" pad="1"/>
 <wire x1="37.25" y1="22.555" x2="-94" y2="9" width="0" layer="19" extent="1-1"/>
 <wire x1="45.75" y1="22.5675" x2="37.25" y2="22.555" width="0" layer="19" extent="1-1"/>
 <wire x1="54.25" y1="22.5675" x2="45.75" y2="22.5675" width="0" layer="19" extent="1-1"/>
