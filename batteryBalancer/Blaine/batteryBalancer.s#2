@@ -5220,7 +5220,7 @@ if we want it later</text>
 <instance part="MOTOR_POWER2" gate="G$1" x="378.46" y="137.16" rot="MR0"/>
 <instance part="GND9" gate="1" x="396.24" y="149.86" rot="R180"/>
 <instance part="STBD_FUSE" gate="G$1" x="149.86" y="205.74"/>
-<instance part="PORT_FUSE" gate="G$1" x="148.59" y="154.94"/>
+<instance part="PORT_FUSE" gate="G$1" x="149.86" y="154.94"/>
 <instance part="ADC" gate="G$1" x="154.94" y="93.98"/>
 <instance part="R4" gate="G$1" x="147.32" y="55.88"/>
 <instance part="R5" gate="G$1" x="147.32" y="50.8"/>
@@ -5403,14 +5403,6 @@ if we want it later</text>
 <wire x1="152.4" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="157.48" y="55.88"/>
 <pinref part="PORT_CS" gate="G$1" pin="GND"/>
-<pinref part="STBD_CS" gate="G$1" pin="GND"/>
-<wire x1="129.54" y1="172.72" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="STBD_CS" gate="G$1" pin="BW_SEL"/>
-<wire x1="124.46" y1="175.26" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
-<junction x="129.54" y="172.72"/>
-<wire x1="137.16" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="121.92" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="48.26" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
@@ -5451,11 +5443,16 @@ if we want it later</text>
 <wire x1="287.02" y1="115.57" x2="326.39" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="326.39" y1="115.57" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
 <junction x="287.02" y="115.57"/>
-<wire x1="287.02" y1="165.1" x2="287.02" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="177.8" x2="316.23" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="316.23" y1="177.8" x2="316.23" y2="228.6" width="0.1524" layer="91"/>
-<junction x="287.02" y="165.1"/>
+<wire x1="137.16" y1="121.92" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="STBD_CS" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="172.72" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<junction x="129.54" y="172.72"/>
+<pinref part="STBD_CS" gate="G$1" pin="BW_SEL"/>
+<wire x1="132.08" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="175.26" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="149.86" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PORT_UNBALANCED" class="0">
@@ -5466,7 +5463,7 @@ if we want it later</text>
 <pinref part="PORT_CS" gate="G$1" pin="IP-2"/>
 <wire x1="129.54" y1="154.94" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="PORT_FUSE" gate="G$1" pin="P$1"/>
-<wire x1="129.54" y1="154.94" x2="135.89" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="154.94" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <junction x="129.54" y="154.94"/>
 </segment>
 </net>
@@ -5508,7 +5505,8 @@ if we want it later</text>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_1"/>
 <wire x1="346.71" y1="100.33" x2="346.71" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_2"/>
-<wire x1="341.63" y1="100.33" x2="341.63" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="341.63" y1="100.33" x2="341.63" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="341.63" y1="106.68" x2="341.63" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="100.33" x2="341.63" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="100.33" x2="346.71" y2="100.33" width="0.1524" layer="91"/>
 <junction x="341.63" y="100.33"/>
@@ -5535,6 +5533,11 @@ if we want it later</text>
 <wire x1="152.4" y1="72.39" x2="114.3" y2="72.39" width="0.1524" layer="91"/>
 <junction x="152.4" y="72.39"/>
 <junction x="114.3" y="72.39"/>
+<wire x1="341.63" y1="106.68" x2="403.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="106.68" x2="403.86" y2="228.6" width="0.1524" layer="91"/>
+<junction x="341.63" y="106.68"/>
+<pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="2"/>
+<wire x1="403.86" y1="228.6" x2="316.23" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC_A0" class="0">
@@ -5822,7 +5825,7 @@ if we want it later</text>
 <wire x1="177.8" y1="158.75" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="PORT_FUSE" gate="G$1" pin="P$2"/>
 <wire x1="177.8" y1="154.94" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="161.29" y1="154.94" x2="171.45" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="154.94" x2="171.45" y2="154.94" width="0.1524" layer="91"/>
 <junction x="177.8" y="154.94"/>
 <pinref part="PORT_STATUS" gate="G$1" pin="A"/>
 <wire x1="171.45" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>

@@ -5403,14 +5403,6 @@ if we want it later</text>
 <wire x1="152.4" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="157.48" y="55.88"/>
 <pinref part="PORT_CS" gate="G$1" pin="GND"/>
-<pinref part="STBD_CS" gate="G$1" pin="GND"/>
-<wire x1="129.54" y1="172.72" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="STBD_CS" gate="G$1" pin="BW_SEL"/>
-<wire x1="124.46" y1="175.26" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
-<junction x="129.54" y="172.72"/>
-<wire x1="137.16" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="121.92" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="48.26" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
@@ -5451,6 +5443,16 @@ if we want it later</text>
 <wire x1="287.02" y1="115.57" x2="326.39" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="326.39" y1="115.57" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
 <junction x="287.02" y="115.57"/>
+<wire x1="137.16" y1="121.92" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="STBD_CS" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="172.72" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<junction x="129.54" y="172.72"/>
+<pinref part="STBD_CS" gate="G$1" pin="BW_SEL"/>
+<wire x1="132.08" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="175.26" x2="124.46" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="172.72" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="149.86" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PORT_UNBALANCED" class="0">
