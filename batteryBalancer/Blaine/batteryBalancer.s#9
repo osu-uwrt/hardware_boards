@@ -5252,43 +5252,6 @@ if we want it later</text>
 <wire x1="226.06" y1="226.06" x2="226.06" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="287.02" y1="205.74" x2="287.02" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="205.74" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="5"/>
-<wire x1="287.02" y1="193.04" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="193.04" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="193.04" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
-<junction x="279.4" y="193.04"/>
-<wire x1="279.4" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="185.42" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="4"/>
-<wire x1="259.08" y1="193.04" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="195.58" x2="261.62" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="BATTERY_BALANCED" gate="G$1" pin="6"/>
-<wire x1="261.62" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
-<junction x="259.08" y="193.04"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="393.7" y1="175.26" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="177.8" x2="393.7" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="165.1" x2="365.76" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="4"/>
-<wire x1="365.76" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="6"/>
-<wire x1="365.76" y1="165.1" x2="370.84" y2="165.1" width="0.1524" layer="91"/>
-<junction x="365.76" y="165.1"/>
-<wire x1="365.76" y1="165.1" x2="365.76" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="5"/>
-<wire x1="388.62" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="157.48" x2="388.62" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="157.48" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="160.02" x2="388.62" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="160.02" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
-<junction x="388.62" y="160.02"/>
-</segment>
-<segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="BALANCED_STATUS" gate="G$1" pin="C"/>
 <wire x1="238.76" y1="132.08" x2="238.76" y2="127" width="0.1524" layer="91"/>
@@ -5310,6 +5273,41 @@ if we want it later</text>
 <wire x1="388.62" y1="134.62" x2="386.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
 <junction x="388.62" y="129.54"/>
+</segment>
+<segment>
+<pinref part="BATTERY_BALANCED" gate="G$1" pin="5"/>
+<wire x1="287.02" y1="193.04" x2="279.4" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="193.04" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="193.04" x2="279.4" y2="185.42" width="0.1524" layer="91"/>
+<junction x="279.4" y="193.04"/>
+<wire x1="279.4" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="185.42" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="BATTERY_BALANCED" gate="G$1" pin="4"/>
+<wire x1="259.08" y1="193.04" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="195.58" x2="261.62" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="BATTERY_BALANCED" gate="G$1" pin="6"/>
+<wire x1="261.62" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
+<junction x="259.08" y="193.04"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="287.02" y1="193.04" x2="287.02" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="365.76" y1="165.1" x2="365.76" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="4"/>
+<wire x1="365.76" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="6"/>
+<wire x1="365.76" y1="165.1" x2="370.84" y2="165.1" width="0.1524" layer="91"/>
+<junction x="365.76" y="165.1"/>
+<wire x1="365.76" y1="165.1" x2="365.76" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="5"/>
+<wire x1="388.62" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="157.48" x2="388.62" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="157.48" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="160.02" x2="388.62" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="160.02" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
+<junction x="388.62" y="160.02"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="393.7" y1="160.02" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5471,22 +5469,23 @@ if we want it later</text>
 <wire x1="182.88" y1="111.76" x2="341.63" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="STBD_CS" gate="G$1" pin="VCC"/>
 <wire x1="114.3" y1="170.18" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="PORT_CS" gate="G$1" pin="VCC"/>
-<wire x1="114.3" y1="111.76" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <junction x="114.3" y="66.04"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="PORT_CS" gate="G$1" pin="VCC"/>
+<wire x1="114.3" y1="111.76" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="111.76" x2="114.3" y2="72.39" width="0.1524" layer="91"/>
 <junction x="114.3" y="111.76"/>
 <wire x1="114.3" y1="72.39" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="111.76" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="72.39" x2="114.3" y2="72.39" width="0.1524" layer="91"/>
 <junction x="152.4" y="72.39"/>
+<junction x="114.3" y="72.39"/>
 </segment>
 </net>
 <net name="N$11" class="0">

@@ -5153,7 +5153,7 @@ Source: 8x ADG1408_1409.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:23584/1" value="700"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:23584/1" value="700"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="22uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="MELF0204W" package3d_urn="urn:adsk.eagle:package:23584/1" value="700"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5233,9 +5233,9 @@ if we want it later</text>
 <instance part="BALANCED_STATUS" gate="G$1" x="238.76" y="137.16"/>
 <instance part="EDGE_CONNECTOR" gate="G$1" x="275.59" y="67.31" rot="R180"/>
 <instance part="OFF" gate="1" x="147.32" y="182.88"/>
-<instance part="KILL_SWITCH_CONNECTOR" gate="G$1" x="265.43" y="152.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="279.4" y="155.575" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="269.24" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<instance part="KILL_SWITCH_CONNECTOR" gate="G$1" x="308.61" y="228.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="294.64" y="225.425" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="304.8" y="233.68" size="1.778" layer="95" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -5447,15 +5447,15 @@ if we want it later</text>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="GND_2"/>
 <wire x1="326.39" y1="90.17" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
 <junction x="326.39" y="100.33"/>
-<wire x1="179.07" y1="115.57" x2="254" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="254" y1="115.57" x2="287.02" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="115.57" x2="287.02" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="115.57" x2="326.39" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="326.39" y1="115.57" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
 <junction x="287.02" y="115.57"/>
+<wire x1="287.02" y1="165.1" x2="287.02" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="257.81" y1="152.4" x2="254" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="254" y1="152.4" x2="254" y2="115.57" width="0.1524" layer="91"/>
-<junction x="254" y="115.57"/>
+<wire x1="287.02" y1="177.8" x2="316.23" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="316.23" y1="177.8" x2="316.23" y2="228.6" width="0.1524" layer="91"/>
+<junction x="287.02" y="165.1"/>
 </segment>
 </net>
 <net name="PORT_UNBALANCED" class="0">
@@ -5765,9 +5765,8 @@ if we want it later</text>
 <pinref part="RELAY2" gate="G$1" pin="CONTROL+"/>
 <wire x1="289.56" y1="157.48" x2="281.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="281.94" y="157.48"/>
-<wire x1="281.94" y1="157.48" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="RELAY3" gate="G$1" pin="CONTROL+"/>
-<wire x1="281.94" y1="152.4" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="157.48" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
 <junction x="281.94" y="144.78"/>
 <wire x1="281.94" y1="144.78" x2="281.94" y2="132.08" width="0.1524" layer="91"/>
@@ -5777,9 +5776,11 @@ if we want it later</text>
 <wire x1="281.94" y1="132.08" x2="281.94" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="121.92" x2="267.97" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="267.97" y1="121.92" x2="267.97" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="181.61" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
+<junction x="281.94" y="170.18"/>
 <pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="273.05" y1="152.4" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
-<junction x="281.94" y="152.4"/>
+<wire x1="281.94" y1="181.61" x2="300.99" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="181.61" x2="300.99" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PORT_INDICATOR" class="0">

@@ -4883,21 +4883,21 @@ Source: 8x ADG1408_1409.pdf</description>
 <smd name="GND1" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="GND2" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="GND3" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA29" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA30" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA31" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA32" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA33" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA34" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA35" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA36" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA41" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA40" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA23" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA24" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA25" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA26" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA27" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA28" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA29" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA30" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA31" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA32" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SDA_SENSOR" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SCL_SENSOR" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA39" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA38" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA37" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA33" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA34" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA35" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="KILL_SWITCH" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="CAN_H" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="CAN_L" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
@@ -4905,38 +4905,36 @@ Source: 8x ADG1408_1409.pdf</description>
 <smd name="SCL_DEPTH" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SDA_ESC" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SCL_ESC" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA1" x="0.8255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA2" x="3.3655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA3" x="5.9055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA4" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA5" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA6" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA7" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA8" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA9" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA10" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA11" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA12" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA13" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA14" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA17" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA18" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA19" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA20" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA21" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA22" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA23" x="56.7055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA24" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA25" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA26" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA27" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA28" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA16" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA15" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<dimension x1="0" y1="0" x2="70.231" y2="0" x3="35.1155" y3="-5.1308" textsize="1.27" layer="20" width="0" unit="inch" precision="4"/>
+<smd name="3.3V_4" x="0.8255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="3.3V_5" x="3.3655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="3.3V_6" x="5.9055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_4" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_5" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_6" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA1" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA2" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA3" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA4" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA5" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA6" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA7" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA8" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA11" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA12" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA13" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA14" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA15" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA16" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA17" x="56.7055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA18" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA19" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA20" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA21" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA22" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA10" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA9" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
 <wire x1="-1.7145" y1="0" x2="71.9455" y2="0" width="0.127" layer="20"/>
 <wire x1="-1.7145" y1="0" x2="-1.7145" y2="7.62" width="0.127" layer="20"/>
-<dimension x1="-1.7145" y1="0" x2="0" y2="0" x3="-0.85725" y3="8.255" textsize="1.27" layer="20" width="0.1" unit="inch" precision="4"/>
 <wire x1="72.01535" y1="0" x2="72.01535" y2="7.62" width="0.127" layer="20"/>
 </package>
 </packages>
@@ -4954,54 +4952,54 @@ Source: 8x ADG1408_1409.pdf</description>
 <pin name="SCL_ESC" x="-12.7" y="-22.86" length="middle" rot="R90"/>
 <pin name="CAN_H" x="-5.08" y="-22.86" length="middle" rot="R90"/>
 <pin name="CAN_L" x="0" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA3" x="-55.88" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA4" x="-50.8" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA5" x="-45.72" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA6" x="-40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_6" x="-60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_4" x="-55.88" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_5" x="-50.8" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_6" x="-45.72" y="20.32" length="middle" rot="R270"/>
 <pin name="GND_1" x="-55.88" y="-22.86" length="middle" rot="R90"/>
 <pin name="GND_2" x="-50.8" y="-22.86" length="middle" rot="R90"/>
 <pin name="GND_3" x="-45.72" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA7" x="-35.56" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA8" x="-30.48" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA9" x="-25.4" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA10" x="-20.32" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA11" x="-15.24" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA12" x="-10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA1" x="-66.04" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA2" x="-60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA1" x="-35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA2" x="-30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA3" x="-25.4" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA4" x="-20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA5" x="-15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA6" x="-10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_4" x="-71.12" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_5" x="-66.04" y="20.32" length="middle" rot="R270"/>
 <wire x1="-76.2" y1="-17.78" x2="-76.2" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="15.24" x2="81.28" y2="15.24" width="0.254" layer="94"/>
 <wire x1="81.28" y1="15.24" x2="81.28" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="81.28" y1="-17.78" x2="-76.2" y2="-17.78" width="0.254" layer="94"/>
-<pin name="EXTRA13" x="-5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA14" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA16" x="10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA15" x="5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA17" x="15.24" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA18" x="20.32" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA19" x="25.4" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA20" x="30.48" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA21" x="35.56" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA22" x="40.64" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA23" x="45.72" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA24" x="50.8" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA25" x="55.88" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA29" x="15.24" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA30" x="20.32" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA31" x="25.4" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA32" x="30.48" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA33" x="35.56" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA34" x="40.64" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA35" x="45.72" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA26" x="60.96" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA27" x="66.04" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA28" x="71.12" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA40" x="71.12" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA36" x="50.8" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA37" x="55.88" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA38" x="60.96" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA39" x="66.04" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA41" x="76.2" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA7" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA8" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA10" x="10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA9" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA11" x="15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA12" x="20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA13" x="25.4" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA14" x="30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA15" x="35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA16" x="40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA17" x="45.72" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA18" x="50.8" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA19" x="55.88" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA23" x="15.24" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA24" x="20.32" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA25" x="25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA26" x="30.48" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA27" x="35.56" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA28" x="40.64" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA29" x="45.72" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA20" x="60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA21" x="66.04" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA22" x="71.12" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA34" x="71.12" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA30" x="50.8" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA31" x="55.88" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA32" x="60.96" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA33" x="66.04" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA35" x="76.2" y="-22.86" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5015,52 +5013,52 @@ Source: 8x ADG1408_1409.pdf</description>
 <connect gate="G$1" pin="3.3V_1" pad="3.3VP1"/>
 <connect gate="G$1" pin="3.3V_2" pad="3.3VP2"/>
 <connect gate="G$1" pin="3.3V_3" pad="3.3VP3"/>
+<connect gate="G$1" pin="3.3V_4" pad="3.3V_4"/>
+<connect gate="G$1" pin="3.3V_5" pad="3.3V_5"/>
+<connect gate="G$1" pin="3.3V_6" pad="3.3V_6"/>
 <connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
 <connect gate="G$1" pin="CAN_L" pad="CAN_L"/>
-<connect gate="G$1" pin="EXTRA1" pad="EXTRA28"/>
-<connect gate="G$1" pin="EXTRA10" pad="EXTRA19"/>
-<connect gate="G$1" pin="EXTRA11" pad="EXTRA18"/>
-<connect gate="G$1" pin="EXTRA12" pad="EXTRA17"/>
-<connect gate="G$1" pin="EXTRA13" pad="EXTRA16"/>
-<connect gate="G$1" pin="EXTRA14" pad="EXTRA15"/>
-<connect gate="G$1" pin="EXTRA15" pad="EXTRA1"/>
-<connect gate="G$1" pin="EXTRA16" pad="EXTRA2"/>
-<connect gate="G$1" pin="EXTRA17" pad="EXTRA3"/>
-<connect gate="G$1" pin="EXTRA18" pad="EXTRA4"/>
-<connect gate="G$1" pin="EXTRA19" pad="EXTRA5"/>
-<connect gate="G$1" pin="EXTRA2" pad="EXTRA27"/>
-<connect gate="G$1" pin="EXTRA20" pad="EXTRA6"/>
-<connect gate="G$1" pin="EXTRA21" pad="EXTRA7"/>
-<connect gate="G$1" pin="EXTRA22" pad="EXTRA8"/>
-<connect gate="G$1" pin="EXTRA23" pad="EXTRA9"/>
-<connect gate="G$1" pin="EXTRA24" pad="EXTRA10"/>
-<connect gate="G$1" pin="EXTRA25" pad="EXTRA11"/>
-<connect gate="G$1" pin="EXTRA26" pad="EXTRA12"/>
-<connect gate="G$1" pin="EXTRA27" pad="EXTRA13"/>
-<connect gate="G$1" pin="EXTRA28" pad="EXTRA14"/>
+<connect gate="G$1" pin="EXTRA1" pad="EXTRA1"/>
+<connect gate="G$1" pin="EXTRA10" pad="EXTRA10"/>
+<connect gate="G$1" pin="EXTRA11" pad="EXTRA11"/>
+<connect gate="G$1" pin="EXTRA12" pad="EXTRA12"/>
+<connect gate="G$1" pin="EXTRA13" pad="EXTRA13"/>
+<connect gate="G$1" pin="EXTRA14" pad="EXTRA14"/>
+<connect gate="G$1" pin="EXTRA15" pad="EXTRA15"/>
+<connect gate="G$1" pin="EXTRA16" pad="EXTRA16"/>
+<connect gate="G$1" pin="EXTRA17" pad="EXTRA17"/>
+<connect gate="G$1" pin="EXTRA18" pad="EXTRA18"/>
+<connect gate="G$1" pin="EXTRA19" pad="EXTRA19"/>
+<connect gate="G$1" pin="EXTRA2" pad="EXTRA2"/>
+<connect gate="G$1" pin="EXTRA20" pad="EXTRA20"/>
+<connect gate="G$1" pin="EXTRA21" pad="EXTRA21"/>
+<connect gate="G$1" pin="EXTRA22" pad="EXTRA22"/>
+<connect gate="G$1" pin="EXTRA23" pad="EXTRA23"/>
+<connect gate="G$1" pin="EXTRA24" pad="EXTRA24"/>
+<connect gate="G$1" pin="EXTRA25" pad="EXTRA25"/>
+<connect gate="G$1" pin="EXTRA26" pad="EXTRA26"/>
+<connect gate="G$1" pin="EXTRA27" pad="EXTRA27"/>
+<connect gate="G$1" pin="EXTRA28" pad="EXTRA28"/>
 <connect gate="G$1" pin="EXTRA29" pad="EXTRA29"/>
-<connect gate="G$1" pin="EXTRA3" pad="EXTRA26"/>
+<connect gate="G$1" pin="EXTRA3" pad="EXTRA3"/>
 <connect gate="G$1" pin="EXTRA30" pad="EXTRA30"/>
 <connect gate="G$1" pin="EXTRA31" pad="EXTRA31"/>
 <connect gate="G$1" pin="EXTRA32" pad="EXTRA32"/>
 <connect gate="G$1" pin="EXTRA33" pad="EXTRA33"/>
 <connect gate="G$1" pin="EXTRA34" pad="EXTRA34"/>
 <connect gate="G$1" pin="EXTRA35" pad="EXTRA35"/>
-<connect gate="G$1" pin="EXTRA36" pad="EXTRA36"/>
-<connect gate="G$1" pin="EXTRA37" pad="EXTRA37"/>
-<connect gate="G$1" pin="EXTRA38" pad="EXTRA38"/>
-<connect gate="G$1" pin="EXTRA39" pad="EXTRA39"/>
-<connect gate="G$1" pin="EXTRA4" pad="EXTRA25"/>
-<connect gate="G$1" pin="EXTRA40" pad="EXTRA40"/>
-<connect gate="G$1" pin="EXTRA41" pad="EXTRA41"/>
-<connect gate="G$1" pin="EXTRA5" pad="EXTRA24"/>
-<connect gate="G$1" pin="EXTRA6" pad="EXTRA23"/>
-<connect gate="G$1" pin="EXTRA7" pad="EXTRA22"/>
-<connect gate="G$1" pin="EXTRA8" pad="EXTRA21"/>
-<connect gate="G$1" pin="EXTRA9" pad="EXTRA20"/>
+<connect gate="G$1" pin="EXTRA4" pad="EXTRA4"/>
+<connect gate="G$1" pin="EXTRA5" pad="EXTRA5"/>
+<connect gate="G$1" pin="EXTRA6" pad="EXTRA6"/>
+<connect gate="G$1" pin="EXTRA7" pad="EXTRA7"/>
+<connect gate="G$1" pin="EXTRA8" pad="EXTRA8"/>
+<connect gate="G$1" pin="EXTRA9" pad="EXTRA9"/>
 <connect gate="G$1" pin="GND_1" pad="GND1"/>
 <connect gate="G$1" pin="GND_2" pad="GND2"/>
 <connect gate="G$1" pin="GND_3" pad="GND3"/>
+<connect gate="G$1" pin="GND_4" pad="GND_4"/>
+<connect gate="G$1" pin="GND_5" pad="GND_5"/>
+<connect gate="G$1" pin="GND_6" pad="GND_6"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="KILL_SWITCH"/>
 <connect gate="G$1" pin="SCL_DEPTH" pad="SCL_DEPTH"/>
 <connect gate="G$1" pin="SCL_ESC" pad="SCL_ESC"/>
@@ -5437,8 +5435,9 @@ if we want it later</text>
 <wire x1="179.07" y1="115.57" x2="255.27" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="115.57" x2="287.02" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="115.57" x2="326.39" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="326.39" y1="115.57" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
+<wire x1="326.39" y1="115.57" x2="326.39" y2="114.3" width="0.1524" layer="91"/>
 <junction x="287.02" y="115.57"/>
+<wire x1="326.39" y1="114.3" x2="326.39" y2="100.33" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="121.92" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="STBD_CS" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="172.72" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
@@ -5452,6 +5451,22 @@ if we want it later</text>
 <pinref part="KILL_STATUS" gate="G$1" pin="C"/>
 <wire x1="255.27" y1="120.65" x2="255.27" y2="115.57" width="0.1524" layer="91"/>
 <junction x="255.27" y="115.57"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="GND_6"/>
+<wire x1="321.31" y1="46.99" x2="321.31" y2="41.91" width="0.1524" layer="91"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="GND_4"/>
+<wire x1="321.31" y1="41.91" x2="326.39" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="326.39" y1="41.91" x2="328.93" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="328.93" y1="41.91" x2="331.47" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="331.47" y1="41.91" x2="331.47" y2="46.99" width="0.1524" layer="91"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="GND_5"/>
+<wire x1="326.39" y1="46.99" x2="326.39" y2="41.91" width="0.1524" layer="91"/>
+<junction x="326.39" y="41.91"/>
+<wire x1="328.93" y1="41.91" x2="328.93" y2="39.37" width="0.1524" layer="91"/>
+<junction x="328.93" y="41.91"/>
+<wire x1="328.93" y1="39.37" x2="358.14" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="39.37" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="114.3" x2="326.39" y2="114.3" width="0.1524" layer="91"/>
+<junction x="326.39" y="114.3"/>
 </segment>
 </net>
 <net name="PORT_UNBALANCED" class="0">
@@ -5502,8 +5517,9 @@ if we want it later</text>
 <wire x1="152.4" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="63.5" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_1"/>
-<wire x1="346.71" y1="100.33" x2="346.71" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="346.71" y1="100.33" x2="346.71" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_2"/>
+<wire x1="346.71" y1="97.79" x2="346.71" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="100.33" x2="341.63" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="106.68" x2="341.63" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="100.33" x2="341.63" y2="90.17" width="0.1524" layer="91"/>
@@ -5537,6 +5553,20 @@ if we want it later</text>
 <junction x="341.63" y="106.68"/>
 <pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="228.6" x2="316.23" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_6"/>
+<wire x1="336.55" y1="46.99" x2="336.55" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_4"/>
+<wire x1="336.55" y1="43.18" x2="341.63" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="341.63" y1="43.18" x2="346.71" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="346.71" y1="43.18" x2="346.71" y2="46.99" width="0.1524" layer="91"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_5"/>
+<wire x1="341.63" y1="46.99" x2="341.63" y2="43.18" width="0.1524" layer="91"/>
+<junction x="341.63" y="43.18"/>
+<wire x1="346.71" y1="43.18" x2="354.33" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="354.33" y1="43.18" x2="354.33" y2="97.79" width="0.1524" layer="91"/>
+<junction x="346.71" y="43.18"/>
+<wire x1="354.33" y1="97.79" x2="346.71" y2="97.79" width="0.1524" layer="91"/>
+<junction x="346.71" y="97.79"/>
 </segment>
 </net>
 <net name="ADC_A0" class="0">

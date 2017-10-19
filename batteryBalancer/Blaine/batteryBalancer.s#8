@@ -5310,21 +5310,21 @@ if we want it later</text>
 <wire x1="393.7" y1="160.02" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="STBD_GATE" class="0">
 <segment>
 <pinref part="STBD_FC" gate="G$1" pin="GATE"/>
 <pinref part="STBD_FET" gate="G$1" pin="GATE"/>
 <wire x1="187.96" y1="213.36" x2="187.96" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="PORT_GATE" class="0">
 <segment>
 <pinref part="PORT_FC" gate="G$1" pin="GATE"/>
 <pinref part="PORT_FET" gate="G$1" pin="GATE"/>
 <wire x1="187.96" y1="149.86" x2="187.96" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="STBD_INDICATOR" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="223.52" x2="73.66" y2="223.52" width="0.1524" layer="91"/>
@@ -5332,7 +5332,7 @@ if we want it later</text>
 <wire x1="73.66" y1="223.52" x2="73.66" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="BALANCED_INDICATOR" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
@@ -5404,7 +5404,7 @@ if we want it later</text>
 <junction x="287.02" y="115.57"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="PORT_UNBALANCED" class="0">
 <segment>
 <pinref part="PORT_FC" gate="G$1" pin="IN"/>
 <pinref part="PORT_FET" gate="G$1" pin="SOURCE"/>
@@ -5420,7 +5420,7 @@ if we want it later</text>
 <junction x="129.54" y="154.94"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="STBD_UNBALANCED" class="0">
 <segment>
 <wire x1="124.46" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
@@ -5438,7 +5438,7 @@ if we want it later</text>
 <wire x1="124.46" y1="203.2" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="ADC" gate="G$1" pin="SCL"/>
 <wire x1="162.56" y1="52.07" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
@@ -5488,7 +5488,7 @@ if we want it later</text>
 <junction x="114.3" y="72.39"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="ADC_A0" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="ADC" gate="G$1" pin="A0"/>
@@ -5499,7 +5499,7 @@ if we want it later</text>
 <junction x="142.24" y="66.04"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="ADC_A1" class="0">
 <segment>
 <pinref part="ADC" gate="G$1" pin="A1"/>
 <wire x1="137.16" y1="58.42" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
@@ -5511,7 +5511,7 @@ if we want it later</text>
 <wire x1="137.16" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="STBD_FUSED" class="0">
 <segment>
 <pinref part="STBD_CS" gate="G$1" pin="IP+1"/>
 <pinref part="STBD_CS" gate="G$1" pin="IP+2"/>
@@ -5527,7 +5527,7 @@ if we want it later</text>
 <junction x="73.66" y="205.74"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="PORT_CURRENT" class="0">
 <segment>
 <pinref part="PORT_CS" gate="G$1" pin="VIOUT"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
@@ -5536,7 +5536,7 @@ if we want it later</text>
 <wire x1="172.72" y1="114.3" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="STBD_CURRENT" class="0">
 <segment>
 <pinref part="STBD_CS" gate="G$1" pin="VIOUT"/>
 <wire x1="119.38" y1="175.26" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
@@ -5547,7 +5547,7 @@ if we want it later</text>
 <wire x1="167.64" y1="111.76" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="STBD_POWER" class="0">
 <segment>
 <pinref part="BATTERY_STBD" gate="G$1" pin="3"/>
 <wire x1="20.32" y1="210.82" x2="17.78" y2="210.82" width="0.1524" layer="91"/>
@@ -5566,7 +5566,7 @@ if we want it later</text>
 <wire x1="43.18" y1="205.74" x2="44.45" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="PORT_POWER" class="0">
 <segment>
 <pinref part="PORT_FUSE" gate="G$1" pin="P$1"/>
 <wire x1="40.64" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
@@ -5585,7 +5585,7 @@ if we want it later</text>
 <junction x="17.78" y="160.02"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="BALANCED_POWER" class="0">
 <segment>
 <pinref part="BATTERY_BALANCED" gate="G$1" pin="3"/>
 <wire x1="276.86" y1="195.58" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
@@ -5656,7 +5656,7 @@ if we want it later</text>
 <junction x="247.65" y="198.12"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="MOTOR_POWER1" class="0">
 <segment>
 <pinref part="RELAY2" gate="G$1" pin="LOAD-"/>
 <wire x1="332.74" y1="152.4" x2="358.14" y2="152.4" width="0.1524" layer="91"/>
@@ -5679,7 +5679,7 @@ if we want it later</text>
 <junction x="358.14" y="165.1"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="MOTOR_POWER2" class="0">
 <segment>
 <pinref part="RELAY3" gate="G$1" pin="LOAD-"/>
 <wire x1="332.74" y1="139.7" x2="360.68" y2="139.7" width="0.1524" layer="91"/>
@@ -5701,7 +5701,7 @@ if we want it later</text>
 <junction x="360.68" y="139.7"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="PORT_FUSED" class="0">
 <segment>
 <pinref part="PORT_FUSE" gate="G$1" pin="P$2"/>
 <pinref part="PORT_STATUS" gate="G$1" pin="A"/>
@@ -5717,7 +5717,7 @@ if we want it later</text>
 <junction x="114.3" y="154.94"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="SDA_SENSOR"/>
 <wire x1="303.53" y1="106.68" x2="303.53" y2="90.17" width="0.1524" layer="91"/>
@@ -5728,7 +5728,7 @@ if we want it later</text>
 <wire x1="186.69" y1="57.15" x2="167.64" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="KILL_SWITCH" class="0">
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="KILL_SWITCH"/>
 <pinref part="RLAY1" gate="G$1" pin="CONTROL+"/>
@@ -5750,7 +5750,7 @@ if we want it later</text>
 <wire x1="267.97" y1="121.92" x2="267.97" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="PORT_INDICATOR" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="PORT_STATUS" gate="G$1" pin="C"/>
@@ -5758,7 +5758,7 @@ if we want it later</text>
 <wire x1="76.2" y1="170.18" x2="76.2" y2="166.37" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="OFF" class="0">
 <segment>
 <pinref part="PORT_FC" gate="G$1" pin="OFF"/>
 <wire x1="170.18" y1="134.62" x2="166.37" y2="134.62" width="0.1524" layer="91"/>
