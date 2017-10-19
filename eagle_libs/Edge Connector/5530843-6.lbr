@@ -9,56 +9,56 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -78,21 +78,21 @@
 <smd name="GND1" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="GND2" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="GND3" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA29" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA30" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA31" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA32" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA33" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA34" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA35" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA36" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA41" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA40" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA23" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA24" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA25" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA26" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA27" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA28" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA29" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA30" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA31" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA32" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SDA_SENSOR" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SCL_SENSOR" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA39" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA38" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA37" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA33" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA34" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
+<smd name="EXTRA35" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="KILL_SWITCH" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="CAN_H" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="CAN_L" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
@@ -100,38 +100,36 @@
 <smd name="SCL_DEPTH" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SDA_ESC" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="1"/>
 <smd name="SCL_ESC" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="1"/>
-<smd name="EXTRA1" x="0.8255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA2" x="3.3655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA3" x="5.9055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA4" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA5" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA6" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA7" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA8" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA9" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA10" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA11" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA12" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA13" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA14" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA17" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA18" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA19" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA20" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA21" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA22" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA23" x="56.7055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA24" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA25" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA26" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA27" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA28" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA16" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<smd name="EXTRA15" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
-<dimension x1="0" y1="0" x2="70.231" y2="0" x3="35.1155" y3="-5.1308" textsize="1.27" layer="20" width="0" unit="inch" precision="4"/>
+<smd name="3.3V_4" x="0.8255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="3.3V_5" x="3.3655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="3.3V_6" x="5.9055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_4" x="8.4455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_5" x="10.9855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="GND_6" x="13.5255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA1" x="16.0655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA2" x="18.6055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA3" x="21.1455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA4" x="23.6855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA5" x="26.2255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA6" x="28.7655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA7" x="31.3055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA8" x="33.8455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA11" x="41.4655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA12" x="44.0055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA13" x="46.5455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA14" x="49.0855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA15" x="51.6255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA16" x="54.1655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA17" x="56.7055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA18" x="59.2455" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA19" x="61.7855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA20" x="64.3255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA21" x="66.8655" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA22" x="69.4055" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA10" x="38.9255" y="3.175" dx="1.651" dy="6.35" layer="16"/>
+<smd name="EXTRA9" x="36.3855" y="3.175" dx="1.651" dy="6.35" layer="16"/>
 <wire x1="-1.7145" y1="0" x2="71.9455" y2="0" width="0.127" layer="20"/>
 <wire x1="-1.7145" y1="0" x2="-1.7145" y2="7.62" width="0.127" layer="20"/>
-<dimension x1="-1.7145" y1="0" x2="0" y2="0" x3="-0.85725" y3="8.255" textsize="1.27" layer="20" width="0.1" unit="inch" precision="4"/>
 <wire x1="72.01535" y1="0" x2="72.01535" y2="7.62" width="0.127" layer="20"/>
 </package>
 </packages>
@@ -149,54 +147,54 @@
 <pin name="SCL_ESC" x="-12.7" y="-22.86" length="middle" rot="R90"/>
 <pin name="CAN_H" x="-5.08" y="-22.86" length="middle" rot="R90"/>
 <pin name="CAN_L" x="0" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA3" x="-55.88" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA4" x="-50.8" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA5" x="-45.72" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA6" x="-40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_6" x="-60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_4" x="-55.88" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_5" x="-50.8" y="20.32" length="middle" rot="R270"/>
+<pin name="GND_6" x="-45.72" y="20.32" length="middle" rot="R270"/>
 <pin name="GND_1" x="-55.88" y="-22.86" length="middle" rot="R90"/>
 <pin name="GND_2" x="-50.8" y="-22.86" length="middle" rot="R90"/>
 <pin name="GND_3" x="-45.72" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA7" x="-35.56" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA8" x="-30.48" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA9" x="-25.4" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA10" x="-20.32" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA11" x="-15.24" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA12" x="-10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA1" x="-66.04" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA2" x="-60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA1" x="-35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA2" x="-30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA3" x="-25.4" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA4" x="-20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA5" x="-15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA6" x="-10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_4" x="-71.12" y="20.32" length="middle" rot="R270"/>
+<pin name="3.3V_5" x="-66.04" y="20.32" length="middle" rot="R270"/>
 <wire x1="-76.2" y1="-17.78" x2="-76.2" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-76.2" y1="15.24" x2="81.28" y2="15.24" width="0.254" layer="94"/>
 <wire x1="81.28" y1="15.24" x2="81.28" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="81.28" y1="-17.78" x2="-76.2" y2="-17.78" width="0.254" layer="94"/>
-<pin name="EXTRA13" x="-5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA14" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA16" x="10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA15" x="5.08" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA17" x="15.24" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA18" x="20.32" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA19" x="25.4" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA20" x="30.48" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA21" x="35.56" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA22" x="40.64" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA23" x="45.72" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA24" x="50.8" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA25" x="55.88" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA29" x="15.24" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA30" x="20.32" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA31" x="25.4" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA32" x="30.48" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA33" x="35.56" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA34" x="40.64" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA35" x="45.72" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA26" x="60.96" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA27" x="66.04" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA28" x="71.12" y="20.32" length="middle" rot="R270"/>
-<pin name="EXTRA40" x="71.12" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA36" x="50.8" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA37" x="55.88" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA38" x="60.96" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA39" x="66.04" y="-22.86" length="middle" rot="R90"/>
-<pin name="EXTRA41" x="76.2" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA7" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA8" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA10" x="10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA9" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA11" x="15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA12" x="20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA13" x="25.4" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA14" x="30.48" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA15" x="35.56" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA16" x="40.64" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA17" x="45.72" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA18" x="50.8" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA19" x="55.88" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA23" x="15.24" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA24" x="20.32" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA25" x="25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA26" x="30.48" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA27" x="35.56" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA28" x="40.64" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA29" x="45.72" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA20" x="60.96" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA21" x="66.04" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA22" x="71.12" y="20.32" length="middle" rot="R270"/>
+<pin name="EXTRA34" x="71.12" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA30" x="50.8" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA31" x="55.88" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA32" x="60.96" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA33" x="66.04" y="-22.86" length="middle" rot="R90"/>
+<pin name="EXTRA35" x="76.2" y="-22.86" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -210,52 +208,52 @@
 <connect gate="G$1" pin="3.3V_1" pad="3.3VP1"/>
 <connect gate="G$1" pin="3.3V_2" pad="3.3VP2"/>
 <connect gate="G$1" pin="3.3V_3" pad="3.3VP3"/>
+<connect gate="G$1" pin="3.3V_4" pad="3.3V_4"/>
+<connect gate="G$1" pin="3.3V_5" pad="3.3V_5"/>
+<connect gate="G$1" pin="3.3V_6" pad="3.3V_6"/>
 <connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
 <connect gate="G$1" pin="CAN_L" pad="CAN_L"/>
-<connect gate="G$1" pin="EXTRA1" pad="EXTRA28"/>
-<connect gate="G$1" pin="EXTRA10" pad="EXTRA19"/>
-<connect gate="G$1" pin="EXTRA11" pad="EXTRA18"/>
-<connect gate="G$1" pin="EXTRA12" pad="EXTRA17"/>
-<connect gate="G$1" pin="EXTRA13" pad="EXTRA16"/>
-<connect gate="G$1" pin="EXTRA14" pad="EXTRA15"/>
-<connect gate="G$1" pin="EXTRA15" pad="EXTRA1"/>
-<connect gate="G$1" pin="EXTRA16" pad="EXTRA2"/>
-<connect gate="G$1" pin="EXTRA17" pad="EXTRA3"/>
-<connect gate="G$1" pin="EXTRA18" pad="EXTRA4"/>
-<connect gate="G$1" pin="EXTRA19" pad="EXTRA5"/>
-<connect gate="G$1" pin="EXTRA2" pad="EXTRA27"/>
-<connect gate="G$1" pin="EXTRA20" pad="EXTRA6"/>
-<connect gate="G$1" pin="EXTRA21" pad="EXTRA7"/>
-<connect gate="G$1" pin="EXTRA22" pad="EXTRA8"/>
-<connect gate="G$1" pin="EXTRA23" pad="EXTRA9"/>
-<connect gate="G$1" pin="EXTRA24" pad="EXTRA10"/>
-<connect gate="G$1" pin="EXTRA25" pad="EXTRA11"/>
-<connect gate="G$1" pin="EXTRA26" pad="EXTRA12"/>
-<connect gate="G$1" pin="EXTRA27" pad="EXTRA13"/>
-<connect gate="G$1" pin="EXTRA28" pad="EXTRA14"/>
+<connect gate="G$1" pin="EXTRA1" pad="EXTRA1"/>
+<connect gate="G$1" pin="EXTRA10" pad="EXTRA10"/>
+<connect gate="G$1" pin="EXTRA11" pad="EXTRA11"/>
+<connect gate="G$1" pin="EXTRA12" pad="EXTRA12"/>
+<connect gate="G$1" pin="EXTRA13" pad="EXTRA13"/>
+<connect gate="G$1" pin="EXTRA14" pad="EXTRA14"/>
+<connect gate="G$1" pin="EXTRA15" pad="EXTRA15"/>
+<connect gate="G$1" pin="EXTRA16" pad="EXTRA16"/>
+<connect gate="G$1" pin="EXTRA17" pad="EXTRA17"/>
+<connect gate="G$1" pin="EXTRA18" pad="EXTRA18"/>
+<connect gate="G$1" pin="EXTRA19" pad="EXTRA19"/>
+<connect gate="G$1" pin="EXTRA2" pad="EXTRA2"/>
+<connect gate="G$1" pin="EXTRA20" pad="EXTRA20"/>
+<connect gate="G$1" pin="EXTRA21" pad="EXTRA21"/>
+<connect gate="G$1" pin="EXTRA22" pad="EXTRA22"/>
+<connect gate="G$1" pin="EXTRA23" pad="EXTRA23"/>
+<connect gate="G$1" pin="EXTRA24" pad="EXTRA24"/>
+<connect gate="G$1" pin="EXTRA25" pad="EXTRA25"/>
+<connect gate="G$1" pin="EXTRA26" pad="EXTRA26"/>
+<connect gate="G$1" pin="EXTRA27" pad="EXTRA27"/>
+<connect gate="G$1" pin="EXTRA28" pad="EXTRA28"/>
 <connect gate="G$1" pin="EXTRA29" pad="EXTRA29"/>
-<connect gate="G$1" pin="EXTRA3" pad="EXTRA26"/>
+<connect gate="G$1" pin="EXTRA3" pad="EXTRA3"/>
 <connect gate="G$1" pin="EXTRA30" pad="EXTRA30"/>
 <connect gate="G$1" pin="EXTRA31" pad="EXTRA31"/>
 <connect gate="G$1" pin="EXTRA32" pad="EXTRA32"/>
 <connect gate="G$1" pin="EXTRA33" pad="EXTRA33"/>
 <connect gate="G$1" pin="EXTRA34" pad="EXTRA34"/>
 <connect gate="G$1" pin="EXTRA35" pad="EXTRA35"/>
-<connect gate="G$1" pin="EXTRA36" pad="EXTRA36"/>
-<connect gate="G$1" pin="EXTRA37" pad="EXTRA37"/>
-<connect gate="G$1" pin="EXTRA38" pad="EXTRA38"/>
-<connect gate="G$1" pin="EXTRA39" pad="EXTRA39"/>
-<connect gate="G$1" pin="EXTRA4" pad="EXTRA25"/>
-<connect gate="G$1" pin="EXTRA40" pad="EXTRA40"/>
-<connect gate="G$1" pin="EXTRA41" pad="EXTRA41"/>
-<connect gate="G$1" pin="EXTRA5" pad="EXTRA24"/>
-<connect gate="G$1" pin="EXTRA6" pad="EXTRA23"/>
-<connect gate="G$1" pin="EXTRA7" pad="EXTRA22"/>
-<connect gate="G$1" pin="EXTRA8" pad="EXTRA21"/>
-<connect gate="G$1" pin="EXTRA9" pad="EXTRA20"/>
+<connect gate="G$1" pin="EXTRA4" pad="EXTRA4"/>
+<connect gate="G$1" pin="EXTRA5" pad="EXTRA5"/>
+<connect gate="G$1" pin="EXTRA6" pad="EXTRA6"/>
+<connect gate="G$1" pin="EXTRA7" pad="EXTRA7"/>
+<connect gate="G$1" pin="EXTRA8" pad="EXTRA8"/>
+<connect gate="G$1" pin="EXTRA9" pad="EXTRA9"/>
 <connect gate="G$1" pin="GND_1" pad="GND1"/>
 <connect gate="G$1" pin="GND_2" pad="GND2"/>
 <connect gate="G$1" pin="GND_3" pad="GND3"/>
+<connect gate="G$1" pin="GND_4" pad="GND_4"/>
+<connect gate="G$1" pin="GND_5" pad="GND_5"/>
+<connect gate="G$1" pin="GND_6" pad="GND_6"/>
 <connect gate="G$1" pin="KILL_SWITCH" pad="KILL_SWITCH"/>
 <connect gate="G$1" pin="SCL_DEPTH" pad="SCL_DEPTH"/>
 <connect gate="G$1" pin="SCL_ESC" pad="SCL_ESC"/>
