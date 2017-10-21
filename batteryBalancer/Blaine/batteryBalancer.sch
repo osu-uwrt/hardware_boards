@@ -66,6 +66,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -9131,6 +9133,36 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="5010_c">
+<packages>
+<package name="5010_C">
+<pad name="P$1" x="0" y="0" drill="1.6" diameter="2.286"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5010_C">
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="94"/>
+<pin name="P$1" x="-6.858" y="0" visible="off" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5010_C">
+<gates>
+<gate name="G$1" symbol="5010_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5010_C">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9186,6 +9218,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="KILL_STATUS" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
+<part name="U$1" library="5010_c" deviceset="5010_C" device=""/>
+<part name="U$2" library="5010_c" deviceset="5010_C" device=""/>
+<part name="U$3" library="5010_c" deviceset="5010_C" device=""/>
+<part name="U$4" library="5010_c" deviceset="5010_C" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9206,7 +9242,7 @@ if we want it later</text>
 <instance part="R1" gate="G$1" x="82.55" y="170.18"/>
 <instance part="R2" gate="G$1" x="119.38" y="224.79"/>
 <instance part="C1" gate="G$1" x="226.06" y="220.98"/>
-<instance part="GND4" gate="1" x="226.06" y="233.68" rot="R180"/>
+<instance part="GND4" gate="1" x="226.06" y="237.49" rot="R180"/>
 <instance part="R3" gate="G$1" x="228.6" y="144.78" rot="R180"/>
 <instance part="GND6" gate="1" x="238.76" y="124.46"/>
 <instance part="BATTERY_BALANCED" gate="G$1" x="269.24" y="195.58" rot="MR0"/>
@@ -9243,6 +9279,10 @@ if we want it later</text>
 <instance part="KILL_STATUS" gate="G$1" x="255.27" y="125.73"/>
 <instance part="C2" gate="G$1" x="170.18" y="124.46" rot="R90"/>
 <instance part="C3" gate="G$1" x="176.53" y="118.11" rot="R90"/>
+<instance part="U$1" gate="G$1" x="140.97" y="231.648" rot="R90"/>
+<instance part="U$2" gate="G$1" x="154.94" y="171.958" rot="R90"/>
+<instance part="U$3" gate="G$1" x="252.73" y="158.242" rot="R270"/>
+<instance part="U$4" gate="G$1" x="234.95" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -9304,6 +9344,10 @@ if we want it later</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="226.06" y1="226.06" x2="226.06" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="226.06" y1="231.14" x2="226.06" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="231.14" x2="228.092" y2="231.14" width="0.1524" layer="91"/>
+<junction x="226.06" y="231.14"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -9508,7 +9552,10 @@ if we want it later</text>
 <wire x1="167.64" y1="224.79" x2="167.64" y2="215.9" width="0.1524" layer="91"/>
 <junction x="167.64" y="215.9"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="224.79" x2="124.46" y2="224.79" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="224.79" x2="140.97" y2="224.79" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="140.97" y1="224.79" x2="124.46" y2="224.79" width="0.1524" layer="91"/>
+<junction x="140.97" y="224.79"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9726,9 +9773,10 @@ if we want it later</text>
 <junction x="220.98" y="144.78"/>
 <junction x="220.98" y="198.12"/>
 <wire x1="247.65" y1="198.12" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="165.1" x2="252.73" y2="165.1" width="0.1524" layer="91"/>
 <junction x="220.98" y="165.1"/>
 <pinref part="STBD_FET" gate="G$1" pin="DRAIN"/>
+<wire x1="252.73" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="220.98" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
 <junction x="198.12" y="218.44"/>
 <pinref part="PORT_FET" gate="G$1" pin="DRAIN"/>
@@ -9752,6 +9800,8 @@ if we want it later</text>
 <wire x1="332.74" y1="170.18" x2="345.44" y2="170.18" width="0.1524" layer="91"/>
 <junction x="345.44" y="170.18"/>
 <junction x="247.65" y="198.12"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<junction x="252.73" y="165.1"/>
 </segment>
 </net>
 <net name="MOTOR_POWER1" class="0">
@@ -9877,11 +9927,14 @@ if we want it later</text>
 <junction x="177.8" y="154.94"/>
 <wire x1="171.45" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="170.18" x2="92.71" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="165.1" x2="171.45" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="165.1" x2="171.45" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="165.1" x2="171.45" y2="154.94" width="0.1524" layer="91"/>
 <junction x="171.45" y="154.94"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="92.71" y1="170.18" x2="87.63" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<junction x="154.94" y="165.1"/>
 </segment>
 </net>
 <net name="N$3" class="0">

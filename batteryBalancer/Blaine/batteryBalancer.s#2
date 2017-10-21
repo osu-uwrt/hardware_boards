@@ -9844,7 +9844,7 @@ if we want it later</text>
 <junction x="129.54" y="205.74"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PORT_SOURCE" class="0">
 <segment>
 <pinref part="PORT_FC" gate="G$1" pin="IN"/>
 <pinref part="PORT_FET" gate="G$1" pin="SOURCE"/>
