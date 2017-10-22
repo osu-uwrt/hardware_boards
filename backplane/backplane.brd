@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="20"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="122.936" width="0" layer="20"/>
+<wire x1="101.6" y1="122.936" x2="0" y2="122.936" width="0" layer="20"/>
+<wire x1="0" y1="122.936" x2="0" y2="0" width="0" layer="20"/>
+<text x="95.758" y="25.146" size="3.175" layer="21" rot="R90">CENTER FOR AUTOMOTIVE RESEARCH</text>
+<text x="13.97" y="22.86" size="2.1844" layer="21">CO-PROCESSOR </text>
+<text x="15.24" y="54.61" size="2.1844" layer="21">LOAD BALANCER</text>
+<text x="15.24" y="86.36" size="2.1844" layer="21">CONVERTER</text>
+<hole x="3.175" y="3.175" drill="3.2639"/>
+<hole x="3.175" y="119.761" drill="3.2639"/>
+<hole x="98.425" y="119.761" drill="3.2639"/>
+<hole x="98.425" y="3.175" drill="3.2639"/>
+<text x="7.874" y="37.846" size="3.175" layer="21" rot="R90">UNDERWATER ROBOTICS</text>
+</plain>
+<libraries>
+<library name="5530843-6 - backplane">
+<packages>
+<package name="5530843-6-BACKPLANEMATE">
+<pad name="3.3V_1" x="0" y="0" drill="1.0922"/>
+<pad name="3.3V_2" x="2.54" y="0" drill="1.0922"/>
+<pad name="3.3V_3" x="5.08" y="0" drill="1.0922"/>
+<pad name="GND1" x="7.62" y="0" drill="1.0922"/>
+<pad name="GND2" x="10.16" y="0" drill="1.0922"/>
+<pad name="GND3" x="12.7" y="0" drill="1.0922"/>
+<pad name="SPARE29" x="15.24" y="0" drill="1.0922"/>
+<pad name="SPARE30" x="17.78" y="0" drill="1.0922"/>
+<pad name="SPARE31" x="20.32" y="0" drill="1.0922"/>
+<pad name="SPARE32" x="22.86" y="0" drill="1.0922"/>
+<pad name="SPARE33" x="25.4" y="0" drill="1.0922"/>
+<pad name="SPARE34" x="27.94" y="0" drill="1.0922"/>
+<pad name="SPARE35" x="30.48" y="0" drill="1.0922"/>
+<pad name="SPARE36" x="33.02" y="0" drill="1.0922"/>
+<pad name="SPARE37" x="35.56" y="0" drill="1.0922"/>
+<pad name="SPARE38" x="38.1" y="0" drill="1.0922"/>
+<pad name="SPARE39" x="40.64" y="0" drill="1.0922"/>
+<pad name="SPARE40" x="43.18" y="0" drill="1.0922"/>
+<pad name="SPARE41" x="45.72" y="0" drill="1.0922"/>
+<pad name="KILL_SWITCH" x="48.26" y="0" drill="1.0922"/>
+<pad name="CAN_H" x="50.8" y="0" drill="1.0922"/>
+<pad name="CNA_L" x="53.34" y="0" drill="1.0922"/>
+<pad name="SDA_DEPTH" x="55.88" y="0" drill="1.0922"/>
+<pad name="SCL_DEPTH" x="58.42" y="0" drill="1.0922"/>
+<pad name="SDA_SENSOR" x="60.96" y="0" drill="1.0922"/>
+<pad name="SCL_SENSOR" x="63.5" y="0" drill="1.0922"/>
+<pad name="SDA_ESC" x="66.04" y="0" drill="1.0922"/>
+<pad name="SCL_ESC" x="68.58" y="0" drill="1.0922"/>
+<pad name="SPARE1" x="0" y="4.8514" drill="1.0922"/>
+<pad name="SPARE2" x="2.54" y="4.8514" drill="1.0922"/>
+<pad name="SPARE3" x="5.08" y="4.8514" drill="1.0922"/>
+<pad name="SPARE4" x="7.62" y="4.8514" drill="1.0922"/>
+<pad name="SPARE5" x="10.16" y="4.8514" drill="1.0922"/>
+<pad name="SPARE6" x="12.7" y="4.8514" drill="1.0922"/>
+<pad name="SPARE7" x="15.24" y="4.8514" drill="1.0922"/>
+<pad name="SPARE8" x="17.78" y="4.8514" drill="1.0922"/>
+<pad name="SPARE9" x="20.32" y="4.8514" drill="1.0922"/>
+<pad name="SPARE10" x="22.86" y="4.8514" drill="1.0922"/>
+<pad name="SPARE11" x="25.4" y="4.8514" drill="1.0922"/>
+<pad name="SPARE12" x="27.94" y="4.8514" drill="1.0922"/>
+<pad name="SPARE13" x="30.48" y="4.8514" drill="1.0922"/>
+<pad name="SPARE14" x="33.02" y="4.8514" drill="1.0922"/>
+<pad name="SPARE15" x="35.56" y="4.8514" drill="1.0922"/>
+<pad name="SPARE16" x="38.1" y="4.8514" drill="1.0922"/>
+<pad name="SPARE17" x="40.64" y="4.8514" drill="1.0922"/>
+<pad name="SPARE18" x="43.18" y="4.8514" drill="1.0922"/>
+<pad name="SPARE19" x="45.72" y="4.8514" drill="1.0922"/>
+<pad name="SPARE20" x="48.26" y="4.8514" drill="1.0922"/>
+<pad name="SPARE21" x="50.8" y="4.8514" drill="1.0922"/>
+<pad name="SPARE22" x="53.34" y="4.8514" drill="1.0922"/>
+<pad name="SPARE23" x="55.88" y="4.8514" drill="1.0922"/>
+<pad name="SPARE24" x="58.42" y="4.8514" drill="1.0922"/>
+<pad name="SPARE25" x="60.96" y="4.8514" drill="1.0922"/>
+<pad name="SPARE26" x="63.5" y="4.8514" drill="1.0922"/>
+<pad name="SPARE27" x="66.04" y="4.8514" drill="1.0922"/>
+<pad name="SPARE28" x="68.58" y="4.8514" drill="1.0922"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="71.12" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="71.12" y1="-2.54" x2="71.12" y2="7.62" width="0.127" layer="21"/>
+<wire x1="71.12" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="21"/>
+<text x="-2.54" y="7.62" size="1.27" layer="21">TE-5530843-6</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="0.000153125mm"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="2"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="CONVERTER" library="5530843-6 - backplane" package="5530843-6-BACKPLANEMATE" value="5530843_MATE" x="16.51" y="106.68" smashed="yes"/>
+<element name="EXTRA" library="5530843-6 - backplane" package="5530843-6-BACKPLANEMATE" value="5530843_MATE" x="16.51" y="74.93" smashed="yes"/>
+<element name="LOAD_BALANCER" library="5530843-6 - backplane" package="5530843-6-BACKPLANEMATE" value="5530843_MATE" x="16.51" y="43.18"/>
+<element name="CO-PROCESSOR" library="5530843-6 - backplane" package="5530843-6-BACKPLANEMATE" value="5530843_MATE" x="16.51" y="11.43"/>
+</elements>
+<signals>
+<signal name="SPARE28">
+<contactref element="CO-PROCESSOR" pad="SPARE28"/>
+<contactref element="LOAD_BALANCER" pad="SPARE28"/>
+<contactref element="EXTRA" pad="SPARE28"/>
+<contactref element="CONVERTER" pad="SPARE28"/>
+<wire x1="86.36" y1="17.78" x2="85.09" y2="16.51" width="0.254" layer="1"/>
+<wire x1="86.36" y1="46.6725" x2="86.36" y2="17.78" width="0.254" layer="1"/>
+<wire x1="85.09" y1="47.9425" x2="86.36" y2="46.6725" width="0.254" layer="1"/>
+<wire x1="85.09" y1="16.51" x2="85.09" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="85.09" y1="47.9425" x2="85.09" y2="48.0314" width="0.254" layer="1"/>
+<wire x1="86.36" y1="78.4225" x2="85.09" y2="79.6925" width="0.254" layer="1"/>
+<wire x1="86.36" y1="46.6725" x2="86.36" y2="78.4225" width="0.254" layer="1"/>
+<wire x1="85.09" y1="79.6925" x2="85.09" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="86.36" y1="110.1725" x2="85.09" y2="111.4425" width="0.254" layer="1"/>
+<wire x1="86.36" y1="78.4225" x2="86.36" y2="110.1725" width="0.254" layer="1"/>
+<wire x1="85.09" y1="111.4425" x2="85.09" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE27">
+<contactref element="LOAD_BALANCER" pad="SPARE27"/>
+<contactref element="CO-PROCESSOR" pad="SPARE27"/>
+<contactref element="CONVERTER" pad="SPARE27"/>
+<contactref element="EXTRA" pad="SPARE27"/>
+<wire x1="83.185" y1="17.145" x2="82.55" y2="16.51" width="0.254" layer="1"/>
+<wire x1="83.185" y1="41.91" x2="83.185" y2="17.145" width="0.254" layer="1"/>
+<wire x1="83.82" y1="42.545" x2="83.185" y2="41.91" width="0.254" layer="1"/>
+<wire x1="83.82" y1="43.815" x2="83.82" y2="42.545" width="0.254" layer="1"/>
+<wire x1="83.185" y1="44.45" x2="83.82" y2="43.815" width="0.254" layer="1"/>
+<wire x1="83.185" y1="47.3075" x2="83.185" y2="44.45" width="0.254" layer="1"/>
+<wire x1="82.55" y1="47.9425" x2="83.185" y2="47.3075" width="0.254" layer="1"/>
+<wire x1="82.55" y1="16.51" x2="82.55" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="82.55" y1="47.9425" x2="82.55" y2="48.0314" width="0.254" layer="1"/>
+<wire x1="83.82" y1="81.28" x2="83.185" y2="80.645" width="0.254" layer="1"/>
+<wire x1="83.185" y1="80.645" x2="82.55" y2="80.01" width="0.254" layer="1"/>
+<wire x1="83.82" y1="110.1725" x2="83.82" y2="81.28" width="0.254" layer="1"/>
+<wire x1="82.55" y1="111.4425" x2="83.82" y2="110.1725" width="0.254" layer="1"/>
+<wire x1="82.55" y1="80.01" x2="82.55" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="82.55" y1="111.4425" x2="82.55" y2="111.5314" width="0.254" layer="1"/>
+<wire x1="83.82" y1="49.53" x2="82.55" y2="48.26" width="0.254" layer="1"/>
+<wire x1="83.82" y1="75.565" x2="83.82" y2="49.53" width="0.254" layer="1"/>
+<wire x1="83.185" y1="76.2" x2="83.82" y2="75.565" width="0.254" layer="1"/>
+<wire x1="83.185" y1="80.645" x2="83.185" y2="76.2" width="0.254" layer="1"/>
+<wire x1="82.55" y1="48.26" x2="82.55" y2="48.0314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE26">
+<contactref element="CO-PROCESSOR" pad="SPARE26"/>
+<contactref element="LOAD_BALANCER" pad="SPARE26"/>
+<contactref element="EXTRA" pad="SPARE26"/>
+<contactref element="CONVERTER" pad="SPARE26"/>
+<wire x1="80.645" y1="17.145" x2="80.01" y2="16.51" width="0.254" layer="1"/>
+<wire x1="80.645" y1="41.91" x2="80.645" y2="17.145" width="0.254" layer="1"/>
+<wire x1="81.28" y1="42.545" x2="80.645" y2="41.91" width="0.254" layer="1"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="42.545" width="0.254" layer="1"/>
+<wire x1="80.01" y1="46.99" x2="81.28" y2="45.72" width="0.254" layer="1"/>
+<wire x1="80.01" y1="48.0314" x2="80.01" y2="46.99" width="0.254" layer="1"/>
+<wire x1="80.01" y1="16.51" x2="80.01" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="81.28" y1="78.105" x2="80.01" y2="79.375" width="0.254" layer="1"/>
+<wire x1="81.28" y1="50.165" x2="81.28" y2="78.105" width="0.254" layer="1"/>
+<wire x1="80.01" y1="48.895" x2="81.28" y2="50.165" width="0.254" layer="1"/>
+<wire x1="80.01" y1="48.0314" x2="80.01" y2="48.895" width="0.254" layer="1"/>
+<wire x1="80.01" y1="79.375" x2="80.01" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="81.28" y1="109.855" x2="80.01" y2="111.125" width="0.254" layer="1"/>
+<wire x1="81.28" y1="81.915" x2="81.28" y2="109.855" width="0.254" layer="1"/>
+<wire x1="80.01" y1="80.645" x2="81.28" y2="81.915" width="0.254" layer="1"/>
+<wire x1="80.01" y1="79.7814" x2="80.01" y2="80.645" width="0.254" layer="1"/>
+<wire x1="80.01" y1="111.125" x2="80.01" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE25">
+<contactref element="CO-PROCESSOR" pad="SPARE25"/>
+<contactref element="LOAD_BALANCER" pad="SPARE25"/>
+<contactref element="EXTRA" pad="SPARE25"/>
+<contactref element="CONVERTER" pad="SPARE25"/>
+<wire x1="78.105" y1="17.145" x2="77.47" y2="16.51" width="0.254" layer="1"/>
+<wire x1="78.105" y1="41.91" x2="78.105" y2="17.145" width="0.254" layer="1"/>
+<wire x1="78.74" y1="42.545" x2="78.105" y2="41.91" width="0.254" layer="1"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="42.545" width="0.254" layer="1"/>
+<wire x1="77.47" y1="46.99" x2="78.74" y2="45.72" width="0.254" layer="1"/>
+<wire x1="77.47" y1="48.0314" x2="77.47" y2="46.99" width="0.254" layer="1"/>
+<wire x1="77.47" y1="16.51" x2="77.47" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="78.74" y1="78.105" x2="77.47" y2="79.375" width="0.254" layer="1"/>
+<wire x1="78.74" y1="50.165" x2="78.74" y2="78.105" width="0.254" layer="1"/>
+<wire x1="77.47" y1="48.895" x2="78.74" y2="50.165" width="0.254" layer="1"/>
+<wire x1="77.47" y1="48.0314" x2="77.47" y2="48.895" width="0.254" layer="1"/>
+<wire x1="77.47" y1="79.375" x2="77.47" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="78.74" y1="109.855" x2="77.47" y2="111.125" width="0.254" layer="1"/>
+<wire x1="78.74" y1="81.915" x2="78.74" y2="109.855" width="0.254" layer="1"/>
+<wire x1="77.47" y1="80.645" x2="78.74" y2="81.915" width="0.254" layer="1"/>
+<wire x1="77.47" y1="79.7814" x2="77.47" y2="80.645" width="0.254" layer="1"/>
+<wire x1="77.47" y1="111.125" x2="77.47" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE24">
+<contactref element="LOAD_BALANCER" pad="SPARE24"/>
+<contactref element="CO-PROCESSOR" pad="SPARE24"/>
+<contactref element="CONVERTER" pad="SPARE24"/>
+<contactref element="EXTRA" pad="SPARE24"/>
+<wire x1="75.565" y1="17.145" x2="74.93" y2="16.51" width="0.254" layer="1"/>
+<wire x1="75.565" y1="41.91" x2="75.565" y2="17.145" width="0.254" layer="1"/>
+<wire x1="76.2" y1="42.545" x2="75.565" y2="41.91" width="0.254" layer="1"/>
+<wire x1="76.2" y1="45.72" x2="76.2" y2="42.545" width="0.254" layer="1"/>
+<wire x1="74.93" y1="46.99" x2="76.2" y2="45.72" width="0.254" layer="1"/>
+<wire x1="74.93" y1="48.0314" x2="74.93" y2="46.99" width="0.254" layer="1"/>
+<wire x1="74.93" y1="16.51" x2="74.93" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="76.2" y1="78.105" x2="74.93" y2="79.375" width="0.254" layer="1"/>
+<wire x1="76.2" y1="50.165" x2="76.2" y2="78.105" width="0.254" layer="1"/>
+<wire x1="74.93" y1="48.895" x2="76.2" y2="50.165" width="0.254" layer="1"/>
+<wire x1="74.93" y1="48.0314" x2="74.93" y2="48.895" width="0.254" layer="1"/>
+<wire x1="74.93" y1="79.375" x2="74.93" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="76.2" y1="109.855" x2="74.93" y2="111.125" width="0.254" layer="1"/>
+<wire x1="76.2" y1="81.915" x2="76.2" y2="109.855" width="0.254" layer="1"/>
+<wire x1="74.93" y1="80.645" x2="76.2" y2="81.915" width="0.254" layer="1"/>
+<wire x1="74.93" y1="79.7814" x2="74.93" y2="80.645" width="0.254" layer="1"/>
+<wire x1="74.93" y1="111.125" x2="74.93" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE23">
+<contactref element="CO-PROCESSOR" pad="SPARE23"/>
+<contactref element="LOAD_BALANCER" pad="SPARE23"/>
+<contactref element="EXTRA" pad="SPARE23"/>
+<contactref element="CONVERTER" pad="SPARE23"/>
+<wire x1="73.025" y1="17.145" x2="72.39" y2="16.51" width="0.254" layer="1"/>
+<wire x1="73.025" y1="41.91" x2="73.025" y2="17.145" width="0.254" layer="1"/>
+<wire x1="73.66" y1="42.545" x2="73.025" y2="41.91" width="0.254" layer="1"/>
+<wire x1="73.66" y1="45.72" x2="73.66" y2="42.545" width="0.254" layer="1"/>
+<wire x1="72.39" y1="46.99" x2="73.66" y2="45.72" width="0.254" layer="1"/>
+<wire x1="72.39" y1="48.0314" x2="72.39" y2="46.99" width="0.254" layer="1"/>
+<wire x1="72.39" y1="16.51" x2="72.39" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="73.66" y1="78.105" x2="72.39" y2="79.375" width="0.254" layer="1"/>
+<wire x1="73.66" y1="50.165" x2="73.66" y2="78.105" width="0.254" layer="1"/>
+<wire x1="72.39" y1="48.895" x2="73.66" y2="50.165" width="0.254" layer="1"/>
+<wire x1="72.39" y1="48.0314" x2="72.39" y2="48.895" width="0.254" layer="1"/>
+<wire x1="72.39" y1="79.375" x2="72.39" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="73.66" y1="109.855" x2="72.39" y2="111.125" width="0.254" layer="1"/>
+<wire x1="73.66" y1="81.915" x2="73.66" y2="109.855" width="0.254" layer="1"/>
+<wire x1="72.39" y1="80.645" x2="73.66" y2="81.915" width="0.254" layer="1"/>
+<wire x1="72.39" y1="79.7814" x2="72.39" y2="80.645" width="0.254" layer="1"/>
+<wire x1="72.39" y1="111.125" x2="72.39" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE22">
+<contactref element="CO-PROCESSOR" pad="SPARE22"/>
+<contactref element="LOAD_BALANCER" pad="SPARE22"/>
+<contactref element="EXTRA" pad="SPARE22"/>
+<contactref element="CONVERTER" pad="SPARE22"/>
+<wire x1="70.485" y1="17.145" x2="69.85" y2="16.51" width="0.254" layer="1"/>
+<wire x1="70.485" y1="41.91" x2="70.485" y2="17.145" width="0.254" layer="1"/>
+<wire x1="71.12" y1="42.545" x2="70.485" y2="41.91" width="0.254" layer="1"/>
+<wire x1="71.12" y1="45.72" x2="71.12" y2="42.545" width="0.254" layer="1"/>
+<wire x1="69.85" y1="46.99" x2="71.12" y2="45.72" width="0.254" layer="1"/>
+<wire x1="69.85" y1="48.0314" x2="69.85" y2="46.99" width="0.254" layer="1"/>
+<wire x1="69.85" y1="16.51" x2="69.85" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="71.12" y1="78.105" x2="69.85" y2="79.375" width="0.254" layer="1"/>
+<wire x1="71.12" y1="50.165" x2="71.12" y2="78.105" width="0.254" layer="1"/>
+<wire x1="69.85" y1="48.895" x2="71.12" y2="50.165" width="0.254" layer="1"/>
+<wire x1="69.85" y1="48.0314" x2="69.85" y2="48.895" width="0.254" layer="1"/>
+<wire x1="69.85" y1="79.375" x2="69.85" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="71.12" y1="109.855" x2="69.85" y2="111.125" width="0.254" layer="1"/>
+<wire x1="71.12" y1="81.915" x2="71.12" y2="109.855" width="0.254" layer="1"/>
+<wire x1="69.85" y1="80.645" x2="71.12" y2="81.915" width="0.254" layer="1"/>
+<wire x1="69.85" y1="79.7814" x2="69.85" y2="80.645" width="0.254" layer="1"/>
+<wire x1="69.85" y1="111.125" x2="69.85" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE21">
+<contactref element="CO-PROCESSOR" pad="SPARE21"/>
+<contactref element="LOAD_BALANCER" pad="SPARE21"/>
+<contactref element="EXTRA" pad="SPARE21"/>
+<contactref element="CONVERTER" pad="SPARE21"/>
+<wire x1="67.945" y1="17.145" x2="67.31" y2="16.51" width="0.254" layer="1"/>
+<wire x1="67.945" y1="41.91" x2="67.945" y2="17.145" width="0.254" layer="1"/>
+<wire x1="68.58" y1="42.545" x2="67.945" y2="41.91" width="0.254" layer="1"/>
+<wire x1="68.58" y1="45.72" x2="68.58" y2="42.545" width="0.254" layer="1"/>
+<wire x1="67.31" y1="46.99" x2="68.58" y2="45.72" width="0.254" layer="1"/>
+<wire x1="67.31" y1="48.0314" x2="67.31" y2="46.99" width="0.254" layer="1"/>
+<wire x1="67.31" y1="16.51" x2="67.31" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="68.58" y1="78.105" x2="67.31" y2="79.375" width="0.254" layer="1"/>
+<wire x1="68.58" y1="50.165" x2="68.58" y2="78.105" width="0.254" layer="1"/>
+<wire x1="67.31" y1="48.895" x2="68.58" y2="50.165" width="0.254" layer="1"/>
+<wire x1="67.31" y1="48.0314" x2="67.31" y2="48.895" width="0.254" layer="1"/>
+<wire x1="67.31" y1="79.375" x2="67.31" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="68.58" y1="109.855" x2="67.31" y2="111.125" width="0.254" layer="1"/>
+<wire x1="68.58" y1="81.915" x2="68.58" y2="109.855" width="0.254" layer="1"/>
+<wire x1="67.31" y1="80.645" x2="68.58" y2="81.915" width="0.254" layer="1"/>
+<wire x1="67.31" y1="79.7814" x2="67.31" y2="80.645" width="0.254" layer="1"/>
+<wire x1="67.31" y1="111.125" x2="67.31" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE20">
+<contactref element="CO-PROCESSOR" pad="SPARE20"/>
+<contactref element="LOAD_BALANCER" pad="SPARE20"/>
+<contactref element="EXTRA" pad="SPARE20"/>
+<contactref element="CONVERTER" pad="SPARE20"/>
+<wire x1="65.405" y1="17.145" x2="64.77" y2="16.51" width="0.254" layer="1"/>
+<wire x1="65.405" y1="41.91" x2="65.405" y2="17.145" width="0.254" layer="1"/>
+<wire x1="66.04" y1="42.545" x2="65.405" y2="41.91" width="0.254" layer="1"/>
+<wire x1="66.04" y1="45.72" x2="66.04" y2="42.545" width="0.254" layer="1"/>
+<wire x1="64.77" y1="46.99" x2="66.04" y2="45.72" width="0.254" layer="1"/>
+<wire x1="64.77" y1="48.0314" x2="64.77" y2="46.99" width="0.254" layer="1"/>
+<wire x1="64.77" y1="16.51" x2="64.77" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="66.04" y1="78.105" x2="64.77" y2="79.375" width="0.254" layer="1"/>
+<wire x1="66.04" y1="50.165" x2="66.04" y2="78.105" width="0.254" layer="1"/>
+<wire x1="64.77" y1="48.895" x2="66.04" y2="50.165" width="0.254" layer="1"/>
+<wire x1="64.77" y1="48.0314" x2="64.77" y2="48.895" width="0.254" layer="1"/>
+<wire x1="64.77" y1="79.375" x2="64.77" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="66.04" y1="109.855" x2="64.77" y2="111.125" width="0.254" layer="1"/>
+<wire x1="66.04" y1="81.915" x2="66.04" y2="109.855" width="0.254" layer="1"/>
+<wire x1="64.77" y1="80.645" x2="66.04" y2="81.915" width="0.254" layer="1"/>
+<wire x1="64.77" y1="79.7814" x2="64.77" y2="80.645" width="0.254" layer="1"/>
+<wire x1="64.77" y1="111.125" x2="64.77" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE19">
+<contactref element="LOAD_BALANCER" pad="SPARE19"/>
+<contactref element="CO-PROCESSOR" pad="SPARE19"/>
+<contactref element="CONVERTER" pad="SPARE19"/>
+<contactref element="EXTRA" pad="SPARE19"/>
+<wire x1="62.865" y1="17.145" x2="62.23" y2="16.51" width="0.254" layer="1"/>
+<wire x1="62.865" y1="41.91" x2="62.865" y2="17.145" width="0.254" layer="1"/>
+<wire x1="63.5" y1="42.545" x2="62.865" y2="41.91" width="0.254" layer="1"/>
+<wire x1="63.5" y1="45.72" x2="63.5" y2="42.545" width="0.254" layer="1"/>
+<wire x1="62.23" y1="46.99" x2="63.5" y2="45.72" width="0.254" layer="1"/>
+<wire x1="62.23" y1="48.0314" x2="62.23" y2="46.99" width="0.254" layer="1"/>
+<wire x1="62.23" y1="16.51" x2="62.23" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="63.5" y1="78.105" x2="62.23" y2="79.375" width="0.254" layer="1"/>
+<wire x1="63.5" y1="50.165" x2="63.5" y2="78.105" width="0.254" layer="1"/>
+<wire x1="62.23" y1="48.895" x2="63.5" y2="50.165" width="0.254" layer="1"/>
+<wire x1="62.23" y1="48.0314" x2="62.23" y2="48.895" width="0.254" layer="1"/>
+<wire x1="62.23" y1="79.375" x2="62.23" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="63.5" y1="109.855" x2="62.23" y2="111.125" width="0.254" layer="1"/>
+<wire x1="63.5" y1="81.915" x2="63.5" y2="109.855" width="0.254" layer="1"/>
+<wire x1="62.23" y1="80.645" x2="63.5" y2="81.915" width="0.254" layer="1"/>
+<wire x1="62.23" y1="79.7814" x2="62.23" y2="80.645" width="0.254" layer="1"/>
+<wire x1="62.23" y1="111.125" x2="62.23" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE18">
+<contactref element="CO-PROCESSOR" pad="SPARE18"/>
+<contactref element="LOAD_BALANCER" pad="SPARE18"/>
+<contactref element="EXTRA" pad="SPARE18"/>
+<contactref element="CONVERTER" pad="SPARE18"/>
+<wire x1="60.325" y1="17.145" x2="59.69" y2="16.51" width="0.254" layer="1"/>
+<wire x1="60.325" y1="41.91" x2="60.325" y2="17.145" width="0.254" layer="1"/>
+<wire x1="60.96" y1="42.545" x2="60.325" y2="41.91" width="0.254" layer="1"/>
+<wire x1="60.96" y1="45.72" x2="60.96" y2="42.545" width="0.254" layer="1"/>
+<wire x1="59.69" y1="46.99" x2="60.96" y2="45.72" width="0.254" layer="1"/>
+<wire x1="59.69" y1="48.0314" x2="59.69" y2="46.99" width="0.254" layer="1"/>
+<wire x1="59.69" y1="16.51" x2="59.69" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="60.96" y1="78.105" x2="59.69" y2="79.375" width="0.254" layer="1"/>
+<wire x1="60.96" y1="50.165" x2="60.96" y2="78.105" width="0.254" layer="1"/>
+<wire x1="59.69" y1="48.895" x2="60.96" y2="50.165" width="0.254" layer="1"/>
+<wire x1="59.69" y1="48.0314" x2="59.69" y2="48.895" width="0.254" layer="1"/>
+<wire x1="59.69" y1="79.375" x2="59.69" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="60.96" y1="109.855" x2="59.69" y2="111.125" width="0.254" layer="1"/>
+<wire x1="60.96" y1="81.915" x2="60.96" y2="109.855" width="0.254" layer="1"/>
+<wire x1="59.69" y1="80.645" x2="60.96" y2="81.915" width="0.254" layer="1"/>
+<wire x1="59.69" y1="79.7814" x2="59.69" y2="80.645" width="0.254" layer="1"/>
+<wire x1="59.69" y1="111.125" x2="59.69" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE17">
+<contactref element="LOAD_BALANCER" pad="SPARE17"/>
+<contactref element="CO-PROCESSOR" pad="SPARE17"/>
+<contactref element="CONVERTER" pad="SPARE17"/>
+<contactref element="EXTRA" pad="SPARE17"/>
+<wire x1="57.785" y1="17.145" x2="57.15" y2="16.51" width="0.254" layer="1"/>
+<wire x1="57.785" y1="41.91" x2="57.785" y2="17.145" width="0.254" layer="1"/>
+<wire x1="58.42" y1="42.545" x2="57.785" y2="41.91" width="0.254" layer="1"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="42.545" width="0.254" layer="1"/>
+<wire x1="57.15" y1="46.99" x2="58.42" y2="45.72" width="0.254" layer="1"/>
+<wire x1="57.15" y1="48.0314" x2="57.15" y2="46.99" width="0.254" layer="1"/>
+<wire x1="57.15" y1="16.51" x2="57.15" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="58.42" y1="78.105" x2="57.15" y2="79.375" width="0.254" layer="1"/>
+<wire x1="58.42" y1="50.165" x2="58.42" y2="78.105" width="0.254" layer="1"/>
+<wire x1="57.15" y1="48.895" x2="58.42" y2="50.165" width="0.254" layer="1"/>
+<wire x1="57.15" y1="48.0314" x2="57.15" y2="48.895" width="0.254" layer="1"/>
+<wire x1="57.15" y1="79.375" x2="57.15" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="58.42" y1="109.855" x2="57.15" y2="111.125" width="0.254" layer="1"/>
+<wire x1="58.42" y1="81.915" x2="58.42" y2="109.855" width="0.254" layer="1"/>
+<wire x1="57.15" y1="80.645" x2="58.42" y2="81.915" width="0.254" layer="1"/>
+<wire x1="57.15" y1="79.7814" x2="57.15" y2="80.645" width="0.254" layer="1"/>
+<wire x1="57.15" y1="111.125" x2="57.15" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE16">
+<contactref element="CO-PROCESSOR" pad="SPARE16"/>
+<contactref element="LOAD_BALANCER" pad="SPARE16"/>
+<contactref element="EXTRA" pad="SPARE16"/>
+<contactref element="CONVERTER" pad="SPARE16"/>
+<wire x1="55.245" y1="17.145" x2="54.61" y2="16.51" width="0.254" layer="1"/>
+<wire x1="55.245" y1="41.91" x2="55.245" y2="17.145" width="0.254" layer="1"/>
+<wire x1="55.88" y1="42.545" x2="55.245" y2="41.91" width="0.254" layer="1"/>
+<wire x1="55.88" y1="45.72" x2="55.88" y2="42.545" width="0.254" layer="1"/>
+<wire x1="54.61" y1="46.99" x2="55.88" y2="45.72" width="0.254" layer="1"/>
+<wire x1="54.61" y1="48.0314" x2="54.61" y2="46.99" width="0.254" layer="1"/>
+<wire x1="54.61" y1="16.51" x2="54.61" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="55.88" y1="78.105" x2="54.61" y2="79.375" width="0.254" layer="1"/>
+<wire x1="55.88" y1="50.165" x2="55.88" y2="78.105" width="0.254" layer="1"/>
+<wire x1="54.61" y1="48.895" x2="55.88" y2="50.165" width="0.254" layer="1"/>
+<wire x1="54.61" y1="48.0314" x2="54.61" y2="48.895" width="0.254" layer="1"/>
+<wire x1="54.61" y1="79.375" x2="54.61" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="55.88" y1="109.855" x2="54.61" y2="111.125" width="0.254" layer="1"/>
+<wire x1="55.88" y1="81.915" x2="55.88" y2="109.855" width="0.254" layer="1"/>
+<wire x1="54.61" y1="80.645" x2="55.88" y2="81.915" width="0.254" layer="1"/>
+<wire x1="54.61" y1="79.7814" x2="54.61" y2="80.645" width="0.254" layer="1"/>
+<wire x1="54.61" y1="111.125" x2="54.61" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE15">
+<contactref element="CO-PROCESSOR" pad="SPARE15"/>
+<contactref element="LOAD_BALANCER" pad="SPARE15"/>
+<contactref element="EXTRA" pad="SPARE15"/>
+<contactref element="CONVERTER" pad="SPARE15"/>
+<wire x1="52.705" y1="17.145" x2="52.07" y2="16.51" width="0.254" layer="1"/>
+<wire x1="52.705" y1="41.91" x2="52.705" y2="17.145" width="0.254" layer="1"/>
+<wire x1="53.34" y1="42.545" x2="52.705" y2="41.91" width="0.254" layer="1"/>
+<wire x1="53.34" y1="45.72" x2="53.34" y2="42.545" width="0.254" layer="1"/>
+<wire x1="52.07" y1="46.99" x2="53.34" y2="45.72" width="0.254" layer="1"/>
+<wire x1="52.07" y1="48.0314" x2="52.07" y2="46.99" width="0.254" layer="1"/>
+<wire x1="52.07" y1="16.51" x2="52.07" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="53.34" y1="78.105" x2="52.07" y2="79.375" width="0.254" layer="1"/>
+<wire x1="53.34" y1="50.165" x2="53.34" y2="78.105" width="0.254" layer="1"/>
+<wire x1="52.07" y1="48.895" x2="53.34" y2="50.165" width="0.254" layer="1"/>
+<wire x1="52.07" y1="48.0314" x2="52.07" y2="48.895" width="0.254" layer="1"/>
+<wire x1="52.07" y1="79.375" x2="52.07" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="53.34" y1="109.855" x2="52.07" y2="111.125" width="0.254" layer="1"/>
+<wire x1="53.34" y1="81.915" x2="53.34" y2="109.855" width="0.254" layer="1"/>
+<wire x1="52.07" y1="80.645" x2="53.34" y2="81.915" width="0.254" layer="1"/>
+<wire x1="52.07" y1="79.7814" x2="52.07" y2="80.645" width="0.254" layer="1"/>
+<wire x1="52.07" y1="111.125" x2="52.07" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE14">
+<contactref element="LOAD_BALANCER" pad="SPARE14"/>
+<contactref element="CO-PROCESSOR" pad="SPARE14"/>
+<contactref element="CONVERTER" pad="SPARE14"/>
+<contactref element="EXTRA" pad="SPARE14"/>
+<wire x1="50.165" y1="17.145" x2="49.53" y2="16.51" width="0.254" layer="1"/>
+<wire x1="50.165" y1="41.91" x2="50.165" y2="17.145" width="0.254" layer="1"/>
+<wire x1="50.8" y1="42.545" x2="50.165" y2="41.91" width="0.254" layer="1"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="42.545" width="0.254" layer="1"/>
+<wire x1="49.53" y1="46.99" x2="50.8" y2="45.72" width="0.254" layer="1"/>
+<wire x1="49.53" y1="48.0314" x2="49.53" y2="46.99" width="0.254" layer="1"/>
+<wire x1="49.53" y1="16.51" x2="49.53" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="50.8" y1="78.105" x2="49.53" y2="79.375" width="0.254" layer="1"/>
+<wire x1="50.8" y1="50.165" x2="50.8" y2="78.105" width="0.254" layer="1"/>
+<wire x1="49.53" y1="48.895" x2="50.8" y2="50.165" width="0.254" layer="1"/>
+<wire x1="49.53" y1="48.0314" x2="49.53" y2="48.895" width="0.254" layer="1"/>
+<wire x1="49.53" y1="79.375" x2="49.53" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="50.8" y1="109.855" x2="49.53" y2="111.125" width="0.254" layer="1"/>
+<wire x1="50.8" y1="81.915" x2="50.8" y2="109.855" width="0.254" layer="1"/>
+<wire x1="49.53" y1="80.645" x2="50.8" y2="81.915" width="0.254" layer="1"/>
+<wire x1="49.53" y1="79.7814" x2="49.53" y2="80.645" width="0.254" layer="1"/>
+<wire x1="49.53" y1="111.125" x2="49.53" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE13">
+<contactref element="CO-PROCESSOR" pad="SPARE13"/>
+<contactref element="LOAD_BALANCER" pad="SPARE13"/>
+<contactref element="EXTRA" pad="SPARE13"/>
+<contactref element="CONVERTER" pad="SPARE13"/>
+<wire x1="47.625" y1="17.145" x2="46.99" y2="16.51" width="0.254" layer="1"/>
+<wire x1="47.625" y1="41.91" x2="47.625" y2="17.145" width="0.254" layer="1"/>
+<wire x1="48.26" y1="42.545" x2="47.625" y2="41.91" width="0.254" layer="1"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="42.545" width="0.254" layer="1"/>
+<wire x1="46.99" y1="46.99" x2="48.26" y2="45.72" width="0.254" layer="1"/>
+<wire x1="46.99" y1="48.0314" x2="46.99" y2="46.99" width="0.254" layer="1"/>
+<wire x1="46.99" y1="16.51" x2="46.99" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="48.26" y1="78.105" x2="46.99" y2="79.375" width="0.254" layer="1"/>
+<wire x1="48.26" y1="50.165" x2="48.26" y2="78.105" width="0.254" layer="1"/>
+<wire x1="46.99" y1="48.895" x2="48.26" y2="50.165" width="0.254" layer="1"/>
+<wire x1="46.99" y1="48.0314" x2="46.99" y2="48.895" width="0.254" layer="1"/>
+<wire x1="46.99" y1="79.375" x2="46.99" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="48.26" y1="109.855" x2="46.99" y2="111.125" width="0.254" layer="1"/>
+<wire x1="48.26" y1="81.915" x2="48.26" y2="109.855" width="0.254" layer="1"/>
+<wire x1="46.99" y1="80.645" x2="48.26" y2="81.915" width="0.254" layer="1"/>
+<wire x1="46.99" y1="79.7814" x2="46.99" y2="80.645" width="0.254" layer="1"/>
+<wire x1="46.99" y1="111.125" x2="46.99" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE12">
+<contactref element="LOAD_BALANCER" pad="SPARE12"/>
+<contactref element="CO-PROCESSOR" pad="SPARE12"/>
+<contactref element="CONVERTER" pad="SPARE12"/>
+<contactref element="EXTRA" pad="SPARE12"/>
+<wire x1="45.085" y1="17.145" x2="44.45" y2="16.51" width="0.254" layer="1"/>
+<wire x1="45.085" y1="41.91" x2="45.085" y2="17.145" width="0.254" layer="1"/>
+<wire x1="45.72" y1="42.545" x2="45.085" y2="41.91" width="0.254" layer="1"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="42.545" width="0.254" layer="1"/>
+<wire x1="44.45" y1="46.99" x2="45.72" y2="45.72" width="0.254" layer="1"/>
+<wire x1="44.45" y1="48.0314" x2="44.45" y2="46.99" width="0.254" layer="1"/>
+<wire x1="44.45" y1="16.51" x2="44.45" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="45.72" y1="78.105" x2="44.45" y2="79.375" width="0.254" layer="1"/>
+<wire x1="45.72" y1="50.165" x2="45.72" y2="78.105" width="0.254" layer="1"/>
+<wire x1="44.45" y1="48.895" x2="45.72" y2="50.165" width="0.254" layer="1"/>
+<wire x1="44.45" y1="48.0314" x2="44.45" y2="48.895" width="0.254" layer="1"/>
+<wire x1="44.45" y1="79.375" x2="44.45" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="45.72" y1="109.855" x2="44.45" y2="111.125" width="0.254" layer="1"/>
+<wire x1="45.72" y1="81.915" x2="45.72" y2="109.855" width="0.254" layer="1"/>
+<wire x1="44.45" y1="80.645" x2="45.72" y2="81.915" width="0.254" layer="1"/>
+<wire x1="44.45" y1="79.7814" x2="44.45" y2="80.645" width="0.254" layer="1"/>
+<wire x1="44.45" y1="111.125" x2="44.45" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE11">
+<contactref element="CO-PROCESSOR" pad="SPARE11"/>
+<contactref element="LOAD_BALANCER" pad="SPARE11"/>
+<contactref element="EXTRA" pad="SPARE11"/>
+<contactref element="CONVERTER" pad="SPARE11"/>
+<wire x1="42.545" y1="17.145" x2="41.91" y2="16.51" width="0.254" layer="1"/>
+<wire x1="42.545" y1="41.91" x2="42.545" y2="17.145" width="0.254" layer="1"/>
+<wire x1="43.18" y1="42.545" x2="42.545" y2="41.91" width="0.254" layer="1"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="42.545" width="0.254" layer="1"/>
+<wire x1="41.91" y1="46.99" x2="43.18" y2="45.72" width="0.254" layer="1"/>
+<wire x1="41.91" y1="48.0314" x2="41.91" y2="46.99" width="0.254" layer="1"/>
+<wire x1="41.91" y1="16.51" x2="41.91" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="43.18" y1="78.105" x2="41.91" y2="79.375" width="0.254" layer="1"/>
+<wire x1="43.18" y1="50.165" x2="43.18" y2="78.105" width="0.254" layer="1"/>
+<wire x1="41.91" y1="48.895" x2="43.18" y2="50.165" width="0.254" layer="1"/>
+<wire x1="41.91" y1="48.0314" x2="41.91" y2="48.895" width="0.254" layer="1"/>
+<wire x1="41.91" y1="79.375" x2="41.91" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="43.18" y1="109.855" x2="41.91" y2="111.125" width="0.254" layer="1"/>
+<wire x1="43.18" y1="81.915" x2="43.18" y2="109.855" width="0.254" layer="1"/>
+<wire x1="41.91" y1="80.645" x2="43.18" y2="81.915" width="0.254" layer="1"/>
+<wire x1="41.91" y1="79.7814" x2="41.91" y2="80.645" width="0.254" layer="1"/>
+<wire x1="41.91" y1="111.125" x2="41.91" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE10">
+<contactref element="LOAD_BALANCER" pad="SPARE10"/>
+<contactref element="CO-PROCESSOR" pad="SPARE10"/>
+<contactref element="CONVERTER" pad="SPARE10"/>
+<contactref element="EXTRA" pad="SPARE10"/>
+<wire x1="40.005" y1="17.145" x2="39.37" y2="16.51" width="0.254" layer="1"/>
+<wire x1="40.005" y1="41.91" x2="40.005" y2="17.145" width="0.254" layer="1"/>
+<wire x1="40.64" y1="42.545" x2="40.005" y2="41.91" width="0.254" layer="1"/>
+<wire x1="40.64" y1="45.72" x2="40.64" y2="42.545" width="0.254" layer="1"/>
+<wire x1="39.37" y1="46.99" x2="40.64" y2="45.72" width="0.254" layer="1"/>
+<wire x1="39.37" y1="48.0314" x2="39.37" y2="46.99" width="0.254" layer="1"/>
+<wire x1="39.37" y1="16.51" x2="39.37" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="40.64" y1="78.105" x2="39.37" y2="79.375" width="0.254" layer="1"/>
+<wire x1="40.64" y1="50.165" x2="40.64" y2="78.105" width="0.254" layer="1"/>
+<wire x1="39.37" y1="48.895" x2="40.64" y2="50.165" width="0.254" layer="1"/>
+<wire x1="39.37" y1="48.0314" x2="39.37" y2="48.895" width="0.254" layer="1"/>
+<wire x1="39.37" y1="79.375" x2="39.37" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="40.64" y1="109.855" x2="39.37" y2="111.125" width="0.254" layer="1"/>
+<wire x1="40.64" y1="81.915" x2="40.64" y2="109.855" width="0.254" layer="1"/>
+<wire x1="39.37" y1="80.645" x2="40.64" y2="81.915" width="0.254" layer="1"/>
+<wire x1="39.37" y1="79.7814" x2="39.37" y2="80.645" width="0.254" layer="1"/>
+<wire x1="39.37" y1="111.125" x2="39.37" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE9">
+<contactref element="CO-PROCESSOR" pad="SPARE9"/>
+<contactref element="LOAD_BALANCER" pad="SPARE9"/>
+<contactref element="EXTRA" pad="SPARE9"/>
+<contactref element="CONVERTER" pad="SPARE9"/>
+<wire x1="37.465" y1="17.145" x2="36.83" y2="16.51" width="0.254" layer="1"/>
+<wire x1="37.465" y1="41.91" x2="37.465" y2="17.145" width="0.254" layer="1"/>
+<wire x1="38.1" y1="42.545" x2="37.465" y2="41.91" width="0.254" layer="1"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="42.545" width="0.254" layer="1"/>
+<wire x1="36.83" y1="46.99" x2="38.1" y2="45.72" width="0.254" layer="1"/>
+<wire x1="36.83" y1="48.0314" x2="36.83" y2="46.99" width="0.254" layer="1"/>
+<wire x1="36.83" y1="16.51" x2="36.83" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="38.1" y1="78.105" x2="36.83" y2="79.375" width="0.254" layer="1"/>
+<wire x1="38.1" y1="50.165" x2="38.1" y2="78.105" width="0.254" layer="1"/>
+<wire x1="36.83" y1="48.895" x2="38.1" y2="50.165" width="0.254" layer="1"/>
+<wire x1="36.83" y1="48.0314" x2="36.83" y2="48.895" width="0.254" layer="1"/>
+<wire x1="36.83" y1="79.375" x2="36.83" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="38.1" y1="109.855" x2="36.83" y2="111.125" width="0.254" layer="1"/>
+<wire x1="38.1" y1="81.915" x2="38.1" y2="109.855" width="0.254" layer="1"/>
+<wire x1="36.83" y1="80.645" x2="38.1" y2="81.915" width="0.254" layer="1"/>
+<wire x1="36.83" y1="79.7814" x2="36.83" y2="80.645" width="0.254" layer="1"/>
+<wire x1="36.83" y1="111.125" x2="36.83" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE8">
+<contactref element="CO-PROCESSOR" pad="SPARE8"/>
+<contactref element="LOAD_BALANCER" pad="SPARE8"/>
+<contactref element="EXTRA" pad="SPARE8"/>
+<contactref element="CONVERTER" pad="SPARE8"/>
+<wire x1="34.925" y1="17.145" x2="34.29" y2="16.51" width="0.254" layer="1"/>
+<wire x1="34.925" y1="41.91" x2="34.925" y2="17.145" width="0.254" layer="1"/>
+<wire x1="35.56" y1="42.545" x2="34.925" y2="41.91" width="0.254" layer="1"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="42.545" width="0.254" layer="1"/>
+<wire x1="34.29" y1="46.99" x2="35.56" y2="45.72" width="0.254" layer="1"/>
+<wire x1="34.29" y1="48.0314" x2="34.29" y2="46.99" width="0.254" layer="1"/>
+<wire x1="34.29" y1="16.51" x2="34.29" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="35.56" y1="78.105" x2="34.29" y2="79.375" width="0.254" layer="1"/>
+<wire x1="35.56" y1="50.165" x2="35.56" y2="78.105" width="0.254" layer="1"/>
+<wire x1="34.29" y1="48.895" x2="35.56" y2="50.165" width="0.254" layer="1"/>
+<wire x1="34.29" y1="48.0314" x2="34.29" y2="48.895" width="0.254" layer="1"/>
+<wire x1="34.29" y1="79.375" x2="34.29" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="35.56" y1="109.855" x2="34.29" y2="111.125" width="0.254" layer="1"/>
+<wire x1="35.56" y1="81.915" x2="35.56" y2="109.855" width="0.254" layer="1"/>
+<wire x1="34.29" y1="80.645" x2="35.56" y2="81.915" width="0.254" layer="1"/>
+<wire x1="34.29" y1="79.7814" x2="34.29" y2="80.645" width="0.254" layer="1"/>
+<wire x1="34.29" y1="111.125" x2="34.29" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE7">
+<contactref element="LOAD_BALANCER" pad="SPARE7"/>
+<contactref element="CO-PROCESSOR" pad="SPARE7"/>
+<contactref element="CONVERTER" pad="SPARE7"/>
+<contactref element="EXTRA" pad="SPARE7"/>
+<wire x1="32.385" y1="17.145" x2="31.75" y2="16.51" width="0.254" layer="1"/>
+<wire x1="32.385" y1="41.91" x2="32.385" y2="17.145" width="0.254" layer="1"/>
+<wire x1="33.02" y1="42.545" x2="32.385" y2="41.91" width="0.254" layer="1"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="42.545" width="0.254" layer="1"/>
+<wire x1="31.75" y1="46.99" x2="33.02" y2="45.72" width="0.254" layer="1"/>
+<wire x1="31.75" y1="48.0314" x2="31.75" y2="46.99" width="0.254" layer="1"/>
+<wire x1="31.75" y1="16.51" x2="31.75" y2="16.2814" width="0.254" layer="1"/>
+<wire x1="33.02" y1="78.105" x2="31.75" y2="79.375" width="0.254" layer="1"/>
+<wire x1="33.02" y1="50.165" x2="33.02" y2="78.105" width="0.254" layer="1"/>
+<wire x1="31.75" y1="48.895" x2="33.02" y2="50.165" width="0.254" layer="1"/>
+<wire x1="31.75" y1="48.0314" x2="31.75" y2="48.895" width="0.254" layer="1"/>
+<wire x1="31.75" y1="79.375" x2="31.75" y2="79.7814" width="0.254" layer="1"/>
+<wire x1="33.02" y1="109.855" x2="31.75" y2="111.125" width="0.254" layer="1"/>
+<wire x1="33.02" y1="81.915" x2="33.02" y2="109.855" width="0.254" layer="1"/>
+<wire x1="31.75" y1="80.645" x2="33.02" y2="81.915" width="0.254" layer="1"/>
+<wire x1="31.75" y1="79.7814" x2="31.75" y2="80.645" width="0.254" layer="1"/>
+<wire x1="31.75" y1="111.125" x2="31.75" y2="111.5314" width="0.254" layer="1"/>
+</signal>
+<signal name="SCL_ESC">
+<contactref element="LOAD_BALANCER" pad="SCL_ESC"/>
+<contactref element="CO-PROCESSOR" pad="SCL_ESC"/>
+<contactref element="CONVERTER" pad="SCL_ESC"/>
+<contactref element="EXTRA" pad="SCL_ESC"/>
+<wire x1="83.82" y1="12.7" x2="85.09" y2="11.43" width="0.254" layer="1"/>
+<wire x1="83.82" y1="41.5925" x2="83.82" y2="12.7" width="0.254" layer="1"/>
+<wire x1="85.09" y1="42.8625" x2="83.82" y2="41.5925" width="0.254" layer="1"/>
+<wire x1="85.09" y1="43.18" x2="85.09" y2="42.8625" width="0.254" layer="1"/>
+<wire x1="84.455" y1="74.295" x2="85.09" y2="74.93" width="0.254" layer="1"/>
+<wire x1="84.455" y1="49.2125" x2="84.455" y2="74.295" width="0.254" layer="1"/>
+<wire x1="83.82" y1="48.5775" x2="84.455" y2="49.2125" width="0.254" layer="1"/>
+<wire x1="83.82" y1="44.7675" x2="83.82" y2="48.5775" width="0.254" layer="1"/>
+<wire x1="85.09" y1="43.4975" x2="83.82" y2="44.7675" width="0.254" layer="1"/>
+<wire x1="85.09" y1="43.18" x2="85.09" y2="43.4975" width="0.254" layer="1"/>
+<wire x1="84.455" y1="106.045" x2="85.09" y2="106.68" width="0.254" layer="1"/>
+<wire x1="84.455" y1="80.9625" x2="84.455" y2="106.045" width="0.254" layer="1"/>
+<wire x1="83.82" y1="80.3275" x2="84.455" y2="80.9625" width="0.254" layer="1"/>
+<wire x1="83.82" y1="76.5175" x2="83.82" y2="80.3275" width="0.254" layer="1"/>
+<wire x1="85.09" y1="75.2475" x2="83.82" y2="76.5175" width="0.254" layer="1"/>
+<wire x1="85.09" y1="74.93" x2="85.09" y2="75.2475" width="0.254" layer="1"/>
+</signal>
+<signal name="SDA_ESC">
+<contactref element="CO-PROCESSOR" pad="SDA_ESC"/>
+<contactref element="LOAD_BALANCER" pad="SDA_ESC"/>
+<contactref element="EXTRA" pad="SDA_ESC"/>
+<contactref element="CONVERTER" pad="SDA_ESC"/>
+<wire x1="81.28" y1="12.7" x2="82.55" y2="11.43" width="0.254" layer="1"/>
+<wire x1="81.28" y1="41.75125" x2="81.28" y2="12.7" width="0.254" layer="1"/>
+<wire x1="82.55" y1="43.02125" x2="81.28" y2="41.75125" width="0.254" layer="1"/>
+<wire x1="82.55" y1="43.18" x2="82.55" y2="43.02125" width="0.254" layer="1"/>
+<wire x1="81.915" y1="74.295" x2="82.55" y2="74.93" width="0.254" layer="1"/>
+<wire x1="81.915" y1="49.2125" x2="81.915" y2="74.295" width="0.254" layer="1"/>
+<wire x1="81.28" y1="48.5775" x2="81.915" y2="49.2125" width="0.254" layer="1"/>
+<wire x1="81.28" y1="46.6725" x2="81.28" y2="48.5775" width="0.254" layer="1"/>
+<wire x1="82.55" y1="45.4025" x2="81.28" y2="46.6725" width="0.254" layer="1"/>
+<wire x1="82.55" y1="43.18" x2="82.55" y2="45.4025" width="0.254" layer="1"/>
+<wire x1="81.915" y1="106.045" x2="82.55" y2="106.68" width="0.254" layer="1"/>
+<wire x1="81.915" y1="80.9625" x2="81.915" y2="106.045" width="0.254" layer="1"/>
+<wire x1="81.28" y1="80.3275" x2="81.915" y2="80.9625" width="0.254" layer="1"/>
+<wire x1="81.28" y1="79.0575" x2="81.28" y2="80.3275" width="0.254" layer="1"/>
+<wire x1="82.55" y1="77.7875" x2="81.28" y2="79.0575" width="0.254" layer="1"/>
+<wire x1="82.55" y1="74.93" x2="82.55" y2="77.7875" width="0.254" layer="1"/>
+</signal>
+<signal name="SCL_SENSOR">
+<contactref element="LOAD_BALANCER" pad="SCL_SENSOR"/>
+<contactref element="CO-PROCESSOR" pad="SCL_SENSOR"/>
+<contactref element="CONVERTER" pad="SCL_SENSOR"/>
+<contactref element="EXTRA" pad="SCL_SENSOR"/>
+<wire x1="78.74" y1="12.7" x2="80.01" y2="11.43" width="0.254" layer="1"/>
+<wire x1="78.74" y1="41.275" x2="78.74" y2="12.7" width="0.254" layer="1"/>
+<wire x1="80.01" y1="42.545" x2="78.74" y2="41.275" width="0.254" layer="1"/>
+<wire x1="80.01" y1="43.18" x2="80.01" y2="42.545" width="0.254" layer="1"/>
+<wire x1="79.375" y1="74.295" x2="80.01" y2="74.93" width="0.254" layer="1"/>
+<wire x1="79.375" y1="49.53" x2="79.375" y2="74.295" width="0.254" layer="1"/>
+<wire x1="78.74" y1="48.895" x2="79.375" y2="49.53" width="0.254" layer="1"/>
+<wire x1="78.74" y1="46.99" x2="78.74" y2="48.895" width="0.254" layer="1"/>
+<wire x1="80.01" y1="45.72" x2="78.74" y2="46.99" width="0.254" layer="1"/>
+<wire x1="80.01" y1="43.18" x2="80.01" y2="45.72" width="0.254" layer="1"/>
+<wire x1="79.375" y1="106.045" x2="80.01" y2="106.68" width="0.254" layer="1"/>
+<wire x1="79.375" y1="81.28" x2="79.375" y2="106.045" width="0.254" layer="1"/>
+<wire x1="78.74" y1="80.645" x2="79.375" y2="81.28" width="0.254" layer="1"/>
+<wire x1="78.74" y1="79.375" x2="78.74" y2="80.645" width="0.254" layer="1"/>
+<wire x1="80.01" y1="78.105" x2="78.74" y2="79.375" width="0.254" layer="1"/>
+<wire x1="80.01" y1="74.93" x2="80.01" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SDA_SENSOR">
+<contactref element="CO-PROCESSOR" pad="SDA_SENSOR"/>
+<contactref element="LOAD_BALANCER" pad="SDA_SENSOR"/>
+<contactref element="EXTRA" pad="SDA_SENSOR"/>
+<contactref element="CONVERTER" pad="SDA_SENSOR"/>
+<wire x1="76.2" y1="12.7" x2="77.47" y2="11.43" width="0.254" layer="1"/>
+<wire x1="76.2" y1="41.275" x2="76.2" y2="12.7" width="0.254" layer="1"/>
+<wire x1="77.47" y1="42.545" x2="76.2" y2="41.275" width="0.254" layer="1"/>
+<wire x1="77.47" y1="43.18" x2="77.47" y2="42.545" width="0.254" layer="1"/>
+<wire x1="76.835" y1="74.295" x2="77.47" y2="74.93" width="0.254" layer="1"/>
+<wire x1="76.835" y1="49.53" x2="76.835" y2="74.295" width="0.254" layer="1"/>
+<wire x1="76.2" y1="48.895" x2="76.835" y2="49.53" width="0.254" layer="1"/>
+<wire x1="76.2" y1="46.99" x2="76.2" y2="48.895" width="0.254" layer="1"/>
+<wire x1="77.47" y1="45.72" x2="76.2" y2="46.99" width="0.254" layer="1"/>
+<wire x1="77.47" y1="43.18" x2="77.47" y2="45.72" width="0.254" layer="1"/>
+<wire x1="76.835" y1="106.045" x2="77.47" y2="106.68" width="0.254" layer="1"/>
+<wire x1="76.835" y1="81.28" x2="76.835" y2="106.045" width="0.254" layer="1"/>
+<wire x1="76.2" y1="80.645" x2="76.835" y2="81.28" width="0.254" layer="1"/>
+<wire x1="76.2" y1="79.375" x2="76.2" y2="80.645" width="0.254" layer="1"/>
+<wire x1="77.47" y1="78.105" x2="76.2" y2="79.375" width="0.254" layer="1"/>
+<wire x1="77.47" y1="74.93" x2="77.47" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SCL_DEPTH">
+<contactref element="LOAD_BALANCER" pad="SCL_DEPTH"/>
+<contactref element="CO-PROCESSOR" pad="SCL_DEPTH"/>
+<contactref element="CONVERTER" pad="SCL_DEPTH"/>
+<contactref element="EXTRA" pad="SCL_DEPTH"/>
+<wire x1="73.66" y1="12.7" x2="74.93" y2="11.43" width="0.254" layer="1"/>
+<wire x1="73.66" y1="41.275" x2="73.66" y2="12.7" width="0.254" layer="1"/>
+<wire x1="74.93" y1="42.545" x2="73.66" y2="41.275" width="0.254" layer="1"/>
+<wire x1="74.93" y1="43.18" x2="74.93" y2="42.545" width="0.254" layer="1"/>
+<wire x1="74.295" y1="74.295" x2="74.93" y2="74.93" width="0.254" layer="1"/>
+<wire x1="74.295" y1="49.53" x2="74.295" y2="74.295" width="0.254" layer="1"/>
+<wire x1="73.66" y1="48.895" x2="74.295" y2="49.53" width="0.254" layer="1"/>
+<wire x1="73.66" y1="46.99" x2="73.66" y2="48.895" width="0.254" layer="1"/>
+<wire x1="74.93" y1="45.72" x2="73.66" y2="46.99" width="0.254" layer="1"/>
+<wire x1="74.93" y1="43.18" x2="74.93" y2="45.72" width="0.254" layer="1"/>
+<wire x1="74.295" y1="106.045" x2="74.93" y2="106.68" width="0.254" layer="1"/>
+<wire x1="74.295" y1="81.28" x2="74.295" y2="106.045" width="0.254" layer="1"/>
+<wire x1="73.66" y1="80.645" x2="74.295" y2="81.28" width="0.254" layer="1"/>
+<wire x1="73.66" y1="79.375" x2="73.66" y2="80.645" width="0.254" layer="1"/>
+<wire x1="74.93" y1="78.105" x2="73.66" y2="79.375" width="0.254" layer="1"/>
+<wire x1="74.93" y1="74.93" x2="74.93" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SDA_DEPTH">
+<contactref element="CO-PROCESSOR" pad="SDA_DEPTH"/>
+<contactref element="LOAD_BALANCER" pad="SDA_DEPTH"/>
+<contactref element="EXTRA" pad="SDA_DEPTH"/>
+<contactref element="CONVERTER" pad="SDA_DEPTH"/>
+<wire x1="71.12" y1="12.7" x2="72.39" y2="11.43" width="0.254" layer="1"/>
+<wire x1="71.12" y1="41.275" x2="71.12" y2="12.7" width="0.254" layer="1"/>
+<wire x1="72.39" y1="42.545" x2="71.12" y2="41.275" width="0.254" layer="1"/>
+<wire x1="72.39" y1="43.18" x2="72.39" y2="42.545" width="0.254" layer="1"/>
+<wire x1="71.755" y1="74.295" x2="72.39" y2="74.93" width="0.254" layer="1"/>
+<wire x1="71.755" y1="49.53" x2="71.755" y2="74.295" width="0.254" layer="1"/>
+<wire x1="71.12" y1="48.895" x2="71.755" y2="49.53" width="0.254" layer="1"/>
+<wire x1="71.12" y1="46.99" x2="71.12" y2="48.895" width="0.254" layer="1"/>
+<wire x1="72.39" y1="45.72" x2="71.12" y2="46.99" width="0.254" layer="1"/>
+<wire x1="72.39" y1="43.18" x2="72.39" y2="45.72" width="0.254" layer="1"/>
+<wire x1="71.755" y1="106.045" x2="72.39" y2="106.68" width="0.254" layer="1"/>
+<wire x1="71.755" y1="81.28" x2="71.755" y2="106.045" width="0.254" layer="1"/>
+<wire x1="71.12" y1="80.645" x2="71.755" y2="81.28" width="0.254" layer="1"/>
+<wire x1="71.12" y1="79.375" x2="71.12" y2="80.645" width="0.254" layer="1"/>
+<wire x1="72.39" y1="78.105" x2="71.12" y2="79.375" width="0.254" layer="1"/>
+<wire x1="72.39" y1="74.93" x2="72.39" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="CAN_L">
+<contactref element="LOAD_BALANCER" pad="CNA_L"/>
+<contactref element="CO-PROCESSOR" pad="CNA_L"/>
+<contactref element="CONVERTER" pad="CNA_L"/>
+<contactref element="EXTRA" pad="CNA_L"/>
+<wire x1="68.58" y1="12.7" x2="69.85" y2="11.43" width="0.254" layer="1"/>
+<wire x1="68.58" y1="41.275" x2="68.58" y2="12.7" width="0.254" layer="1"/>
+<wire x1="69.85" y1="42.545" x2="68.58" y2="41.275" width="0.254" layer="1"/>
+<wire x1="69.85" y1="43.18" x2="69.85" y2="42.545" width="0.254" layer="1"/>
+<wire x1="69.215" y1="74.295" x2="69.85" y2="74.93" width="0.254" layer="1"/>
+<wire x1="69.215" y1="49.53" x2="69.215" y2="74.295" width="0.254" layer="1"/>
+<wire x1="68.58" y1="48.895" x2="69.215" y2="49.53" width="0.254" layer="1"/>
+<wire x1="68.58" y1="46.99" x2="68.58" y2="48.895" width="0.254" layer="1"/>
+<wire x1="69.85" y1="45.72" x2="68.58" y2="46.99" width="0.254" layer="1"/>
+<wire x1="69.85" y1="43.18" x2="69.85" y2="45.72" width="0.254" layer="1"/>
+<wire x1="69.215" y1="106.045" x2="69.85" y2="106.68" width="0.254" layer="1"/>
+<wire x1="69.215" y1="81.28" x2="69.215" y2="106.045" width="0.254" layer="1"/>
+<wire x1="68.58" y1="80.645" x2="69.215" y2="81.28" width="0.254" layer="1"/>
+<wire x1="68.58" y1="79.375" x2="68.58" y2="80.645" width="0.254" layer="1"/>
+<wire x1="69.85" y1="78.105" x2="68.58" y2="79.375" width="0.254" layer="1"/>
+<wire x1="69.85" y1="74.93" x2="69.85" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="CAN_H">
+<contactref element="CO-PROCESSOR" pad="CAN_H"/>
+<contactref element="LOAD_BALANCER" pad="CAN_H"/>
+<contactref element="EXTRA" pad="CAN_H"/>
+<contactref element="CONVERTER" pad="CAN_H"/>
+<wire x1="66.04" y1="12.7" x2="67.31" y2="11.43" width="0.254" layer="1"/>
+<wire x1="66.04" y1="41.275" x2="66.04" y2="12.7" width="0.254" layer="1"/>
+<wire x1="67.31" y1="42.545" x2="66.04" y2="41.275" width="0.254" layer="1"/>
+<wire x1="67.31" y1="43.18" x2="67.31" y2="42.545" width="0.254" layer="1"/>
+<wire x1="66.675" y1="74.295" x2="67.31" y2="74.93" width="0.254" layer="1"/>
+<wire x1="66.675" y1="49.53" x2="66.675" y2="74.295" width="0.254" layer="1"/>
+<wire x1="66.04" y1="48.895" x2="66.675" y2="49.53" width="0.254" layer="1"/>
+<wire x1="66.04" y1="46.99" x2="66.04" y2="48.895" width="0.254" layer="1"/>
+<wire x1="67.31" y1="45.72" x2="66.04" y2="46.99" width="0.254" layer="1"/>
+<wire x1="67.31" y1="43.18" x2="67.31" y2="45.72" width="0.254" layer="1"/>
+<wire x1="66.675" y1="106.045" x2="67.31" y2="106.68" width="0.254" layer="1"/>
+<wire x1="66.675" y1="81.28" x2="66.675" y2="106.045" width="0.254" layer="1"/>
+<wire x1="66.04" y1="80.645" x2="66.675" y2="81.28" width="0.254" layer="1"/>
+<wire x1="66.04" y1="79.375" x2="66.04" y2="80.645" width="0.254" layer="1"/>
+<wire x1="67.31" y1="78.105" x2="66.04" y2="79.375" width="0.254" layer="1"/>
+<wire x1="67.31" y1="74.93" x2="67.31" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="KILL_SWITCH">
+<contactref element="CO-PROCESSOR" pad="KILL_SWITCH"/>
+<contactref element="LOAD_BALANCER" pad="KILL_SWITCH"/>
+<contactref element="EXTRA" pad="KILL_SWITCH"/>
+<contactref element="CONVERTER" pad="KILL_SWITCH"/>
+<wire x1="63.5" y1="12.7" x2="64.77" y2="11.43" width="0.254" layer="1"/>
+<wire x1="63.5" y1="41.275" x2="63.5" y2="12.7" width="0.254" layer="1"/>
+<wire x1="64.77" y1="42.545" x2="63.5" y2="41.275" width="0.254" layer="1"/>
+<wire x1="64.77" y1="43.18" x2="64.77" y2="42.545" width="0.254" layer="1"/>
+<wire x1="64.135" y1="74.295" x2="64.77" y2="74.93" width="0.254" layer="1"/>
+<wire x1="64.135" y1="49.53" x2="64.135" y2="74.295" width="0.254" layer="1"/>
+<wire x1="63.5" y1="48.895" x2="64.135" y2="49.53" width="0.254" layer="1"/>
+<wire x1="63.5" y1="46.99" x2="63.5" y2="48.895" width="0.254" layer="1"/>
+<wire x1="64.77" y1="45.72" x2="63.5" y2="46.99" width="0.254" layer="1"/>
+<wire x1="64.77" y1="43.18" x2="64.77" y2="45.72" width="0.254" layer="1"/>
+<wire x1="64.135" y1="106.045" x2="64.77" y2="106.68" width="0.254" layer="1"/>
+<wire x1="64.135" y1="81.28" x2="64.135" y2="106.045" width="0.254" layer="1"/>
+<wire x1="63.5" y1="80.645" x2="64.135" y2="81.28" width="0.254" layer="1"/>
+<wire x1="63.5" y1="79.375" x2="63.5" y2="80.645" width="0.254" layer="1"/>
+<wire x1="64.77" y1="78.105" x2="63.5" y2="79.375" width="0.254" layer="1"/>
+<wire x1="64.77" y1="74.93" x2="64.77" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE41">
+<contactref element="CO-PROCESSOR" pad="SPARE41"/>
+<contactref element="LOAD_BALANCER" pad="SPARE41"/>
+<contactref element="EXTRA" pad="SPARE41"/>
+<contactref element="CONVERTER" pad="SPARE41"/>
+<wire x1="60.96" y1="12.7" x2="62.23" y2="11.43" width="0.254" layer="1"/>
+<wire x1="60.96" y1="41.275" x2="60.96" y2="12.7" width="0.254" layer="1"/>
+<wire x1="62.23" y1="42.545" x2="60.96" y2="41.275" width="0.254" layer="1"/>
+<wire x1="62.23" y1="43.18" x2="62.23" y2="42.545" width="0.254" layer="1"/>
+<wire x1="61.595" y1="74.295" x2="62.23" y2="74.93" width="0.254" layer="1"/>
+<wire x1="61.595" y1="49.53" x2="61.595" y2="74.295" width="0.254" layer="1"/>
+<wire x1="60.96" y1="48.895" x2="61.595" y2="49.53" width="0.254" layer="1"/>
+<wire x1="60.96" y1="46.99" x2="60.96" y2="48.895" width="0.254" layer="1"/>
+<wire x1="62.23" y1="45.72" x2="60.96" y2="46.99" width="0.254" layer="1"/>
+<wire x1="62.23" y1="43.18" x2="62.23" y2="45.72" width="0.254" layer="1"/>
+<wire x1="61.595" y1="106.045" x2="62.23" y2="106.68" width="0.254" layer="1"/>
+<wire x1="61.595" y1="81.28" x2="61.595" y2="106.045" width="0.254" layer="1"/>
+<wire x1="60.96" y1="80.645" x2="61.595" y2="81.28" width="0.254" layer="1"/>
+<wire x1="60.96" y1="79.375" x2="60.96" y2="80.645" width="0.254" layer="1"/>
+<wire x1="62.23" y1="78.105" x2="60.96" y2="79.375" width="0.254" layer="1"/>
+<wire x1="62.23" y1="74.93" x2="62.23" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE40">
+<contactref element="CO-PROCESSOR" pad="SPARE40"/>
+<contactref element="LOAD_BALANCER" pad="SPARE40"/>
+<contactref element="EXTRA" pad="SPARE40"/>
+<contactref element="CONVERTER" pad="SPARE40"/>
+<wire x1="58.42" y1="12.7" x2="59.69" y2="11.43" width="0.254" layer="1"/>
+<wire x1="58.42" y1="41.275" x2="58.42" y2="12.7" width="0.254" layer="1"/>
+<wire x1="59.69" y1="42.545" x2="58.42" y2="41.275" width="0.254" layer="1"/>
+<wire x1="59.69" y1="43.18" x2="59.69" y2="42.545" width="0.254" layer="1"/>
+<wire x1="59.055" y1="74.295" x2="59.69" y2="74.93" width="0.254" layer="1"/>
+<wire x1="59.055" y1="49.53" x2="59.055" y2="74.295" width="0.254" layer="1"/>
+<wire x1="58.42" y1="48.895" x2="59.055" y2="49.53" width="0.254" layer="1"/>
+<wire x1="58.42" y1="46.99" x2="58.42" y2="48.895" width="0.254" layer="1"/>
+<wire x1="59.69" y1="45.72" x2="58.42" y2="46.99" width="0.254" layer="1"/>
+<wire x1="59.69" y1="43.18" x2="59.69" y2="45.72" width="0.254" layer="1"/>
+<wire x1="59.055" y1="106.045" x2="59.69" y2="106.68" width="0.254" layer="1"/>
+<wire x1="59.055" y1="81.28" x2="59.055" y2="106.045" width="0.254" layer="1"/>
+<wire x1="58.42" y1="80.645" x2="59.055" y2="81.28" width="0.254" layer="1"/>
+<wire x1="58.42" y1="79.375" x2="58.42" y2="80.645" width="0.254" layer="1"/>
+<wire x1="59.69" y1="78.105" x2="58.42" y2="79.375" width="0.254" layer="1"/>
+<wire x1="59.69" y1="74.93" x2="59.69" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE39">
+<contactref element="LOAD_BALANCER" pad="SPARE39"/>
+<contactref element="CO-PROCESSOR" pad="SPARE39"/>
+<contactref element="CONVERTER" pad="SPARE39"/>
+<contactref element="EXTRA" pad="SPARE39"/>
+<wire x1="55.88" y1="12.7" x2="57.15" y2="11.43" width="0.254" layer="1"/>
+<wire x1="55.88" y1="41.275" x2="55.88" y2="12.7" width="0.254" layer="1"/>
+<wire x1="57.15" y1="42.545" x2="55.88" y2="41.275" width="0.254" layer="1"/>
+<wire x1="57.15" y1="43.18" x2="57.15" y2="42.545" width="0.254" layer="1"/>
+<wire x1="56.515" y1="74.295" x2="57.15" y2="74.93" width="0.254" layer="1"/>
+<wire x1="56.515" y1="49.53" x2="56.515" y2="74.295" width="0.254" layer="1"/>
+<wire x1="55.88" y1="48.895" x2="56.515" y2="49.53" width="0.254" layer="1"/>
+<wire x1="55.88" y1="46.99" x2="55.88" y2="48.895" width="0.254" layer="1"/>
+<wire x1="57.15" y1="45.72" x2="55.88" y2="46.99" width="0.254" layer="1"/>
+<wire x1="57.15" y1="43.18" x2="57.15" y2="45.72" width="0.254" layer="1"/>
+<wire x1="56.515" y1="106.045" x2="57.15" y2="106.68" width="0.254" layer="1"/>
+<wire x1="56.515" y1="81.28" x2="56.515" y2="106.045" width="0.254" layer="1"/>
+<wire x1="55.88" y1="80.645" x2="56.515" y2="81.28" width="0.254" layer="1"/>
+<wire x1="55.88" y1="79.375" x2="55.88" y2="80.645" width="0.254" layer="1"/>
+<wire x1="57.15" y1="78.105" x2="55.88" y2="79.375" width="0.254" layer="1"/>
+<wire x1="57.15" y1="74.93" x2="57.15" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE38">
+<contactref element="CO-PROCESSOR" pad="SPARE38"/>
+<contactref element="LOAD_BALANCER" pad="SPARE38"/>
+<contactref element="EXTRA" pad="SPARE38"/>
+<contactref element="CONVERTER" pad="SPARE38"/>
+<wire x1="53.34" y1="12.7" x2="54.61" y2="11.43" width="0.254" layer="1"/>
+<wire x1="53.34" y1="41.275" x2="53.34" y2="12.7" width="0.254" layer="1"/>
+<wire x1="54.61" y1="42.545" x2="53.34" y2="41.275" width="0.254" layer="1"/>
+<wire x1="54.61" y1="43.18" x2="54.61" y2="42.545" width="0.254" layer="1"/>
+<wire x1="53.975" y1="74.295" x2="54.61" y2="74.93" width="0.254" layer="1"/>
+<wire x1="53.975" y1="49.53" x2="53.975" y2="74.295" width="0.254" layer="1"/>
+<wire x1="53.34" y1="48.895" x2="53.975" y2="49.53" width="0.254" layer="1"/>
+<wire x1="53.34" y1="46.99" x2="53.34" y2="48.895" width="0.254" layer="1"/>
+<wire x1="54.61" y1="45.72" x2="53.34" y2="46.99" width="0.254" layer="1"/>
+<wire x1="54.61" y1="43.18" x2="54.61" y2="45.72" width="0.254" layer="1"/>
+<wire x1="53.975" y1="106.045" x2="54.61" y2="106.68" width="0.254" layer="1"/>
+<wire x1="53.975" y1="81.28" x2="53.975" y2="106.045" width="0.254" layer="1"/>
+<wire x1="53.34" y1="80.645" x2="53.975" y2="81.28" width="0.254" layer="1"/>
+<wire x1="53.34" y1="79.375" x2="53.34" y2="80.645" width="0.254" layer="1"/>
+<wire x1="54.61" y1="78.105" x2="53.34" y2="79.375" width="0.254" layer="1"/>
+<wire x1="54.61" y1="74.93" x2="54.61" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE37">
+<contactref element="LOAD_BALANCER" pad="SPARE37"/>
+<contactref element="CO-PROCESSOR" pad="SPARE37"/>
+<contactref element="CONVERTER" pad="SPARE37"/>
+<contactref element="EXTRA" pad="SPARE37"/>
+<wire x1="50.8" y1="12.7" x2="52.07" y2="11.43" width="0.254" layer="1"/>
+<wire x1="50.8" y1="41.275" x2="50.8" y2="12.7" width="0.254" layer="1"/>
+<wire x1="52.07" y1="42.545" x2="50.8" y2="41.275" width="0.254" layer="1"/>
+<wire x1="52.07" y1="43.18" x2="52.07" y2="42.545" width="0.254" layer="1"/>
+<wire x1="51.435" y1="74.295" x2="52.07" y2="74.93" width="0.254" layer="1"/>
+<wire x1="51.435" y1="49.53" x2="51.435" y2="74.295" width="0.254" layer="1"/>
+<wire x1="50.8" y1="48.895" x2="51.435" y2="49.53" width="0.254" layer="1"/>
+<wire x1="50.8" y1="46.99" x2="50.8" y2="48.895" width="0.254" layer="1"/>
+<wire x1="52.07" y1="45.72" x2="50.8" y2="46.99" width="0.254" layer="1"/>
+<wire x1="52.07" y1="43.18" x2="52.07" y2="45.72" width="0.254" layer="1"/>
+<wire x1="51.435" y1="106.045" x2="52.07" y2="106.68" width="0.254" layer="1"/>
+<wire x1="51.435" y1="81.28" x2="51.435" y2="106.045" width="0.254" layer="1"/>
+<wire x1="50.8" y1="80.645" x2="51.435" y2="81.28" width="0.254" layer="1"/>
+<wire x1="50.8" y1="79.375" x2="50.8" y2="80.645" width="0.254" layer="1"/>
+<wire x1="52.07" y1="78.105" x2="50.8" y2="79.375" width="0.254" layer="1"/>
+<wire x1="52.07" y1="74.93" x2="52.07" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE36">
+<contactref element="CO-PROCESSOR" pad="SPARE36"/>
+<contactref element="LOAD_BALANCER" pad="SPARE36"/>
+<contactref element="EXTRA" pad="SPARE36"/>
+<contactref element="CONVERTER" pad="SPARE36"/>
+<wire x1="48.26" y1="12.7" x2="49.53" y2="11.43" width="0.254" layer="1"/>
+<wire x1="48.26" y1="41.275" x2="48.26" y2="12.7" width="0.254" layer="1"/>
+<wire x1="49.53" y1="42.545" x2="48.26" y2="41.275" width="0.254" layer="1"/>
+<wire x1="49.53" y1="43.18" x2="49.53" y2="42.545" width="0.254" layer="1"/>
+<wire x1="48.895" y1="74.295" x2="49.53" y2="74.93" width="0.254" layer="1"/>
+<wire x1="48.895" y1="49.53" x2="48.895" y2="74.295" width="0.254" layer="1"/>
+<wire x1="48.26" y1="48.895" x2="48.895" y2="49.53" width="0.254" layer="1"/>
+<wire x1="48.26" y1="46.99" x2="48.26" y2="48.895" width="0.254" layer="1"/>
+<wire x1="49.53" y1="45.72" x2="48.26" y2="46.99" width="0.254" layer="1"/>
+<wire x1="49.53" y1="43.18" x2="49.53" y2="45.72" width="0.254" layer="1"/>
+<wire x1="48.895" y1="106.045" x2="49.53" y2="106.68" width="0.254" layer="1"/>
+<wire x1="48.895" y1="81.28" x2="48.895" y2="106.045" width="0.254" layer="1"/>
+<wire x1="48.26" y1="80.645" x2="48.895" y2="81.28" width="0.254" layer="1"/>
+<wire x1="48.26" y1="79.375" x2="48.26" y2="80.645" width="0.254" layer="1"/>
+<wire x1="49.53" y1="78.105" x2="48.26" y2="79.375" width="0.254" layer="1"/>
+<wire x1="49.53" y1="74.93" x2="49.53" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE35">
+<contactref element="LOAD_BALANCER" pad="SPARE35"/>
+<contactref element="CO-PROCESSOR" pad="SPARE35"/>
+<contactref element="CONVERTER" pad="SPARE35"/>
+<contactref element="EXTRA" pad="SPARE35"/>
+<wire x1="45.72" y1="12.7" x2="46.99" y2="11.43" width="0.254" layer="1"/>
+<wire x1="45.72" y1="41.275" x2="45.72" y2="12.7" width="0.254" layer="1"/>
+<wire x1="46.99" y1="42.545" x2="45.72" y2="41.275" width="0.254" layer="1"/>
+<wire x1="46.99" y1="43.18" x2="46.99" y2="42.545" width="0.254" layer="1"/>
+<wire x1="46.355" y1="74.295" x2="46.99" y2="74.93" width="0.254" layer="1"/>
+<wire x1="46.355" y1="49.53" x2="46.355" y2="74.295" width="0.254" layer="1"/>
+<wire x1="45.72" y1="48.895" x2="46.355" y2="49.53" width="0.254" layer="1"/>
+<wire x1="45.72" y1="46.99" x2="45.72" y2="48.895" width="0.254" layer="1"/>
+<wire x1="46.99" y1="45.72" x2="45.72" y2="46.99" width="0.254" layer="1"/>
+<wire x1="46.99" y1="43.18" x2="46.99" y2="45.72" width="0.254" layer="1"/>
+<wire x1="46.355" y1="106.045" x2="46.99" y2="106.68" width="0.254" layer="1"/>
+<wire x1="46.355" y1="81.28" x2="46.355" y2="106.045" width="0.254" layer="1"/>
+<wire x1="45.72" y1="80.645" x2="46.355" y2="81.28" width="0.254" layer="1"/>
+<wire x1="45.72" y1="79.375" x2="45.72" y2="80.645" width="0.254" layer="1"/>
+<wire x1="46.99" y1="78.105" x2="45.72" y2="79.375" width="0.254" layer="1"/>
+<wire x1="46.99" y1="74.93" x2="46.99" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE34">
+<contactref element="CO-PROCESSOR" pad="SPARE34"/>
+<contactref element="LOAD_BALANCER" pad="SPARE34"/>
+<contactref element="EXTRA" pad="SPARE34"/>
+<contactref element="CONVERTER" pad="SPARE34"/>
+<wire x1="43.18" y1="12.7" x2="44.45" y2="11.43" width="0.254" layer="1"/>
+<wire x1="43.18" y1="41.275" x2="43.18" y2="12.7" width="0.254" layer="1"/>
+<wire x1="44.45" y1="42.545" x2="43.18" y2="41.275" width="0.254" layer="1"/>
+<wire x1="44.45" y1="43.18" x2="44.45" y2="42.545" width="0.254" layer="1"/>
+<wire x1="43.815" y1="74.295" x2="44.45" y2="74.93" width="0.254" layer="1"/>
+<wire x1="43.815" y1="49.53" x2="43.815" y2="74.295" width="0.254" layer="1"/>
+<wire x1="43.18" y1="48.895" x2="43.815" y2="49.53" width="0.254" layer="1"/>
+<wire x1="43.18" y1="46.99" x2="43.18" y2="48.895" width="0.254" layer="1"/>
+<wire x1="44.45" y1="45.72" x2="43.18" y2="46.99" width="0.254" layer="1"/>
+<wire x1="44.45" y1="43.18" x2="44.45" y2="45.72" width="0.254" layer="1"/>
+<wire x1="43.815" y1="106.045" x2="44.45" y2="106.68" width="0.254" layer="1"/>
+<wire x1="43.815" y1="81.28" x2="43.815" y2="106.045" width="0.254" layer="1"/>
+<wire x1="43.18" y1="80.645" x2="43.815" y2="81.28" width="0.254" layer="1"/>
+<wire x1="43.18" y1="79.375" x2="43.18" y2="80.645" width="0.254" layer="1"/>
+<wire x1="44.45" y1="78.105" x2="43.18" y2="79.375" width="0.254" layer="1"/>
+<wire x1="44.45" y1="74.93" x2="44.45" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE33">
+<contactref element="LOAD_BALANCER" pad="SPARE33"/>
+<contactref element="CO-PROCESSOR" pad="SPARE33"/>
+<contactref element="CONVERTER" pad="SPARE33"/>
+<contactref element="EXTRA" pad="SPARE33"/>
+<wire x1="40.64" y1="12.7" x2="41.91" y2="11.43" width="0.254" layer="1"/>
+<wire x1="40.64" y1="41.275" x2="40.64" y2="12.7" width="0.254" layer="1"/>
+<wire x1="41.91" y1="42.545" x2="40.64" y2="41.275" width="0.254" layer="1"/>
+<wire x1="41.91" y1="43.18" x2="41.91" y2="42.545" width="0.254" layer="1"/>
+<wire x1="41.275" y1="74.295" x2="41.91" y2="74.93" width="0.254" layer="1"/>
+<wire x1="41.275" y1="49.53" x2="41.275" y2="74.295" width="0.254" layer="1"/>
+<wire x1="40.64" y1="48.895" x2="41.275" y2="49.53" width="0.254" layer="1"/>
+<wire x1="40.64" y1="46.99" x2="40.64" y2="48.895" width="0.254" layer="1"/>
+<wire x1="41.91" y1="45.72" x2="40.64" y2="46.99" width="0.254" layer="1"/>
+<wire x1="41.91" y1="43.18" x2="41.91" y2="45.72" width="0.254" layer="1"/>
+<wire x1="41.275" y1="106.045" x2="41.91" y2="106.68" width="0.254" layer="1"/>
+<wire x1="41.275" y1="81.28" x2="41.275" y2="106.045" width="0.254" layer="1"/>
+<wire x1="40.64" y1="80.645" x2="41.275" y2="81.28" width="0.254" layer="1"/>
+<wire x1="40.64" y1="79.375" x2="40.64" y2="80.645" width="0.254" layer="1"/>
+<wire x1="41.91" y1="78.105" x2="40.64" y2="79.375" width="0.254" layer="1"/>
+<wire x1="41.91" y1="74.93" x2="41.91" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE32">
+<contactref element="CO-PROCESSOR" pad="SPARE32"/>
+<contactref element="LOAD_BALANCER" pad="SPARE32"/>
+<contactref element="EXTRA" pad="SPARE32"/>
+<contactref element="CONVERTER" pad="SPARE32"/>
+<wire x1="38.1" y1="12.7" x2="39.37" y2="11.43" width="0.254" layer="1"/>
+<wire x1="38.1" y1="41.275" x2="38.1" y2="12.7" width="0.254" layer="1"/>
+<wire x1="39.37" y1="42.545" x2="38.1" y2="41.275" width="0.254" layer="1"/>
+<wire x1="39.37" y1="43.18" x2="39.37" y2="42.545" width="0.254" layer="1"/>
+<wire x1="38.735" y1="74.295" x2="39.37" y2="74.93" width="0.254" layer="1"/>
+<wire x1="38.735" y1="49.53" x2="38.735" y2="74.295" width="0.254" layer="1"/>
+<wire x1="38.1" y1="48.895" x2="38.735" y2="49.53" width="0.254" layer="1"/>
+<wire x1="38.1" y1="46.99" x2="38.1" y2="48.895" width="0.254" layer="1"/>
+<wire x1="39.37" y1="45.72" x2="38.1" y2="46.99" width="0.254" layer="1"/>
+<wire x1="39.37" y1="43.18" x2="39.37" y2="45.72" width="0.254" layer="1"/>
+<wire x1="38.735" y1="106.045" x2="39.37" y2="106.68" width="0.254" layer="1"/>
+<wire x1="38.735" y1="81.28" x2="38.735" y2="106.045" width="0.254" layer="1"/>
+<wire x1="38.1" y1="80.645" x2="38.735" y2="81.28" width="0.254" layer="1"/>
+<wire x1="38.1" y1="79.375" x2="38.1" y2="80.645" width="0.254" layer="1"/>
+<wire x1="39.37" y1="78.105" x2="38.1" y2="79.375" width="0.254" layer="1"/>
+<wire x1="39.37" y1="74.93" x2="39.37" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE30">
+<contactref element="CO-PROCESSOR" pad="SPARE30"/>
+<contactref element="LOAD_BALANCER" pad="SPARE30"/>
+<contactref element="EXTRA" pad="SPARE30"/>
+<contactref element="CONVERTER" pad="SPARE30"/>
+<wire x1="33.02" y1="12.7" x2="34.29" y2="11.43" width="0.254" layer="1"/>
+<wire x1="33.02" y1="41.275" x2="33.02" y2="12.7" width="0.254" layer="1"/>
+<wire x1="34.29" y1="42.545" x2="33.02" y2="41.275" width="0.254" layer="1"/>
+<wire x1="34.29" y1="43.18" x2="34.29" y2="42.545" width="0.254" layer="1"/>
+<wire x1="33.655" y1="74.295" x2="34.29" y2="74.93" width="0.254" layer="1"/>
+<wire x1="33.655" y1="49.53" x2="33.655" y2="74.295" width="0.254" layer="1"/>
+<wire x1="33.02" y1="48.895" x2="33.655" y2="49.53" width="0.254" layer="1"/>
+<wire x1="33.02" y1="46.99" x2="33.02" y2="48.895" width="0.254" layer="1"/>
+<wire x1="34.29" y1="45.72" x2="33.02" y2="46.99" width="0.254" layer="1"/>
+<wire x1="34.29" y1="43.18" x2="34.29" y2="45.72" width="0.254" layer="1"/>
+<wire x1="33.655" y1="106.045" x2="34.29" y2="106.68" width="0.254" layer="1"/>
+<wire x1="33.655" y1="81.28" x2="33.655" y2="106.045" width="0.254" layer="1"/>
+<wire x1="33.02" y1="80.645" x2="33.655" y2="81.28" width="0.254" layer="1"/>
+<wire x1="33.02" y1="79.375" x2="33.02" y2="80.645" width="0.254" layer="1"/>
+<wire x1="34.29" y1="78.105" x2="33.02" y2="79.375" width="0.254" layer="1"/>
+<wire x1="34.29" y1="74.93" x2="34.29" y2="78.105" width="0.254" layer="1"/>
+</signal>
+<signal name="GND">
+<contactref element="LOAD_BALANCER" pad="GND1"/>
+<contactref element="CO-PROCESSOR" pad="GND1"/>
+<contactref element="LOAD_BALANCER" pad="GND2"/>
+<contactref element="CO-PROCESSOR" pad="GND2"/>
+<contactref element="CO-PROCESSOR" pad="GND3"/>
+<contactref element="LOAD_BALANCER" pad="GND3"/>
+<contactref element="CONVERTER" pad="GND1"/>
+<contactref element="EXTRA" pad="GND1"/>
+<contactref element="CONVERTER" pad="GND2"/>
+<contactref element="EXTRA" pad="GND2"/>
+<contactref element="EXTRA" pad="GND3"/>
+<contactref element="CONVERTER" pad="GND3"/>
+<contactref element="CO-PROCESSOR" pad="SPARE4"/>
+<contactref element="LOAD_BALANCER" pad="SPARE4"/>
+<contactref element="EXTRA" pad="SPARE4"/>
+<contactref element="CONVERTER" pad="SPARE4"/>
+<contactref element="EXTRA" pad="SPARE5"/>
+<contactref element="CONVERTER" pad="SPARE5"/>
+<contactref element="CO-PROCESSOR" pad="SPARE5"/>
+<contactref element="LOAD_BALANCER" pad="SPARE5"/>
+<contactref element="CO-PROCESSOR" pad="SPARE6"/>
+<contactref element="LOAD_BALANCER" pad="SPARE6"/>
+<contactref element="EXTRA" pad="SPARE6"/>
+<contactref element="CONVERTER" pad="SPARE6"/>
+<polygon width="0.4064" layer="16">
+<vertex x="0" y="122.936"/>
+<vertex x="101.6" y="122.936"/>
+<vertex x="101.6" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+</signal>
+<signal name="3.3">
+<contactref element="CO-PROCESSOR" pad="3.3V_3"/>
+<contactref element="CO-PROCESSOR" pad="3.3V_1"/>
+<contactref element="CO-PROCESSOR" pad="3.3V_2"/>
+<contactref element="LOAD_BALANCER" pad="3.3V_2"/>
+<contactref element="LOAD_BALANCER" pad="3.3V_3"/>
+<contactref element="LOAD_BALANCER" pad="3.3V_1"/>
+<contactref element="EXTRA" pad="3.3V_3"/>
+<contactref element="EXTRA" pad="3.3V_1"/>
+<contactref element="EXTRA" pad="3.3V_2"/>
+<contactref element="CONVERTER" pad="3.3V_2"/>
+<contactref element="CONVERTER" pad="3.3V_3"/>
+<contactref element="CONVERTER" pad="3.3V_1"/>
+<contactref element="CO-PROCESSOR" pad="SPARE1"/>
+<contactref element="LOAD_BALANCER" pad="SPARE1"/>
+<contactref element="EXTRA" pad="SPARE1"/>
+<contactref element="CONVERTER" pad="SPARE1"/>
+<contactref element="CO-PROCESSOR" pad="SPARE2"/>
+<contactref element="LOAD_BALANCER" pad="SPARE2"/>
+<contactref element="EXTRA" pad="SPARE2"/>
+<contactref element="CONVERTER" pad="SPARE2"/>
+<contactref element="CO-PROCESSOR" pad="SPARE3"/>
+<contactref element="LOAD_BALANCER" pad="SPARE3"/>
+<contactref element="EXTRA" pad="SPARE3"/>
+<contactref element="CONVERTER" pad="SPARE3"/>
+<polygon width="0.4064" layer="1">
+<vertex x="11.43" y="114.3"/>
+<vertex x="24.13" y="114.3"/>
+<vertex x="24.13" y="8.89"/>
+<vertex x="11.43" y="8.89"/>
+</polygon>
+</signal>
+<signal name="SPARE29">
+<contactref element="CONVERTER" pad="SPARE29"/>
+<contactref element="EXTRA" pad="SPARE29"/>
+<contactref element="LOAD_BALANCER" pad="SPARE29"/>
+<contactref element="CO-PROCESSOR" pad="SPARE29"/>
+<wire x1="30.48" y1="12.7" x2="31.75" y2="11.43" width="0.254" layer="1"/>
+<wire x1="30.48" y1="41.91" x2="30.48" y2="12.7" width="0.254" layer="1"/>
+<wire x1="31.75" y1="43.18" x2="30.48" y2="41.91" width="0.254" layer="1"/>
+<wire x1="30.48" y1="73.66" x2="31.75" y2="74.93" width="0.254" layer="1"/>
+<wire x1="30.48" y1="41.91" x2="30.48" y2="73.66" width="0.254" layer="1"/>
+<wire x1="30.48" y1="105.41" x2="31.75" y2="106.68" width="0.254" layer="1"/>
+<wire x1="30.48" y1="73.66" x2="30.48" y2="105.41" width="0.254" layer="1"/>
+</signal>
+<signal name="SPARE31">
+<contactref element="EXTRA" pad="SPARE31"/>
+<contactref element="CONVERTER" pad="SPARE31"/>
+<contactref element="CO-PROCESSOR" pad="SPARE31"/>
+<contactref element="LOAD_BALANCER" pad="SPARE31"/>
+<wire x1="35.56" y1="12.7" x2="36.83" y2="11.43" width="0.254" layer="1"/>
+<wire x1="35.56" y1="41.275" x2="35.56" y2="12.7" width="0.254" layer="1"/>
+<wire x1="36.83" y1="42.545" x2="35.56" y2="41.275" width="0.254" layer="1"/>
+<wire x1="36.83" y1="43.18" x2="36.83" y2="42.545" width="0.254" layer="1"/>
+<wire x1="36.195" y1="74.295" x2="36.83" y2="74.93" width="0.254" layer="1"/>
+<wire x1="36.195" y1="49.53" x2="36.195" y2="74.295" width="0.254" layer="1"/>
+<wire x1="35.56" y1="48.895" x2="36.195" y2="49.53" width="0.254" layer="1"/>
+<wire x1="35.56" y1="46.99" x2="35.56" y2="48.895" width="0.254" layer="1"/>
+<wire x1="36.83" y1="45.72" x2="35.56" y2="46.99" width="0.254" layer="1"/>
+<wire x1="36.83" y1="43.18" x2="36.83" y2="45.72" width="0.254" layer="1"/>
+<wire x1="36.195" y1="106.045" x2="36.83" y2="106.68" width="0.254" layer="1"/>
+<wire x1="36.195" y1="81.28" x2="36.195" y2="106.045" width="0.254" layer="1"/>
+<wire x1="35.56" y1="80.645" x2="36.195" y2="81.28" width="0.254" layer="1"/>
+<wire x1="35.56" y1="79.375" x2="35.56" y2="80.645" width="0.254" layer="1"/>
+<wire x1="36.83" y1="78.105" x2="35.56" y2="79.375" width="0.254" layer="1"/>
+<wire x1="36.83" y1="74.93" x2="36.83" y2="78.105" width="0.254" layer="1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
