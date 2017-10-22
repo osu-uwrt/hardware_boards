@@ -178,8 +178,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pad name="3" x="-4.191" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
 <pad name="2" x="0" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
 <pad name="1" x="4.191" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
-<text x="-7.62" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-7.62" y="-13.7541" size="1.524" layer="21" ratio="18" rot="R90">&gt;NAME</text>
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
 <hole x="-4.191" y="-7.3" drill="3"/>
 <hole x="4.191" y="-7.3" drill="3"/>
@@ -4562,10 +4561,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <library name="CMX60D20">
 <packages>
 <package name="CMX60D20">
-<pad name="LOAD+" x="13.93" y="0" drill="2.2" diameter="3.54" shape="square"/>
-<pad name="LOAD-" x="3.83" y="0" drill="2.2" diameter="3.54" shape="square"/>
-<pad name="CONTROL+" x="-8.87" y="0" drill="2.2" diameter="3.54" shape="square"/>
-<pad name="CONTROL-" x="-13.97" y="0" drill="2.2" diameter="3.54" shape="square"/>
+<pad name="LOAD+" x="13.93" y="0" drill="2.2" diameter="4" shape="square"/>
+<pad name="LOAD-" x="3.83" y="0" drill="2.2" diameter="4" shape="square"/>
+<pad name="CONTROL+" x="-8.87" y="0" drill="2.2" diameter="4" shape="square"/>
+<pad name="CONTROL-" x="-13.97" y="0" drill="2.2" diameter="4" shape="square"/>
 <wire x1="-19.05" y1="2.54" x2="20.32" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="20.32" y1="2.54" x2="20.32" y2="-5.08" width="0.1524" layer="21"/>
 <wire x1="20.32" y1="-5.08" x2="-19.05" y2="-5.08" width="0.1524" layer="21"/>
@@ -4608,10 +4607,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <library name="01220083Z">
 <packages>
 <package name="01220083Z">
-<pad name="P$1" x="-16.51" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$2" x="-8.89" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$3" x="10.16" y="0" drill="2.032" diameter="3.81" shape="square"/>
-<pad name="P$4" x="17.78" y="0" drill="2.032" diameter="3.81" shape="square"/>
+<pad name="P$1" x="-16.51" y="0" drill="2.159" diameter="3.81" shape="square"/>
+<pad name="P$2" x="-8.89" y="0" drill="2.159" diameter="3.81" shape="square"/>
+<pad name="P$3" x="10.16" y="0" drill="2.159" diameter="3.81" shape="square"/>
+<pad name="P$4" x="17.78" y="0" drill="2.159" diameter="3.81" shape="square"/>
 <wire x1="-20.32" y1="3.81" x2="21.59" y2="3.81" width="0.1524" layer="21"/>
 <wire x1="21.59" y1="3.81" x2="21.59" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="21.59" y1="-3.81" x2="-20.32" y2="-3.81" width="0.1524" layer="21"/>
@@ -4676,8 +4675,7 @@ Source: 8x ADG1408_1409.pdf</description>
 <smd name="IN2" x="2.875" y="0.975" dx="0.9" dy="0.35" layer="1" rot="R180"/>
 <smd name="IN1" x="2.875" y="1.625" dx="0.9" dy="0.35" layer="1" rot="R180"/>
 <smd name="IN0" x="2.875" y="2.275" dx="0.9" dy="0.35" layer="1" rot="R180"/>
-<text x="-3.175" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
 <rectangle x1="-3.2" y1="2.125" x2="-2.25" y2="2.425" layer="51"/>
 <rectangle x1="-3.2" y1="1.475" x2="-2.25" y2="1.775" layer="51"/>
 <rectangle x1="-3.2" y1="0.825" x2="-2.25" y2="1.125" layer="51"/>
@@ -9213,7 +9211,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="BALANCED_STATUS" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="EDGE_CONNECTOR" library="5530843-6" deviceset="5530843" device=""/>
 <part name="OFF" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
-<part name="KILL_SWITCH_CONNECTOR" library="con-molex-mini-fit" deviceset="39-30-?02?" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="700"/>
 <part name="KILL_STATUS" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
@@ -9222,6 +9219,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$2" library="5010_c" deviceset="5010_C" device=""/>
 <part name="U$3" library="5010_c" deviceset="5010_C" device=""/>
 <part name="U$4" library="5010_c" deviceset="5010_C" device=""/>
+<part name="KILL_SWITCH" library="con-molex-mini-fit" deviceset="39-30-?02?" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9271,10 +9269,6 @@ if we want it later</text>
 <instance part="BALANCED_STATUS" gate="G$1" x="238.76" y="137.16"/>
 <instance part="EDGE_CONNECTOR" gate="G$1" x="275.59" y="67.31" rot="R180"/>
 <instance part="OFF" gate="1" x="147.32" y="182.88"/>
-<instance part="KILL_SWITCH_CONNECTOR" gate="G$1" x="308.61" y="228.6" smashed="yes" rot="MR180">
-<attribute name="NAME" x="294.64" y="225.425" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="304.8" y="233.68" size="1.778" layer="95" rot="MR180"/>
-</instance>
 <instance part="R8" gate="G$1" x="265.43" y="129.54" rot="R180"/>
 <instance part="KILL_STATUS" gate="G$1" x="255.27" y="125.73"/>
 <instance part="C2" gate="G$1" x="170.18" y="124.46" rot="R90"/>
@@ -9283,6 +9277,10 @@ if we want it later</text>
 <instance part="U$2" gate="G$1" x="154.94" y="171.958" rot="R90"/>
 <instance part="U$3" gate="G$1" x="252.73" y="158.242" rot="R270"/>
 <instance part="U$4" gate="G$1" x="234.95" y="231.14"/>
+<instance part="KILL_SWITCH" gate="G$1" x="308.61" y="228.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="294.64" y="225.425" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="304.8" y="233.68" size="1.778" layer="95" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9609,7 +9607,6 @@ if we want it later</text>
 <wire x1="341.63" y1="106.68" x2="403.86" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="106.68" x2="403.86" y2="228.6" width="0.1524" layer="91"/>
 <junction x="341.63" y="106.68"/>
-<pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="228.6" x2="316.23" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="3.3V_6"/>
 <wire x1="336.55" y1="46.99" x2="336.55" y2="43.18" width="0.1524" layer="91"/>
@@ -9627,6 +9624,7 @@ if we want it later</text>
 <junction x="346.71" y="97.79"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="KILL_SWITCH" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ADC_A0" class="0">
@@ -9883,12 +9881,12 @@ if we want it later</text>
 <wire x1="267.97" y1="121.92" x2="267.97" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="181.61" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
 <junction x="281.94" y="170.18"/>
-<pinref part="KILL_SWITCH_CONNECTOR" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="181.61" x2="300.99" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="300.99" y1="181.61" x2="300.99" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="270.51" y1="129.54" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
 <junction x="281.94" y="129.54"/>
+<pinref part="KILL_SWITCH" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OFF" class="0">
@@ -9962,6 +9960,13 @@ if we want it later</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,147.32,56.9697,R4,,,,,"/>
+<approved hash="113,1,147.32,51.8897,R5,,,,,"/>
+<approved hash="113,1,121.92,67.1297,R6,,,,,"/>
+<approved hash="113,1,121.92,57.3303,R7,,,,,"/>
+<approved hash="113,1,149.581,184.147,OFF,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
