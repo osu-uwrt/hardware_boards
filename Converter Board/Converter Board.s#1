@@ -506,6 +506,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="96.52" y="63.5" size="1.778" layer="91">3.3V Converter</text>
+<text x="93.98" y="96.52" size="1.778" layer="91">12V Converter</text>
+<text x="132.08" y="104.14" size="1.778" layer="91">Molex Minifit Jr. Connector</text>
+<text x="-10.16" y="73.66" size="1.778" layer="91">Molex Minifit Jr. Connector</text>
 </plain>
 <instances>
 <instance part="U$3" gate="G$1" x="76.2" y="0"/>
