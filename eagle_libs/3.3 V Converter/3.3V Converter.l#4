@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -97,18 +97,41 @@
 <wire x1="0" y1="31.75" x2="20.32" y2="31.75" width="0.254" layer="94"/>
 <wire x1="20.32" y1="31.75" x2="20.32" y2="0" width="0.254" layer="94"/>
 <wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="11,NTC" x="17.78" y="4.318" length="middle"/>
-<pin name="14,+VOUT" x="2.54" y="4.318" length="middle" rot="R180"/>
-<pin name="16,-VOUT" x="2.54" y="6.858" length="middle" rot="R180"/>
-<pin name="22,+VIN" x="2.54" y="24.638" length="middle" rot="R180"/>
-<pin name="23,+VIN" x="2.54" y="27.178" length="middle" rot="R180"/>
-<pin name="1,ON/OFF" x="17.78" y="29.718" length="middle"/>
-<pin name="2,-VIN" x="17.78" y="27.178" length="middle"/>
-<pin name="3,-VIN" x="17.78" y="24.638" length="middle"/>
-<pin name="9,NTC" x="17.78" y="6.858" length="middle"/>
+<pin name="11,NTC" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="14,+VOUT" x="-5.08" y="5.08" length="middle"/>
+<pin name="16,-VOUT" x="-5.08" y="7.62" length="middle"/>
+<pin name="22,+VIN" x="-5.08" y="25.4" length="middle"/>
+<pin name="23,+VIN" x="-5.08" y="27.94" length="middle"/>
+<pin name="1,ON/OFF" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="2,-VIN" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="3,-VIN" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="9,NTC" x="25.4" y="7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="3.3VCONV">
+<gates>
+<gate name="G$1" symbol="3.3VCONV" x="-12.7" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="3.3VCONV">
+<connects>
+<connect gate="G$1" pin="1,ON/OFF" pad="1"/>
+<connect gate="G$1" pin="11,NTC" pad="11"/>
+<connect gate="G$1" pin="14,+VOUT" pad="14"/>
+<connect gate="G$1" pin="16,-VOUT" pad="16"/>
+<connect gate="G$1" pin="2,-VIN" pad="2"/>
+<connect gate="G$1" pin="22,+VIN" pad="22"/>
+<connect gate="G$1" pin="23,+VIN" pad="23"/>
+<connect gate="G$1" pin="3,-VIN" pad="3"/>
+<connect gate="G$1" pin="9,NTC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

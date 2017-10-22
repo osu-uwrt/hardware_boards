@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -62,14 +62,6 @@
 <wire x1="57.912" y1="0" x2="57.912" y2="36.83" width="0.127" layer="21"/>
 <wire x1="57.912" y1="36.83" x2="0" y2="36.83" width="0.127" layer="21"/>
 <wire x1="0" y1="36.83" x2="0" y2="0" width="0.127" layer="21"/>
-<hole x="3.556" y="18.415" drill="1.524"/>
-<hole x="3.556" y="26.035" drill="1.524"/>
-<hole x="3.556" y="10.795" drill="1.524"/>
-<hole x="54.356" y="26.035" drill="2.032"/>
-<hole x="54.356" y="18.415" drill="1.524"/>
-<hole x="54.356" y="10.795" drill="2.032"/>
-<hole x="54.356" y="22.225" drill="1.524"/>
-<hole x="54.356" y="14.605" drill="1.524"/>
 <pad name="1,+VIN" x="3.556" y="26.035" drill="1.524" shape="square"/>
 <pad name="2,ON/OFF" x="3.556" y="18.415" drill="1.524" shape="square"/>
 <pad name="3,-VIN" x="3.556" y="10.795" drill="1.524" shape="square"/>
@@ -100,11 +92,33 @@
 <pin name="4,-VOUT" x="63.5" y="30.48" length="middle" rot="R180"/>
 <pin name="5,-SENSE" x="63.5" y="25.4" length="middle" rot="R180"/>
 <pin name="6,TRIM" x="63.5" y="20.32" length="middle" rot="R180"/>
-<pin name="+SENSE" x="63.5" y="15.24" length="middle" rot="R180"/>
-<pin name="+VOUT" x="63.5" y="10.16" length="middle" rot="R180"/>
+<pin name="7,+SENSE" x="63.5" y="15.24" length="middle" rot="R180"/>
+<pin name="8,+VOUT" x="63.5" y="10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="12VCONV">
+<gates>
+<gate name="G$1" symbol="12VCONV" x="-30.48" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="12VCONV">
+<connects>
+<connect gate="G$1" pin="1,+VIN" pad="1,+VIN"/>
+<connect gate="G$1" pin="2,ON/OFF" pad="2,ON/OFF"/>
+<connect gate="G$1" pin="3,-VIN" pad="3,-VIN"/>
+<connect gate="G$1" pin="4,-VOUT" pad="4,-VOUT"/>
+<connect gate="G$1" pin="5,-SENSE" pad="5,-SENSE"/>
+<connect gate="G$1" pin="6,TRIM" pad="6,TRIM"/>
+<connect gate="G$1" pin="7,+SENSE" pad="7,+SENSE"/>
+<connect gate="G$1" pin="8,+VOUT" pad="8,+VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
