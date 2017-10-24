@@ -62,6 +62,15 @@
 <wire x1="21.59" y1="0" x2="21.59" y2="31.75" width="0.127" layer="21"/>
 <wire x1="21.59" y1="31.75" x2="0" y2="31.75" width="0.127" layer="21"/>
 <wire x1="0" y1="31.75" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="19.05" y="4.318" drill="0.762"/>
+<hole x="19.05" y="9.398" drill="0.762"/>
+<hole x="2.54" y="4.318" drill="0.762"/>
+<hole x="2.54" y="9.398" drill="0.762"/>
+<hole x="19.05" y="29.718" drill="0.762"/>
+<hole x="19.05" y="27.178" drill="0.762"/>
+<hole x="19.05" y="24.638" drill="0.762"/>
+<hole x="2.54" y="24.638" drill="0.762"/>
+<hole x="2.54" y="27.178" drill="0.762"/>
 <pad name="23" x="2.54" y="27.178" drill="0.762" shape="square"/>
 <pad name="22" x="2.54" y="24.638" drill="0.762" shape="square"/>
 <pad name="16" x="2.54" y="9.398" drill="0.762" shape="square"/>
@@ -77,8 +86,8 @@
 <text x="13.97" y="3.81" size="1.27" layer="21">ntc</text>
 <text x="5.08" y="26.67" size="1.27" layer="21">+Vin</text>
 <text x="5.08" y="24.13" size="1.27" layer="21">+Vin</text>
-<text x="5.08" y="8.89" size="1.27" layer="21">-Vout</text>
-<text x="5.08" y="3.81" size="1.27" layer="21">+Vout</text>
+<text x="5.08" y="8.89" size="1.27" layer="21">+Vout</text>
+<text x="5.08" y="3.81" size="1.27" layer="21">-Vout</text>
 <text x="11.43" y="29.21" size="1.27" layer="21">On/Off</text>
 </package>
 </packages>
@@ -102,7 +111,7 @@
 <devicesets>
 <deviceset name="3.3VCONV">
 <gates>
-<gate name="G$1" symbol="3.3VCONV" x="-20.32" y="-12.7"/>
+<gate name="G$1" symbol="3.3VCONV" x="-12.7" y="-17.78"/>
 </gates>
 <devices>
 <device name="" package="3.3VCONV">

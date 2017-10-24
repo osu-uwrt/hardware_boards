@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -57,6 +57,39 @@
 </layers>
 <library>
 <packages>
+<package name="3.3VCONV">
+<wire x1="0" y1="0" x2="21.59" y2="0" width="0.127" layer="21"/>
+<wire x1="21.59" y1="0" x2="21.59" y2="31.75" width="0.127" layer="21"/>
+<wire x1="21.59" y1="31.75" x2="0" y2="31.75" width="0.127" layer="21"/>
+<wire x1="0" y1="31.75" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="19.05" y="4.318" drill="0.762"/>
+<hole x="19.05" y="9.398" drill="0.762"/>
+<hole x="2.54" y="4.318" drill="0.762"/>
+<hole x="2.54" y="9.398" drill="0.762"/>
+<hole x="19.05" y="29.718" drill="0.762"/>
+<hole x="19.05" y="27.178" drill="0.762"/>
+<hole x="19.05" y="24.638" drill="0.762"/>
+<hole x="2.54" y="24.638" drill="0.762"/>
+<hole x="2.54" y="27.178" drill="0.762"/>
+<pad name="23" x="2.54" y="27.178" drill="0.762" shape="square"/>
+<pad name="22" x="2.54" y="24.638" drill="0.762" shape="square"/>
+<pad name="16" x="2.54" y="9.398" drill="0.762" shape="square"/>
+<pad name="14" x="2.54" y="4.318" drill="0.762" shape="square"/>
+<pad name="11" x="19.05" y="4.318" drill="0.762" shape="square"/>
+<pad name="9" x="19.05" y="9.398" drill="0.762" shape="square"/>
+<pad name="3" x="19.05" y="24.638" drill="0.762" shape="square"/>
+<pad name="2" x="19.05" y="27.178" drill="0.762" shape="square"/>
+<pad name="1" x="19.05" y="29.718" drill="0.762" shape="square"/>
+<text x="13.97" y="26.67" size="1.27" layer="21">-Vin</text>
+<text x="13.97" y="24.13" size="1.27" layer="21">-Vin</text>
+<text x="13.97" y="8.89" size="1.27" layer="21">ntc</text>
+<text x="13.97" y="3.81" size="1.27" layer="21">ntc</text>
+<text x="5.08" y="26.67" size="1.27" layer="21">+Vin</text>
+<text x="5.08" y="24.13" size="1.27" layer="21">+Vin</text>
+<text x="5.08" y="8.89" size="1.27" layer="21">+Vout</text>
+<text x="5.08" y="3.81" size="1.27" layer="21">-Vout</text>
+<text x="11.43" y="29.21" size="1.27" layer="21">On/Off</text>
+</package>
 </packages>
 <symbols>
 <symbol name="3.3VCONV">
@@ -64,18 +97,41 @@
 <wire x1="0" y1="31.75" x2="20.32" y2="31.75" width="0.254" layer="94"/>
 <wire x1="20.32" y1="31.75" x2="20.32" y2="0" width="0.254" layer="94"/>
 <wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="11,NTC" x="17.78" y="4.318" length="middle"/>
-<pin name="14,+VOUT" x="2.54" y="4.318" length="middle" rot="R180"/>
-<pin name="16,-VOUT" x="2.54" y="6.858" length="middle" rot="R180"/>
-<pin name="22,+VIN" x="2.54" y="24.638" length="middle" rot="R180"/>
-<pin name="23,+VIN" x="2.54" y="27.178" length="middle" rot="R180"/>
-<pin name="1,ON/OFF" x="17.78" y="29.718" length="middle"/>
-<pin name="2,-VIN" x="17.78" y="27.178" length="middle"/>
-<pin name="3,-VIN" x="17.78" y="24.638" length="middle"/>
-<pin name="9,NTC" x="17.78" y="6.858" length="middle"/>
+<pin name="11,NTC" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="14,+VOUT" x="-5.08" y="5.08" length="middle"/>
+<pin name="16,-VOUT" x="-5.08" y="7.62" length="middle"/>
+<pin name="22,+VIN" x="-5.08" y="25.4" length="middle"/>
+<pin name="23,+VIN" x="-5.08" y="27.94" length="middle"/>
+<pin name="1,ON/OFF" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="2,-VIN" x="25.4" y="27.94" length="middle" rot="R180"/>
+<pin name="3,-VIN" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="9,NTC" x="25.4" y="7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="3.3VCONV">
+<gates>
+<gate name="G$1" symbol="3.3VCONV" x="-12.7" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="3.3VCONV">
+<connects>
+<connect gate="G$1" pin="1,ON/OFF" pad="1"/>
+<connect gate="G$1" pin="11,NTC" pad="11"/>
+<connect gate="G$1" pin="14,+VOUT" pad="14"/>
+<connect gate="G$1" pin="16,-VOUT" pad="16"/>
+<connect gate="G$1" pin="2,-VIN" pad="2"/>
+<connect gate="G$1" pin="22,+VIN" pad="22"/>
+<connect gate="G$1" pin="23,+VIN" pad="23"/>
+<connect gate="G$1" pin="3,-VIN" pad="3"/>
+<connect gate="G$1" pin="9,NTC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
