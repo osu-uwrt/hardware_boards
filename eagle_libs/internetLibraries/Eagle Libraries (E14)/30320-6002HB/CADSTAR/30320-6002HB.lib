@@ -1,0 +1,17 @@
+.30320-6002HB :1 ;Header 20 position 3M 303 Series, 2.54mm Pitch 20 Way 2 Row Shrouded Straight PCB Header, Through Hole, Solder Termination
+SHDR20W81P254_2X10_3300X840X930P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12" 13="13" 14="14" 15="15" 16="16" 17="17" 18="18" 19="19" 20="20"
+*MXP 20
+*DFN 30320-6002HB
+~!Supplier_Name (RS)
+~!RS Part Number (8273587)
+~!Manufacturer_Name (3M)
+~!Manufacturer_Part_Number (30320-6002HB)
+~!Allied_Number (-)
+~!Other Part Number (-)
+~!Link Datasheet (http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf)
+~!Height (9.3mm)
+"30320-6002HB"
+1.1!U 3.1!U 5.1!U 7.1!U 9.1!U 11.1!U 13.1!U 15.1!U 17.1!U 19.1!U 2.1!U 4.1!U 6.1!U 8.1!U 10.1!U 12.1!U 14.1!U 16.1!U 18.1!U 20.1!U 
