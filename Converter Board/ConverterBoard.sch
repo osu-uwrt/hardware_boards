@@ -5495,7 +5495,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="12VLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="BALANCEDRAWLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="3.3VR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330"/>
-<part name="BALANCEDRAWR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330"/>
+<part name="BALANCEDRAWR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="700"/>
 <part name="12VR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330"/>
 <part name="3.3VTP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="BALANCEDRAW+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
