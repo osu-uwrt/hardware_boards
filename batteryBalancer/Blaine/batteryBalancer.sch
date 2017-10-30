@@ -190,8 +190,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-2.809" y1="-13.8441" x2="2.809" y2="-13.8441" width="0.2032" layer="21"/>
 <wire x1="2.809" y1="-13.8441" x2="2.809" y2="-1.2441" width="0.2032" layer="21"/>
 <wire x1="2.809" y1="-1.2441" x2="1.709" y2="-1.2441" width="0.2032" layer="21"/>
-<pad name="2" x="0" y="5.5118" drill="1.4224" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="1" x="0" y="0" drill="1.4224" diameter="2.54" shape="square" rot="R90"/>
+<pad name="2" x="0" y="5.5118" drill="2" diameter="3" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="0" drill="2" diameter="3" shape="square" rot="R90"/>
 <text x="-3.429" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="4.699" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
@@ -9220,6 +9220,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U$3" library="5010_c" deviceset="5010_C" device=""/>
 <part name="U$4" library="5010_c" deviceset="5010_C" device=""/>
 <part name="KILL_SWITCH" library="con-molex-mini-fit" deviceset="39-30-?02?" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9281,6 +9283,8 @@ if we want it later</text>
 <attribute name="NAME" x="294.64" y="225.425" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="304.8" y="233.68" size="1.778" layer="95" rot="MR180"/>
 </instance>
+<instance part="GND10" gate="1" x="306.07" y="27.94"/>
+<instance part="GND11" gate="1" x="255.27" y="97.79" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9404,6 +9408,16 @@ if we want it later</text>
 <junction x="388.62" y="160.02"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="393.7" y1="160.02" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="EXTRA2"/>
+<wire x1="306.07" y1="46.99" x2="306.07" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="EXTRA24"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="255.27" y1="90.17" x2="255.27" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STBD_GATE" class="0">
@@ -9760,9 +9774,10 @@ if we want it later</text>
 <pinref part="PORT_FC" gate="G$1" pin="VS"/>
 <wire x1="208.28" y1="144.78" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="144.78" x2="214.63" y2="144.78" width="0.1524" layer="91"/>
 <junction x="208.28" y="144.78"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="214.63" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="208.28" x2="226.06" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="208.28" x2="226.06" y2="218.44" width="0.1524" layer="91"/>
 <junction x="220.98" y="208.28"/>
@@ -9800,6 +9815,17 @@ if we want it later</text>
 <junction x="247.65" y="198.12"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <junction x="252.73" y="165.1"/>
+<wire x1="214.63" y1="144.78" x2="214.63" y2="119.38" width="0.1524" layer="91"/>
+<junction x="214.63" y="144.78"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="EXTRA23"/>
+<wire x1="214.63" y1="119.38" x2="260.35" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="260.35" y1="119.38" x2="260.35" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="260.35" y1="119.38" x2="364.49" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="119.38" x2="364.49" y2="30.48" width="0.1524" layer="91"/>
+<junction x="260.35" y="119.38"/>
+<pinref part="EDGE_CONNECTOR" gate="G$1" pin="EXTRA1"/>
+<wire x1="311.15" y1="46.99" x2="311.15" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="30.48" x2="311.15" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR_POWER1" class="0">
