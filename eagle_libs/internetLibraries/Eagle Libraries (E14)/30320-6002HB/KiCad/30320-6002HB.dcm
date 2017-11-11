@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 30320-6002HB
+D Header 20 position 3M 303 Series, 2.54mm Pitch 20 Way 2 Row Shrouded Straight PCB Header, Through Hole, Solder Termination
+K
+F http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf
+$ENDCMP
+#
+#End Doc Library
