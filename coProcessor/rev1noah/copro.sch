@@ -3568,24 +3568,25 @@ Dual Row, Vertical, Through-Hole</description>
 <part name="U1" library="LM2597N-5.0" deviceset="LM2597N-5.0" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U2" library="SN65HVD232QD" deviceset="SN65HVD232QD" device=""/>
+<part name="CAN_TRANSCEIVER" library="SN65HVD232QD" deviceset="SN65HVD232QD" device=""/>
 <part name="J2" library="con-molex-milli-grid" deviceset="79107-08" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R45" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="60"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100pF"/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R46" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="330"/>
+<part name="R47" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="330"/>
+<part name="CANL_R" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
+<part name="CANH_R" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="426.72" y="38.1" size="1.778" layer="91">5 v</text>
 <text x="408.94" y="71.12" size="1.778" layer="91">18 - 22 V</text>
-<text x="279.4" y="226.06" size="1.778" layer="91">NEEDS WORK</text>
-<text x="274.32" y="236.22" size="1.778" layer="91">NEEDS WORK</text>
-<text x="276.86" y="220.98" size="1.778" layer="91">NEEDS WORK</text>
-<text x="287.02" y="208.28" size="1.778" layer="91">NEEDS WORK</text>
-<text x="276.86" y="231.14" size="1.778" layer="91">NEEDS WORK</text>
-<text x="281.94" y="241.3" size="1.778" layer="91">NEEDS WORK</text>
-<text x="292.1" y="228.6" size="1.778" layer="91">NEEDS WORK</text>
-<text x="287.02" y="220.98" size="1.778" layer="91">NEEDS WORK</text>
-<text x="281.94" y="218.44" size="1.778" layer="91">NEEDS WORK</text>
+<text x="231.14" y="248.92" size="1.778" layer="91" rot="R90">SERIOUSLY DO NOT KNOW HOW TO HOOK THIS UP</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="281.94" y="66.04" rot="R180"/>
@@ -3722,9 +3723,18 @@ Dual Row, Vertical, Through-Hole</description>
 <instance part="U1" gate="A" x="396.24" y="55.88" rot="R270"/>
 <instance part="GND29" gate="1" x="180.34" y="215.9"/>
 <instance part="+3V3" gate="G$1" x="180.34" y="269.24"/>
-<instance part="U2" gate="A" x="198.12" y="238.76"/>
+<instance part="CAN_TRANSCEIVER" gate="A" x="198.12" y="238.76"/>
 <instance part="J2" gate="G$1" x="91.44" y="66.04" rot="R90"/>
 <instance part="+3V9" gate="G$1" x="76.2" y="63.5"/>
+<instance part="R45" gate="G$1" x="228.6" y="241.3" rot="R90"/>
+<instance part="C5" gate="G$1" x="236.22" y="241.3"/>
+<instance part="GND30" gate="1" x="243.84" y="251.46"/>
+<instance part="R46" gate="G$1" x="297.18" y="215.9" rot="R180"/>
+<instance part="R47" gate="G$1" x="297.18" y="187.96" rot="R180"/>
+<instance part="CANL_R" gate="G$1" x="307.34" y="187.96" rot="R90"/>
+<instance part="CANH_R" gate="G$1" x="307.34" y="215.9" rot="R90"/>
+<instance part="GND31" gate="1" x="314.96" y="213.36"/>
+<instance part="GND32" gate="1" x="314.96" y="185.42"/>
 </instances>
 <busses>
 </busses>
@@ -3925,8 +3935,18 @@ Dual Row, Vertical, Through-Hole</description>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<pinref part="U2" gate="A" pin="GND"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="GND"/>
 <wire x1="180.34" y1="226.06" x2="180.34" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CANL_R" gate="G$1" pin="K2"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="309.88" y1="187.96" x2="314.96" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CANH_R" gate="G$1" pin="K2"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="309.88" y1="215.9" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER" class="0">
@@ -4050,7 +4070,7 @@ Dual Row, Vertical, Through-Hole</description>
 <segment>
 <wire x1="180.34" y1="243.84" x2="180.34" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="U2" gate="A" pin="VCC"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
@@ -4979,33 +4999,17 @@ Dual Row, Vertical, Through-Hole</description>
 <wire x1="170.18" y1="170.18" x2="160.02" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="170.18" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="238.76" x2="180.34" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="D"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="D"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA11"/>
 <wire x1="172.72" y1="160.02" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="172.72" x2="220.98" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="R"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="R"/>
 <wire x1="220.98" y1="236.22" x2="215.9" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CAN_H"/>
-<pinref part="U2" gate="A" pin="CANH"/>
-<wire x1="287.02" y1="88.9" x2="287.02" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="241.3" x2="215.9" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CAN_L"/>
-<pinref part="U2" gate="A" pin="CANL"/>
-<wire x1="281.94" y1="88.9" x2="281.94" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="243.84" x2="215.9" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -5050,6 +5054,63 @@ Dual Row, Vertical, Through-Hole</description>
 <pinref part="IC1" gate="G$1" pin="PC3"/>
 <wire x1="167.64" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="91.44" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANH" class="0">
+<segment>
+<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="236.22" x2="236.22" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="236.22" x2="236.22" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="236.22" x2="223.52" y2="236.22" width="0.1524" layer="91"/>
+<junction x="228.6" y="236.22"/>
+<wire x1="223.52" y1="236.22" x2="223.52" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="CANH"/>
+<wire x1="223.52" y1="241.3" x2="215.9" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="236.22" x2="287.02" y2="236.22" width="0.1524" layer="91"/>
+<junction x="236.22" y="236.22"/>
+<pinref part="U$1" gate="G$1" pin="CAN_H"/>
+<wire x1="287.02" y1="236.22" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="215.9" x2="287.02" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="86.36" x2="287.02" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="215.9" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
+<junction x="287.02" y="215.9"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R47" gate="G$1" pin="1"/>
+<pinref part="CANL_R" gate="G$1" pin="A2"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="CANH_R" gate="G$1" pin="A2"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<pinref part="R45" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="246.38" x2="236.22" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="CAN_TRANSCEIVER" gate="A" pin="CANL"/>
+<wire x1="215.9" y1="243.84" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="243.84" x2="223.52" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="246.38" x2="228.6" y2="246.38" width="0.1524" layer="91"/>
+<junction x="228.6" y="246.38"/>
+<pinref part="U$1" gate="G$1" pin="CAN_L"/>
+<wire x1="281.94" y1="88.9" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="187.96" x2="281.94" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="246.38" x2="236.22" y2="246.38" width="0.1524" layer="91"/>
+<junction x="236.22" y="246.38"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="236.22" y1="246.38" x2="236.22" y2="254" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="254" x2="243.84" y2="254" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<junction x="281.94" y="187.96"/>
 </segment>
 </net>
 </nets>
