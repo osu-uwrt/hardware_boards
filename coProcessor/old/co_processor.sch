@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11850,7 +11851,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="OSC1_C" gate="G$1" x="396.24" y="254" rot="R180"/>
 <instance part="OSC2_C" gate="G$1" x="406.4" y="254" rot="R180"/>
 <instance part="OPI_PWM0" gate="A" x="508" y="312.42" rot="R90"/>
-<instance part="PWM_IN0" gate="G$1" x="505.46" y="294.64" rot="R90"/>
+<instance part="PWM_IN0" gate="G$1" x="505.46" y="289.56" rot="R90"/>
 <instance part="GND_ESC1" gate="1" x="518.16" y="307.34"/>
 <instance part="SUPPLY10" gate="GND" x="510.54" y="297.18"/>
 <instance part="OPI_PWM1" gate="A" x="548.64" y="317.5" rot="R90"/>
@@ -11897,7 +11898,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="PWM_IN9" gate="G$1" x="878.84" y="299.72" rot="R90"/>
 <instance part="BIAS_R9" gate="G$1" x="891.54" y="322.58" rot="R270"/>
 <instance part="GND_ESC10" gate="1" x="891.54" y="312.42"/>
-<instance part="SUPPLY22" gate="GND" x="883.92" y="302.26"/>
+<instance part="SUPPLY22" gate="GND" x="886.46" y="302.26"/>
 <instance part="BIAS_R0" gate="G$1" x="518.16" y="317.5" rot="R270"/>
 </instances>
 <busses>
@@ -12221,7 +12222,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <pinref part="OPI_PWM9" gate="A" pin="C"/>
-<wire x1="883.92" y1="304.8" x2="883.92" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="886.46" y1="304.8" x2="883.92" y2="307.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_OUT" class="0">
@@ -12458,7 +12459,7 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="PWM_IN0" gate="G$1" pin="1"/>
-<wire x1="505.46" y1="289.56" x2="505.46" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="284.48" x2="505.46" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM1_OUT" class="0">
@@ -12828,7 +12829,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="PWM_IN0" gate="G$1" pin="2"/>
 <pinref part="OPI_PWM0" gate="A" pin="A"/>
-<wire x1="505.46" y1="299.72" x2="505.46" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="294.64" x2="505.46" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -13022,7 +13023,7 @@ Source: 008-0260-0_E.pdf</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
