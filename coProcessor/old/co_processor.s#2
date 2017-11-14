@@ -11787,11 +11787,11 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="U$7" gate="G$1" x="447.04" y="116.84"/>
 <instance part="SUPPLY17" gate="GND" x="454.66" y="73.66"/>
 <instance part="CANH_LED" gate="G$1" x="614.68" y="137.16"/>
-<instance part="CANL_LED" gate="G$1" x="652.78" y="132.08"/>
+<instance part="CANL_LED" gate="G$1" x="642.62" y="139.7"/>
 <instance part="CANH_R" gate="G$1" x="622.3" y="142.24"/>
 <instance part="CANL_R" gate="G$1" x="635" y="144.78"/>
-<instance part="GND" gate="GND" x="596.9" y="129.54"/>
-<instance part="SUPPLY19" gate="GND" x="652.78" y="116.84"/>
+<instance part="GND" gate="GND" x="614.68" y="129.54"/>
+<instance part="SUPPLY19" gate="GND" x="642.62" y="132.08"/>
 <instance part="U$4" gate="E" x="474.98" y="83.82"/>
 <instance part="MCP2561" gate="G$1" x="604.52" y="170.18"/>
 <instance part="CAN_SPLIT_C" gate="G$1" x="655.32" y="180.34" rot="R90"/>
@@ -12005,12 +12005,10 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="CANH_LED" gate="G$1" pin="C"/>
 <pinref part="GND" gate="GND" pin="GND"/>
-<wire x1="596.9" y1="132.08" x2="614.68" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CANL_LED" gate="G$1" pin="C"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<wire x1="652.78" y1="127" x2="652.78" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CAN_SPLIT_C" gate="G$1" pin="2"/>
@@ -12265,8 +12263,8 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="CANL_R" gate="G$1" pin="2"/>
 <pinref part="CANL_LED" gate="G$1" pin="A"/>
-<wire x1="640.08" y1="144.78" x2="652.78" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="652.78" y1="144.78" x2="652.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="640.08" y1="144.78" x2="642.62" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="642.62" y1="144.78" x2="642.62" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_LED" class="0">
