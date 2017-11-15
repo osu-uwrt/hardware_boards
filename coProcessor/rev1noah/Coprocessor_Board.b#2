@@ -114,7 +114,7 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="15" fill="2" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="15" fill="2" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
@@ -6748,7 +6748,7 @@ design rules under a new name.</description>
 <wire x1="4.8" y1="57.3125" x2="1.5922" y2="58.9078" width="0" layer="19" extent="1-1"/>
 <wire x1="7.34" y1="57.3125" x2="4.8" y2="57.3125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VCAP_2_1">
+<signal name="VCAP_2TO1">
 <contactref element="IC1" pad="47"/>
 <contactref element="CAP5" pad="1"/>
 <contactref element="IC1" pad="31"/>
@@ -6767,7 +6767,7 @@ design rules under a new name.</description>
 <contactref element="ORIN1" pad="P$2"/>
 <wire x1="66.25" y1="22.23" x2="70.19123125" y2="22.830253125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SURGESTBDHI">
+<signal name="OI1">
 <contactref element="IC1" pad="14"/>
 <contactref element="ORIN1" pad="P$1"/>
 <wire x1="48.35" y1="59.5375" x2="48.35" y2="56.1130625" width="0.25" layer="1"/>
@@ -6775,7 +6775,7 @@ design rules under a new name.</description>
 <wire x1="61.2232625" y1="43.2398" x2="61.2232625" y2="29.7967375" width="0.25" layer="1"/>
 <wire x1="61.2232625" y1="29.7967375" x2="66.25" y2="24.77" width="0.25" layer="1"/>
 </signal>
-<signal name="SURGESTBDLOW">
+<signal name="OI2">
 <contactref element="IC1" pad="15"/>
 <contactref element="ORIN2" pad="P$1"/>
 <wire x1="48.85" y1="59.5375" x2="48.85" y2="56.25653125" width="0.25" layer="1"/>
@@ -6783,33 +6783,33 @@ design rules under a new name.</description>
 <wire x1="61.678265625" y1="43.428265625" x2="61.678265625" y2="37.091734375" width="0.25" layer="1"/>
 <wire x1="61.678265625" y1="37.091734375" x2="66.25" y2="32.52" width="0.25" layer="1"/>
 </signal>
-<signal name="SURGEPORTHI">
+<signal name="OI3">
 <contactref element="IC1" pad="16"/>
 <contactref element="ORIN3" pad="P$1"/>
 <wire x1="49.35" y1="59.5375" x2="49.35" y2="56.4" width="0.25" layer="1"/>
 <wire x1="65.73" y1="40.02" x2="66.25" y2="40.02" width="0.25" layer="1"/>
 <wire x1="49.35" y1="56.4" x2="65.73" y2="40.02" width="0.25" layer="1"/>
 </signal>
-<signal name="SURGEPORTLOW">
+<signal name="OI4">
 <contactref element="IC1" pad="17"/>
 <contactref element="ORIN4" pad="P$1"/>
 <wire x1="51.35" y1="61.5375" x2="54.9625" y2="61.5375" width="0.25" layer="1"/>
 <wire x1="66.25" y1="50.25" x2="66.25" y2="47.52" width="0.25" layer="1"/>
 <wire x1="54.9625" y1="61.5375" x2="66.25" y2="50.25" width="0.25" layer="1"/>
 </signal>
-<signal name="HEAVE_STBD_FWD">
+<signal name="OI5">
 <contactref element="IC1" pad="22"/>
 <contactref element="ORIN5" pad="P$1"/>
 <wire x1="51.35" y1="64.0375" x2="57.2325" y2="64.0375" width="0.25" layer="1"/>
 <wire x1="57.2325" y1="64.0375" x2="66.25" y2="55.02" width="0.25" layer="1"/>
 </signal>
-<signal name="HEAVE_STBD_AFT">
+<signal name="OI6">
 <contactref element="IC1" pad="23"/>
 <contactref element="ORIN6" pad="P$1"/>
 <wire x1="51.35" y1="64.5375" x2="60.9425" y2="64.5375" width="0.25" layer="1"/>
 <wire x1="60.9425" y1="64.5375" x2="64.23" y2="61.25" width="0.25" layer="1"/>
 </signal>
-<signal name="HEAVE_PORT_FWD">
+<signal name="OI7">
 <contactref element="IC1" pad="26"/>
 <contactref element="ORIN7" pad="P$1"/>
 <wire x1="51.35" y1="66.0375" x2="55.4625" y2="66.0375" width="0.25" layer="1"/>
@@ -6817,14 +6817,14 @@ design rules under a new name.</description>
 <wire x1="55.75" y1="65.75" x2="66.23" y2="65.75" width="0.25" layer="1"/>
 <wire x1="66.23" y1="65.75" x2="66.25" y2="65.73" width="0.25" layer="1"/>
 </signal>
-<signal name="HEAVE_PORT_AFT">
+<signal name="OI8">
 <contactref element="IC1" pad="27"/>
 <contactref element="ORIN8" pad="P$1"/>
 <wire x1="51.35" y1="66.5375" x2="55.0744375" y2="66.5375" width="0.25" layer="1"/>
 <wire x1="62.0169375" y1="73.48" x2="66.25" y2="73.48" width="0.25" layer="1"/>
 <wire x1="55.0744375" y1="66.5375" x2="62.0169375" y2="73.48" width="0.25" layer="1"/>
 </signal>
-<signal name="SW_AFT">
+<signal name="OIO9">
 <contactref element="IC1" pad="29"/>
 <contactref element="ORIN9" pad="P$1"/>
 <wire x1="51.35" y1="67.5375" x2="55.43096875" y2="67.5375" width="0.25" layer="1"/>
@@ -6833,7 +6833,7 @@ design rules under a new name.</description>
 <wire x1="66.185" y1="79.98" x2="66.25" y2="79.98" width="0.25" layer="1"/>
 <wire x1="55.43096875" y1="67.5375" x2="60.705" y2="72.81153125" width="0.25" layer="1"/>
 </signal>
-<signal name="SW_FWD">
+<signal name="OI10">
 <contactref element="IC1" pad="30"/>
 <contactref element="ORIN10" pad="P$1"/>
 <wire x1="51.35" y1="68.0375" x2="55.2875" y2="68.0375" width="0.25" layer="1"/>
@@ -6953,16 +6953,22 @@ design rules under a new name.</description>
 <wire x1="28.884" y1="53.2285" x2="28.884" y2="53.5531875" width="0.25" layer="1"/>
 <wire x1="28.884" y1="53.5531875" x2="28.6871875" y2="53.75" width="0.25" layer="1"/>
 <wire x1="28.6871875" y1="53.75" x2="24.52" y2="53.75" width="0.25" layer="1"/>
+<wire x1="24.52" y1="53.75" x2="23" y2="55.27" width="0.25" layer="1"/>
+<wire x1="23" y1="55.27" x2="23" y2="57.2005375" width="0.25" layer="1"/>
+<wire x1="23" y1="57.2005375" x2="28.7994625" y2="63" width="0.25" layer="1"/>
+<wire x1="28.7994625" y1="63" x2="29" y2="63" width="0.25" layer="1"/>
+<wire x1="29" y1="63" x2="29.0375" y2="63.0375" width="0.25" layer="1"/>
 <contactref element="IC1" pad="59"/>
-<wire x1="28.884" y1="53.5531875" x2="39.85" y2="64.0375" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0375" y1="63.0375" x2="39.85" y2="64.0375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DEPTHSCL">
 <contactref element="DEPTH_SENSOR" pad="P$3"/>
 <contactref element="DS_R2" pad="P$1"/>
 <wire x1="30.5" y1="52.8625" x2="30.5" y2="56.73" width="0.25" layer="1"/>
 <wire x1="30.5" y1="56.73" x2="31" y2="57.23" width="0.25" layer="1"/>
+<wire x1="31" y1="57.23" x2="36.3075" y2="62.5375" width="0.25" layer="1"/>
 <contactref element="IC1" pad="58"/>
-<wire x1="31" y1="57.23" x2="39.85" y2="64.5375" width="0" layer="19" extent="1-1"/>
+<wire x1="36.3075" y1="62.5375" x2="39.85" y2="64.5375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_CMD">
 <contactref element="IC1" pad="54"/>
@@ -6978,7 +6984,7 @@ design rules under a new name.</description>
 <wire x1="31.5" y1="66.7207" x2="31.6832" y2="66.5375" width="0.2" layer="1"/>
 <wire x1="31.6832" y1="66.5375" x2="39.85" y2="66.5375" width="0.2" layer="1"/>
 </signal>
-<signal name="SDIO_DO">
+<signal name="DATO">
 <contactref element="IC1" pad="39"/>
 <contactref element="J5" pad="7"/>
 <wire x1="6.356240625" y1="76.334996875" x2="10.134996875" y2="76.334996875" width="0.2" layer="1"/>
@@ -7534,12 +7540,12 @@ design rules under a new name.</description>
 <wire x1="84.196584375" y1="39.759140625" x2="92.009140625" y2="40.673415625" width="0" layer="19" extent="1-1"/>
 <wire x1="84.196584375" y1="87.009140625" x2="92.169315625" y2="87.378503125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SCL_BKPLN">
+<signal name="N$1">
 <contactref element="U$1" pad="SCL_SENSOR"/>
 <contactref element="IC1" pad="41"/>
 <wire x1="80.2005" y1="3.175" x2="45.35" y2="71.0375" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SDA_BKPLN">
+<signal name="N$2">
 <contactref element="U$1" pad="SDA_SENSOR"/>
 <contactref element="IC1" pad="40"/>
 <wire x1="77.6605" y1="3.175" x2="45.85" y2="71.0375" width="0" layer="19" extent="1-1"/>
