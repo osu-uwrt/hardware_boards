@@ -6537,9 +6537,8 @@ design rules under a new name.</description>
 <vertex x="30.5" y="8"/>
 <vertex x="30.5" y="2.5"/>
 </polygon>
-<via x="27" y="9" extent="1-16" drill="1"/>
-<wire x1="27" y1="9" x2="27" y2="11" width="1.5" layer="16"/>
-<via x="27" y="11" extent="1-16" drill="1"/>
+<wire x1="26.8605" y1="3.175" x2="26.8605" y2="12.3605" width="1.5" layer="16"/>
+<wire x1="26.8605" y1="12.3605" x2="27" y2="12.5" width="1.5" layer="16"/>
 <wire x1="50.17880625" y1="56.67880625" x2="47.35" y2="59.5375" width="0" layer="19" extent="1-1"/>
 <wire x1="29.4005" y1="3.175" x2="29.4005" y2="3.175" width="0" layer="19" extent="1-16"/>
 <wire x1="26.8605" y1="3.175" x2="26.8605" y2="3.175" width="0" layer="19" extent="1-16"/>
