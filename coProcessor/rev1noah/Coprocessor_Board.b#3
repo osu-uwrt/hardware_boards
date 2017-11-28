@@ -120,7 +120,7 @@
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
 <layer number="205" name="205bmp" color="59" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="58" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="58" fill="10" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
 <layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -11921,7 +11921,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="5530843-6" package="5530843-6-BOARDFINGERS" value="5530843" x="15.875" y="0"/>
-<element name="J1" library="SparkFun-Connectors" package="USB-MINIB" value="USB_MINI-B_SMT" x="7.09260625" y="86.747140625" smashed="yes">
+<element name="J1" library="SparkFun-Connectors" package="USB-MINIB" value="USB_MINI-B_SMT" x="7.09260625" y="86.747140625">
 <attribute name="PROD_ID" value="CONN-08193" x="7.09260625" y="86.747140625" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="PRT-00587" x="7.09260625" y="86.747140625" size="1.778" layer="27" display="off"/>
 </element>
@@ -11937,7 +11937,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="None" x="11.1375" y="14.925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="0.98 USD" x="11.1375" y="14.925" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="OI1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.085890625" y="18.85119375" smashed="yes" rot="R270">
+<element name="OI1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.085890625" y="18.85119375" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="74.085890625" y="18.85119375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="74.085890625" y="18.85119375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="74.085890625" y="18.85119375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -11968,14 +11968,13 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="7468217" x="45.6" y="65.2875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="45.6" y="65.2875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO1B" library="SparkFun-Resistors" package="0603" value="10k" x="82.612478125" y="21.29496875" smashed="yes" rot="R90">
+<element name="RO1B" library="SparkFun-Resistors" package="0603" value="10k" x="82.612478125" y="21.29496875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="82.612478125" y="21.29496875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO1A" library="SparkFun-Resistors" package="0603" value="1k" x="83.76703125" y="17.629609375" smashed="yes" rot="R180">
+<element name="RO1A" library="SparkFun-Resistors" package="0603" value="1k" x="83.76703125" y="17.629609375" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="83.76703125" y="17.629609375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="83.76703125" y="16.105840625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO1C" library="SparkFun-Resistors" package="0603" value="10k" x="86.69826875" y="20.522175" smashed="yes" rot="R180">
+<element name="RO1C" library="SparkFun-Resistors" package="0603" value="10k" x="86.69826875" y="20.522175" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="86.69826875" y="20.522175" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J5" library="5008730806" package="5008730806" value="5008730806" x="17.056240625" y="71.674996875" smashed="yes" rot="R90">
@@ -11983,8 +11982,10 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Connector: for cards; SD Micro; push-push; SMT; gold plated; PIN: 8 " x="17.056240625" y="71.674996875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Molex" x="17.056240625" y="71.674996875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="500873-0806" x="17.056240625" y="71.674996875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="17.256584375" y="64.061915625" size="1.01775" layer="25" ratio="18" rot="R180"/>
 <attribute name="PACKAGE" value="None" x="17.056240625" y="71.674996875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="2.47 USD" x="17.056240625" y="71.674996875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="17.256334375" y="79.978878125" size="0.81318125" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="OSCILLATOR" library="crystal" library_urn="urn:adsk.eagle:library:204" package="HC49/S" package3d_urn="urn:adsk.eagle:package:12071/1" value="" x="34.85215" y="41.08974375" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="34.85215" y="41.08974375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11996,7 +11997,7 @@ design rules under a new name.</description>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="91.620509375" y="15.902896875" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.608309375" y="22.227496875" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="73.941571875" y="26.255165625" smashed="yes" rot="R270">
+<element name="OI2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="73.941571875" y="26.255165625" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="94.941571875" y="42.255165625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="94.941571875" y="42.255165625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="94.941571875" y="42.255165625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12005,20 +12006,19 @@ design rules under a new name.</description>
 <element name="ESC2" library="SparkFun-Connectors" package="1X03" value="" x="99" y="27.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="43.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO2B" library="SparkFun-Resistors" package="0603" value="10k" x="82.560809375" y="28.637521875" smashed="yes" rot="R90">
+<element name="RO2B" library="SparkFun-Resistors" package="0603" value="10k" x="82.560809375" y="28.637521875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.560809375" y="-12.612478125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO2A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277828125" y="25.002384375" smashed="yes" rot="R180">
+<element name="RO2A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277828125" y="25.002384375" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.027828125" y="7.252384375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.277828125" y="23.56326875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO2C" library="SparkFun-Resistors" package="0603" value="10k" x="86.52148125" y="27.72574375" smashed="yes" rot="R180">
+<element name="RO2C" library="SparkFun-Resistors" package="0603" value="10k" x="86.52148125" y="27.72574375" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.27148125" y="-2.02425625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="91.839825" y="23.5250375" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.827625" y="29.8496375" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="36.460253125" smashed="yes" rot="R270">
+<element name="OI3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="36.460253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="52.460253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="52.460253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="52.460253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12027,20 +12027,19 @@ design rules under a new name.</description>
 <element name="ESC3" library="SparkFun-Connectors" package="1X03" value="" x="99" y="35.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="51.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO3B" library="SparkFun-Resistors" package="0603" value="10k" x="82.473784375" y="38.619228125" smashed="yes" rot="R90">
+<element name="RO3B" library="SparkFun-Resistors" package="0603" value="10k" x="82.473784375" y="38.619228125" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.473784375" y="-2.630771875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO3A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277825" y="35.194353125" smashed="yes" rot="R180">
+<element name="RO3A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277825" y="35.194353125" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.027825" y="17.444353125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.277825" y="33.755240625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO3C" library="SparkFun-Resistors" package="0603" value="10k" x="86.309621875" y="37.52623125" smashed="yes" rot="R180">
+<element name="RO3C" library="SparkFun-Resistors" package="0603" value="10k" x="86.309621875" y="37.52623125" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.059621875" y="7.77623125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="92.009140625" y="31.698328125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.996940625" y="38.022928125" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="44.210253125" smashed="yes" rot="R270">
+<element name="OI4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="44.210253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="60.210253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="60.210253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="60.210253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12049,20 +12048,19 @@ design rules under a new name.</description>
 <element name="ESC4" library="SparkFun-Connectors" package="1X03" value="" x="99" y="43.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="59.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO4B" library="SparkFun-Resistors" package="0603" value="10k" x="82.530625" y="46.338240625" smashed="yes" rot="R90">
+<element name="RO4B" library="SparkFun-Resistors" package="0603" value="10k" x="82.530625" y="46.338240625" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.530625" y="5.088240625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO4A" library="SparkFun-Resistors" package="0603" value="1k" x="84.197140625" y="42.880765625" smashed="yes" rot="R180">
+<element name="RO4A" library="SparkFun-Resistors" package="0603" value="1k" x="84.197140625" y="42.880765625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="119.947140625" y="25.130765625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.197140625" y="41.441653125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO4C" library="SparkFun-Resistors" package="0603" value="10k" x="86.498034375" y="45.1653375" smashed="yes" rot="R180">
+<element name="RO4C" library="SparkFun-Resistors" package="0603" value="10k" x="86.498034375" y="45.1653375" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.248034375" y="15.4153375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="92.009140625" y="39.903415625" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.996940625" y="46.228015625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI5" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="51.960253125" smashed="yes" rot="R270">
+<element name="OI5" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="51.960253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="67.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="67.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="67.960253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12071,20 +12069,19 @@ design rules under a new name.</description>
 <element name="ESC5" library="SparkFun-Connectors" package="1X03" value="" x="99" y="51.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="67.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO5B" library="SparkFun-Resistors" package="0603" value="10k" x="82.472175" y="54.002784375" smashed="yes" rot="R90">
+<element name="RO5B" library="SparkFun-Resistors" package="0603" value="10k" x="82.472175" y="54.002784375" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.472175" y="12.752784375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO5A" library="SparkFun-Resistors" package="0603" value="1k" x="84.02385" y="50.69435625" smashed="yes" rot="R180">
+<element name="RO5A" library="SparkFun-Resistors" package="0603" value="1k" x="84.02385" y="50.69435625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="119.77385" y="32.94435625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.02385" y="49.1705875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO5C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478934375" y="53.195546875" smashed="yes" rot="R180">
+<element name="RO5C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478934375" y="53.195546875" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.228934375" y="23.445546875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T5" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="91.92448125" y="47.710253125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.91228125" y="54.034853125" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI6" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="59.960253125" smashed="yes" rot="R270">
+<element name="OI6" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="59.960253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="75.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="75.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="75.960253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12093,20 +12090,19 @@ design rules under a new name.</description>
 <element name="ESC6" library="SparkFun-Connectors" package="1X03" value="" x="99" y="59.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="75.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO6B" library="SparkFun-Resistors" package="0603" value="10k" x="82.31716875" y="62.326709375" smashed="yes" rot="R90">
+<element name="RO6B" library="SparkFun-Resistors" package="0603" value="10k" x="82.31716875" y="62.326709375" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.31716875" y="21.076709375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO6A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277825" y="58.550078125" smashed="yes" rot="R180">
+<element name="RO6A" library="SparkFun-Resistors" package="0603" value="1k" x="84.277825" y="58.550078125" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.027825" y="40.800078125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.277825" y="57.110965625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO6C" library="SparkFun-Resistors" package="0603" value="10k" x="86.552859375" y="61.173290625" smashed="yes" rot="R180">
+<element name="RO6C" library="SparkFun-Resistors" package="0603" value="10k" x="86.552859375" y="61.173290625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.302859375" y="31.423290625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T6" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="92.009140625" y="55.730125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.996940625" y="62.054725" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI7" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="67.710253125" smashed="yes" rot="R270">
+<element name="OI7" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="67.710253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="83.710253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="83.710253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="83.710253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12115,14 +12111,13 @@ design rules under a new name.</description>
 <element name="ESC7" library="SparkFun-Connectors" package="1X03" value="" x="99" y="67.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="83.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO7B" library="SparkFun-Resistors" package="0603" value="10k" x="82.387515625" y="69.502784375" smashed="yes" rot="R90">
+<element name="RO7B" library="SparkFun-Resistors" package="0603" value="10k" x="82.387515625" y="69.502784375" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.387515625" y="28.252784375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO7A" library="SparkFun-Resistors" package="0603" value="1k" x="84.447140625" y="66.45230625" smashed="yes" rot="R180">
+<element name="RO7A" library="SparkFun-Resistors" package="0603" value="1k" x="84.447140625" y="66.45230625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.197140625" y="48.70230625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.447140625" y="64.843878125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO7C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478940625" y="69.042125" smashed="yes" rot="R180">
+<element name="RO7C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478940625" y="69.042125" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.228940625" y="39.292125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T7" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="92.009140625" y="63.810809375" smashed="yes" rot="R180">
@@ -12137,20 +12132,19 @@ design rules under a new name.</description>
 <element name="ESC8" library="SparkFun-Connectors" package="1X03" value="" x="99" y="75.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="91.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO8B" library="SparkFun-Resistors" package="0603" value="10k" x="82.2988875" y="77.35850625" smashed="yes" rot="R90">
+<element name="RO8B" library="SparkFun-Resistors" package="0603" value="10k" x="82.2988875" y="77.35850625" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.2988875" y="36.10850625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO8A" library="SparkFun-Resistors" package="0603" value="1k" x="84.447140625" y="74.1466625" smashed="yes" rot="R180">
+<element name="RO8A" library="SparkFun-Resistors" package="0603" value="1k" x="84.447140625" y="74.1466625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.197140625" y="56.3966625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.447140625" y="72.622890625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO8C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478534375" y="76.996021875" smashed="yes" rot="R180">
+<element name="RO8C" library="SparkFun-Resistors" package="0603" value="10k" x="86.478534375" y="76.996021875" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.228534375" y="47.246021875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T8" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="91.924484375" y="71.842603125" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.912284375" y="78.167203125" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI9" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="82.960253125" smashed="yes" rot="R270">
+<element name="OI9" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="82.960253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="98.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="98.960253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="98.960253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12160,19 +12154,20 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="99.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RO9B" library="SparkFun-Resistors" package="0603" value="10k" x="82.302859375" y="84.410175" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.540859375" y="84.410175" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="61.302859375" y="43.160175" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="83.064859375" y="84.410175" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="RO9A" library="SparkFun-Resistors" package="0603" value="1k" x="85.2090625" y="81.702303125" smashed="yes" rot="R180">
+<element name="RO9A" library="SparkFun-Resistors" package="0603" value="1k" x="85.2090625" y="81.702303125" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.9590625" y="63.952303125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="85.2090625" y="80.263190625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO9C" library="SparkFun-Resistors" package="0603" value="10k" x="86.986890625" y="84.1148625" smashed="yes" rot="R180">
+<element name="RO9C" library="SparkFun-Resistors" package="0603" value="10k" x="86.986890625" y="84.1148625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.736890625" y="54.3648625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T9" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="92.009140625" y="79.903415625" smashed="yes" rot="R180">
 <attribute name="VALUE" x="95.996940625" y="86.228015625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OI10" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="90.460253125" smashed="yes" rot="R270">
+<element name="OI10" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL04" package3d_urn="urn:adsk.eagle:package:21938/1" value="SFH610" x="74.02623125" y="90.460253125" rot="R270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="95.02623125" y="106.460253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SFH6106-4" x="95.02623125" y="106.460253125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1469568" x="95.02623125" y="106.460253125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12181,14 +12176,13 @@ design rules under a new name.</description>
 <element name="ESC10" library="SparkFun-Connectors" package="1X03" value="" x="99" y="91.75" rot="R270">
 <attribute name="PROD_ID" value="XXX-00000" x="120" y="107.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RO10B" library="SparkFun-Resistors" package="0603" value="10k" x="82.35174375" y="92.133546875" smashed="yes" rot="R90">
+<element name="RO10B" library="SparkFun-Resistors" package="0603" value="10k" x="82.35174375" y="92.133546875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="61.35174375" y="50.883546875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RO10A" library="SparkFun-Resistors" package="0603" value="1k" x="84.984103125" y="89.227340625" smashed="yes" rot="R180">
+<element name="RO10A" library="SparkFun-Resistors" package="0603" value="1k" x="84.984103125" y="89.227340625" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="120.734103125" y="71.477340625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="84.984103125" y="87.6189125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="RO10C" library="SparkFun-Resistors" package="0603" value="10k" x="87.054053125" y="92.220984375" smashed="yes" rot="R180">
+<element name="RO10C" library="SparkFun-Resistors" package="0603" value="10k" x="87.054053125" y="92.220984375" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="102.804053125" y="62.470984375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T10" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO126V" package3d_urn="urn:adsk.eagle:package:29912/1" value="" x="91.999996875" y="87.97098125" smashed="yes" rot="R180">
@@ -12202,55 +12196,55 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="TO-220 STMicroelectronics" x="92.062003125" y="11.80405" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="0.29 USD" x="92.062003125" y="11.80405" size="1.778" layer="27" display="off"/>
 </element>
-<element name="ORIN1" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="23.5" smashed="yes" rot="R270">
+<element name="ORIN1" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="23.5" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ORIN2" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="31.25" smashed="yes" rot="R270">
+<element name="ORIN2" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="31.25" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="31.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ORIN3" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="38.75" smashed="yes" rot="R270">
+<element name="ORIN3" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="38.75" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="38.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ORIN4" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="46.25" smashed="yes" rot="R270">
+<element name="ORIN4" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="46.25" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="46.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ORIN5" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="53.75" smashed="yes" rot="R270">
+<element name="ORIN5" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="53.75" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="53.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ORIN6" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.177265625" y="59.980125" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="RES-12182" x="66.177265625" y="59.980125" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="ORIN6" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="65.669315625" y="59.980125" rot="R90">
+<attribute name="PROD_ID" value="RES-12182" x="65.669315625" y="59.980125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="ORIN7" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.165340625" y="67.33863125" smashed="yes" rot="R90">
+<element name="ORIN7" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.165340625" y="67.33863125" rot="R90">
 <attribute name="PROD_ID" value="RES-12182" x="66.165340625" y="67.33863125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="ORIN8" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="74.75" smashed="yes" rot="R90">
+<element name="ORIN8" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="74.75" rot="R90">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="74.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="ORIN9" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="81.25" smashed="yes" rot="R90">
+<element name="ORIN9" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="81.25" rot="R90">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="81.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="ORIN10" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="88.75" smashed="yes" rot="R90">
+<element name="ORIN10" library="SparkFun-Resistors" package="AXIAL-0.1" value="220" x="66.25" y="88.75" rot="R90">
 <attribute name="PROD_ID" value="RES-12182" x="66.25" y="88.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RHB2" library="SparkFun-Resistors" package="AXIAL-0.1" value="330" x="39.75" y="81.25" smashed="yes" rot="R180">
+<element name="RHB2" library="SparkFun-Resistors" package="AXIAL-0.1" value="330" x="39.75" y="81.25" rot="R180">
 <attribute name="PROD_ID" value="RES-12182" x="39.75" y="81.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="RHB1" library="SparkFun-Resistors" package="AXIAL-0.1" value="330" x="39.75" y="85.25" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.75" y="84.107" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-12182" x="39.75" y="85.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="39.75" y="86.393" size="0.6096" layer="21" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="DS_R1" library="SparkFun-Resistors" package="AXIAL-0.1" value="4.7k" x="29.5488875" y="49.5222625" smashed="yes" rot="R270">
+<element name="DS_R1" library="SparkFun-Resistors" package="AXIAL-0.1" value="4.7k" x="29.5488875" y="49.5222625" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="29.5488875" y="49.5222625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="DS_R2" library="SparkFun-Resistors" package="AXIAL-0.1" value="4.7k" x="25.95230625" y="49.441575" smashed="yes" rot="R270">
+<element name="DS_R2" library="SparkFun-Resistors" package="AXIAL-0.1" value="4.7k" x="25.95230625" y="49.441575" rot="R270">
 <attribute name="PROD_ID" value="RES-12182" x="25.95230625" y="49.441575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="4.7 uF" x="36.87876875" y="73.7369" smashed="yes" rot="R90">
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="4.7 uF" x="36.87876875" y="73.7369" rot="R90">
 <attribute name="PROD_ID" value="CAP-08390" x="36.87876875" y="73.7369" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.101025" y="72.974975" size="0.8128" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="100 nF" x="39.75" y="73.75" smashed="yes" rot="R90">
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="100 nF" x="39.75" y="73.75" rot="R90">
 <attribute name="PROD_ID" value="CAP-08390" x="39.75" y="73.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="37.972253125" y="73.24205" size="0.8128" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0603" value="100 nF" x="37.25" y="60.25" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CAP-08390" x="37.25" y="60.25" size="1.778" layer="27" rot="R180" display="off"/>
@@ -12264,22 +12258,19 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08390" x="54" y="60.25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.386328125" y="60.58855625" size="0.8128" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="0603" value="100 nF" x="54" y="71" smashed="yes">
+<element name="C5" library="SparkFun-Capacitors" package="0603" value="100 nF" x="54" y="71">
 <attribute name="PROD_ID" value="CAP-08390" x="54" y="71" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="55.0159" y="70.068684375" size="0.8128" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C11" library="SparkFun-Capacitors" package="0603" value="2.2uF" x="42.3811625" y="75.318759375" smashed="yes" rot="R270">
+<element name="C11" library="SparkFun-Capacitors" package="0603" value="2.2uF" x="42.3811625" y="75.318759375" rot="R270">
 <attribute name="PROD_ID" value="CAP-08390" x="42.3811625" y="75.318759375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="41.534503125" y="75.318759375" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C12" library="SparkFun-Capacitors" package="0603" value="2.2 uF" x="51" y="73.5" smashed="yes" rot="R90">
+<element name="C12" library="SparkFun-Capacitors" package="0603" value="2.2 uF" x="51" y="73.5" rot="R90">
 <attribute name="PROD_ID" value="CAP-08390" x="51" y="73.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="52.10063125" y="74.261921875" size="0.8128" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C8" library="SparkFun-Capacitors" package="CAP-PTH-2.54" value="1 nF" x="31.147059375" y="45.49205" smashed="yes">
+<element name="C8" library="SparkFun-Capacitors" package="CAP-PTH-2.54" value="1 nF" x="31.147059375" y="45.49205">
 <attribute name="PROD_ID" value="CAP-09128" x="31.147059375" y="45.49205" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="SparkFun-Capacitors" package="CAP-PTH-2.54" value="1 nF" x="38.513515625" y="45.5159" smashed="yes" rot="R180">
+<element name="C9" library="SparkFun-Capacitors" package="CAP-PTH-2.54" value="1 nF" x="38.513515625" y="45.5159" rot="R180">
 <attribute name="PROD_ID" value="CAP-09128" x="38.513515625" y="45.5159" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="100 nF" x="53.9869" y="57.68005" smashed="yes">
@@ -12295,10 +12286,10 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="36M3542" x="10.751590625" y="47.747228125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.799590625" y="52.827228125" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="HBL2" library="SparkFun-Resistors" package="AXIAL-0.1" value="LED" x="30.900240625" y="81.271875" smashed="yes" rot="R180">
+<element name="HBL2" library="SparkFun-Resistors" package="AXIAL-0.1" value="LED" x="30.900240625" y="81.271875" rot="R180">
 <attribute name="PROD_ID" value="RES-12182" x="30.900240625" y="81.271875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="HBL1" library="SparkFun-Resistors" package="AXIAL-0.1" value="LED" x="33.0167" y="85.25080625" smashed="yes" rot="R180">
+<element name="HBL1" library="SparkFun-Resistors" package="AXIAL-0.1" value="LED" x="33.0167" y="85.25080625" rot="R180">
 <attribute name="PROD_ID" value="RES-12182" x="33.0167" y="85.25080625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
@@ -12653,10 +12644,10 @@ design rules under a new name.</description>
 <signal name="HEAVE_STBD_AFT">
 <contactref element="IC1" pad="23"/>
 <contactref element="ORIN6" pad="P$1"/>
+<wire x1="65.669315625" y1="58.710125" x2="65.669315625" y2="58.7782375" width="0.2032" layer="1"/>
+<wire x1="65.669315625" y1="58.7782375" x2="59.93800625" y2="64.509546875" width="0.2032" layer="1"/>
 <wire x1="59.93800625" y1="64.509546875" x2="51.377953125" y2="64.509546875" width="0.2032" layer="1"/>
 <wire x1="51.377953125" y1="64.509546875" x2="51.35" y2="64.5375" width="0.2032" layer="1"/>
-<wire x1="66.177265625" y1="58.710125" x2="65.737428125" y2="58.710125" width="0.2032" layer="1"/>
-<wire x1="65.737428125" y1="58.710125" x2="59.93800625" y2="64.509546875" width="0.2032" layer="1"/>
 </signal>
 <signal name="HEAVE_PORT_FWD">
 <contactref element="IC1" pad="26"/>
@@ -13123,10 +13114,9 @@ design rules under a new name.</description>
 <signal name="PWM6">
 <contactref element="OI6" pad="1"/>
 <contactref element="ORIN6" pad="P$2"/>
-<wire x1="70.196484375" y1="61.25" x2="70.21623125" y2="61.230253125" width="0.25" layer="1"/>
+<wire x1="70.21623125" y1="61.230253125" x2="70.196484375" y2="61.25" width="0.25" layer="1"/>
+<wire x1="65.669315625" y1="61.250125" x2="70.196359375" y2="61.250125" width="0.1524" layer="1"/>
 <wire x1="70.196359375" y1="61.250125" x2="70.21623125" y2="61.230253125" width="0.1524" layer="1"/>
-<wire x1="70.21623125" y1="61.230253125" x2="66.1971375" y2="61.230253125" width="0.2032" layer="1"/>
-<wire x1="66.1971375" y1="61.230253125" x2="66.177265625" y2="61.250125" width="0.2032" layer="1"/>
 </signal>
 <signal name="POWER2O6">
 <contactref element="OI6" pad="3"/>
