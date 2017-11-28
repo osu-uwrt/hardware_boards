@@ -10656,8 +10656,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="RESET" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="HBL2" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="HBL1" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
-<part name="D+SERIES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="22Ohm"/>
-<part name="D-SERIES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="22Ohm"/>
+<part name="D+SERIES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="22Ω"/>
+<part name="D-SERIES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="22Ω"/>
 <part name="D-PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="D+PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="3.3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
