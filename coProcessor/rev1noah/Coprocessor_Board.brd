@@ -13439,6 +13439,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.9309375" y="85.335721875" size="0.9906" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="27.20063125" y="82.47418125" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="USB_ID" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="0Ω" x="49.355734375" y="79.070759375" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.7006375" y="79.070503125" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="52.9706875" y="79.222984375" size="0.9906" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -13862,8 +13866,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="7"/>
 <contactref element="RESET" pad="4"/>
 <contactref element="RESET" pad="3"/>
-<wire x1="11.172003125" y1="59.257859375" x2="9.905009375" y2="57.990865625" width="0.1524" layer="1"/>
-<wire x1="11.172003125" y1="59.257859375" x2="11.172003125" y2="59.6248875" width="0.1524" layer="1"/>
 <via x="45.8000875" y="55.02783125" extent="1-16" drill="0.35"/>
 <wire x1="44.85" y1="59.5375" x2="44.85" y2="55.893259375" width="0.1524" layer="1"/>
 <wire x1="45.715428125" y1="55.02783125" x2="45.8000875" y2="55.02783125" width="0.1524" layer="1"/>
@@ -13874,11 +13876,12 @@ design rules under a new name.</description>
 <wire x1="24.21224375" y1="54.77385625" x2="18.9634375" y2="54.77385625" width="0.1524" layer="1"/>
 <wire x1="18.9634375" y1="54.77385625" x2="16.737153125" y2="52.547571875" width="0.1524" layer="1"/>
 <wire x1="14.002790625" y1="50.007828125" x2="16.737153125" y2="52.547571875" width="0.1524" layer="1"/>
-<wire x1="9.905009375" y1="57.990865625" x2="9.905009375" y2="56.72099375" width="0.1524" layer="1"/>
-<wire x1="9.905009375" y1="56.72099375" x2="8.042528125" y2="54.8585125" width="0.1524" layer="1"/>
-<wire x1="8.042528125" y1="54.8585125" x2="8.042528125" y2="50.549965625" width="0.1524" layer="1"/>
-<wire x1="8.042528125" y1="50.549965625" x2="7.500390625" y2="50.007828125" width="0.1524" layer="1"/>
-<wire x1="7.500390625" y1="50.007828125" x2="14.002790625" y2="50.007828125" width="0.1524" layer="1"/>
+<wire x1="7.6192375" y1="50.007828125" x2="7.500390625" y2="50.007828125" width="0.1524" layer="1"/>
+<wire x1="7.6192375" y1="50.007828125" x2="14.002790625" y2="50.007828125" width="0.1524" layer="1"/>
+<wire x1="11.172003125" y1="59.6248875" x2="10.861765625" y2="59.6248875" width="0.1524" layer="1"/>
+<wire x1="10.861765625" y1="59.6248875" x2="9.98966875" y2="58.752790625" width="0.1524" layer="1"/>
+<wire x1="9.98966875" y1="58.752790625" x2="9.98966875" y2="52.378259375" width="0.1524" layer="1"/>
+<wire x1="9.98966875" y1="52.378259375" x2="7.6192375" y2="50.007828125" width="0.1524" layer="1"/>
 </signal>
 <signal name="SYS_JTCK-SWCLK">
 <contactref element="J4" pad="9"/>
@@ -13920,10 +13923,10 @@ design rules under a new name.</description>
 <signal name="SYS_JTRST">
 <contactref element="J4" pad="3"/>
 <contactref element="IC1" pad="56"/>
-<wire x1="27.74101875" y1="60.953903125" x2="26.412003125" y2="59.6248875" width="0.2032" layer="1"/>
-<wire x1="39.85" y1="65.5375" x2="37.2616625" y2="65.5375" width="0.2032" layer="1"/>
-<wire x1="37.2616625" y1="65.5375" x2="32.678065625" y2="60.953903125" width="0.2032" layer="1"/>
-<wire x1="32.678065625" y1="60.953903125" x2="27.74101875" y2="60.953903125" width="0.2032" layer="1"/>
+<wire x1="39.85" y1="65.5375" x2="37.5156375" y2="65.5375" width="0.1524" layer="1"/>
+<wire x1="37.5156375" y1="65.5375" x2="32.932040625" y2="60.953903125" width="0.1524" layer="1"/>
+<wire x1="32.932040625" y1="60.953903125" x2="27.74101875" y2="60.953903125" width="0.1524" layer="1"/>
+<wire x1="27.74101875" y1="60.953903125" x2="26.412003125" y2="59.6248875" width="0.1524" layer="1"/>
 </signal>
 <signal name="DEPTHSDA">
 <contactref element="DS_R1" pad="P$1"/>
@@ -14671,6 +14674,25 @@ design rules under a new name.</description>
 <wire x1="24.49411875" y1="86.747140625" x2="24.6355375" y2="86.605721875" width="0.1524" layer="1"/>
 <wire x1="24.6355375" y1="86.605721875" x2="27.6832375" y2="86.605721875" width="0.1524" layer="1"/>
 <wire x1="27.6832375" y1="86.605721875" x2="27.7675125" y2="86.689996875" width="0.1524" layer="1"/>
+</signal>
+<signal name="OTG_ID">
+<contactref element="IC1" pad="33"/>
+<contactref element="USB_ID" pad="1"/>
+<wire x1="49.35" y1="71.0375" x2="49.35" y2="75.59365625" width="0.1524" layer="1"/>
+<wire x1="49.35" y1="75.59365625" x2="49.355734375" y2="75.260759375" width="0.1524" layer="1"/>
+</signal>
+<signal name="OTG_ID_CON">
+<contactref element="USB_ID" pad="2"/>
+<contactref element="J1" pad="ID"/>
+<wire x1="49.355734375" y1="82.880759375" x2="49.355734375" y2="83.134346875" width="0.1524" layer="16"/>
+<wire x1="49.355734375" y1="83.134346875" x2="46.562009375" y2="85.674096875" width="0.1524" layer="16"/>
+<via x="46.562009375" y="85.674096875" extent="1-16" drill="0.35"/>
+<wire x1="46.562009375" y1="85.674096875" x2="25.035546875" y2="85.674096875" width="0.1524" layer="1"/>
+<wire x1="25.035546875" y1="85.674096875" x2="25.025565625" y2="85.664115625" width="0.1524" layer="1"/>
+<wire x1="10.95908125" y1="85.6783375" x2="9.861409375" y2="85.6783375" width="0.1524" layer="1"/>
+<wire x1="9.861409375" y1="85.6783375" x2="9.59260625" y2="85.947140625" width="0.1524" layer="1"/>
+<wire x1="25.025565625" y1="85.664115625" x2="10.973303125" y2="85.664115625" width="0.1524" layer="1"/>
+<wire x1="10.973303125" y1="85.664115625" x2="10.95908125" y2="85.6783375" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>

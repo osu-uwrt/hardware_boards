@@ -10661,6 +10661,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="D-PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="D+PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="3.3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="USB_ID" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="0Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -10813,6 +10814,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="D-PULL" gate="G$1" x="281.94" y="172.72" rot="R90"/>
 <instance part="D+PULL" gate="G$1" x="289.56" y="175.26" rot="R90"/>
 <instance part="3.3V1" gate="G$1" x="284.48" y="187.96"/>
+<instance part="USB_ID" gate="G$1" x="243.84" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -12260,6 +12262,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="289.56" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="170.18" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <junction x="289.56" y="162.56"/>
+</segment>
+</net>
+<net name="OTG_ID" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB12"/>
+<wire x1="200.66" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="USB_ID" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="OTG_ID_CON" class="0">
+<segment>
+<pinref part="USB_ID" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="ID"/>
+<wire x1="248.92" y1="160.02" x2="297.18" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
