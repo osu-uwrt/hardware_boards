@@ -10500,12 +10500,12 @@
 <text x="88.891109375" y="35.30246875" size="2.54" layer="25">SPH</text>
 <text x="89.060425" y="27.090625" size="2.54" layer="25">SSL</text>
 <text x="88.72179375" y="19.217409375" size="2.54" layer="25">SSH</text>
-<text x="23.450321875" y="36.14905" size="1.778" layer="21">START</text>
-<text x="23.534978125" y="21.841815625" size="1.778" layer="21">SW3
-
-SW4
-
-SW5</text>
+<text x="23.450321875" y="37.080290625" size="1.778" layer="21">START</text>
+<text x="23.534978125" y="33.10135625" size="1.778" layer="21">SW3</text>
+<text x="23.28100625" y="28.953103125" size="1.778" layer="21">SW4</text>
+<text x="23.196346875" y="24.72019375" size="1.778" layer="21">SW5</text>
+<text x="29.63036875" y="16.169715625" size="1.778" layer="21">The Underwater Robotics Team
+Center For Automotive Research</text>
 </plain>
 <libraries>
 <library name="5530843-6">
