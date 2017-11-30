@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,14 +74,14 @@
 <library>
 <packages>
 <package name="HUMIDITYSENSOR">
-<smd name="-VE" x="0" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="OUT" x="1.27" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="+VE" x="2.54" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="NC" x="1.27" y="10.925" dx="2.54" dy="2.29" layer="1"/>
-<wire x1="-0.25" y1="0.89" x2="2.79" y2="0.89" width="0.15" layer="21"/>
-<wire x1="2.79" y1="0.89" x2="2.79" y2="9.78" width="0.15" layer="21"/>
-<wire x1="2.79" y1="9.78" x2="-0.25" y2="9.78" width="0.15" layer="21"/>
-<wire x1="-0.25" y1="9.78" x2="-0.25" y2="0.89" width="0.15" layer="21"/>
+<smd name="-VE" x="0.8128" y="0.889" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="OUT" x="2.0828" y="0.889" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="+VE" x="3.3528" y="0.889" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="X" x="2.0828" y="10.668" dx="2.54" dy="2.286" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="12.9032" width="0.008584375" layer="1"/>
+<wire x1="0" y1="12.9032" x2="4.1656" y2="12.9032" width="0.008584375" layer="1"/>
+<wire x1="0" y1="0" x2="4.1656" y2="0" width="0.008584375" layer="1"/>
+<wire x1="4.1656" y1="0" x2="4.1656" y2="12.9032" width="0.008584375" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -93,7 +93,7 @@
 <pin name="-VE" x="2.54" y="-5.08" length="middle" rot="R90"/>
 <pin name="OUT" x="5.08" y="-5.08" length="middle" rot="R90"/>
 <pin name="+VE" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="NC" x="5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="X" x="5.08" y="15.24" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -106,8 +106,8 @@
 <connects>
 <connect gate="G$1" pin="+VE" pad="+VE"/>
 <connect gate="G$1" pin="-VE" pad="-VE"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="X" pad="X"/>
 </connects>
 <technologies>
 <technology name=""/>

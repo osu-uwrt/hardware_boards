@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,48 +73,34 @@
 </layers>
 <library>
 <packages>
-<package name="HUMIDITYSENSOR">
-<smd name="-VE" x="0" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="OUT" x="1.27" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="+VE" x="2.54" y="0" dx="0.51" dy="1.78" layer="1"/>
-<smd name="NC" x="1.27" y="10.925" dx="2.54" dy="2.29" layer="1"/>
-<wire x1="-0.25" y1="0.89" x2="2.79" y2="0.89" width="0.15" layer="21"/>
-<wire x1="2.79" y1="0.89" x2="2.79" y2="9.78" width="0.15" layer="21"/>
-<wire x1="2.79" y1="9.78" x2="-0.25" y2="9.78" width="0.15" layer="21"/>
-<wire x1="-0.25" y1="9.78" x2="-0.25" y2="0.89" width="0.15" layer="21"/>
+<package name="CURRENTSENS">
+<smd name="P$1" x="0" y="0" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$2" x="1.27" y="0" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$3" x="2.54" y="0" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$4" x="3.81" y="0" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$5" x="0" y="5.6" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$6" x="1.27" y="5.6" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$7" x="2.54" y="5.6" dx="0.65" dy="1.75" layer="1" rot="R180"/>
+<smd name="P$8" x="3.81" y="5.6" dx="0.65" dy="1.75" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
-<symbol name="HUMIDITYSENSOR">
-<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
-<pin name="-VE" x="2.54" y="-5.08" length="middle" rot="R90"/>
-<pin name="OUT" x="5.08" y="-5.08" length="middle" rot="R90"/>
-<pin name="+VE" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="NC" x="5.08" y="15.24" length="middle" rot="R270"/>
+<symbol name="CURRENTSENS">
+<pin name="1,IP+" x="-5.08" y="10.16" length="middle"/>
+<pin name="2,IP+" x="-5.08" y="7.62" length="middle"/>
+<pin name="4,IP-" x="-5.08" y="2.54" length="middle"/>
+<pin name="3,IP-" x="-5.08" y="5.08" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.1524" layer="94"/>
+<pin name="8,VCC" x="22.86" y="10.16" length="middle" rot="R180"/>
+<wire x1="0" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="0" width="0.1524" layer="94"/>
+<pin name="7,VIOUT" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="6,FAULT" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="5,GND" x="22.86" y="2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HUMIDITYSENSOR">
-<gates>
-<gate name="G$1" symbol="HUMIDITYSENSOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HUMIDITYSENSOR">
-<connects>
-<connect gate="G$1" pin="+VE" pad="+VE"/>
-<connect gate="G$1" pin="-VE" pad="-VE"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>

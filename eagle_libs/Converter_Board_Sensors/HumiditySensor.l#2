@@ -78,10 +78,6 @@
 <smd name="OUT" x="1.27" y="0" dx="0.51" dy="1.78" layer="1"/>
 <smd name="+VE" x="2.54" y="0" dx="0.51" dy="1.78" layer="1"/>
 <smd name="NC" x="1.27" y="10.925" dx="2.54" dy="2.29" layer="1"/>
-<wire x1="-0.25" y1="0.89" x2="2.79" y2="0.89" width="0.15" layer="21"/>
-<wire x1="2.79" y1="0.89" x2="2.79" y2="9.78" width="0.15" layer="21"/>
-<wire x1="2.79" y1="9.78" x2="-0.25" y2="9.78" width="0.15" layer="21"/>
-<wire x1="-0.25" y1="9.78" x2="-0.25" y2="0.89" width="0.15" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -103,12 +99,6 @@
 </gates>
 <devices>
 <device name="" package="HUMIDITYSENSOR">
-<connects>
-<connect gate="G$1" pin="+VE" pad="+VE"/>
-<connect gate="G$1" pin="-VE" pad="-VE"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
