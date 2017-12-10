@@ -183,8 +183,6 @@ Riptide -- Battery Balancer</text>
 <text x="83.693" y="95.377" size="1.4224" layer="21">Port Power</text>
 <text x="9.398" y="95.885" size="1.4224" layer="21">Star Power</text>
 <text x="50.165" y="91.948" size="1.778" layer="21">GND</text>
-<text x="86.614" y="58.674" size="1.778" layer="21">DO NOT
-TOUCH</text>
 </plain>
 <libraries>
 <library name="con-molex-mini-fit">
