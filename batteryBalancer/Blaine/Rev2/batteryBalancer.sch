@@ -10282,7 +10282,6 @@ Where x is input voltage</text>
 <wire x1="326.39" y1="91.44" x2="326.39" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RELAY4" gate="G$1" pin="CONTROL-"/>
 <pinref part="RLAY1" gate="G$1" pin="CONTROL-"/>
 <wire x1="289.56" y1="165.1" x2="287.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="165.1" x2="287.02" y2="152.4" width="0.1524" layer="91"/>
@@ -10294,10 +10293,12 @@ Where x is input voltage</text>
 <wire x1="289.56" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
 <junction x="287.02" y="139.7"/>
 <wire x1="287.02" y1="139.7" x2="287.02" y2="127" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="127" x2="289.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="127" x2="287.02" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="LOGIC_GND1" gate="1" pin="GNDA"/>
+<wire x1="287.02" y1="127" x2="287.02" y2="120.65" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="120.65" x2="297.18" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="RELAY4" gate="G$1" pin="CONTROL-"/>
+<wire x1="289.56" y1="127" x2="287.02" y2="127" width="0.1524" layer="91"/>
+<junction x="287.02" y="127"/>
 </segment>
 <segment>
 <pinref part="ADC" gate="G$1" pin="GND"/>
@@ -10495,13 +10496,6 @@ Where x is input voltage</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,147.32,56.9697,R4,,,,,"/>
-<approved hash="113,1,147.32,51.8897,R5,,,,,"/>
-<approved hash="113,1,121.92,67.1297,R6,,,,,"/>
-<approved hash="113,1,121.92,57.3303,R7,,,,,"/>
-<approved hash="113,1,149.581,184.147,OFF,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
