@@ -1582,11 +1582,11 @@ design rules under a new name.</description>
 <element name="U$1" library="12VCONV" package="12VCONV" value="12VCONV" x="21.844" y="49.276"/>
 <element name="3.3VLED" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="57.658" y="97.536"/>
 <element name="12VLED" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="86.614" y="97.536"/>
-<element name="BALANCEDLED" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="13.97" y="97.536"/>
+<element name="BALANCEDRAWLED" library="LTST-S270GKT" package="LTST-S270GKT" value="LTST-S270GKT" x="13.97" y="97.536"/>
 <element name="3.3VR" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330" x="54.864" y="90.678" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.864" y="93.1926" size="0.9906" layer="21" ratio="10" rot="R180"/>
 </element>
-<element name="BALANCEDR" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="700" x="11.176" y="90.678" smashed="yes">
+<element name="BALANCEDRAWR" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="700" x="11.176" y="90.678" smashed="yes">
 <attribute name="NAME" x="4.064" y="92.2274" size="0.9906" layer="21" ratio="10"/>
 </element>
 <element name="12VR" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330" x="91.44" y="90.678" smashed="yes">
@@ -1596,7 +1596,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="40.005" y="95.631" size="1" layer="37"/>
 <attribute name="VALUE" x="40.005" y="96.774" size="0.0254" layer="27"/>
 </element>
-<element name="BALANCED+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="21.59" y="97.536" smashed="yes">
+<element name="BALANCEDRAW+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="21.59" y="97.536" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="20.955" y="95.631" size="1" layer="37"/>
 <attribute name="VALUE" x="20.955" y="96.774" size="0.0254" layer="27"/>
 </element>
@@ -1604,11 +1604,11 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="66.675" y="95.631" size="1" layer="37"/>
 <attribute name="VALUE" x="66.675" y="96.774" size="0.0254" layer="27"/>
 </element>
-<element name="12V-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="77.47" y="97.536" smashed="yes">
+<element name="12V-TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="77.47" y="97.536" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="76.835" y="95.631" size="1" layer="37"/>
 <attribute name="VALUE" x="76.835" y="96.774" size="0.0254" layer="27"/>
 </element>
-<element name="BALANCED-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.75" y="97.536" smashed="yes">
+<element name="BALANCEDRAW-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="PTR1B1,27" x="31.75" y="97.536" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="31.115" y="95.631" size="1" layer="37"/>
 <attribute name="VALUE" x="31.115" y="96.774" size="0.0254" layer="27"/>
 </element>
@@ -1620,9 +1620,16 @@ design rules under a new name.</description>
 <element name="12VOUT1" library="con-molex-mini-fit" package="39-30-?06?" value="39-30-06?" x="85.471" y="23.114" rot="R90"/>
 </elements>
 <signals>
-<signal name="BALANCED+">
+<signal name="BALANCEDRAW+">
+<contactref element="BALANCEDRAWIN" pad="3"/>
+<contactref element="BALANCEDRAWIN" pad="2"/>
+<contactref element="BALANCEDRAWIN" pad="1"/>
+<wire x1="15.875" y1="35.6875" x2="15.875" y2="39.8785" width="2.54" layer="1"/>
+<wire x1="15.875" y1="35.6875" x2="15.875" y2="31.4965" width="2.54" layer="1"/>
+<contactref element="BALANCEDRAWR" pad="1"/>
 <contactref element="U$1" pad="1,+VIN"/>
 <contactref element="U$1" pad="2,ON/OFF"/>
+<contactref element="BALANCEDRAW+TP" pad="TP"/>
 <polygon width="0.1524" layer="1">
 <vertex x="0" y="101.6"/>
 <vertex x="0" y="17.78"/>
@@ -1632,24 +1639,19 @@ design rules under a new name.</description>
 <vertex x="33.782" y="89.916"/>
 <vertex x="33.782" y="101.6"/>
 </polygon>
-<contactref element="BALANCEDRAWIN" pad="5"/>
-<contactref element="BALANCEDRAWIN" pad="4"/>
-<contactref element="BALANCEDRAWIN" pad="6"/>
-<contactref element="BALANCEDR" pad="2"/>
-<contactref element="BALANCED+TP" pad="TP"/>
-<contactref element="U$2" pad="22"/>
 <contactref element="U$2" pad="23"/>
-<wire x1="14.986" y1="90.678" x2="21.59" y2="97.536" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="75.311" x2="14.986" y2="90.678" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="67.691" x2="25.4" y2="75.311" width="0" layer="19" extent="1-1"/>
-<wire x1="21.3868" y1="39.8785" x2="25.4" y2="67.691" width="0" layer="19" extent="1-1"/>
-<wire x1="21.3868" y1="35.6875" x2="21.3868" y2="39.8785" width="0" layer="19" extent="1-1"/>
-<wire x1="21.3868" y1="31.4965" x2="21.3868" y2="35.6875" width="0" layer="19" extent="1-1"/>
-<wire x1="36.576" y1="35.56" x2="21.3868" y2="35.6875" width="0" layer="19" extent="1-1"/>
-<wire x1="39.116" y1="35.56" x2="36.576" y2="35.56" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="22"/>
 </signal>
-<signal name="BALANCED-">
+<signal name="BALANCEDRAW-">
+<contactref element="BALANCEDRAWIN" pad="5"/>
+<contactref element="BALANCEDRAWIN" pad="6"/>
+<contactref element="BALANCEDRAWIN" pad="4"/>
 <contactref element="U$1" pad="3,-VIN"/>
+<contactref element="BALANCEDRAWLED" pad="CATHODE"/>
+<via x="10.16" y="97.536" extent="1-16" drill="0.35"/>
+<contactref element="BALANCEDRAW-TP" pad="TP"/>
+<via x="29.21" y="97.536" extent="1-16" drill="0.35"/>
+<wire x1="29.21" y1="97.536" x2="31.75" y2="97.536" width="0.1524" layer="1"/>
 <polygon width="0.1524" layer="16">
 <vertex x="0" y="101.6"/>
 <vertex x="0" y="17.78"/>
@@ -1659,20 +1661,9 @@ design rules under a new name.</description>
 <vertex x="33.782" y="89.916"/>
 <vertex x="33.782" y="101.6"/>
 </polygon>
-<contactref element="BALANCEDRAWIN" pad="3"/>
-<contactref element="BALANCEDRAWIN" pad="1"/>
-<contactref element="BALANCEDRAWIN" pad="2"/>
-<contactref element="BALANCED-TP" pad="TP"/>
-<contactref element="BALANCEDLED" pad="CATHODE"/>
-<contactref element="U$2" pad="3"/>
+<wire x1="10.16" y1="97.536" x2="12.97" y2="97.536" width="0.1524" layer="1"/>
 <contactref element="U$2" pad="2"/>
-<wire x1="12.97" y1="97.536" x2="31.75" y2="97.536" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="60.071" x2="31.75" y2="97.536" width="0" layer="19" extent="1-1"/>
-<wire x1="15.875" y1="39.8785" x2="25.4" y2="60.071" width="0" layer="19" extent="1-1"/>
-<wire x1="15.875" y1="35.6875" x2="15.875" y2="39.8785" width="0" layer="19" extent="1-1"/>
-<wire x1="15.875" y1="31.4965" x2="15.875" y2="35.6875" width="0" layer="19" extent="1-1"/>
-<wire x1="36.576" y1="20.32" x2="15.875" y2="31.4965" width="0" layer="19" extent="1-1"/>
-<wire x1="39.116" y1="20.32" x2="36.576" y2="20.32" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="3"/>
 </signal>
 <signal name="12V-">
 <polygon width="0.1524" layer="16">
@@ -1716,20 +1707,28 @@ design rules under a new name.</description>
 <vertex x="21.844" y="8.382"/>
 <vertex x="17.018" y="8.382"/>
 </polygon>
-<contactref element="3.3VLED" pad="CATHODE"/>
+<via x="19.304" y="7.366" extent="1-16" drill="1"/>
+<contactref element="3.3VR" pad="2"/>
+<wire x1="48.514" y1="88.138" x2="51.054" y2="90.678" width="0.1524" layer="1"/>
+<contactref element="3.3VTP" pad="TP"/>
+<wire x1="48.514" y1="88.138" x2="48.514" y2="95.758" width="0.1524" layer="1"/>
+<wire x1="48.514" y1="95.758" x2="46.736" y2="97.536" width="0.1524" layer="1"/>
+<wire x1="46.736" y1="97.536" x2="40.64" y2="97.536" width="0.1524" layer="1"/>
 <contactref element="U$2" pad="14"/>
-<wire x1="59.436" y1="35.56" x2="56.658" y2="97.536" width="0" layer="19" extent="1-1"/>
-<wire x1="21.7805" y1="3.175" x2="59.436" y2="35.56" width="0" layer="19" extent="16-16"/>
-<wire x1="21.7805" y1="3.175" x2="21.7805" y2="3.175" width="0" layer="19" extent="1-16"/>
-<wire x1="19.2405" y1="3.175" x2="21.7805" y2="3.175" width="0" layer="19" extent="16-16"/>
-<wire x1="19.2405" y1="3.175" x2="19.2405" y2="3.175" width="0" layer="19" extent="1-16"/>
-<wire x1="16.7005" y1="3.175" x2="19.2405" y2="3.175" width="0" layer="19" extent="16-16"/>
-<wire x1="16.7005" y1="3.175" x2="16.7005" y2="3.175" width="0" layer="19" extent="1-16"/>
+<wire x1="59.436" y1="22.86" x2="59.436" y2="35.56" width="1.27" layer="1"/>
+<wire x1="59.436" y1="22.86" x2="49.276" y2="12.7" width="1.27" layer="1"/>
+<wire x1="49.276" y1="12.7" x2="24.638" y2="12.7" width="1.27" layer="1"/>
+<wire x1="24.638" y1="12.7" x2="19.304" y2="7.366" width="1.27" layer="1"/>
+<wire x1="59.436" y1="35.56" x2="48.514" y2="46.482" width="0.1524" layer="1"/>
+<wire x1="48.514" y1="46.482" x2="48.514" y2="88.138" width="0.1524" layer="1"/>
 </signal>
 <signal name="3.3VGROUND">
+<contactref element="U$3" pad="GND_6"/>
+<contactref element="U$3" pad="GND_4"/>
 <contactref element="U$3" pad="GND3"/>
 <contactref element="U$3" pad="GND1"/>
 <contactref element="U$3" pad="GND2"/>
+<contactref element="U$3" pad="GND_5"/>
 <polygon width="0.3048" layer="1" thermals="no">
 <vertex x="23.622" y="2.794"/>
 <vertex x="23.622" y="2.54"/>
@@ -1763,12 +1762,21 @@ design rules under a new name.</description>
 <vertex x="29.972" y="7.62"/>
 <vertex x="29.21" y="8.382"/>
 </polygon>
+<via x="26.924" y="7.366" extent="1-16" drill="1"/>
+<contactref element="3.3VLED" pad="CATHODE"/>
+<via x="54.356" y="97.536" extent="1-16" drill="0.35"/>
+<wire x1="56.658" y1="97.536" x2="54.356" y2="97.536" width="0.1524" layer="1"/>
+<contactref element="3.3VGROUNDTP" pad="TP"/>
+<wire x1="54.356" y1="97.536" x2="50.8" y2="97.536" width="0.1524" layer="1"/>
+<wire x1="48.514" y1="91.694" x2="54.356" y2="97.536" width="0.1524" layer="16"/>
 <contactref element="U$2" pad="16"/>
-<contactref element="3.3VR" pad="2"/>
-<wire x1="54.356" y1="35.56" x2="51.054" y2="90.678" width="0" layer="19" extent="1-1"/>
-<wire x1="29.4005" y1="3.175" x2="54.356" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8605" y1="3.175" x2="29.4005" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3205" y1="3.175" x2="26.8605" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="54.356" y1="23.114" x2="54.356" y2="35.56" width="1.27" layer="16"/>
+<wire x1="54.356" y1="23.114" x2="46.482" y2="15.24" width="1.27" layer="16"/>
+<wire x1="46.482" y1="15.24" x2="34.544" y2="15.24" width="1.27" layer="16"/>
+<wire x1="34.544" y1="15.24" x2="26.924" y2="7.62" width="1.27" layer="16"/>
+<wire x1="26.924" y1="7.62" x2="26.924" y2="7.366" width="1.27" layer="16"/>
+<wire x1="54.356" y1="35.56" x2="48.514" y2="41.402" width="0.1524" layer="16"/>
+<wire x1="48.514" y1="41.402" x2="48.514" y2="91.694" width="0.1524" layer="16"/>
 </signal>
 <signal name="12V+">
 <polygon width="0.1524" layer="1">
@@ -1783,6 +1791,18 @@ design rules under a new name.</description>
 <vertex x="101.346" y="101.6"/>
 </polygon>
 </signal>
+<signal name="3.3VLED">
+<contactref element="3.3VR" pad="1"/>
+<contactref element="3.3VLED" pad="ANODE"/>
+<wire x1="58.658" y1="97.536" x2="58.658" y2="90.694" width="0.1524" layer="1"/>
+<wire x1="58.658" y1="90.694" x2="58.674" y2="90.678" width="0.1524" layer="1"/>
+</signal>
+<signal name="BALANCEDRAWLED">
+<contactref element="BALANCEDRAWR" pad="2"/>
+<contactref element="BALANCEDRAWLED" pad="ANODE"/>
+<wire x1="14.986" y1="90.678" x2="14.986" y2="97.52" width="0.1524" layer="1"/>
+<wire x1="14.986" y1="97.52" x2="14.97" y2="97.536" width="0.1524" layer="1"/>
+</signal>
 <signal name="N$2">
 <contactref element="12VOUT" pad="4"/>
 <contactref element="12VOUT" pad="6"/>
@@ -1792,9 +1812,7 @@ design rules under a new name.</description>
 <contactref element="12VOUT1" pad="4"/>
 <contactref element="12VOUT1" pad="5"/>
 <contactref element="12VOUT" pad="5"/>
-<contactref element="12VR" pad="1"/>
-<wire x1="67.31" y1="97.536" x2="87.63" y2="90.678" width="0" layer="19" extent="1-1"/>
-<wire x1="76.2" y1="60.071" x2="87.63" y2="90.678" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="60.071" x2="67.31" y2="97.536" width="0" layer="19" extent="1-1"/>
 <wire x1="79.9592" y1="44.7045" x2="76.2" y2="60.071" width="0" layer="19" extent="1-1"/>
 <wire x1="79.9592" y1="40.5135" x2="79.9592" y2="44.7045" width="0" layer="19" extent="1-1"/>
 <wire x1="79.9592" y1="36.3225" x2="79.9592" y2="40.5135" width="0" layer="19" extent="1-1"/>
@@ -1805,14 +1823,12 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="12VOUT1" pad="3"/>
 <contactref element="12VOUT1" pad="1"/>
-<contactref element="12V-TP" pad="TP"/>
+<contactref element="U$1" pad="4,-VOUT"/>
+<contactref element="12V-TP1" pad="TP"/>
 <contactref element="12VOUT1" pad="2"/>
 <contactref element="12VOUT" pad="2"/>
 <contactref element="12VOUT" pad="1"/>
 <contactref element="12VOUT" pad="3"/>
-<contactref element="U$1" pad="4,-VOUT"/>
-<contactref element="12VLED" pad="CATHODE"/>
-<wire x1="77.47" y1="97.536" x2="85.614" y2="97.536" width="0" layer="19" extent="1-1"/>
 <wire x1="76.2" y1="75.311" x2="77.47" y2="97.536" width="0" layer="19" extent="1-1"/>
 <wire x1="85.471" y1="44.7045" x2="76.2" y2="75.311" width="0" layer="19" extent="1-1"/>
 <wire x1="85.471" y1="40.5135" x2="85.471" y2="44.7045" width="0" layer="19" extent="1-1"/>
@@ -1820,33 +1836,6 @@ design rules under a new name.</description>
 <wire x1="85.471" y1="27.305" x2="85.471" y2="36.3225" width="0" layer="19" extent="1-1"/>
 <wire x1="85.471" y1="23.114" x2="85.471" y2="27.305" width="0" layer="19" extent="1-1"/>
 <wire x1="85.471" y1="18.923" x2="85.471" y2="23.114" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="12VLED">
-<contactref element="12VR" pad="2"/>
-<contactref element="12VLED" pad="ANODE"/>
-<wire x1="87.614" y1="97.536" x2="95.25" y2="90.678" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="BALANCEDLED">
-<contactref element="BALANCEDR" pad="1"/>
-<contactref element="BALANCEDLED" pad="ANODE"/>
-<wire x1="7.366" y1="90.678" x2="14.97" y2="97.536" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$2" pad="11"/>
-<contactref element="U$2" pad="9"/>
-<wire x1="54.356" y1="20.32" x2="59.436" y2="20.32" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$3" pad="GND_6"/>
-<contactref element="U$3" pad="GND_4"/>
-<contactref element="U$3" pad="GND_5"/>
-<wire x1="26.8605" y1="3.175" x2="29.4005" y2="3.175" width="0" layer="19" extent="16-16"/>
-<wire x1="24.3205" y1="3.175" x2="26.8605" y2="3.175" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$5">
-<contactref element="3.3VLED" pad="ANODE"/>
-<contactref element="3.3VR" pad="1"/>
-<wire x1="58.674" y1="90.678" x2="58.658" y2="97.536" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

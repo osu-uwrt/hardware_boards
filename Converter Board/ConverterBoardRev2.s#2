@@ -5492,15 +5492,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$1" library="12VCONV" deviceset="12VCONV" device=""/>
 <part name="3.3VLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="12VLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
-<part name="BALANCEDLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
+<part name="BALANCEDRAWLED" library="LTST-S270GKT" deviceset="LTST-S270GKT" device=""/>
 <part name="3.3VR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330"/>
-<part name="BALANCEDR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="700"/>
+<part name="BALANCEDRAWR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="700"/>
 <part name="12VR" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="330"/>
 <part name="3.3VTP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="BALANCED+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="BALANCEDRAW+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="12V+TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="12V-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
-<part name="BALANCED-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="BALANCEDRAW-TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="3.3VGROUNDTP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="U$2" library="3.3V Converter" deviceset="3.3VCONV" device=""/>
 <part name="12VOUT1" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
@@ -5511,88 +5511,90 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </plain>
 <instances>
 <instance part="U$3" gate="G$1" x="76.2" y="-35.56"/>
-<instance part="BALANCEDRAWIN" gate="G$1" x="-66.04" y="78.74"/>
+<instance part="BALANCEDRAWIN" gate="G$1" x="-58.42" y="78.74"/>
 <instance part="12VOUT" gate="G$1" x="124.46" y="78.74"/>
 <instance part="U$1" gate="G$1" x="0" y="58.42"/>
-<instance part="3.3VLED" gate="G$1" x="-12.7" y="-45.72"/>
+<instance part="3.3VLED" gate="G$1" x="-20.32" y="-2.54"/>
 <instance part="12VLED" gate="G$1" x="167.64" y="83.82" rot="R180"/>
-<instance part="BALANCEDLED" gate="G$1" x="-81.28" y="83.82" rot="R180"/>
-<instance part="3.3VR" gate="G$1" x="-12.7" y="-35.56" rot="R90"/>
-<instance part="BALANCEDR" gate="G$1" x="-81.28" y="73.66" rot="R270"/>
+<instance part="BALANCEDRAWLED" gate="G$1" x="-76.2" y="83.82" rot="R180"/>
+<instance part="3.3VR" gate="G$1" x="-15.24" y="5.08"/>
+<instance part="BALANCEDRAWR" gate="G$1" x="-76.2" y="73.66" rot="R270"/>
 <instance part="12VR" gate="G$1" x="167.64" y="73.66" rot="R90"/>
-<instance part="3.3VTP" gate="G$1" x="-30.48" y="-20.32"/>
-<instance part="BALANCED+TP" gate="G$1" x="-45.72" y="66.04"/>
+<instance part="3.3VTP" gate="G$1" x="-5.08" y="0"/>
+<instance part="BALANCEDRAW+TP" gate="G$1" x="-15.24" y="53.34" rot="R180"/>
 <instance part="12V+TP" gate="G$1" x="78.74" y="66.04"/>
 <instance part="12V-TP" gate="G$1" x="78.74" y="86.36"/>
-<instance part="BALANCED-TP" gate="G$1" x="-45.72" y="86.36"/>
-<instance part="3.3VGROUNDTP" gate="G$1" x="7.62" y="2.54" rot="R270"/>
-<instance part="U$2" gate="G$1" x="-35.56" y="20.32"/>
+<instance part="BALANCEDRAW-TP" gate="G$1" x="-20.32" y="71.12"/>
+<instance part="3.3VGROUNDTP" gate="G$1" x="10.16" y="-10.16" rot="R270"/>
+<instance part="U$2" gate="G$1" x="7.62" y="7.62"/>
 <instance part="12VOUT1" gate="G$1" x="149.86" y="78.74"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="BALANCED+" class="0">
+<net name="BALANCEDRAW+" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="2,ON/OFF"/>
 <wire x1="-5.08" y1="78.74" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="1,+VIN"/>
 <junction x="-5.08" y="68.58"/>
-<pinref part="BALANCEDRAWIN" gate="G$1" pin="5"/>
-<wire x1="-73.66" y1="76.2" x2="-73.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="68.58" x2="-58.42" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="BALANCEDRAWIN" gate="G$1" pin="4"/>
-<wire x1="-58.42" y1="68.58" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="78.74" x2="-58.42" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-58.42" y="68.58"/>
-<pinref part="BALANCEDRAWIN" gate="G$1" pin="6"/>
-<junction x="-58.42" y="76.2"/>
-<wire x1="-58.42" y1="76.2" x2="-58.42" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="BALANCEDR" gate="G$1" pin="2"/>
-<wire x1="-73.66" y1="68.58" x2="-81.28" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-73.66" y="68.58"/>
-<pinref part="BALANCED+TP" gate="G$1" pin="TP"/>
-<junction x="-45.72" y="68.58"/>
-<pinref part="U$2" gate="G$1" pin="22,+VIN"/>
+<wire x1="-5.08" y1="68.58" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="35.56" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="68.58" x2="-15.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="50.8" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="BALANCEDRAW+TP" gate="G$1" pin="TP"/>
+<junction x="-15.24" y="50.8"/>
+<wire x1="-2.54" y1="35.56" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="23,+VIN"/>
-<wire x1="-10.16" y1="45.72" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="48.26" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-10.16" y="48.26"/>
-<junction x="-10.16" y="68.58"/>
+<wire x1="-2.54" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="22,+VIN"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<junction x="33.02" y="35.56"/>
+<pinref part="BALANCEDRAWIN" gate="G$1" pin="5"/>
+<wire x1="-66.04" y1="76.2" x2="-66.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-15.24" y="68.58"/>
+<pinref part="BALANCEDRAWIN" gate="G$1" pin="4"/>
+<wire x1="-50.8" y1="68.58" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="78.74" x2="-50.8" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-50.8" y="68.58"/>
+<pinref part="BALANCEDRAWIN" gate="G$1" pin="6"/>
+<junction x="-50.8" y="76.2"/>
+<wire x1="-50.8" y1="76.2" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BALANCED-" class="0">
+<net name="BALANCEDRAW-" class="0">
 <segment>
+<wire x1="-5.08" y1="88.9" x2="-20.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="88.9" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3,-VIN"/>
+<wire x1="-20.32" y1="73.66" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="BALANCEDRAW-TP" gate="G$1" pin="TP"/>
+<junction x="-20.32" y="73.66"/>
+<wire x1="-20.32" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="0" y1="43.18" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="2,-VIN"/>
+<wire x1="0" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3,-VIN"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<junction x="2.54" y="35.56"/>
 <pinref part="BALANCEDRAWIN" gate="G$1" pin="3"/>
 <pinref part="BALANCEDRAWIN" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="78.74" x2="-73.66" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="81.28" x2="-73.66" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-73.66" y="81.28"/>
-<wire x1="-73.66" y1="88.9" x2="-58.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="78.74" x2="-66.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="81.28" x2="-66.04" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-66.04" y="81.28"/>
+<wire x1="-66.04" y1="88.9" x2="-50.8" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="BALANCEDRAWIN" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="88.9" x2="-45.72" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="88.9" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="88.9" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="81.28" x2="-58.42" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-58.42" y="88.9"/>
-<pinref part="BALANCED-TP" gate="G$1" pin="TP"/>
-<junction x="-45.72" y="88.9"/>
-<pinref part="BALANCEDLED" gate="G$1" pin="C"/>
-<wire x1="-81.28" y1="88.9" x2="-73.66" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-73.66" y="88.9"/>
-<pinref part="U$2" gate="G$1" pin="3,-VIN"/>
-<pinref part="U$2" gate="G$1" pin="2,-VIN"/>
-<wire x1="-40.64" y1="45.72" x2="-40.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="48.26" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-40.64" y="48.26"/>
-<junction x="-40.64" y="88.9"/>
+<wire x1="-50.8" y1="88.9" x2="-20.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="81.28" x2="-50.8" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-50.8" y="88.9"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
+<pinref part="3.3VR" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="3.3V_4"/>
 <pinref part="U$3" gate="G$1" pin="3.3V_6"/>
 <wire x1="5.08" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="91"/>
@@ -5601,8 +5603,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="10.16" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-58.42" x2="10.16" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-58.42" x2="15.24" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-50.8" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-58.42" x2="5.08" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="5.08" y="-58.42"/>
 <wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
@@ -5613,17 +5614,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="3.3V_2"/>
 <junction x="10.16" y="-58.42"/>
 <junction x="15.24" y="-58.42"/>
-<pinref part="3.3VLED" gate="G$1" pin="C"/>
-<wire x1="-12.7" y1="-50.8" x2="-5.08" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-50.8"/>
-<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-15.24"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-5.08" y="5.08"/>
+<pinref part="3.3VTP" gate="G$1" pin="TP"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-5.08" y="2.54"/>
 <pinref part="U$2" gate="G$1" pin="14,+VOUT"/>
-<wire x1="-5.08" y1="25.4" x2="-10.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="5.08" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3VGROUND" class="0">
 <segment>
+<pinref part="U$3" gate="G$1" pin="GND_6"/>
+<pinref part="U$3" gate="G$1" pin="GND_4"/>
+<wire x1="30.48" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-15.24" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-10.16" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="20.32" y="-15.24"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-10.16"/>
 <pinref part="U$3" gate="G$1" pin="GND_3"/>
 <pinref part="U$3" gate="G$1" pin="GND_1"/>
 <wire x1="30.48" y1="-58.42" x2="25.4" y2="-58.42" width="0.1524" layer="91"/>
@@ -5634,13 +5649,25 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="GND_2"/>
 <junction x="25.4" y="-58.42"/>
 <junction x="30.48" y="-58.42"/>
+<pinref part="U$3" gate="G$1" pin="GND_5"/>
+<junction x="25.4" y="-15.24"/>
+<junction x="30.48" y="-15.24"/>
+<pinref part="3.3VLED" gate="G$1" pin="C"/>
+<wire x1="-20.32" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-7.62"/>
+<pinref part="3.3VGROUNDTP" gate="G$1" pin="TP"/>
+<junction x="12.7" y="-10.16"/>
+<wire x1="-7.62" y1="2.54" x2="35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="2.54" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="16,-VOUT"/>
-<wire x1="-7.62" y1="-60.96" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-30.48" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="27.94" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="3.3VR" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="-30.48" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-30.48"/>
+<wire x1="35.56" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3VLED" class="0">
+<segment>
+<pinref part="3.3VR" gate="G$1" pin="1"/>
+<pinref part="3.3VLED" gate="G$1" pin="A"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5712,38 +5739,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="12VR" gate="G$1" pin="2"/>
 <pinref part="12VLED" gate="G$1" pin="A"/>
 <wire x1="167.64" y1="78.74" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BALANCEDLED" class="0">
-<segment>
-<pinref part="BALANCEDR" gate="G$1" pin="1"/>
-<pinref part="BALANCEDLED" gate="G$1" pin="A"/>
-<wire x1="-81.28" y1="78.74" x2="-81.28" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="11,NTC"/>
-<pinref part="U$2" gate="G$1" pin="9,NTC"/>
-<wire x1="-40.64" y1="27.94" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="GND_4"/>
-<pinref part="U$3" gate="G$1" pin="GND_6"/>
-<junction x="30.48" y="-15.24"/>
-<wire x1="30.48" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND_5"/>
-<junction x="25.4" y="-15.24"/>
-<wire x1="25.4" y1="-15.24" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="3.3VLED" gate="G$1" pin="A"/>
-<pinref part="3.3VR" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="-43.18" x2="-12.7" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
