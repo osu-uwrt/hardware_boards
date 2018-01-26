@@ -2057,7 +2057,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="PDIP-28" x="55.8038" y="21.1328" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="Atmel" x="55.8038" y="21.1328" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Y1" library="SparkFun-Clocks" package="HC49U" value="16 MHz" x="47.2948" y="7.1628"/>
+<element name="Y1" library="SparkFun-Clocks" package="HC49U" value="16 MHz" x="47.1424" y="5.9436"/>
 <element name="CON1" library="pinhead" package="1X02" value="" x="178.7398" y="3.9878"/>
 <element name="CON2" library="pinhead" package="1X02" value="" x="168.5798" y="3.9878"/>
 <element name="CON3" library="pinhead" package="1X02" value="" x="158.4198" y="3.9878"/>
@@ -2158,8 +2158,8 @@ design rules under a new name.</description>
 <element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204V" package3d_urn="urn:adsk.eagle:package:25948/1" value="3.3 K" x="74.0156" y="11.7856" smashed="yes" rot="R180">
 <attribute name="VALUE" x="76.1492" y="14.097" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" package="0603" value="22pF" x="47.5742" y="11.4554">
-<attribute name="PROD_ID" value="CAP-07884" x="47.5742" y="11.4554" size="1.778" layer="27" display="off"/>
+<element name="C6" library="SparkFun-Capacitors" package="0603" value="22pF" x="48.641" y="10.2362" rot="R180">
+<attribute name="PROD_ID" value="CAP-07884" x="48.641" y="10.2362" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0603" value="1uF" x="31.7246" y="6.3246" rot="MR0">
 <attribute name="PROD_ID" value="CAP-07884" x="31.7246" y="6.3246" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2170,8 +2170,8 @@ design rules under a new name.</description>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="1uF" x="41.1226" y="10.541" rot="R270">
 <attribute name="PROD_ID" value="CAP-07884" x="41.1226" y="10.541" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="22pF" x="43.942" y="11.4554">
-<attribute name="PROD_ID" value="CAP-07884" x="43.942" y="11.4554" size="1.778" layer="27" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" package="0603" value="22pF" x="44.5516" y="10.2362" rot="R180">
+<attribute name="PROD_ID" value="CAP-07884" x="44.5516" y="10.2362" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PRESSURE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="61.9506" y="13.0556" smashed="yes">
 <attribute name="MF" value="" x="61.9506" y="13.0556" size="1.778" layer="27" display="off"/>
@@ -2207,15 +2207,21 @@ design rules under a new name.</description>
 <signals>
 <signal name="XTAL1">
 <contactref element="U1" pad="9"/>
+<contactref element="Y1" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="43.1038" y1="13.5128" x2="43.1038" y2="11.4672" width="0.1524" layer="1"/>
-<wire x1="43.1038" y1="11.4672" x2="43.092" y2="11.4554" width="0.1524" layer="1"/>
+<wire x1="45.4016" y1="6.6158" x2="45.4016" y2="10.2362" width="0.1524" layer="1"/>
+<wire x1="45.4016" y1="6.6158" x2="44.7294" y2="5.9436" width="0.1524" layer="1"/>
+<wire x1="45.4016" y1="10.2362" x2="45.4016" y2="11.215" width="0.1524" layer="1"/>
+<wire x1="45.4016" y1="11.215" x2="43.1038" y2="13.5128" width="0.1524" layer="1"/>
 </signal>
 <signal name="XTAL2">
 <contactref element="U1" pad="10"/>
 <contactref element="C6" pad="1"/>
-<wire x1="45.6438" y1="13.5128" x2="45.6438" y2="12.5358" width="0.1524" layer="1"/>
-<wire x1="45.6438" y1="12.5358" x2="46.7242" y2="11.4554" width="0.1524" layer="1"/>
+<contactref element="Y1" pad="2"/>
+<wire x1="49.491" y1="10.2362" x2="49.491" y2="6.008" width="0.1524" layer="1"/>
+<wire x1="49.491" y1="6.008" x2="49.5554" y2="5.9436" width="0.1524" layer="1"/>
+<wire x1="45.6438" y1="13.5128" x2="46.2144" y2="13.5128" width="0.1524" layer="1"/>
+<wire x1="46.2144" y1="13.5128" x2="49.491" y2="10.2362" width="0.1524" layer="1"/>
 </signal>
 <signal name="Q8">
 <contactref element="Q8" pad="1"/>
@@ -2399,6 +2405,19 @@ design rules under a new name.</description>
 <contactref element="Q2" pad="3"/>
 <contactref element="Q7" pad="3"/>
 <contactref element="Q1" pad="3"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C1" pad="2"/>
+<wire x1="47.791" y1="10.2362" x2="47.791" y2="9.691" width="0.1524" layer="1"/>
+<wire x1="47.791" y1="9.691" x2="47.0916" y2="8.9916" width="0.1524" layer="1"/>
+<wire x1="47.0916" y1="8.9916" x2="46.6344" y2="8.8392" width="0.1524" layer="1"/>
+<via x="46.6344" y="8.8392" extent="1-16" drill="0.35"/>
+<wire x1="46.6344" y1="8.8392" x2="43.7388" y2="8.9916" width="0.1524" layer="16"/>
+<wire x1="43.7388" y1="8.9916" x2="43.7388" y2="8.8392" width="0.1524" layer="16"/>
+<via x="43.7388" y="8.8392" extent="1-16" drill="0.35"/>
+<wire x1="43.7388" y1="8.8392" x2="43.7388" y2="10.199" width="0.1524" layer="1"/>
+<wire x1="43.7388" y1="10.199" x2="43.7016" y2="10.2362" width="0.1524" layer="1"/>
+<wire x1="43.7016" y1="10.2362" x2="43.7016" y2="10.375" width="0.1524" layer="1"/>
+<wire x1="43.7016" y1="10.375" x2="40.5638" y2="13.5128" width="0.1524" layer="1"/>
 </signal>
 <signal name="VDD">
 <polygon width="0.1524" layer="1">
@@ -2561,18 +2580,6 @@ design rules under a new name.</description>
 <wire x1="21.0058" y1="15.875" x2="27.686" y2="15.875" width="0.1524" layer="1"/>
 <wire x1="27.686" y1="15.875" x2="32.9438" y2="21.1328" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$5">
-<contactref element="C6" pad="2"/>
-<contactref element="Y1" pad="2"/>
-<wire x1="48.4242" y1="11.4554" x2="48.4242" y2="8.4464" width="0.1524" layer="1"/>
-<wire x1="48.4242" y1="8.4464" x2="49.7078" y2="7.1628" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="Y1" pad="1"/>
-<contactref element="C1" pad="2"/>
-<wire x1="44.792" y1="11.4554" x2="44.792" y2="7.2526" width="0.1524" layer="1"/>
-<wire x1="44.792" y1="7.2526" x2="44.8818" y2="7.1628" width="0.1524" layer="1"/>
-</signal>
 <signal name="N$6">
 <contactref element="U1" pad="11"/>
 <contactref element="PRESSURE" pad="1"/>
@@ -2646,16 +2653,16 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,7fa98cecadaa7674"/>
 <approved hash="18,29,f2e0a95ba447eace"/>
 <approved hash="18,29,f2e0a95ba447eace"/>
 <approved hash="18,29,6d930f18fb94cada"/>
-<approved hash="18,29,7a21891d6166f7f2"/>
-<approved hash="18,29,192722c7e725bd55"/>
-<approved hash="18,29,46ddd7e131945341"/>
+<approved hash="18,29,7fa98cecadaa7674"/>
 <approved hash="18,29,5f33720b73065e3e"/>
-<approved hash="18,29,efca2c3006147be5"/>
 <approved hash="18,29,3596f9e9c70fbcd1"/>
+<approved hash="18,29,192722c7e725bd55"/>
+<approved hash="18,29,7a21891d6166f7f2"/>
+<approved hash="18,29,efca2c3006147be5"/>
+<approved hash="18,29,46ddd7e131945341"/>
 <approved hash="18,29,567d96e5f2f2136a"/>
 <approved hash="18,29,145db4c5b2d2114a"/>
 <approved hash="18,29,1243f6db8ecc5354"/>
@@ -2673,44 +2680,40 @@ design rules under a new name.</description>
 <approved hash="18,29,1e52b7cab02460bc"/>
 <approved hash="18,29,584097d88e361eae"/>
 <approved hash="18,29,fd88f40ed40fdd89"/>
-<approved hash="18,29,e482bdd3edaa2a27"/>
-<approved hash="18,29,e6c6855007e2801a"/>
-<approved hash="18,29,484bcf65714436d4"/>
-<approved hash="18,29,32752d488c8684bb"/>
-<approved hash="18,29,58de0a172f0496b8"/>
 <approved hash="18,29,3bfe36b678ff9ec2"/>
+<approved hash="18,29,58de0a172f0496b8"/>
 <approved hash="18,29,53135fff90a4d243"/>
 <approved hash="18,29,ad1219ef8bb06148"/>
-<approved hash="18,29,384b9a579cc5870b"/>
 <approved hash="18,29,8056eb13c9e706c3"/>
-<approved hash="18,29,a1ee57d52f8d10cd"/>
+<approved hash="18,29,384b9a579cc5870b"/>
 <approved hash="18,29,4e1c58c3691eb6ba"/>
-<approved hash="18,29,015275a4c5edfdbb"/>
+<approved hash="18,29,a1ee57d52f8d10cd"/>
 <approved hash="18,29,d453767df06c0351"/>
+<approved hash="18,29,015275a4c5edfdbb"/>
 <approved hash="18,29,584e3d0bf3ec41dc"/>
 <approved hash="18,29,02534c4844cec013"/>
-<approved hash="18,29,081af8de40052bb4"/>
 <approved hash="18,29,01e011ceb29039cb"/>
+<approved hash="18,29,081af8de40052bb4"/>
 <approved hash="18,29,1d5387a45bf194ba"/>
 <approved hash="18,29,4a52847cec706a51"/>
 <approved hash="18,29,73faed60072ec2c7"/>
 <approved hash="18,29,80db41c670d2eabc"/>
 <approved hash="18,29,db1e4fc27c993e4e"/>
 <approved hash="18,29,4d1b51b9a7e2cd4f"/>
-<approved hash="18,29,b04d2a557cf5ab0c"/>
 <approved hash="18,29,60505b1441d72ac1"/>
+<approved hash="18,29,b04d2a557cf5ab0c"/>
 <approved hash="18,29,71ee6fe443bb54ca"/>
 <approved hash="18,29,761b88f52d2fdaba"/>
 <approved hash="18,29,0152f5a575dbd1bc"/>
 <approved hash="18,29,6453f67af05a2f50"/>
 <approved hash="18,29,9852f517cba105c3"/>
 <approved hash="18,29,3a4f84578483840f"/>
-<approved hash="18,29,581868816458afba"/>
 <approved hash="18,29,91ee419336cf1dc9"/>
-<approved hash="18,29,c253047df42e1651"/>
+<approved hash="18,29,581868816458afba"/>
 <approved hash="18,29,055207a4d3afe8bb"/>
-<approved hash="18,29,48d679b5c4ae4eb1"/>
+<approved hash="18,29,c253047df42e1651"/>
 <approved hash="18,29,4bf7251ca35d76ca"/>
+<approved hash="18,29,48d679b5c4ae4eb1"/>
 <approved hash="18,29,d009dceffa2708c3"/>
 <approved hash="18,29,de025af3b134fbc2"/>
 <approved hash="18,29,3beaa6d160838c05"/>
@@ -2719,88 +2722,88 @@ design rules under a new name.</description>
 <approved hash="18,29,ef5bf84550e1be87"/>
 <approved hash="18,29,0dd7895e067c263c"/>
 <approved hash="18,29,140f874673285914"/>
-<approved hash="18,29,da172d914256eac3"/>
 <approved hash="18,29,31ebd0d6c8966b04"/>
-<approved hash="18,29,63a7130c885a138a"/>
+<approved hash="18,29,da172d914256eac3"/>
 <approved hash="18,29,095b1852e9f61384"/>
-<approved hash="18,29,01d5bb5dc86b9f3c"/>
+<approved hash="18,29,63a7130c885a138a"/>
 <approved hash="18,29,da0db5467f3fe017"/>
+<approved hash="18,29,01d5bb5dc86b9f3c"/>
 <approved hash="18,29,00da616b287da2be"/>
 <approved hash="18,29,53f86dcf4f839ac6"/>
 <approved hash="18,29,ab10cf65043cb648"/>
 <approved hash="18,29,dd11c1522f0ae54f"/>
-<approved hash="18,29,204d5a576c58530d"/>
 <approved hash="18,29,70502b15d17ad2c3"/>
-<approved hash="18,29,b1e1ff469b18ccca"/>
+<approved hash="18,29,204d5a576c58530d"/>
 <approved hash="18,29,e61b4856b58d02b5"/>
+<approved hash="18,29,b1e1ff469b18ccca"/>
 <approved hash="18,29,e46c067dd0c6876f"/>
 <approved hash="18,29,216d059af54779bb"/>
-<approved hash="18,29,ba4da456e4644c0d"/>
 <approved hash="18,29,f850d5154b46cdc2"/>
-<approved hash="18,29,b1e9e1736e2cb5ca"/>
+<approved hash="18,29,ba4da456e4644c0d"/>
 <approved hash="18,29,f81b4862ccb8f7bd"/>
+<approved hash="18,29,b1e9e1736e2cb5ca"/>
 <approved hash="18,29,a255b47af4cdce57"/>
 <approved hash="18,29,0554b7a2b34c30bc"/>
 <approved hash="18,29,5bfb35fbcbb10ec5"/>
 <approved hash="18,29,58d96959bc4926bd"/>
 <approved hash="18,29,930a5f2de06a6248"/>
 <approved hash="18,29,4d14d92f1b72b140"/>
-<approved hash="18,29,00522b17e92a56c0"/>
 <approved hash="18,29,184f5a541c08d70f"/>
-<approved hash="18,29,61fc7708bf5620cb"/>
+<approved hash="18,29,00522b17e92a56c0"/>
 <approved hash="18,29,6e1a981859c326a8"/>
-<approved hash="18,29,5452967c10b69351"/>
+<approved hash="18,29,61fc7708bf5620cb"/>
 <approved hash="18,29,e15395a445376dba"/>
-<approved hash="18,29,024d2c576416500d"/>
+<approved hash="18,29,5452967c10b69351"/>
 <approved hash="18,29,78505d15f334d1c3"/>
+<approved hash="18,29,024d2c576416500d"/>
 <approved hash="18,29,81edf104825ac9ca"/>
 <approved hash="18,29,e81b7814b0cf1bb9"/>
-<approved hash="18,29,ea50047decb8ba53"/>
 <approved hash="18,29,1d5107a6fb3944bb"/>
+<approved hash="18,29,ea50047decb8ba53"/>
 <approved hash="18,29,60de610f001c7ab8"/>
 <approved hash="18,29,53fe0dae97e7b2c2"/>
 <approved hash="18,29,9b132f07cc5c4fb3"/>
 <approved hash="18,29,6d1250f7f6ab9d49"/>
-<approved hash="18,29,a056fb13211ffac3"/>
 <approved hash="18,29,d04b8a57bc3d7b0b"/>
-<approved hash="18,29,901e6edd5282e4cd"/>
+<approved hash="18,29,a056fb13211ffac3"/>
 <approved hash="18,29,761c69cc9c16cb4a"/>
-<approved hash="18,29,215215a4d4e5c1bb"/>
+<approved hash="18,29,901e6edd5282e4cd"/>
 <approved hash="18,29,c453167dd1643f51"/>
-<approved hash="18,29,1a42a459e5c6d403"/>
+<approved hash="18,29,215215a4d4e5c1bb"/>
 <approved hash="18,29,f85fd51beae455cd"/>
-<approved hash="18,29,581a89c6551d1fb4"/>
+<approved hash="18,29,1a42a459e5c6d403"/>
 <approved hash="18,29,71e040d687882dcb"/>
-<approved hash="18,29,2252847c1568a651"/>
+<approved hash="18,29,581a89c6551d1fb4"/>
 <approved hash="18,29,e55387a432e958ba"/>
+<approved hash="18,29,2252847c1568a651"/>
 <approved hash="18,29,4bfa04583216a6c7"/>
 <approved hash="18,29,68db78fe15eadebc"/>
 <approved hash="18,29,930e1ed549911a4e"/>
 <approved hash="18,29,9d6b58c1c29a494f"/>
-<approved hash="18,29,984cca554ded9f0c"/>
 <approved hash="18,29,5051bb1468cf1ec1"/>
-<approved hash="18,29,0e1bf9fd00276eaa"/>
+<approved hash="18,29,984cca554ded9f0c"/>
 <approved hash="18,29,01fe16ecf6b378ca"/>
+<approved hash="18,29,0e1bf9fd00276eaa"/>
 <approved hash="18,29,e15285a544d3d5bc"/>
 <approved hash="18,29,5453867a11522b50"/>
 <approved hash="18,29,b852ed1722d9f9c3"/>
 <approved hash="18,29,d24f9c57a5fb780f"/>
 <approved hash="18,29,a19e709b5bc4e1c9"/>
 <approved hash="18,29,6818598a9950c3ca"/>
-<approved hash="18,29,da53147ddd263251"/>
 <approved hash="18,29,2d5217a4caa7ccbb"/>
-<approved hash="18,29,b3e70c14de454adb"/>
+<approved hash="18,29,da53147ddd263251"/>
 <approved hash="18,29,60c780adf9a632a1"/>
+<approved hash="18,29,b3e70c14de454adb"/>
 <approved hash="18,29,cb162e9895fc8673"/>
 <approved hash="18,29,9d0fe097becf3552"/>
-<approved hash="18,29,a04d9a560d9ea30d"/>
 <approved hash="18,29,1050eb1550bc22c2"/>
+<approved hash="18,29,a04d9a560d9ea30d"/>
 <approved hash="18,29,c61b69af2476f289"/>
 <approved hash="18,29,91dddebd6ae15cca"/>
 <approved hash="18,29,c451067ef103d753"/>
 <approved hash="18,29,015005a6d48229b8"/>
-<approved hash="18,29,5851b5146a891dc5"/>
 <approved hash="18,29,9a4cc45145ab9c0c"/>
+<approved hash="18,29,5851b5146a891dc5"/>
 <approved hash="18,29,11fee0aafff545ca"/>
 <approved hash="18,29,f81be9bb3d6167aa"/>
 <approved hash="18,29,4253947d95145e50"/>
