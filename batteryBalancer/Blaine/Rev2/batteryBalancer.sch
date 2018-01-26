@@ -9484,12 +9484,12 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH618?*" device="A" package3d_urn="urn:adsk.eagle:package:21960/1" technology="-2"/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH618?*" device="A" package3d_urn="urn:adsk.eagle:package:21960/1" technology="-2"/>
 <part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH618?*" device="A" package3d_urn="urn:adsk.eagle:package:21960/1" technology="-2"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="100"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="100"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="100"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10K"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10K"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10K"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="2.2K"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="2.2K"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="2.2K"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9517,20 +9517,20 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="4.7K"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="107.95" y="25.4" size="1.778" layer="91">These resistors are for addressing, remove for different addresses</text>
-<text x="30.48" y="31.75" size="1.778" layer="91">Output of optoisolators is
+<text x="30.48" y="26.67" size="1.778" layer="91">Output of optoisolators is
 
-3.874181469 * (.915172021338)^x
+-.14638694*x+4.1290874
+
+or maybe
+
+2.648/(1+.013939*e^(.223*x))
 
 Where x is input voltage</text>
 </plain>
@@ -9622,12 +9622,8 @@ Where x is input voltage</text>
 <instance part="R16" gate="G$1" x="92.71" y="177.8" rot="R90"/>
 <instance part="GND22" gate="1" x="137.16" y="242.57" rot="R180"/>
 <instance part="GND23" gate="1" x="92.71" y="187.96" rot="R180"/>
-<instance part="C3" gate="G$1" x="86.36" y="80.01" rot="R180"/>
-<instance part="C2" gate="G$1" x="133.35" y="127" rot="R270"/>
-<instance part="C4" gate="G$1" x="135.89" y="116.84" rot="R180"/>
-<instance part="C5" gate="G$1" x="66.04" y="120.65" rot="R180"/>
-<instance part="C6" gate="G$1" x="80.01" y="100.33" rot="R180"/>
-<instance part="GND24" gate="1" x="66.04" y="127" rot="R180"/>
+<instance part="C2" gate="G$1" x="124.46" y="67.31"/>
+<instance part="GND24" gate="1" x="124.46" y="77.47" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9910,12 +9906,9 @@ Where x is input voltage</text>
 <segment>
 <pinref part="PORT_CS" gate="G$1" pin="VIOUT"/>
 <wire x1="93.98" y1="124.46" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="111.76" x2="135.89" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="ADC" gate="G$1" pin="IN4"/>
-<wire x1="135.89" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="97.79" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<junction x="135.89" y="111.76"/>
 </segment>
 </net>
 <net name="STBD_CURRENT" class="0">
@@ -9923,12 +9916,8 @@ Where x is input voltage</text>
 <pinref part="STBD_CS" gate="G$1" pin="VIOUT"/>
 <wire x1="119.38" y1="175.26" x2="119.38" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="161.29" x2="140.97" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="161.29" x2="140.97" y2="127" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="127" x2="140.97" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="161.29" x2="140.97" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="138.43" y1="127" x2="140.97" y2="127" width="0.1524" layer="91"/>
-<junction x="140.97" y="127"/>
 <pinref part="ADC" gate="G$1" pin="IN0"/>
 <wire x1="172.72" y1="114.3" x2="172.72" y2="97.79" width="0.1524" layer="91"/>
 </segment>
@@ -10224,13 +10213,10 @@ Where x is input voltage</text>
 <wire x1="59.69" y1="107.95" x2="62.23" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="62.23" y1="107.95" x2="64.77" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="62.23" y1="107.95" x2="62.23" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="115.57" x2="66.04" y2="115.57" width="0.1524" layer="91"/>
 <junction x="62.23" y="107.95"/>
-<wire x1="66.04" y1="115.57" x2="90.17" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="115.57" x2="90.17" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="107.95" x2="90.17" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="107.95" x2="90.17" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="66.04" y="115.57"/>
 <pinref part="ADC" gate="G$1" pin="IN2"/>
 <wire x1="162.56" y1="97.79" x2="162.56" y2="107.95" width="0.1524" layer="91"/>
 </segment>
@@ -10244,12 +10230,8 @@ Where x is input voltage</text>
 <junction x="62.23" y="62.23"/>
 <pinref part="OK3" gate="G$1" pin="COL"/>
 <wire x1="59.69" y1="62.23" x2="62.23" y2="62.23" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="73.66" x2="62.23" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="73.66" x2="62.23" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="105.41" x2="167.64" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="74.93" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<junction x="86.36" y="73.66"/>
 <pinref part="ADC" gate="G$1" pin="IN1"/>
 <wire x1="167.64" y1="105.41" x2="167.64" y2="97.79" width="0.1524" layer="91"/>
 </segment>
@@ -10282,7 +10264,6 @@ Where x is input voltage</text>
 <wire x1="326.39" y1="91.44" x2="326.39" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RELAY4" gate="G$1" pin="CONTROL-"/>
 <pinref part="RLAY1" gate="G$1" pin="CONTROL-"/>
 <wire x1="289.56" y1="165.1" x2="287.02" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="165.1" x2="287.02" y2="152.4" width="0.1524" layer="91"/>
@@ -10294,10 +10275,12 @@ Where x is input voltage</text>
 <wire x1="289.56" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
 <junction x="287.02" y="139.7"/>
 <wire x1="287.02" y1="139.7" x2="287.02" y2="127" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="127" x2="289.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="127" x2="287.02" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="LOGIC_GND1" gate="1" pin="GNDA"/>
+<wire x1="287.02" y1="127" x2="287.02" y2="120.65" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="120.65" x2="297.18" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="RELAY4" gate="G$1" pin="CONTROL-"/>
+<wire x1="289.56" y1="127" x2="287.02" y2="127" width="0.1524" layer="91"/>
+<junction x="287.02" y="127"/>
 </segment>
 <segment>
 <pinref part="ADC" gate="G$1" pin="GND"/>
@@ -10331,20 +10314,12 @@ Where x is input voltage</text>
 <pinref part="GND17" gate="1" pin="GNDA"/>
 <pinref part="PORT_CS" gate="G$1" pin="GND"/>
 <pinref part="PORT_CS" gate="G$1" pin="BW_SEL"/>
-<wire x1="123.19" y1="121.92" x2="123.19" y2="127" width="0.1524" layer="91"/>
-<wire x1="123.19" y1="127" x2="123.19" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="121.92" x2="123.19" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="124.46" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="121.92" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="121.92" x2="123.19" y2="121.92" width="0.1524" layer="91"/>
 <junction x="104.14" y="121.92"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="123.19" y1="121.92" x2="135.89" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="121.92" x2="135.89" y2="119.38" width="0.1524" layer="91"/>
-<junction x="123.19" y="121.92"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="123.19" y1="127" x2="130.81" y2="127" width="0.1524" layer="91"/>
-<junction x="123.19" y="127"/>
 </segment>
 <segment>
 <pinref part="OK3" gate="G$1" pin="EMIT"/>
@@ -10355,27 +10330,16 @@ Where x is input voltage</text>
 <pinref part="OK2" gate="G$1" pin="EMIT"/>
 <pinref part="GND19" gate="1" pin="GNDA"/>
 <wire x1="59.69" y1="81.28" x2="62.23" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="81.28" x2="62.23" y2="83.82" width="0.1524" layer="91"/>
-<junction x="62.23" y="81.28"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="62.23" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="83.82" x2="86.36" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="G$1" pin="EMIT"/>
 <pinref part="GND20" gate="1" pin="GNDA"/>
-<wire x1="59.69" y1="102.87" x2="62.23" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="102.87" x2="63.5" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="102.87" x2="62.23" y2="105.41" width="0.1524" layer="91"/>
-<junction x="62.23" y="102.87"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="62.23" y1="105.41" x2="80.01" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="105.41" x2="80.01" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="102.87" x2="63.5" y2="102.87" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="GND24" gate="1" pin="GNDA"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="124.46" x2="66.04" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="72.39" x2="124.46" y2="74.93" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -10415,10 +10379,14 @@ Where x is input voltage</text>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="57.15" width="0.1524" layer="91"/>
 <junction x="152.4" y="63.5"/>
-<wire x1="152.4" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="49.53" x2="114.3" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="49.53" x2="116.84" y2="49.53" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="64.77" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<junction x="124.46" y="63.5"/>
 </segment>
 <segment>
 <pinref part="STBD_CS" gate="G$1" pin="VCC"/>
@@ -10470,14 +10438,11 @@ Where x is input voltage</text>
 <wire x1="62.23" y1="86.36" x2="64.77" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="62.23" y1="86.36" x2="62.23" y2="95.25" width="0.1524" layer="91"/>
 <junction x="62.23" y="86.36"/>
-<wire x1="62.23" y1="95.25" x2="80.01" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="95.25" x2="124.46" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="95.25" x2="124.46" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="95.25" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="ADC" gate="G$1" pin="IN5"/>
 <wire x1="124.46" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="101.6" x2="147.32" y2="97.79" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<junction x="80.01" y="95.25"/>
 </segment>
 </net>
 <net name="PORT_UNFUSED" class="0">
@@ -10495,13 +10460,6 @@ Where x is input voltage</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,147.32,56.9697,R4,,,,,"/>
-<approved hash="113,1,147.32,51.8897,R5,,,,,"/>
-<approved hash="113,1,121.92,67.1297,R6,,,,,"/>
-<approved hash="113,1,121.92,57.3303,R7,,,,,"/>
-<approved hash="113,1,149.581,184.147,OFF,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
