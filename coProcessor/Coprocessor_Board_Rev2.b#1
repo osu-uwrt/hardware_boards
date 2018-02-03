@@ -6316,9 +6316,7 @@ Center For Automotive Research</text>
 <dimension x1="-2.8956" y1="95.4278" x2="-2.9464" y2="89.0778" x3="-2.921003125" y3="92.252796875" textsize="1.778" layer="1"/>
 <dimension x1="-2.6162" y1="-16.7132" x2="-0.7112" y2="-16.7132" x3="-1.6637" y3="-15.9258" textsize="1.778" layer="1"/>
 <dimension x1="-2.6162" y1="-14.2748" x2="-0.6096" y2="-14.3002" x3="-1.626384375" y3="-15.35284375" textsize="1.778" layer="1"/>
-<text x="39.61525625" y="97.71185625" size="0.8128" layer="25" rot="R270">PC14</text>
-<text x="42.81565625" y="97.53405625" size="0.8128" layer="25" rot="R270">PC13</text>
-<text x="46.04145625" y="97.50865625" size="0.8128" layer="25" rot="R270">PB8</text>
+<text x="39.61525625" y="97.71185625" size="1.27" layer="25" rot="R270">18V</text>
 </plain>
 <libraries>
 <library name="5530843-6">
