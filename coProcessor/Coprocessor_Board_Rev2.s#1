@@ -10096,6 +10096,7 @@ Used in manufacturing several products at SparkFun.
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="GPIO" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="RS" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="0"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PA5LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
@@ -10104,7 +10105,6 @@ Used in manufacturing several products at SparkFun.
 <part name="PA4LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="3.3VLED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
 <part name="18VLED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="GPIO" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10252,6 +10252,7 @@ Used in manufacturing several products at SparkFun.
 <instance part="DEBUG" gate="1" x="223.52" y="337.82" rot="MR270"/>
 <instance part="U$2" gate="G$1" x="-66.04" y="66.04"/>
 <instance part="J2" gate="G$1" x="515.62" y="76.2" rot="R90"/>
+<instance part="GPIO" gate="J$1" x="165.1" y="71.12" rot="R90"/>
 <instance part="RS" gate="G$1" x="492.76" y="12.7" rot="R90"/>
 <instance part="GND20" gate="1" x="492.76" y="2.54"/>
 <instance part="PA5LED" gate="G$1" x="238.76" y="299.72" rot="R180"/>
@@ -10260,7 +10261,6 @@ Used in manufacturing several products at SparkFun.
 <instance part="PA4LED" gate="G$1" x="243.84" y="274.32" rot="R180"/>
 <instance part="3.3VLED" gate="G$1" x="381" y="73.66" rot="R90"/>
 <instance part="18VLED" gate="G$1" x="436.88" y="43.18"/>
-<instance part="GPIO" gate="G$1" x="165.1" y="71.12" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11667,8 +11667,8 @@ Used in manufacturing several products at SparkFun.
 <net name="PC13" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC13"/>
+<pinref part="GPIO" gate="J$1" pin="2"/>
 <wire x1="165.1" y1="106.68" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GPIO" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB8" class="0">
@@ -11676,8 +11676,8 @@ Used in manufacturing several products at SparkFun.
 <pinref part="IC1" gate="G$1" pin="PB8"/>
 <wire x1="144.78" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="121.92" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GPIO" gate="J$1" pin="3"/>
 <wire x1="134.62" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GPIO" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="81.28" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
