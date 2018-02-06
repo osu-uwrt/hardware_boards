@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 30320-6002HB
+#/259042/23832/2.16/20/4/Connector
+DEF 30320-6002HB J 0 30 Y Y 1 F N
+F0 "J" 400 150 50 H V C CNN
+F1 "30320-6002HB" 400 -1050 50 H V C CNN
+F2 "SHDR20W81P254_2X10_3300X840X930P" 400 -1150 50 H I C CNN
+F3 "http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf" 400 -1250 50 H I C CNN
+F4 "Header 20 position 3M 303 Series, 2.54mm Pitch 20 Way 2 Row Shrouded Straight PCB Header, Through Hole, Solder Termination" 400 -1350 50 H I C CNN "Description"
+F5 "RS" 400 -1450 50 H I C CNN "Supplier_Name"
+F6 "8273587" 400 -1550 50 H I C CNN "RS Part Number"
+F7 "3M" 400 -1650 50 H I C CNN "Manufacturer_Name"
+F8 "30320-6002HB" 400 -1750 50 H I C CNN "Manufacturer_Part_Number"
+F9 "" 400 -1850 50 H I C CNN "Allied_Number"
+F10 "" 400 -1950 50 H I C CNN "Other Part Number"
+F11 "9.3" 650 -2050 50 H I C CNN "Height"
+DRAW
+S 200 100 600 -1000 0 0 10 f
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 0 -400 200 R 50 50 0 0 U
+X 6 6 0 -500 200 R 50 50 0 0 U
+X 7 7 0 -600 200 R 50 50 0 0 U
+X 8 8 0 -700 200 R 50 50 0 0 U
+X 9 9 0 -800 200 R 50 50 0 0 U
+X 10 10 0 -900 200 R 50 50 0 0 U
+X 11 11 800 0 200 L 50 50 0 0 U
+X 12 12 800 -100 200 L 50 50 0 0 U
+X 13 13 800 -200 200 L 50 50 0 0 U
+X 14 14 800 -300 200 L 50 50 0 0 U
+X 15 15 800 -400 200 L 50 50 0 0 U
+X 16 16 800 -500 200 L 50 50 0 0 U
+X 17 17 800 -600 200 L 50 50 0 0 U
+X 18 18 800 -700 200 L 50 50 0 0 U
+X 19 19 800 -800 200 L 50 50 0 0 U
+X 20 20 800 -900 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library
