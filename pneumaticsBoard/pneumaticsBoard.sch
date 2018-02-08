@@ -7715,8 +7715,6 @@ Switches electronic signals</description>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TX_JUMPER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="RX_JUMPER" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="470PF" device="-0603-50V-5%" value="1uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="470PF" device="-0603-50V-5%" value="1uF"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FQP30N06L" value="60V/32A/35mΩ"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FQP30N06L" value="60V/32A/35mΩ"/>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FQP30N06L" value="60V/32A/35mΩ"/>
@@ -7730,6 +7728,8 @@ Switches electronic signals</description>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SW2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:25948/1"/>
+<part name="SW1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/2V" package3d_urn="urn:adsk.eagle:package:25948/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7812,8 +7812,6 @@ Switches electronic signals</description>
 <instance part="GND10" gate="1" x="116.84" y="-38.1"/>
 <instance part="TX_JUMPER" gate="G$1" x="-137.16" y="25.4" rot="R90"/>
 <instance part="RX_JUMPER" gate="G$1" x="-121.92" y="25.4" rot="R90"/>
-<instance part="C2" gate="G$1" x="-55.88" y="40.64" smashed="yes" rot="R90"/>
-<instance part="C3" gate="G$1" x="-55.88" y="35.56" smashed="yes" rot="R90"/>
 <instance part="Q1" gate="NMOS" x="109.22" y="-12.7" smashed="yes">
 <attribute name="NAME" x="114.3" y="-12.7" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -7843,6 +7841,8 @@ Switches electronic signals</description>
 <instance part="VDD3" gate="G$1" x="-124.46" y="15.24"/>
 <instance part="SUPPLY3" gate="G$1" x="-114.3" y="12.7" rot="MR0"/>
 <instance part="GND4" gate="1" x="-119.38" y="-22.86"/>
+<instance part="SW2" gate="G$1" x="-55.88" y="35.56"/>
+<instance part="SW1" gate="G$1" x="-55.88" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -7891,27 +7891,20 @@ Switches electronic signals</description>
 </net>
 <net name="Q3" class="0">
 <segment>
-<wire x1="91.44" y1="55.88" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="55.88" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="PB1"/>
-<wire x1="91.44" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="NMOS" pin="G"/>
-</segment>
-</net>
-<net name="Q4" class="0">
-<segment>
-<wire x1="104.14" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="PB2"/>
-<pinref part="Q4" gate="NMOS" pin="G"/>
+<pinref part="U1" gate="A" pin="PB5"/>
+<wire x1="35.56" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Q5" class="0">
 <segment>
 <wire x1="86.36" y1="27.94" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="NMOS" pin="G"/>
 <pinref part="U1" gate="A" pin="PB3"/>
 <wire x1="35.56" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="NMOS" pin="G"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7953,7 +7946,8 @@ Switches electronic signals</description>
 <segment>
 <wire x1="-43.18" y1="58.42" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PD0"/>
-<wire x1="-53.34" y1="35.56" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="35.56" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="35.56" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="0" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="68.58" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-43.18" y="58.42"/>
@@ -7961,7 +7955,8 @@ Switches electronic signals</description>
 <wire x1="-139.7" y1="33.02" x2="-139.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="68.58" x2="-139.7" y2="68.58" width="0.1524" layer="91"/>
 <label x="-139.7" y="68.58" size="1.778" layer="95"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="SW2" gate="G$1" pin="2"/>
+<junction x="-50.8" y="35.56"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7973,20 +7968,20 @@ Switches electronic signals</description>
 </net>
 <net name="Q7" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="PB5"/>
 <wire x1="104.14" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="0" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="0" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="NMOS" pin="G"/>
+<pinref part="U1" gate="A" pin="PB1"/>
+<wire x1="81.28" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Q6" class="0">
 <segment>
-<wire x1="83.82" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="PB4"/>
-<wire x1="83.82" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="15.24" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="NMOS" pin="G"/>
+<pinref part="U1" gate="A" pin="PB2"/>
+<wire x1="88.9" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="40.64" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8445,8 +8440,9 @@ Switches electronic signals</description>
 <net name="TX" class="0">
 <segment>
 <wire x1="-45.72" y1="55.88" x2="-45.72" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="40.64" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PD1"/>
+<wire x1="-50.8" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="0" y1="55.88" x2="-45.72" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="55.88" x2="-45.72" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-45.72" y="55.88"/>
@@ -8454,21 +8450,30 @@ Switches electronic signals</description>
 <pinref part="RX_JUMPER" gate="G$1" pin="3"/>
 <wire x1="-124.46" y1="33.02" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
 <label x="-124.46" y="71.12" size="1.778" layer="95"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<junction x="-50.8" y="40.64"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="T1IN"/>
 <wire x1="-60.96" y1="40.64" x2="-68.58" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="R1OUT"/>
 <wire x1="-68.58" y1="35.56" x2="-60.96" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SW2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB4"/>
+<pinref part="Q4" gate="NMOS" pin="G"/>
+<wire x1="35.56" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="35.56" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
