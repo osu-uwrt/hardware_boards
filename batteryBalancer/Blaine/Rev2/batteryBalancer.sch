@@ -165,6 +165,27 @@ Pitch 0.165" (4.20mm)
 USE AT YOUR OWN RISK!&lt;p&gt;
 &lt;author&gt;Copyright (C) 2011, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
 <packages>
+<package name="39-30-?08?">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<wire x1="-7.9955" y1="-1.0441" x2="-9.0955" y2="-1.0441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-1.0441" x2="-9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="-9.0955" y1="-13.8441" x2="9.0955" y2="-13.8441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-13.8441" x2="9.0955" y2="-1.2441" width="0.2032" layer="21"/>
+<wire x1="9.0955" y1="-1.2441" x2="7.9955" y2="-1.2441" width="0.2032" layer="21"/>
+<pad name="8" x="-6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="7" x="-2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="6" x="2.0955" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="5" x="6.2865" y="5.5118" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.2865" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="-2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="2" x="2.0955" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="1" x="6.2865" y="0" drill="2" diameter="3.5" shape="square" rot="R90"/>
+<text x="-9.7155" y="-13.7541" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="10.9855" y="-13.7541" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="-13.7441" x2="1.25" y2="-12.2441" layer="21"/>
+<hole x="-6.2865" y="-7.3" drill="3"/>
+<hole x="6.2865" y="-7.3" drill="3"/>
+</package>
 <package name="39-30-?06?">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <wire x1="-5.9" y1="-1.0441" x2="-7" y2="-1.0441" width="0.2032" layer="21"/>
@@ -199,6 +220,30 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </package>
 </packages>
 <symbols>
+<symbol name="MA04-2">
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="6" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="7" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="8" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 <symbol name="MA03-2">
 <wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.6096" layer="94"/>
@@ -233,6 +278,29 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="39-30-?08?" prefix="P">
+<description>&lt;b&gt;HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MA04-2" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="39-30-?08?">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="39-30-?06?" prefix="P">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
 <gates>
@@ -17125,7 +17193,7 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BATTERY_BALANCED" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="MOTOR_POWER1" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="MOTOR_POWER1" library="con-molex-mini-fit" deviceset="39-30-?08?" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="STBD_FET" library="IXFX64N60P3" deviceset="IXFX64N60P3" device=""/>
 <part name="PORT_FET" library="IXFX64N60P3" deviceset="IXFX64N60P3" device=""/>
@@ -17133,7 +17201,7 @@ Source: &lt;a href="http://www.vishay.com/docs/83673/sfh618.pdf"&gt; Data sheet 
 <part name="RELAY2" library="CMX60D20" deviceset="CMX60D20" device=""/>
 <part name="RELAY3" library="CMX60D20" deviceset="CMX60D20" device=""/>
 <part name="RELAY4" library="CMX60D20" deviceset="CMX60D20" device=""/>
-<part name="MOTOR_POWER2" library="con-molex-mini-fit" deviceset="39-30-?06?" device=""/>
+<part name="MOTOR_POWER2" library="con-molex-mini-fit" deviceset="39-30-?08?" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="STBD_FUSE" library="01220083Z" deviceset="01220083Z" device=""/>
 <part name="PORT_FUSE" library="01220083Z" deviceset="01220083Z" device=""/>
@@ -17228,7 +17296,7 @@ Where x is input voltage</text>
 <instance part="BATTERY_BALANCED" gate="G$1" x="252.73" y="195.58" rot="MR0"/>
 <instance part="GND7" gate="1" x="270.51" y="208.28" rot="R180"/>
 <instance part="MOTOR_POWER1" gate="G$1" x="378.46" y="167.64" rot="MR0"/>
-<instance part="GND8" gate="1" x="393.7" y="180.34" rot="R180"/>
+<instance part="GND8" gate="1" x="393.7" y="180.34"/>
 <instance part="STBD_FET" gate="G$1" x="187.96" y="228.6"/>
 <instance part="PORT_FET" gate="G$1" x="187.96" y="166.37"/>
 <instance part="RLAY1" gate="G$1" x="309.88" y="167.64"/>
@@ -17236,7 +17304,7 @@ Where x is input voltage</text>
 <instance part="RELAY3" gate="G$1" x="309.88" y="142.24"/>
 <instance part="RELAY4" gate="G$1" x="309.88" y="129.54"/>
 <instance part="MOTOR_POWER2" gate="G$1" x="378.46" y="137.16" rot="MR0"/>
-<instance part="GND9" gate="1" x="396.24" y="149.86" rot="R180"/>
+<instance part="GND9" gate="1" x="398.78" y="124.46"/>
 <instance part="STBD_FUSE" gate="G$1" x="151.13" y="205.74"/>
 <instance part="PORT_FUSE" gate="G$1" x="125.73" y="154.94"/>
 <instance part="ADC" gate="G$1" x="154.94" y="85.09"/>
@@ -17362,24 +17430,6 @@ Where x is input voltage</text>
 <wire x1="237.49" y1="132.08" x2="237.49" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="396.24" y1="147.32" x2="396.24" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER2" gate="G$1" pin="4"/>
-<wire x1="365.76" y1="137.16" x2="370.84" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="137.16" x2="365.76" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER2" gate="G$1" pin="6"/>
-<wire x1="365.76" y1="134.62" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="134.62" x2="365.76" y2="127" width="0.1524" layer="91"/>
-<junction x="365.76" y="134.62"/>
-<wire x1="365.76" y1="127" x2="388.62" y2="127" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="127" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER2" gate="G$1" pin="5"/>
-<wire x1="388.62" y1="129.54" x2="388.62" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="134.62" x2="386.08" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
-<junction x="388.62" y="129.54"/>
-</segment>
-<segment>
 <pinref part="BATTERY_BALANCED" gate="G$1" pin="5"/>
 <wire x1="270.51" y1="193.04" x2="262.89" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="262.89" y1="193.04" x2="260.35" y2="193.04" width="0.1524" layer="91"/>
@@ -17397,22 +17447,26 @@ Where x is input voltage</text>
 <wire x1="270.51" y1="193.04" x2="270.51" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="365.76" y1="165.1" x2="365.76" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="4"/>
-<wire x1="365.76" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="6"/>
-<wire x1="365.76" y1="165.1" x2="370.84" y2="165.1" width="0.1524" layer="91"/>
-<junction x="365.76" y="165.1"/>
+<wire x1="365.76" y1="167.64" x2="365.76" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="165.1" x2="365.76" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="5"/>
-<wire x1="388.62" y1="165.1" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="157.48" x2="388.62" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="157.48" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="160.02" x2="388.62" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="165.1" x2="388.62" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="160.02" x2="388.62" y2="160.02" width="0.1524" layer="91"/>
 <junction x="388.62" y="160.02"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="393.7" y1="160.02" x2="393.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="160.02" x2="393.7" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="6"/>
+<wire x1="365.76" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="8"/>
+<wire x1="370.84" y1="165.1" x2="365.76" y2="165.1" width="0.1524" layer="91"/>
+<junction x="365.76" y="165.1"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="5"/>
+<wire x1="386.08" y1="167.64" x2="388.62" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="7"/>
+<wire x1="386.08" y1="165.1" x2="388.62" y2="165.1" width="0.1524" layer="91"/>
+<junction x="388.62" y="165.1"/>
 </segment>
 <segment>
 <pinref part="EDGE_CONNECTOR" gate="G$1" pin="EXTRA2"/>
@@ -17458,6 +17512,28 @@ Where x is input voltage</text>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="240.03" x2="137.16" y2="237.49" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="6"/>
+<wire x1="365.76" y1="137.16" x2="370.84" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="137.16" x2="365.76" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="8"/>
+<wire x1="365.76" y1="134.62" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="134.62" x2="365.76" y2="127" width="0.1524" layer="91"/>
+<junction x="365.76" y="134.62"/>
+<wire x1="365.76" y1="127" x2="388.62" y2="127" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="127" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="7"/>
+<wire x1="388.62" y1="129.54" x2="388.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="134.62" x2="386.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
+<junction x="388.62" y="129.54"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="398.78" y1="127" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="5"/>
+<wire x1="386.08" y1="137.16" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="137.16" x2="388.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="388.62" y="134.62"/>
 </segment>
 </net>
 <net name="STBD_GATE" class="0">
@@ -17745,23 +17821,28 @@ Where x is input voltage</text>
 <segment>
 <pinref part="RELAY2" gate="G$1" pin="LOAD-"/>
 <wire x1="332.74" y1="152.4" x2="358.14" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="3"/>
-<wire x1="386.08" y1="167.64" x2="388.62" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="167.64" x2="388.62" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="170.18" x2="388.62" y2="176.53" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="176.53" x2="358.14" y2="176.53" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="176.53" x2="358.14" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="170.18" x2="358.14" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="172.72" x2="388.62" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="179.07" x2="368.3" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="179.07" x2="358.14" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="179.07" x2="358.14" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="165.1" x2="358.14" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="170.18" x2="358.14" y2="170.18" width="0.1524" layer="91"/>
-<junction x="358.14" y="170.18"/>
-<pinref part="MOTOR_POWER1" gate="G$1" pin="1"/>
-<wire x1="386.08" y1="170.18" x2="388.62" y2="170.18" width="0.1524" layer="91"/>
-<junction x="388.62" y="170.18"/>
 <pinref part="RLAY1" gate="G$1" pin="LOAD-"/>
 <wire x1="358.14" y1="165.1" x2="332.74" y2="165.1" width="0.1524" layer="91"/>
 <junction x="358.14" y="165.1"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="1"/>
+<wire x1="386.08" y1="172.72" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="3"/>
+<wire x1="386.08" y1="170.18" x2="388.62" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="170.18" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
+<junction x="388.62" y="172.72"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="2"/>
+<wire x1="370.84" y1="172.72" x2="368.3" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="172.72" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="MOTOR_POWER1" gate="G$1" pin="4"/>
+<wire x1="368.3" y1="170.18" x2="370.84" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="172.72" x2="368.3" y2="179.07" width="0.1524" layer="91"/>
+<junction x="368.3" y="172.72"/>
+<junction x="368.3" y="179.07"/>
 </segment>
 </net>
 <net name="MOTOR_POWER2" class="0">
@@ -17769,21 +17850,28 @@ Where x is input voltage</text>
 <pinref part="RELAY3" gate="G$1" pin="LOAD-"/>
 <wire x1="332.74" y1="139.7" x2="360.68" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="139.7" x2="360.68" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="149.86" x2="388.62" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="149.86" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER2" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="139.7" x2="370.84" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="MOTOR_POWER2" gate="G$1" pin="1"/>
-<wire x1="388.62" y1="139.7" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="149.86" x2="368.3" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="149.86" x2="388.62" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="149.86" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="142.24" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="MOTOR_POWER2" gate="G$1" pin="3"/>
-<wire x1="386.08" y1="137.16" x2="388.62" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="137.16" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
-<junction x="388.62" y="139.7"/>
+<wire x1="388.62" y1="139.7" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
 <junction x="360.68" y="139.7"/>
 <pinref part="RELAY4" gate="G$1" pin="LOAD-"/>
 <wire x1="332.74" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="127" x2="360.68" y2="139.7" width="0.1524" layer="91"/>
 <junction x="360.68" y="139.7"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="2"/>
+<wire x1="368.3" y1="149.86" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="142.24" x2="370.84" y2="142.24" width="0.1524" layer="91"/>
+<junction x="368.3" y="149.86"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="1"/>
+<wire x1="386.08" y1="142.24" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
+<junction x="388.62" y="142.24"/>
+<wire x1="368.3" y1="142.24" x2="368.3" y2="139.7" width="0.1524" layer="91"/>
+<junction x="368.3" y="142.24"/>
+<pinref part="MOTOR_POWER2" gate="G$1" pin="4"/>
+<wire x1="368.3" y1="139.7" x2="370.84" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
