@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9684,18 +9684,18 @@ http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf</description>
 <library name="105314-2112 nanofit hdr">
 <packages>
 <package name="105314-2112">
-<pad name="CK12" x="0" y="0" drill="1.25" rot="R270"/>
-<pad name="CK11" x="2.5" y="0" drill="1.25" rot="R270"/>
-<pad name="CK10" x="5" y="0" drill="1.25" rot="R270"/>
-<pad name="CK9" x="7.5" y="0" drill="1.25" rot="R270"/>
-<pad name="CK8" x="10" y="0" drill="1.25" rot="R270"/>
-<pad name="CK7" x="12.5" y="0" drill="1.25" rot="R270"/>
-<pad name="CK6" x="0" y="2.5" drill="1.25" rot="R270"/>
-<pad name="CK5" x="2.5" y="2.5" drill="1.25" rot="R270"/>
-<pad name="CK4" x="5" y="2.5" drill="1.25" rot="R270"/>
-<pad name="CK3" x="7.5" y="2.5" drill="1.25" rot="R270"/>
-<pad name="CK2" x="10" y="2.5" drill="1.25" rot="R270"/>
-<pad name="CK1" x="12.5" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK12" x="0" y="0" drill="1.2" rot="R270"/>
+<pad name="CK11" x="2.5" y="0" drill="1.2" rot="R270"/>
+<pad name="CK10" x="5" y="0" drill="1.2" rot="R270"/>
+<pad name="CK9" x="7.5" y="0" drill="1.2" rot="R270"/>
+<pad name="CK8" x="10" y="0" drill="1.2" rot="R270"/>
+<pad name="CK7" x="12.5" y="0" drill="1.2" rot="R270"/>
+<pad name="CK6" x="0" y="2.5" drill="1.2" rot="R270"/>
+<pad name="CK5" x="2.5" y="2.5" drill="1.2" rot="R270"/>
+<pad name="CK4" x="5" y="2.5" drill="1.2" rot="R270"/>
+<pad name="CK3" x="7.5" y="2.5" drill="1.2" rot="R270"/>
+<pad name="CK2" x="10" y="2.5" drill="1.2" rot="R270"/>
+<pad name="CK1" x="12.5" y="2.5" drill="1.2" rot="R270"/>
 <hole x="0" y="-7.18" drill="1.7"/>
 <hole x="12.5" y="-7.18" drill="1.7"/>
 <wire x1="-1.72" y1="-10.38" x2="14.22" y2="-10.38" width="0.127" layer="21"/>
@@ -9780,173 +9780,6 @@ http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-1206">
-<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
-
-1206, surface mount. 
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: &lt;/li&gt;
-&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="2.4" y1="0.6825" x2="2.4" y2="-0.6825" width="0.2032" layer="21"/>
-<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.65375" y1="0.6825" x2="0.65375" y2="-0.6825" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
-</package>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-<package name="SUPER_BRIGHT_SMD_LED_3014">
-<description>3014 Package for LEDs</description>
-<wire x1="-1.45" y1="0.7" x2="1.45" y2="0.7" width="0.127" layer="51"/>
-<wire x1="1.45" y1="0.7" x2="1.45" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="1.45" y1="-0.7" x2="-1.45" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="-1.45" y1="-0.7" x2="-1.45" y2="0.7" width="0.127" layer="51"/>
-<smd name="A" x="-1.2" y="0" dx="0.8" dy="1" layer="1" rot="R90" cream="no"/>
-<smd name="C" x="0.827" y="0" dx="0.8" dy="1.9" layer="1" rot="R90" cream="no"/>
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.5" x2="1.5" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0.7" x2="-1.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="-0.5" width="0.2032" layer="21"/>
-<rectangle x1="-0.075" y1="-0.35" x2="1.675" y2="0.35" layer="51"/>
-<rectangle x1="-1.625" y1="-0.35" x2="-0.775" y2="0.35" layer="51"/>
-<rectangle x1="-1.5" y1="-0.3" x2="-0.9" y2="0.3" layer="31"/>
-<rectangle x1="0" y1="-0.3" x2="0.6" y2="0.3" layer="31"/>
-<rectangle x1="1" y1="-0.3" x2="1.6" y2="0.3" layer="31"/>
-<text x="-1.5" y="0.9" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-1.5" y="-1.4" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
-<wire x1="2.019" y1="0.6825" x2="2.019" y2="-0.6825" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED">
-<description>&lt;h3&gt;LED&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;</description>
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="-3.429" y="-4.572" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED-WHITE" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;White SMD LED&lt;/h3&gt;
-
-Used in manufacturing several products at SparkFun. 
-
-&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt; 0603&lt;/b&gt; - Bright White SMD 0603  package&lt;a href="http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT1608QWF/D"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - Bright White SMD1206  package &lt;a href="http://www.kingbrightusa.com/product.asp?catalog_name=LED&amp;product_id=APT3216QWF/D"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 3014&lt;/b&gt; - Super Bright SMD 3014 package &lt;a href="http://www.lumileds.com/uploads/459/DS208-pdf"&gt;[Datasheet]&lt;/li&gt;
-&lt;ul&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13169”&gt;Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12651”&gt;Digital SandBox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09955" constant="no"/>
-<attribute name="VALUE" value="WHITE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09004"/>
-<attribute name="VALUE" value="WHITE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="3014" package="SUPER_BRIGHT_SMD_LED_3014">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-13728" constant="no"/>
-<attribute name="VALUE" value="White, 60mA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10015,18 +9848,18 @@ Used in manufacturing several products at SparkFun.
 <part name="RHB1" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="4.7 uF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value=".1 uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value=".1 uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value=".1 uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100 nF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100 nF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100 nF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="1 uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value=".1 uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100 nF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="2.2uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="2.2 uF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" value="1 nF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" value="1 nF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value=".1 uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-100V-10%" value="100 nF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RESET" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="HBL2" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
@@ -10036,9 +9869,11 @@ Used in manufacturing several products at SparkFun.
 <part name="D-PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="D+PULL" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="1.5k"/>
 <part name="3.3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="RHB3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1.8k"/>
+<part name="BATVSENS" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
+<part name="RHB3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1.5k"/>
+<part name="3.3VSENS" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RHB4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="330"/>
+<part name="RHB4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
 <part name="GNDBAT11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device="" value="GNDBAT"/>
 <part name="GNDBAT1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device="" value="GNDBAT"/>
 <part name="GNDBAT2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device="" value="GNDBAT"/>
@@ -10081,30 +9916,25 @@ Used in manufacturing several products at SparkFun.
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CAN_VCC" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" value=".1 uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RPA4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="330"/>
+<part name="RPA4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
+<part name="PA4LED" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RPA5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="330"/>
+<part name="RPA5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
+<part name="PA5LED" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RPC4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="330"/>
+<part name="RPC4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
+<part name="PC4LED" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="RPC5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="330"/>
+<part name="RPC5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="1k"/>
+<part name="PC5LED" library="SparkFun-Resistors" deviceset="1KOHM" device="-VERT-1/4W-1%" value="LED"/>
 <part name="DEBUG" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="U$2" library="105314-2112 nanofit hdr" deviceset="105314-2112" device="">
-<attribute name="SPICEPREFIX" value="X"/>
-</part>
+<part name="U$2" library="105314-2112 nanofit hdr" deviceset="105314-2112" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="RS" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:25945/1" value="0"/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PA5LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="PC4LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="PC5LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="PA4LED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="3.3VLED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="18VLED" library="SparkFun-LED" deviceset="LED-WHITE" device="1206" value="WHITE"/>
-<part name="GPIO" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="GPIO" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10194,7 +10024,9 @@ Used in manufacturing several products at SparkFun.
 <instance part="D-PULL" gate="G$1" x="281.94" y="172.72" rot="R90"/>
 <instance part="D+PULL" gate="G$1" x="289.56" y="175.26" rot="R90"/>
 <instance part="3.3V1" gate="G$1" x="284.48" y="187.96"/>
+<instance part="BATVSENS" gate="G$1" x="436.88" y="40.64" rot="R270"/>
 <instance part="RHB3" gate="G$1" x="444.5" y="53.34" rot="R270"/>
+<instance part="3.3VSENS" gate="G$1" x="383.54" y="73.66" rot="R180"/>
 <instance part="GND21" gate="1" x="396.24" y="71.12"/>
 <instance part="RHB4" gate="G$1" x="370.84" y="73.66" rot="R180"/>
 <instance part="GNDBAT11" gate="1" x="431.8" y="33.02"/>
@@ -10239,28 +10071,25 @@ Used in manufacturing several products at SparkFun.
 <instance part="GND22" gate="1" x="474.98" y="5.08"/>
 <instance part="CAN_VCC" gate="G$1" x="457.2" y="5.08"/>
 <instance part="GND23" gate="1" x="457.2" y="-2.54"/>
+<instance part="GND20" gate="1" x="492.76" y="15.24"/>
 <instance part="GND24" gate="1" x="477.52" y="48.26"/>
 <instance part="GND25" gate="1" x="497.84" y="50.8"/>
 <instance part="GND26" gate="1" x="251.46" y="292.1"/>
 <instance part="RPA4" gate="G$1" x="243.84" y="259.08" rot="R90"/>
+<instance part="PA4LED" gate="G$1" x="243.84" y="271.78" rot="R90"/>
 <instance part="GND27" gate="1" x="246.38" y="304.8"/>
 <instance part="RPA5" gate="G$1" x="238.76" y="287.02" rot="R90"/>
+<instance part="PA5LED" gate="G$1" x="238.76" y="299.72" rot="R90"/>
 <instance part="GND28" gate="1" x="238.76" y="314.96"/>
 <instance part="RPC4" gate="G$1" x="231.14" y="276.86" rot="R90"/>
+<instance part="PC4LED" gate="G$1" x="231.14" y="289.56" rot="R90"/>
 <instance part="GND31" gate="1" x="231.14" y="325.12"/>
 <instance part="RPC5" gate="G$1" x="223.52" y="307.34" rot="R90"/>
+<instance part="PC5LED" gate="G$1" x="223.52" y="320.04" rot="R90"/>
 <instance part="DEBUG" gate="1" x="223.52" y="337.82" rot="MR270"/>
 <instance part="U$2" gate="G$1" x="-66.04" y="66.04"/>
 <instance part="J2" gate="G$1" x="515.62" y="76.2" rot="R90"/>
-<instance part="RS" gate="G$1" x="492.76" y="12.7" rot="R90"/>
-<instance part="GND20" gate="1" x="492.76" y="2.54"/>
-<instance part="PA5LED" gate="G$1" x="238.76" y="299.72" rot="R180"/>
-<instance part="PC4LED" gate="G$1" x="231.14" y="289.56" rot="R180"/>
-<instance part="PC5LED" gate="G$1" x="223.52" y="320.04" rot="R180"/>
-<instance part="PA4LED" gate="G$1" x="243.84" y="274.32" rot="R180"/>
-<instance part="3.3VLED" gate="G$1" x="381" y="73.66" rot="R90"/>
-<instance part="18VLED" gate="G$1" x="436.88" y="43.18"/>
-<instance part="GPIO" gate="G$1" x="165.1" y="71.12" rot="R90"/>
+<instance part="GPIO" gate="J$1" x="165.1" y="71.12" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10501,6 +10330,11 @@ Used in manufacturing several products at SparkFun.
 <wire x1="457.2" y1="2.54" x2="457.2" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="U1" gate="G$1" pin="RS"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="492.76" y1="22.86" x2="492.76" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="CANL_LED" gate="G$1" pin="1"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
@@ -10512,39 +10346,34 @@ Used in manufacturing several products at SparkFun.
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="251.46" y1="299.72" x2="251.46" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="299.72" x2="251.46" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="PA4LED" gate="G$1" pin="C"/>
-<wire x1="243.84" y1="279.4" x2="243.84" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="PA4LED" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="276.86" x2="243.84" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="246.38" y1="309.88" x2="246.38" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="309.88" x2="246.38" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="PA5LED" gate="G$1" pin="C"/>
+<pinref part="PA5LED" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="304.8" x2="238.76" y2="309.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="238.76" y1="320.04" x2="238.76" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="320.04" x2="238.76" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="PC4LED" gate="G$1" pin="C"/>
+<pinref part="PC4LED" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="294.64" x2="231.14" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="231.14" y1="330.2" x2="231.14" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="330.2" x2="231.14" y2="330.2" width="0.1524" layer="91"/>
-<pinref part="PC5LED" gate="G$1" pin="C"/>
+<pinref part="PC5LED" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="325.12" x2="223.52" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="386.08" y1="73.66" x2="396.24" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="3.3VSENS" gate="G$1" pin="1"/>
+<wire x1="388.62" y1="73.66" x2="396.24" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="3.3VLED" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="RS" gate="G$1" pin="1"/>
-<wire x1="492.76" y1="5.08" x2="492.76" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -11231,9 +11060,9 @@ Used in manufacturing several products at SparkFun.
 </net>
 <net name="N$4" class="0">
 <segment>
+<pinref part="3.3VSENS" gate="G$1" pin="2"/>
 <pinref part="RHB4" gate="G$1" pin="1"/>
-<pinref part="3.3VLED" gate="G$1" pin="A"/>
-<wire x1="375.92" y1="73.66" x2="378.46" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="73.66" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM5V1" class="0">
@@ -11518,12 +11347,6 @@ Used in manufacturing several products at SparkFun.
 <pinref part="ESC3" gate="J$1" pin="3"/>
 <pinref part="RO3" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="GNDBAT11" gate="1" pin="GNDA"/>
-<wire x1="431.8" y1="35.56" x2="436.88" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="18VLED" gate="G$1" pin="C"/>
-<wire x1="436.88" y1="35.56" x2="436.88" y2="38.1" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
@@ -11549,9 +11372,10 @@ Used in manufacturing several products at SparkFun.
 <wire x1="477.52" y1="73.66" x2="477.52" y2="76.2" width="0.1524" layer="91"/>
 <junction x="477.52" y="76.2"/>
 <wire x1="477.52" y1="76.2" x2="477.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="477.52" y1="88.9" x2="515.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="88.9" x2="518.16" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="515.62" y1="83.82" x2="515.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="83.82" x2="518.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="83.82" x2="518.16" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_TXD" class="0">
@@ -11607,12 +11431,19 @@ Used in manufacturing several products at SparkFun.
 <wire x1="406.4" y1="63.5" x2="360.68" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GNDA" class="0">
+<segment>
+<pinref part="GNDBAT11" gate="1" pin="GNDA"/>
+<pinref part="BATVSENS" gate="G$1" pin="2"/>
+<wire x1="431.8" y1="35.56" x2="436.88" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$3" class="0">
 <segment>
+<pinref part="BATVSENS" gate="G$1" pin="1"/>
 <wire x1="436.88" y1="45.72" x2="436.88" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="RHB3" gate="G$1" pin="2"/>
 <wire x1="436.88" y1="48.26" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="18VLED" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="HEARTBEAT_3" class="0">
@@ -11623,12 +11454,26 @@ Used in manufacturing several products at SparkFun.
 <wire x1="243.84" y1="121.92" x2="243.84" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="RPA4" gate="G$1" pin="2"/>
+<pinref part="PA4LED" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="264.16" x2="243.84" y2="266.7" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="HEARTBEAT_4" class="0">
 <segment>
 <pinref part="RPA5" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="PA5"/>
 <wire x1="220.98" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="124.46" x2="238.76" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="RPA5" gate="G$1" pin="2"/>
+<pinref part="PA5LED" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="292.1" x2="238.76" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC4" class="0">
@@ -11639,19 +11484,26 @@ Used in manufacturing several products at SparkFun.
 <pinref part="RPC4" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="RPC4" gate="G$1" pin="2"/>
+<pinref part="PC4LED" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="281.94" x2="231.14" y2="284.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="RPC5" gate="G$1" pin="2"/>
+<pinref part="PC5LED" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="312.42" x2="223.52" y2="314.96" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="PC5" class="0">
 <segment>
 <pinref part="RPC5" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="PC5"/>
 <wire x1="223.52" y1="302.26" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="134.62" x2="220.98" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="DEBUG" gate="1" pin="P1"/>
-<pinref part="DEBUG" gate="1" pin="P"/>
-<wire x1="228.6" y1="335.28" x2="228.6" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB9" class="0">
@@ -11662,68 +11514,31 @@ Used in manufacturing several products at SparkFun.
 <wire x1="137.16" y1="185.42" x2="218.44" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="185.42" x2="218.44" y2="335.28" width="0.1524" layer="91"/>
 <pinref part="DEBUG" gate="1" pin="S1"/>
+<pinref part="DEBUG" gate="1" pin="S"/>
+<wire x1="218.44" y1="335.28" x2="218.44" y2="337.82" width="0.1524" layer="91"/>
+<junction x="218.44" y="335.28"/>
+</segment>
+</net>
+<net name="PC14" class="0">
+<segment>
+<pinref part="GPIO" gate="J$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="PC14"/>
+<wire x1="167.64" y1="78.74" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC13" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC13"/>
+<pinref part="GPIO" gate="J$1" pin="2"/>
 <wire x1="165.1" y1="106.68" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="GPIO" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB8"/>
-<wire x1="144.78" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="121.92" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GPIO" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="81.28" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RS"/>
-<wire x1="492.76" y1="22.86" x2="492.76" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="RS" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="RPA4" gate="G$1" pin="2"/>
-<pinref part="PA4LED" gate="G$1" pin="A"/>
-<wire x1="243.84" y1="264.16" x2="243.84" y2="271.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="RPA5" gate="G$1" pin="2"/>
-<pinref part="PA5LED" gate="G$1" pin="A"/>
-<wire x1="238.76" y1="292.1" x2="238.76" y2="297.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="PC4LED" gate="G$1" pin="A"/>
-<pinref part="RPC4" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="287.02" x2="231.14" y2="281.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="RPC5" gate="G$1" pin="2"/>
-<pinref part="PC5LED" gate="G$1" pin="A"/>
-<wire x1="223.52" y1="312.42" x2="223.52" y2="317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SWITCH6" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC14"/>
-<wire x1="167.64" y1="106.68" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="104.14" x2="-48.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="104.14" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="CK2"/>
-<wire x1="-48.26" y1="71.12" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="121.92" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GPIO" gate="J$1" pin="3"/>
+<wire x1="144.78" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11748,6 +11563,17 @@ Used in manufacturing several products at SparkFun.
 <approved hash="102,1,421.64,302.26,GNDA,GNDBAT,,,,"/>
 <approved hash="102,1,421.64,332.74,GNDA,GNDBAT,,,,"/>
 <approved hash="102,1,421.64,363.22,GNDA,GNDBAT,,,,"/>
+<approved hash="201,1,421.64,363.22,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,332.74,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,302.26,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,271.78,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,241.3,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,210.82,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,180.34,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,149.86,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,119.38,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,406.4,55.88,GNDA,GNDBAT\, GNDA,,,,"/>
+<approved hash="201,1,421.64,88.9,GNDA,GNDBAT\, GNDA,,,,"/>
 <approved hash="204,1,297.18,167.64,J1,VBUS,,,,"/>
 <approved hash="104,1,190.5,106.68,IC1,VSSA,GND,,,"/>
 <approved hash="104,1,193.04,106.68,IC1,VDDA,3.3V,,,"/>
@@ -11757,6 +11583,8 @@ Used in manufacturing several products at SparkFun.
 <approved hash="104,1,162.56,160.02,IC1,VDD(3),3.3V,,,"/>
 <approved hash="104,1,144.78,114.3,IC1,VDD(4),3.3V,,,"/>
 <approved hash="104,1,144.78,116.84,IC1,VSS(2),GND,,,"/>
+<approved hash="106,1,431.8,35.56,GNDA,,,,,"/>
+<approved hash="106,1,436.88,35.56,GNDA,,,,,"/>
 <approved hash="110,1,220.98,152.4,VCAP2,3.3V,,,,"/>
 <approved hash="111,1,220.98,152.4,VCAP2,,,,,"/>
 <approved hash="113,1,432.477,95.1823,ESC1,,,,,"/>
@@ -11771,6 +11599,7 @@ Used in manufacturing several products at SparkFun.
 <approved hash="113,1,432.477,339.022,ESC9,,,,,"/>
 <approved hash="113,1,432.477,369.502,ESC10,,,,,"/>
 <approved hash="113,1,73.66,124.165,RESET,,,,,"/>
+<approved hash="113,1,516.204,74.1045,CAN_OUT_HEADER,,,,,"/>
 <approved hash="113,1,223.52,340.065,DEBUG,,,,,"/>
 <approved hash="115,1,330.2,45.72,GND,,,,,"/>
 <approved hash="115,1,345.44,45.72,3.3V,,,,,"/>
