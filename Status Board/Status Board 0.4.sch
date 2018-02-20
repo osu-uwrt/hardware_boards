@@ -7745,7 +7745,7 @@ W = angled&lt;p&gt;
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DIGIT_1_RED" library="display-kingbright" library_urn="urn:adsk.eagle:library:213" deviceset="DC56-11" device="" package3d_urn="urn:adsk.eagle:package:13085/1" technology="SRWA"/>
-<part name="RSET_SETS_PEAK_CURRENT" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:25938/1"/>
+<part name="RSET" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:25938/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="5530843-6" deviceset="5530843" device=""/>
 <part name="MAX6955" library="MAX6955" deviceset="MAX6955" device=""/>
@@ -7789,8 +7789,8 @@ W = angled&lt;p&gt;
 <part name="R3" library="SparkFun-Resistors" deviceset="68OHM" device="-0603-1/10W-1%"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="68OHM" device="-0603-1/10W-1%"/>
 <part name="LS1" library="Buzzer-AI-1223-TWT-3V-2-R" deviceset="BUZZER" device="-PTH_NO_SILK"/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
-<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="AD0" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="AD1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -8003,7 +8003,7 @@ W = angled&lt;p&gt;
 <instance part="GND3" gate="1" x="-160.02" y="106.68" rot="R180"/>
 <instance part="DIGIT_1_RED" gate="DIG1" x="-22.86" y="-20.32"/>
 <instance part="DIGIT_1_RED" gate="DIG2" x="22.86" y="-20.32"/>
-<instance part="RSET_SETS_PEAK_CURRENT" gate="G$1" x="-167.64" y="125.73"/>
+<instance part="RSET" gate="G$1" x="-167.64" y="125.73"/>
 <instance part="GND8" gate="1" x="-158.75" y="125.73" rot="R90"/>
 <instance part="U$2" gate="G$1" x="-87.63" y="232.41" rot="R270"/>
 <instance part="MAX6955" gate="G$1" x="-152.4" y="67.31" rot="R90"/>
@@ -8067,8 +8067,8 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="-210.82" y="142.494" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LS1" gate="G$1" x="-213.36" y="194.31"/>
-<instance part="SV1" gate="G$1" x="-170.18" y="222.25" rot="R180"/>
-<instance part="SV2" gate="G$1" x="-170.18" y="208.28" rot="R180"/>
+<instance part="AD0" gate="G$1" x="-170.18" y="222.25" rot="R180"/>
+<instance part="AD1" gate="G$1" x="-170.18" y="208.28" rot="R180"/>
 <instance part="P+5" gate="VCC" x="-170.18" y="194.31" rot="R270"/>
 <instance part="GND7" gate="1" x="-171.45" y="233.68" rot="R90"/>
 </instances>
@@ -8163,8 +8163,8 @@ W = angled&lt;p&gt;
 <junction x="-210.82" y="105.41"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="3"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="AD1" gate="G$1" pin="3"/>
+<pinref part="AD0" gate="G$1" pin="3"/>
 <wire x1="-177.8" y1="205.74" x2="-177.8" y2="219.71" width="0.1524" layer="91"/>
 <wire x1="-177.8" y1="205.74" x2="-177.8" y2="194.31" width="0.1524" layer="91"/>
 <junction x="-177.8" y="205.74"/>
@@ -8206,7 +8206,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="RSET_SETS_PEAK_CURRENT" gate="G$1" pin="2"/>
+<pinref part="RSET" gate="G$1" pin="2"/>
 <wire x1="-161.29" y1="125.73" x2="-162.56" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8242,10 +8242,10 @@ W = angled&lt;p&gt;
 <wire x1="-226.06" y1="105.41" x2="-226.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="AD1" gate="G$1" pin="1"/>
 <wire x1="-177.8" y1="210.82" x2="-180.34" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="210.82" x2="-180.34" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="AD0" gate="G$1" pin="1"/>
 <wire x1="-180.34" y1="224.79" x2="-177.8" y2="224.79" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="224.79" x2="-180.34" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="-180.34" y1="233.68" x2="-173.99" y2="233.68" width="0.1524" layer="91"/>
@@ -8986,7 +8986,7 @@ W = angled&lt;p&gt;
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="RSET_SETS_PEAK_CURRENT" gate="G$1" pin="1"/>
+<pinref part="RSET" gate="G$1" pin="1"/>
 <wire x1="-172.72" y1="125.73" x2="-172.72" y2="100.33" width="0.1524" layer="91"/>
 <pinref part="MAX6955" gate="G$1" pin="ISET"/>
 </segment>
@@ -9136,13 +9136,13 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="MAX6955" gate="G$1" pin="AD0"/>
 <wire x1="-187.96" y1="100.33" x2="-187.96" y2="222.25" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="AD0" gate="G$1" pin="2"/>
 <wire x1="-187.96" y1="222.25" x2="-177.8" y2="222.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="2"/>
+<pinref part="AD1" gate="G$1" pin="2"/>
 <wire x1="-177.8" y1="208.28" x2="-180.34" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="MAX6955" gate="G$1" pin="AD1"/>
 <wire x1="-180.34" y1="208.28" x2="-180.34" y2="100.33" width="0.1524" layer="91"/>
