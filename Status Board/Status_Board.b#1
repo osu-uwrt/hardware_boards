@@ -202,16 +202,14 @@
 Center For Automotive Research</text>
 <text x="53.594" y="79.502" size="2.54" layer="25">Status Board -- Rev 1.0
 Anthony Condo</text>
-<text x="12.192" y="67.056" size="3.175" layer="25">PORT BATT. V</text>
-<text x="131.826" y="65.786" size="3.175" layer="25">STBD. BATT. V</text>
+<text x="12.7" y="55.88" size="3.175" layer="25">PORT BATT. V</text>
+<text x="132.08" y="55.88" size="3.175" layer="25">STBD. BATT. V</text>
 <text x="51.816" y="55.88" size="1.9304" layer="25">The Ohio State University
 Center For Automotive Research</text>
 <text x="95.25" y="55.88" size="1.9304" layer="25">Status Board -- Rev 1.0
 Anthony Condo</text>
 <text x="53.848" y="32.258" size="0.6096" layer="25">SCL</text>
 <text x="55.88" y="33.528" size="0.6096" layer="25">SDA</text>
-<text x="3.048" y="55.372" size="5.08" layer="25">PORT BATT. V</text>
-<text x="123.952" y="55.372" size="5.08" layer="25">STBD. BATT. V</text>
 </plain>
 <libraries>
 <library name="display-kingbright" urn="urn:adsk.eagle:library:213">
