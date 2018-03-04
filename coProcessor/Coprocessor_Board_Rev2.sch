@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11251,11 +11251,11 @@ http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf</description>
 <wire x1="406.4" y1="58.42" x2="406.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="406.4" y="58.42"/>
 <wire x1="398.78" y1="58.42" x2="406.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="66.04" x2="398.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="71.12" x2="398.78" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="EXTRA24"/>
 <wire x1="261.62" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="88.9" x2="264.16" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="66.04" x2="398.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="88.9" x2="264.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="71.12" x2="398.78" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GNDBAT" gate="1" pin="GNDA"/>
