@@ -1798,7 +1798,7 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="14.22" y1="-10.38" x2="14.22" y2="-2.62" width="0.127" layer="21"/>
 <wire x1="14.22" y1="-2.62" x2="-1.72" y2="-2.62" width="0.127" layer="21"/>
 <wire x1="-1.72" y1="-2.62" x2="-1.72" y2="-10.38" width="0.127" layer="21"/>
-<text x="2.5" y="4" size="1.27" layer="21">NANOFIT</text>
+<text x="2.5" y="-4.89" size="1.27" layer="21">NANOFIT</text>
 </package>
 </packages>
 <symbols>
@@ -14426,18 +14426,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="-99.06" y="96.52" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="PC14" class="0">
-<segment>
-<pinref part="GPIO_CONNECTOR" gate="J$1" pin="1"/>
-<wire x1="-114.3" y1="210.82" x2="-106.68" y2="210.82" width="0.1524" layer="91"/>
-<label x="-111.76" y="210.82" size="1.27" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC14"/>
-<wire x1="-93.98" y1="93.98" x2="-99.06" y2="93.98" width="0.1524" layer="91"/>
-<label x="-99.06" y="93.98" size="1.27" layer="95"/>
-</segment>
-</net>
 <net name="D+CON" class="0">
 <segment>
 <pinref part="D+SERIES" gate="G$1" pin="1"/>
@@ -15171,6 +15159,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-20.32" y1="35.56" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="38.1" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWITCH_6" class="0">
+<segment>
+<pinref part="SWITCH_CONNECTOR" gate="G$1" pin="CK2"/>
+<wire x1="-106.68" y1="177.8" x2="-119.38" y2="177.8" width="0.1524" layer="91"/>
+<label x="-119.38" y="177.8" size="1.4224" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC14"/>
+<label x="-104.14" y="93.98" size="1.27" layer="95"/>
+<wire x1="-93.98" y1="93.98" x2="-104.14" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
