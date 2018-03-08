@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="105314-2112">
+<pad name="CK12" x="0" y="0" drill="1.25" rot="R270"/>
+<pad name="CK11" x="2.5" y="0" drill="1.25" rot="R270"/>
+<pad name="CK10" x="5" y="0" drill="1.25" rot="R270"/>
+<pad name="CK9" x="7.5" y="0" drill="1.25" rot="R270"/>
+<pad name="CK8" x="10" y="0" drill="1.25" rot="R270"/>
+<pad name="CK7" x="12.5" y="0" drill="1.25" rot="R270"/>
+<pad name="CK6" x="0" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK5" x="2.5" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK4" x="5" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK3" x="7.5" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK2" x="10" y="2.5" drill="1.25" rot="R270"/>
+<pad name="CK1" x="12.5" y="2.5" drill="1.25" rot="R270"/>
+<hole x="0" y="-7.18" drill="1.7"/>
+<hole x="12.5" y="-7.18" drill="1.7"/>
+<wire x1="-1.72" y1="-10.38" x2="14.22" y2="-10.38" width="0.127" layer="21"/>
+<wire x1="14.22" y1="-10.38" x2="14.22" y2="-2.62" width="0.127" layer="21"/>
+<wire x1="14.22" y1="-2.62" x2="-1.72" y2="-2.62" width="0.127" layer="21"/>
+<wire x1="-1.72" y1="-2.62" x2="-1.72" y2="-10.38" width="0.127" layer="21"/>
+<text x="2.5" y="4" size="1.27" layer="21">NANOFIT</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CON-2X06">
+<wire x1="4.445" y1="6.35" x2="-1.905" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-8.89" x2="-1.905" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-8.89" x2="4.445" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="4.445" y1="6.35" x2="4.445" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-0.635" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="3.175" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-0.635" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.175" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-0.635" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="3.175" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="5.08" x2="0.635" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-5.08" x2="0.635" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="-7.62" x2="0.635" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="5.08" x2="3.175" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-5.08" x2="3.175" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-7.62" x2="3.175" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-1.905" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.905" y="-11.7475" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CK1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="CK2" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CK3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="CK4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CK5" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="CK6" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CK7" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="CK8" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CK9" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="CK10" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CK11" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="CK12" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="105314-2112">
+<gates>
+<gate name="G$1" symbol="CON-2X06" x="-27.94" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="105314-2112">
+<connects>
+<connect gate="G$1" pin="CK1" pad="CK1"/>
+<connect gate="G$1" pin="CK10" pad="CK10"/>
+<connect gate="G$1" pin="CK11" pad="CK11"/>
+<connect gate="G$1" pin="CK12" pad="CK12"/>
+<connect gate="G$1" pin="CK2" pad="CK2"/>
+<connect gate="G$1" pin="CK3" pad="CK3"/>
+<connect gate="G$1" pin="CK4" pad="CK4"/>
+<connect gate="G$1" pin="CK5" pad="CK5"/>
+<connect gate="G$1" pin="CK6" pad="CK6"/>
+<connect gate="G$1" pin="CK7" pad="CK7"/>
+<connect gate="G$1" pin="CK8" pad="CK8"/>
+<connect gate="G$1" pin="CK9" pad="CK9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
