@@ -202,14 +202,20 @@
 Center For Automotive Research</text>
 <text x="53.594" y="79.502" size="2.54" layer="25">Status Board -- Rev 1.0
 Anthony Condo</text>
-<text x="12.7" y="55.88" size="3.175" layer="25">PORT BATT. V</text>
-<text x="132.08" y="55.88" size="3.175" layer="25">STBD. BATT. V</text>
+<text x="12.192" y="67.056" size="3.175" layer="25">PORT BATT. V</text>
+<text x="131.826" y="65.786" size="3.175" layer="25">STBD. BATT. V</text>
 <text x="51.816" y="55.88" size="1.9304" layer="25">The Ohio State University
 Center For Automotive Research</text>
 <text x="95.25" y="55.88" size="1.9304" layer="25">Status Board -- Rev 1.0
 Anthony Condo</text>
 <text x="53.848" y="32.258" size="0.6096" layer="25">SCL</text>
 <text x="55.88" y="33.528" size="0.6096" layer="25">SDA</text>
+<text x="3.048" y="55.372" size="5.08" layer="25">PORT BATT. V</text>
+<text x="123.952" y="55.372" size="5.08" layer="25">STBD. BATT. V</text>
+<text x="100.838" y="16.256" size="0.3048" layer="25" align="center">SMALL
+DECOUPLING</text>
+<text x="106.172" y="16.256" size="0.3048" layer="25" align="center">BULK
+DECOUPLING</text>
 </plain>
 <libraries>
 <library name="display-kingbright" urn="urn:adsk.eagle:library:213">
@@ -2333,6 +2339,9 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="78.74" y="14.224" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="78.74" y="14.224" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="BULK" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="F" x="106.172" y="16.256" rot="R270">
+<attribute name="PROD_ID" value="CAP-08370" x="106.172" y="16.256" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2365,8 +2374,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="2"/>
 <via x="118.364" y="32.512" extent="1-16" drill="0.8"/>
-<wire x1="100.838" y1="14.859" x2="110.363" y2="14.859" width="0.508" layer="16"/>
-<wire x1="110.363" y1="14.859" x2="118.364" y2="22.86" width="0.508" layer="16"/>
+<wire x1="118.364" y1="22.86" x2="110.363" y2="14.859" width="0.508" layer="16"/>
 <wire x1="118.364" y1="22.86" x2="118.364" y2="32.512" width="0.508" layer="16"/>
 <via x="89.662" y="19.05" extent="1-16" drill="0.8"/>
 <wire x1="89.662" y1="19.05" x2="89.4772" y2="19.2348" width="0.508" layer="1"/>
@@ -2400,6 +2408,15 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="20.066" x2="81.28" y2="14.224" width="0.1524" layer="16"/>
 <wire x1="81.28" y1="20.066" x2="82.1112" y2="19.2348" width="0.1524" layer="1"/>
 <wire x1="82.1112" y1="19.2348" x2="85.6672" y2="19.2348" width="0.1524" layer="1"/>
+<contactref element="BULK" pad="2"/>
+<wire x1="110.363" y1="14.859" x2="106.172" y2="14.859" width="0.508" layer="16"/>
+<wire x1="106.172" y1="14.859" x2="100.838" y2="14.859" width="0.508" layer="16"/>
+<wire x1="113.7285" y1="67.945" x2="113.7285" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="111.1885" y1="67.945" x2="113.7285" y2="67.945" width="0" layer="19" extent="1-1"/>
+<wire x1="111.1885" y1="67.945" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="108.6485" y1="67.945" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-1"/>
+<wire x1="108.6485" y1="67.945" x2="108.6485" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="111.125" y1="63.754" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O0">
 <contactref element="DIGIT_0_RED" pad="14"/>
@@ -2489,8 +2506,7 @@ design rules under a new name.</description>
 <wire x1="100.8198" y1="17.6348" x2="100.838" y2="17.653" width="0.508" layer="1"/>
 <wire x1="97.1552" y1="17.6348" x2="99.06" y2="17.6348" width="0.508" layer="1"/>
 <wire x1="99.06" y1="17.6348" x2="100.8198" y2="17.6348" width="0.508" layer="1"/>
-<wire x1="100.838" y1="17.653" x2="110.2164625" y2="17.653" width="0.508" layer="1"/>
-<wire x1="119.634" y1="27.0705375" x2="110.2164625" y2="17.653" width="0.508" layer="1"/>
+<wire x1="110.2164625" y1="17.653" x2="119.634" y2="27.0705375" width="0.508" layer="1"/>
 <wire x1="118.872" y1="64.008" x2="119.634" y2="63.246" width="0.508" layer="1"/>
 <wire x1="119.634" y1="63.246" x2="119.634" y2="27.0705375" width="0.508" layer="1"/>
 <contactref element="AD1" pad="3"/>
@@ -2499,6 +2515,15 @@ design rules under a new name.</description>
 <wire x1="76.2" y1="14.224" x2="76.2" y2="12.4206" width="0.1524" layer="1"/>
 <wire x1="76.2" y1="12.4206" x2="78.232" y2="10.3886" width="0.1524" layer="1"/>
 <wire x1="76.2" y1="14.224" x2="76.2" y2="20.066" width="0.1524" layer="16"/>
+<contactref element="BULK" pad="1"/>
+<wire x1="100.838" y1="17.653" x2="106.172" y2="17.653" width="0.508" layer="1"/>
+<wire x1="106.172" y1="17.653" x2="110.2164625" y2="17.653" width="0.508" layer="1"/>
+<wire x1="121.3485" y1="67.945" x2="121.3485" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="118.8085" y1="67.945" x2="121.3485" y2="67.945" width="0" layer="19" extent="1-1"/>
+<wire x1="118.8085" y1="67.945" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="116.2685" y1="67.945" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-1"/>
+<wire x1="116.2685" y1="67.945" x2="116.2685" y2="67.945" width="0" layer="19" extent="1-16"/>
+<wire x1="118.872" y1="64.008" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O1">
 <contactref element="DIGIT_1_RED" pad="14"/>
