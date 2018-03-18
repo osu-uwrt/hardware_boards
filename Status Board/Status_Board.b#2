@@ -212,6 +212,10 @@ Anthony Condo</text>
 <text x="55.88" y="33.528" size="0.6096" layer="25">SDA</text>
 <text x="3.048" y="55.372" size="5.08" layer="25">PORT BATT. V</text>
 <text x="123.952" y="55.372" size="5.08" layer="25">STBD. BATT. V</text>
+<text x="100.838" y="16.256" size="0.3048" layer="25" align="center">SMALL
+DECOUPLING</text>
+<text x="106.172" y="16.256" size="0.3048" layer="25" align="center">BULK
+DECOUPLING</text>
 </plain>
 <libraries>
 <library name="display-kingbright" urn="urn:adsk.eagle:library:213">
