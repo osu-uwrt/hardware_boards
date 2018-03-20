@@ -2393,7 +2393,7 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="20.066" x2="82.1112" y2="19.2348" width="0.1524" layer="1"/>
 <wire x1="82.1112" y1="19.2348" x2="85.6672" y2="19.2348" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$20">
+<signal name="O0">
 <contactref element="DIGIT_0_RED" pad="14"/>
 <contactref element="DIGIT_0_RED" pad="13"/>
 <contactref element="DIGIT_2_GREEN" pad="16"/>
@@ -2492,7 +2492,7 @@ design rules under a new name.</description>
 <wire x1="76.2" y1="12.4206" x2="78.232" y2="10.3886" width="0.1524" layer="1"/>
 <wire x1="76.2" y1="14.224" x2="76.2" y2="20.066" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$21">
+<signal name="O1">
 <contactref element="DIGIT_1_RED" pad="14"/>
 <contactref element="DIGIT_1_RED" pad="13"/>
 <wire x1="41.883" y1="49.657" x2="39.343" y2="49.657" width="0.1524" layer="1"/>
@@ -2508,7 +2508,7 @@ design rules under a new name.</description>
 <wire x1="85.3632" y1="25.6348" x2="79.121" y2="31.877" width="0.1524" layer="1"/>
 <wire x1="79.121" y1="31.877" x2="61.849" y2="31.877" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$29">
+<signal name="O9">
 <contactref element="DIGIT_0_RED" pad="18"/>
 <contactref element="DIGIT_1_RED" pad="18"/>
 <contactref element="DIGIT_2_GREEN" pad="18"/>
@@ -2556,7 +2556,7 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="15.748" x2="26.924" y2="17.272" width="0.1524" layer="16"/>
 <wire x1="26.924" y1="17.272" x2="26.924" y2="35.052" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$30">
+<signal name="O10">
 <contactref element="DIGIT_0_RED" pad="17"/>
 <contactref element="DIGIT_1_RED" pad="17"/>
 <contactref element="DIGIT_2_GREEN" pad="17"/>
@@ -2606,7 +2606,7 @@ design rules under a new name.</description>
 <wire x1="32.004" y1="22.098" x2="32.004" y2="32.258" width="0.1524" layer="1"/>
 <wire x1="38.354" y1="15.748" x2="32.004" y2="22.098" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$31">
+<signal name="O11">
 <contactref element="DIGIT_0_RED" pad="11"/>
 <contactref element="DIGIT_1_RED" pad="11"/>
 <contactref element="DIGIT_2_GREEN" pad="11"/>
@@ -2648,7 +2648,7 @@ design rules under a new name.</description>
 <wire x1="103.6768" y1="21.6348" x2="115.824" y2="33.782" width="0.1524" layer="1"/>
 <wire x1="97.1552" y1="21.6348" x2="103.6768" y2="21.6348" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$32">
+<signal name="O12">
 <contactref element="DIGIT_0_RED" pad="10"/>
 <contactref element="DIGIT_1_RED" pad="10"/>
 <contactref element="DIGIT_2_GREEN" pad="10"/>
@@ -2694,7 +2694,7 @@ design rules under a new name.</description>
 <wire x1="99.6508" y1="22.4348" x2="103.8418" y2="22.4348" width="0.1524" layer="1"/>
 <wire x1="103.8418" y1="22.4348" x2="115.189" y2="33.782" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$34">
+<signal name="O14">
 <contactref element="DIGIT_0_RED" pad="6"/>
 <contactref element="DIGIT_1_RED" pad="6"/>
 <contactref element="DIGIT_2_GREEN" pad="6"/>
@@ -2735,7 +2735,7 @@ design rules under a new name.</description>
 <wire x1="97.1552" y1="24.0348" x2="104.1718" y2="24.0348" width="0.1524" layer="1"/>
 <wire x1="104.1718" y1="24.0348" x2="113.919" y2="33.782" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$35">
+<signal name="O15">
 <contactref element="DIGIT_0_RED" pad="5"/>
 <contactref element="DIGIT_1_RED" pad="5"/>
 <contactref element="DIGIT_2_GREEN" pad="5"/>
@@ -2777,7 +2777,7 @@ design rules under a new name.</description>
 <wire x1="39.143" y1="25.881" x2="41.148" y2="23.876" width="0.1524" layer="1"/>
 <wire x1="38.989" y1="34.517" x2="39.143" y2="34.417" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$36">
+<signal name="O16">
 <contactref element="DIGIT_0_RED" pad="12"/>
 <contactref element="DIGIT_1_RED" pad="12"/>
 <contactref element="DIGIT_2_GREEN" pad="12"/>
@@ -2820,7 +2820,7 @@ design rules under a new name.</description>
 <wire x1="46.736" y1="23.876" x2="40.386" y2="30.226" width="0.1524" layer="1"/>
 <wire x1="40.386" y1="30.226" x2="40.386" y2="40.132" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$37">
+<signal name="O17">
 <contactref element="DIGIT_0_RED" pad="7"/>
 <contactref element="DIGIT_1_RED" pad="7"/>
 <contactref element="DIGIT_2_GREEN" pad="7"/>
@@ -2860,7 +2860,7 @@ design rules under a new name.</description>
 <wire x1="44.223" y1="34.417" x2="44.223" y2="31.977" width="0.1524" layer="1"/>
 <wire x1="44.223" y1="31.977" x2="52.324" y2="23.876" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$38">
+<signal name="O18">
 <contactref element="DIGIT_0_RED" pad="9"/>
 <contactref element="DIGIT_1_RED" pad="9"/>
 <contactref element="DIGIT_2_GREEN" pad="9"/>
@@ -2900,7 +2900,7 @@ design rules under a new name.</description>
 <wire x1="49.303" y1="34.417" x2="49.303" y2="32.485" width="0.1524" layer="1"/>
 <wire x1="49.303" y1="32.485" x2="57.912" y2="23.876" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$40">
+<signal name="013">
 <contactref element="DIGIT_0_RED" pad="8"/>
 <contactref element="DIGIT_1_RED" pad="8"/>
 <contactref element="DIGIT_2_GREEN" pad="8"/>
@@ -2942,7 +2942,7 @@ design rules under a new name.</description>
 <wire x1="99.6888" y1="23.2348" x2="104.0068" y2="23.2348" width="0.1524" layer="1"/>
 <wire x1="104.0068" y1="23.2348" x2="114.554" y2="33.782" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$26">
+<signal name="O4">
 <contactref element="DIGIT_0_RED" pad="15"/>
 <contactref element="DIGIT_1_RED" pad="15"/>
 <contactref element="DIGIT_2_GREEN" pad="15"/>
@@ -2990,7 +2990,7 @@ design rules under a new name.</description>
 <wire x1="85.4772" y1="23.2348" x2="78.74" y2="29.972" width="0.1524" layer="1"/>
 <wire x1="78.74" y1="29.972" x2="61.849" y2="29.972" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$27">
+<signal name="O5">
 <contactref element="DIGIT_0_RED" pad="3"/>
 <contactref element="DIGIT_1_RED" pad="3"/>
 <contactref element="DIGIT_2_GREEN" pad="3"/>
@@ -3036,7 +3036,7 @@ design rules under a new name.</description>
 <wire x1="32.766" y1="25.4" x2="42.418" y2="15.748" width="0.1524" layer="16"/>
 <wire x1="42.418" y1="15.748" x2="51.308" y2="15.748" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$22">
+<signal name="O2">
 <contactref element="DIGIT_0_RED" pad="16"/>
 <contactref element="DIGIT_1_RED" pad="16"/>
 <contactref element="DIGIT_2_GREEN" pad="14"/>
@@ -3082,7 +3082,7 @@ design rules under a new name.</description>
 <wire x1="85.344" y1="24.892" x2="78.994" y2="31.242" width="0.1524" layer="1"/>
 <wire x1="78.994" y1="31.242" x2="61.849" y2="31.242" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$23">
+<signal name="O3">
 <contactref element="DIGIT_3_GREEN" pad="14"/>
 <contactref element="DIGIT_3_GREEN" pad="13"/>
 <contactref element="DIGIT_4_YELL0" pad="3"/>
@@ -3119,7 +3119,7 @@ design rules under a new name.</description>
 <wire x1="85.4392" y1="24.0348" x2="78.867" y2="30.607" width="0.1524" layer="1"/>
 <wire x1="78.867" y1="30.607" x2="61.849" y2="30.607" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$33">
+<signal name="O6">
 <contactref element="DIGIT_0_RED" pad="2"/>
 <contactref element="DIGIT_1_RED" pad="2"/>
 <contactref element="DIGIT_2_GREEN" pad="2"/>
@@ -3208,7 +3208,7 @@ design rules under a new name.</description>
 <wire x1="33.274" y1="32.612" x2="31.369" y2="34.517" width="0.1524" layer="1"/>
 <wire x1="33.274" y1="29.21" x2="33.274" y2="32.612" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$56">
+<signal name="O7">
 <contactref element="DIGIT_0_RED" pad="4"/>
 <contactref element="DIGIT_1_RED" pad="4"/>
 <contactref element="DIGIT_2_GREEN" pad="4"/>
@@ -3368,7 +3368,7 @@ design rules under a new name.</description>
 <wire x1="97.1552" y1="31.2348" x2="102.393740625" y2="31.2348" width="0.1524" layer="1"/>
 <wire x1="102.393740625" y1="31.2348" x2="104.4638" y2="29.164740625" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$15">
+<signal name="O8">
 <contactref element="DEP4B" pad="A"/>
 <contactref element="DIGIT_0_RED" pad="1"/>
 <contactref element="DIGIT_1_RED" pad="1"/>

@@ -7793,7 +7793,6 @@ W = angled&lt;p&gt;
 <part name="AD1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BULK" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="F"/>
 </parts>
 <sheets>
 <sheet>
@@ -8072,7 +8071,6 @@ W = angled&lt;p&gt;
 <instance part="AD1" gate="G$1" x="-170.18" y="208.28" rot="R180"/>
 <instance part="P+5" gate="VCC" x="-170.18" y="194.31" rot="R270"/>
 <instance part="GND7" gate="1" x="-171.45" y="233.68" rot="R90"/>
-<instance part="BULK" gate="G$1" x="-223.52" y="95.25" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8163,9 +8161,6 @@ W = angled&lt;p&gt;
 <wire x1="-210.82" y1="105.41" x2="-210.82" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="105.41" x2="-210.82" y2="105.41" width="0.1524" layer="91"/>
 <junction x="-210.82" y="105.41"/>
-<pinref part="BULK" gate="G$1" pin="1"/>
-<wire x1="-218.44" y1="95.25" x2="-218.44" y2="105.41" width="0.1524" layer="91"/>
-<junction x="-218.44" y="105.41"/>
 </segment>
 <segment>
 <pinref part="AD1" gate="G$1" pin="3"/>
@@ -8245,9 +8240,6 @@ W = angled&lt;p&gt;
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-226.06" y1="105.41" x2="-226.06" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="BULK" gate="G$1" pin="2"/>
-<wire x1="-226.06" y1="105.41" x2="-226.06" y2="95.25" width="0.1524" layer="91"/>
-<junction x="-226.06" y="105.41"/>
 </segment>
 <segment>
 <pinref part="AD1" gate="G$1" pin="1"/>
