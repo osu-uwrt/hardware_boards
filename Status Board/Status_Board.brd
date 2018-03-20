@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -159,8 +159,6 @@
 <board>
 <plain>
 <wire x1="0" y1="63.5" x2="0" y2="7.62" width="0" layer="20"/>
-<dimension x1="0" y1="0" x2="172.72" y2="0" x3="86.36" y3="-7.62" textsize="1.778" layer="1" unit="inch"/>
-<dimension x1="0" y1="0" x2="0" y2="63.5" x3="-5.08" y3="31.75" textsize="1.778" layer="1" unit="inch"/>
 <wire x1="0" y1="63.5" x2="50.165" y2="63.5" width="0.1524" layer="20"/>
 <wire x1="123.825" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="20"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="7.62" width="0.1524" layer="20"/>
@@ -168,7 +166,6 @@
 <rectangle x1="121.92" y1="8.636" x2="127.762" y2="21.336" layer="25"/>
 <text x="120.396" y="27.94" size="1.778" layer="25">R</text>
 <text x="120.396" y="23.114" size="1.778" layer="25">G</text>
-<dimension x1="0" y1="63.5" x2="0" y2="7.62" x3="-11.176" y3="35.56" textsize="1.778" layer="1" unit="inch"/>
 <rectangle x1="128.778" y1="8.636" x2="134.62" y2="21.336" layer="25"/>
 <rectangle x1="135.636" y1="8.636" x2="141.478" y2="21.336" layer="25"/>
 <rectangle x1="147.066" y1="8.636" x2="152.908" y2="21.336" layer="25"/>
@@ -2044,11 +2041,9 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2405,12 +2400,6 @@ design rules under a new name.</description>
 <contactref element="BULK" pad="2"/>
 <wire x1="110.363" y1="14.859" x2="106.172" y2="14.859" width="0.508" layer="16"/>
 <wire x1="106.172" y1="14.859" x2="100.838" y2="14.859" width="0.508" layer="16"/>
-<wire x1="113.7285" y1="67.945" x2="113.7285" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="111.1885" y1="67.945" x2="113.7285" y2="67.945" width="0" layer="19" extent="1-1"/>
-<wire x1="111.1885" y1="67.945" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="108.6485" y1="67.945" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-1"/>
-<wire x1="108.6485" y1="67.945" x2="108.6485" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="111.125" y1="63.754" x2="111.1885" y2="67.945" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O0">
 <contactref element="DIGIT_0_RED" pad="14"/>
@@ -2512,12 +2501,6 @@ design rules under a new name.</description>
 <contactref element="BULK" pad="1"/>
 <wire x1="100.838" y1="17.653" x2="106.172" y2="17.653" width="0.508" layer="1"/>
 <wire x1="106.172" y1="17.653" x2="110.2164625" y2="17.653" width="0.508" layer="1"/>
-<wire x1="121.3485" y1="67.945" x2="121.3485" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="118.8085" y1="67.945" x2="121.3485" y2="67.945" width="0" layer="19" extent="1-1"/>
-<wire x1="118.8085" y1="67.945" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="116.2685" y1="67.945" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-1"/>
-<wire x1="116.2685" y1="67.945" x2="116.2685" y2="67.945" width="0" layer="19" extent="1-16"/>
-<wire x1="118.872" y1="64.008" x2="118.8085" y2="67.945" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O1">
 <contactref element="DIGIT_1_RED" pad="14"/>
