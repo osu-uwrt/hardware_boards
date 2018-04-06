@@ -15928,10 +15928,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="269.24" y1="-68.58" x2="269.24" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-71.12" x2="269.24" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-81.28" x2="269.24" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-81.28" x2="269.24" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-81.28" x2="248.92" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="269.24" y="-81.28"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="-81.28" x2="269.24" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="-68.58" x2="269.24" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="269.24" y="-68.58"/>
 <pinref part="ADC_H3" gate="G$1" pin="DGND"/>
@@ -15939,6 +15940,26 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="269.24" y="-71.12"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-71.12" x2="269.24" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="ADC_H4" gate="G$1" pin="OSR1"/>
+<pinref part="ADC_H4" gate="G$1" pin="OSR0"/>
+<wire x1="236.22" y1="-109.22" x2="236.22" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-109.22" x2="241.3" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-109.22" x2="248.92" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="-109.22" x2="248.92" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="236.22" y="-109.22"/>
+<junction x="248.92" y="-81.28"/>
+<pinref part="ADC_H4" gate="G$1" pin="DAISYIN"/>
+<wire x1="236.22" y1="-116.84" x2="241.3" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-116.84" x2="241.3" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="241.3" y="-109.22"/>
+<pinref part="ADC_H4" gate="G$1" pin="DIN"/>
+<wire x1="236.22" y1="-124.46" x2="241.3" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-124.46" x2="241.3" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="241.3" y="-116.84"/>
+<pinref part="ADC_H4" gate="G$1" pin="CLK"/>
+<wire x1="236.22" y1="-132.08" x2="241.3" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-132.08" x2="241.3" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="241.3" y="-124.46"/>
 </segment>
 </net>
 <net name="N$13" class="0">
