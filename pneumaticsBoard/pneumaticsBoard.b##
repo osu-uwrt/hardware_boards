@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -190,11 +190,6 @@
 <text x="88.8492" y="4.8768" size="0.8128" layer="22" rot="MR0">VDD</text>
 <text x="84.4296" y="10.0584" size="0.8128" layer="22" rot="MR0">TX</text>
 <text x="84.582" y="4.572" size="0.8128" layer="22" rot="MR0">RX</text>
-<dimension x1="80.9244" y1="8.2296" x2="80.9244" y2="0.1524" x3="86.5632" y3="4.191" textsize="1.778" layer="20"/>
-<dimension x1="80.9244" y1="8.2296" x2="0" y2="8.382" x3="40.432684375" y3="-7.367809375" textsize="1.778" layer="20"/>
-<dimension x1="94.488" y1="8.0772" x2="188.0616" y2="8.0772" x3="141.2748" y3="-7.4676" textsize="1.778" layer="20"/>
-<dimension x1="94.488" y1="8.128" x2="80.772" y2="8.128" x3="87.63" y3="13.716" textsize="1.778" layer="20"/>
-<dimension x1="187.96" y1="0" x2="187.96" y2="25.4" x3="191.008" y3="12.7" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="maxim" urn="urn:adsk.eagle:library:269">
@@ -2739,7 +2734,7 @@ design rules under a new name.</description>
 <wire x1="24.9936" y1="4.826" x2="25.2476" y2="4.826" width="0.1524" layer="1"/>
 <wire x1="25.2476" y1="4.826" x2="27.8638" y2="2.2098" width="0.1524" layer="1"/>
 </signal>
-<signal name="Q4">
+<signal name="N$5">
 <contactref element="U1" pad="18"/>
 <contactref element="Q4" pad="1"/>
 <wire x1="48.1838" y1="21.1328" x2="48.1838" y2="22.733" width="0.1524" layer="1"/>
