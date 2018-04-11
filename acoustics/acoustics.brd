@@ -3104,12 +3104,6 @@ design rules under a new name.</description>
 <wire x1="71.97125" y1="23.3426" x2="71.91375" y2="23.4001" width="0.1524" layer="1"/>
 <wire x1="71.91375" y1="23.4001" x2="71.91375" y2="24.4475" width="0.1524" layer="1"/>
 <via x="71.91375" y="24.4475" extent="1-16" drill="0.25" diameter="0.55"/>
-<polygon width="0.1524" layer="15">
-<vertex x="0" y="101.6"/>
-<vertex x="100.33" y="101.6"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 <via x="69.215" y="27.78125" extent="1-16" drill="0.25"/>
 <wire x1="71.27125" y1="28.75625" x2="70.62125" y2="28.75625" width="0.1524" layer="1"/>
 <wire x1="70.62125" y1="28.75625" x2="70.59875" y2="28.73375" width="0.1524" layer="1"/>
@@ -3227,6 +3221,12 @@ design rules under a new name.</description>
 <via x="54.4068" y="18.7452" extent="1-16" drill="0.25"/>
 <wire x1="54.48125" y1="17.62125" x2="54.48125" y2="18.67075" width="0.1524" layer="1"/>
 <wire x1="54.48125" y1="18.67075" x2="54.4068" y2="18.7452" width="0.1524" layer="1"/>
+<polygon width="0.1524" layer="15">
+<vertex x="25.4508" y="101.6508"/>
+<vertex x="101.6508" y="101.6508"/>
+<vertex x="101.6508" y="0"/>
+<vertex x="25.4508" y="0"/>
+</polygon>
 <wire x1="69.215" y1="27.78125" x2="69.27125" y2="28.73375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -3624,12 +3624,6 @@ design rules under a new name.</description>
 <wire x1="69" y1="70.7" x2="68.8975" y2="70.8025" width="0.1524" layer="1"/>
 <contactref element="H1ADC_C1" pad="1"/>
 <contactref element="H1ADC_C2" pad="1"/>
-<polygon width="0.1524" layer="2">
-<vertex x="0" y="101.6"/>
-<vertex x="100.17125" y="101.75875"/>
-<vertex x="100.17125" y="0.15875"/>
-<vertex x="0" y="0"/>
-</polygon>
 <via x="70.485" y="60.48375" extent="1-16" drill="0.25"/>
 <wire x1="70.5875" y1="59.53125" x2="70.485" y2="59.53125" width="0.1524" layer="1"/>
 <wire x1="70.485" y1="59.53125" x2="70.485" y2="60.48375" width="0.1524" layer="1"/>
@@ -3789,6 +3783,12 @@ design rules under a new name.</description>
 <via x="54.4068" y="20.8788" extent="1-16" drill="0.25"/>
 <wire x1="54.48125" y1="22.02125" x2="54.48125" y2="20.95325" width="0.1524" layer="1"/>
 <wire x1="54.48125" y1="20.95325" x2="54.4068" y2="20.8788" width="0.1524" layer="1"/>
+<polygon width="0.1524" layer="2">
+<vertex x="25.4508" y="101.6508"/>
+<vertex x="101.6508" y="101.6508"/>
+<vertex x="101.6508" y="0"/>
+<vertex x="25.4508" y="0"/>
+</polygon>
 <wire x1="79.53375" y1="96.04375" x2="79.59" y2="95.09125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
