@@ -14425,6 +14425,47 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="105313-1102">
+<packages>
+<package name="105313-1102">
+<pad name="P$1" x="0" y="0" drill="1.32"/>
+<pad name="P$2" x="2.5" y="0" drill="1.32"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="5" y1="-2.5" x2="5" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="5" y1="2.5" x2="-2.5" y2="2.5" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="105313-1102">
+<pin name="P$1" x="-5.08" y="2.54" length="middle"/>
+<pin name="P$2" x="-5.08" y="0" length="middle"/>
+<wire x1="0" y1="5.08" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="105313-1102">
+<description>https://www.molex.com/pdm_docs/sd/1053131103_sd.pdf</description>
+<gates>
+<gate name="G$1" symbol="105313-1102" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="105313-1102">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14669,6 +14710,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="H3RF_C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="47uf"/>
 <part name="H4_DIFAMP" library="THS4551" deviceset="THS4551" device=""/>
 <part name="DCON" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="27-2021"/>
+<part name="U$2" library="105313-1102" deviceset="105313-1102" device=""/>
+<part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15106,6 +15150,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="H4_DIFAMP" gate="G$1" x="30.48" y="-119.38"/>
 <instance part="DCON" gate="-1" x="337.82" y="33.02"/>
 <instance part="DCON" gate="-2" x="337.82" y="27.94"/>
+<instance part="U$2" gate="G$1" x="335.28" y="-5.08"/>
+<instance part="+3V21" gate="G$1" x="325.12" y="5.08"/>
+<instance part="GND5" gate="1" x="325.12" y="-12.7"/>
 </instances>
 <busses>
 </busses>
@@ -15365,6 +15412,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="H4RF_C_IN" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="-137.16" x2="60.96" y2="-127" width="0.1524" layer="91"/>
 <junction x="60.96" y="-127"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="+3V21" gate="G$1" pin="+3V3"/>
+<wire x1="330.2" y1="-2.54" x2="325.12" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-2.54" x2="325.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -16041,6 +16094,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-78.74" y1="58.42" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="55.88" x2="-86.36" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-86.36" y="55.88"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="330.2" y1="-5.08" x2="325.12" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-5.08" x2="325.12" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">

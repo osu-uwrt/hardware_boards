@@ -2600,6 +2600,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 </library>
+<library name="105313-1102">
+<packages>
+<package name="105313-1102">
+<pad name="P$1" x="0" y="0" drill="1.32"/>
+<pad name="P$2" x="2.5" y="0" drill="1.32"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="5" y1="-2.5" x2="5" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="5" y1="2.5" x2="-2.5" y2="2.5" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3006,6 +3018,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="88.265" y="8.8392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="88.265" y="8.8392" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="U$2" library="105313-1102" package="105313-1102" value="105313-1102" x="93.1164" y="54.5592" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$3">
@@ -3227,6 +3240,7 @@ design rules under a new name.</description>
 <vertex x="101.6508" y="0"/>
 <vertex x="25.4508" y="0"/>
 </polygon>
+<contactref element="U$2" pad="P$1"/>
 <wire x1="69.215" y1="27.78125" x2="69.27125" y2="28.73375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -3789,6 +3803,7 @@ design rules under a new name.</description>
 <vertex x="101.6508" y="0"/>
 <vertex x="25.4508" y="0"/>
 </polygon>
+<contactref element="U$2" pad="P$2"/>
 <wire x1="79.53375" y1="96.04375" x2="79.59" y2="95.09125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
