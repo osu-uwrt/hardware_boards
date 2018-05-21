@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7944,6 +7944,8 @@ naming: grid - package width</description>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1uF"/>
 <part name="SDA" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
 <part name="SCL" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
+<part name="12V" library="con-molex-mini-fit" deviceset="39-30-?02?" device=""/>
+<part name="3.3V" library="con-molex-mini-fit" deviceset="39-30-?02?" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7992,12 +7994,14 @@ naming: grid - package width</description>
 <instance part="C3" gate="G$1" x="-5.08" y="35.56"/>
 <instance part="C4" gate="G$1" x="-45.72" y="35.56"/>
 <instance part="C11" gate="G$1" x="-10.16" y="58.42"/>
-<instance part="C12" gate="G$1" x="-5.08" y="68.58" rot="R90"/>
-<instance part="C13" gate="G$1" x="116.84" y="73.66" rot="R90"/>
-<instance part="C14" gate="G$1" x="116.84" y="63.5" rot="R90"/>
+<instance part="C12" gate="G$1" x="-27.94" y="78.74" rot="R180"/>
+<instance part="C13" gate="G$1" x="124.46" y="78.74" rot="R180"/>
+<instance part="C14" gate="G$1" x="114.3" y="78.74" rot="R180"/>
 <instance part="C5" gate="G$1" x="48.26" y="-88.9" rot="R270"/>
 <instance part="SDA" gate="G$1" x="104.14" y="-81.28"/>
 <instance part="SCL" gate="G$1" x="124.46" y="-91.44" rot="R180"/>
+<instance part="12V" gate="G$1" x="144.78" y="78.74" rot="R90"/>
+<instance part="3.3V" gate="G$1" x="17.78" y="-93.98"/>
 </instances>
 <busses>
 </busses>
@@ -8012,13 +8016,26 @@ naming: grid - package width</description>
 <wire x1="-73.66" y1="68.58" x2="-58.42" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="BALANCEDRAWIN" gate="G$1" pin="5"/>
 <wire x1="-73.66" y1="76.2" x2="-73.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="68.58" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-58.42" y="68.58"/>
-<wire x1="-10.16" y1="68.58" x2="-7.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="60.96" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-10.16" y="68.58"/>
 <pinref part="C11" gate="G$1" pin="1"/>
+<junction x="-10.16" y="68.58"/>
+<pinref part="BALANCEDR" gate="G$1" pin="1"/>
+<pinref part="12VCONVERTER" gate="G$1" pin="1,+VIN"/>
+<wire x1="5.08" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="12VCONVERTER" gate="G$1" pin="2,ON/OFF"/>
+<wire x1="12.7" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
+<junction x="15.24" y="68.58"/>
+<pinref part="BALANCED+TP" gate="G$1" pin="TP"/>
+<junction x="12.7" y="68.58"/>
+<wire x1="-10.16" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
+<junction x="5.08" y="68.58"/>
 <pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="76.2" x2="-27.94" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-27.94" y="68.58"/>
 </segment>
 </net>
 <net name="3.3VCURRENTOUT" class="0">
@@ -8081,7 +8098,6 @@ naming: grid - package width</description>
 <wire x1="-7.62" y1="-149.86" x2="0" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-106.68" x2="-7.62" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="3.3V_6"/>
-<junction x="10.16" y="-106.68"/>
 <pinref part="U$3" gate="G$1" pin="3.3V_5"/>
 <junction x="5.08" y="-106.68"/>
 <pinref part="U$3" gate="G$1" pin="3.3V_4"/>
@@ -8101,6 +8117,9 @@ naming: grid - package width</description>
 <junction x="5.08" y="-2.54"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <junction x="43.18" y="-88.9"/>
+<pinref part="3.3V" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="-93.98" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="10.16" y="-106.68"/>
 </segment>
 </net>
 <net name="12VCURRENTOUT" class="0">
@@ -8132,6 +8151,9 @@ naming: grid - package width</description>
 <junction x="175.26" y="68.58"/>
 <wire x1="180.34" y1="71.12" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <junction x="180.34" y="68.58"/>
+<pinref part="12V" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
+<junction x="154.94" y="71.12"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -8208,9 +8230,12 @@ naming: grid - package width</description>
 <wire x1="96.52" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <junction x="96.52" y="88.9"/>
 <pinref part="12V-TP" gate="G$1" pin="TP"/>
-<wire x1="106.68" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <junction x="106.68" y="88.9"/>
 <pinref part="DIAMOND" gate="G$1" pin="6"/>
+<wire x1="114.3" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="86.36" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <junction x="185.42" y="88.9"/>
 <pinref part="DIAMOND" gate="G$1" pin="8"/>
@@ -8219,6 +8244,15 @@ naming: grid - package width</description>
 <pinref part="12VCONVERTER" gate="G$1" pin="5,-SENSE"/>
 <wire x1="83.82" y1="83.82" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 <junction x="83.82" y="88.9"/>
+<pinref part="12V" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<junction x="144.78" y="88.9"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="83.82" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<junction x="114.3" y="88.9"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="88.9" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<junction x="124.46" y="88.9"/>
 </segment>
 <segment>
 <pinref part="3.3VCURRENT" gate="G$1" pin="5,GND"/>
@@ -8310,6 +8344,8 @@ naming: grid - package width</description>
 <wire x1="25.4" y1="-106.68" x2="30.48" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-106.68" x2="30.48" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="3.3VGND" gate="G$1" pin="0"/>
+<pinref part="3.3V" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-93.98" x2="25.4" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12VCONV+" class="0">
@@ -8317,9 +8353,6 @@ naming: grid - package width</description>
 <wire x1="83.82" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="68.58" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="68.58" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<junction x="114.3" y="68.58"/>
 <pinref part="12VCONVERTER" gate="G$1" pin="8,+VOUT"/>
 <pinref part="12VR" gate="G$1" pin="1"/>
 <junction x="96.52" y="68.58"/>
@@ -8328,17 +8361,13 @@ naming: grid - package width</description>
 <pinref part="12VCONVERTER" gate="G$1" pin="7,+SENSE"/>
 <wire x1="83.82" y1="73.66" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
 <junction x="83.82" y="68.58"/>
-<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="12VCURRENTIN" class="0">
-<segment>
-<wire x1="121.92" y1="73.66" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="68.58" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
-<junction x="121.92" y="68.58"/>
+<wire x1="114.3" y1="76.2" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<junction x="114.3" y="68.58"/>
+<wire x1="121.92" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="68.58" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <junction x="129.54" y="68.58"/>
@@ -8348,8 +8377,10 @@ naming: grid - package width</description>
 <wire x1="147.32" y1="25.4" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
 <junction x="147.32" y="22.86"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="76.2" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<junction x="124.46" y="68.58"/>
+<junction x="121.92" y="68.58"/>
 </segment>
 </net>
 <net name="12VDIV" class="0">
@@ -8368,22 +8399,6 @@ naming: grid - package width</description>
 <pinref part="12VR" gate="G$1" pin="2"/>
 <pinref part="12VLED" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="78.74" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="12VCONVIN" class="0">
-<segment>
-<pinref part="BALANCEDR" gate="G$1" pin="1"/>
-<wire x1="0" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="12VCONVERTER" gate="G$1" pin="1,+VIN"/>
-<wire x1="5.08" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<junction x="5.08" y="68.58"/>
-<pinref part="12VCONVERTER" gate="G$1" pin="2,ON/OFF"/>
-<wire x1="12.7" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="78.74" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
-<junction x="15.24" y="68.58"/>
-<pinref part="BALANCED+TP" gate="G$1" pin="TP"/>
-<junction x="12.7" y="68.58"/>
-<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BALANCEDLED" class="0">
@@ -8430,7 +8445,8 @@ naming: grid - package width</description>
 <wire x1="10.16" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="88.9" x2="-45.72" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-58.42" y="88.9"/>
-<wire x1="-45.72" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="88.9" x2="-27.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="45.72" x2="-45.72" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-45.72" y="45.72"/>
 <junction x="-45.72" y="88.9"/>
@@ -8439,6 +8455,9 @@ naming: grid - package width</description>
 <pinref part="BALANCED-TP" gate="G$1" pin="TP"/>
 <junction x="10.16" y="88.9"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="83.82" x2="-27.94" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-27.94" y="88.9"/>
 </segment>
 </net>
 <net name="3.3VCONVOUT" class="0">
