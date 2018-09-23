@@ -2838,7 +2838,7 @@ design rules under a new name.</description>
 <element name="PF_R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2k" x="1.42875" y="-43.33875"/>
 <element name="PF_R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330" x="13.81125" y="-43.33875"/>
 <element name="PF_R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="1.42875" y="-28.575"/>
-<element name="PF_R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="41.11625" y="-33.49625"/>
+<element name="PF_R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5" x="70.21625" y="-37.39625"/>
 <element name="PF_C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="43.815" y="-2.69875"/>
 <element name="PF_C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="270pF" x="44.60875" y="-13.81125"/>
 <element name="PF_C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1nF" x="47.46625" y="-58.1025"/>
@@ -2857,7 +2857,7 @@ design rules under a new name.</description>
 <element name="PF_R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="10.795" y="-220.98"/>
 <element name="PF_C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="5nF" x="1.42875" y="-216.05875"/>
 <element name="PF_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="14.12875" y="-211.1375"/>
-<element name="H4_PREAMP2" library="lio" package="SC70-5" value="TLV6741" x="11.43" y="-226.53625"/>
+<element name="PA_PREAMP2" library="lio" package="SC70-5" value="TLV6741" x="11.43" y="-226.53625"/>
 <element name="PA_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="13.49375" y="-251.61875"/>
 <element name="PA_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="1.42875" y="-236.855"/>
 <element name="PA_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="1.42875" y="-241.77625"/>
@@ -2866,7 +2866,7 @@ design rules under a new name.</description>
 <element name="PA_R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="100k" x="10.795" y="-256.54"/>
 <element name="PA_C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="5nF" x="1.42875" y="-251.61875"/>
 <element name="PA_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k" x="14.12875" y="-246.6975"/>
-<element name="H4_PREAMP3" library="lio" package="SC70-5" value="TLV6741" x="11.43" y="-262.09625"/>
+<element name="SF_PREAMP3" library="lio" package="SC70-5" value="TLV6741" x="11.43" y="-262.09625"/>
 <element name="SF_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF" x="13.49375" y="-287.17875"/>
 <element name="SF_C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10mF" x="1.42875" y="-272.415"/>
 <element name="SF_C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="1pF" x="1.42875" y="-277.33625"/>
@@ -2950,25 +2950,25 @@ design rules under a new name.</description>
 <element name="H4_C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uf" x="1.42875" y="-596.5825"/>
 <element name="U$1" library="headers(2mm)" package="1X3" value="1X3" x="8" y="69" rot="R180"/>
 <element name="U$2" library="headers(2mm)" package="2X8" value="2X8" x="17" y="10"/>
-<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="95" y="73" rot="R180">
+<element name="PF_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="95" y="73" rot="R180">
 <attribute name="MF" value="MOLEX" x="95" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="95" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="95" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="95" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="80" y="73" rot="R180">
+<element name="PA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="80" y="73" rot="R180">
 <attribute name="MF" value="MOLEX" x="80" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="80" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="80" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="80" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="65" y="73" rot="R180">
+<element name="SF_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="65" y="73" rot="R180">
 <attribute name="MF" value="MOLEX" x="65" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="65" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="65" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="65" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="50" y="73" rot="R180">
+<element name="SA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="50" y="73" rot="R180">
 <attribute name="MF" value="MOLEX" x="50" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2021" x="50" y="73" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="50" y="73" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3046,10 +3046,10 @@ design rules under a new name.</description>
 <contactref element="PF_PREAMP" pad="5"/>
 <contactref element="PF_R4" pad="2"/>
 <contactref element="PF_C4" pad="2"/>
-<contactref element="H4_PREAMP2" pad="5"/>
+<contactref element="PA_PREAMP2" pad="5"/>
 <contactref element="PA_R4" pad="2"/>
 <contactref element="PA_C4" pad="2"/>
-<contactref element="H4_PREAMP3" pad="5"/>
+<contactref element="SF_PREAMP3" pad="5"/>
 <contactref element="SF_R4" pad="2"/>
 <contactref element="SF_C4" pad="2"/>
 <contactref element="H4_PREAMP4" pad="5"/>
@@ -3278,8 +3278,8 @@ design rules under a new name.</description>
 <contactref element="ADC_H8" pad="21"/>
 <contactref element="P1" pad="1"/>
 <contactref element="PF_PREAMP" pad="2"/>
-<contactref element="H4_PREAMP2" pad="2"/>
-<contactref element="H4_PREAMP3" pad="2"/>
+<contactref element="PA_PREAMP2" pad="2"/>
+<contactref element="SF_PREAMP3" pad="2"/>
 <contactref element="H4_PREAMP4" pad="2"/>
 <contactref element="PF_REFGEN" pad="8"/>
 <contactref element="PF_REFGEN" pad="7"/>
@@ -3308,10 +3308,10 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="3"/>
 <contactref element="U$2" pad="16"/>
 <contactref element="U$2" pad="15"/>
-<contactref element="X4" pad="2"/>
-<contactref element="X3" pad="2"/>
-<contactref element="X2" pad="2"/>
-<contactref element="X1" pad="2"/>
+<contactref element="SA_IN" pad="2"/>
+<contactref element="SF_IN" pad="2"/>
+<contactref element="PA_IN" pad="2"/>
+<contactref element="PF_IN" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C4" pad="2"/>
@@ -3541,7 +3541,7 @@ design rules under a new name.</description>
 <contactref element="PF_R12" pad="1"/>
 <contactref element="PF_C9" pad="2"/>
 <contactref element="PF_DA" pad="4"/>
-<wire x1="40.26625" y1="-33.49625" x2="45.45875" y2="-13.81125" width="0" layer="19" extent="1-1"/>
+<wire x1="69.36625" y1="-37.39625" x2="45.45875" y2="-13.81125" width="0" layer="19" extent="1-1"/>
 <wire x1="6.55375" y1="-5.3975" x2="45.45875" y2="-13.81125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$109">
@@ -3555,8 +3555,8 @@ design rules under a new name.</description>
 <contactref element="PF_R14" pad="2"/>
 <contactref element="PF_R12" pad="2"/>
 <contactref element="PF_R13" pad="1"/>
-<wire x1="41.96625" y1="-33.49625" x2="45.14125" y2="-18.7325" width="0" layer="19" extent="1-1"/>
-<wire x1="53.4425" y1="-33.49625" x2="41.96625" y2="-33.49625" width="0" layer="19" extent="1-1"/>
+<wire x1="71.06625" y1="-37.39625" x2="45.14125" y2="-18.7325" width="0" layer="19" extent="1-1"/>
+<wire x1="53.4425" y1="-33.49625" x2="71.06625" y2="-37.39625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIFF_P_PF">
 <contactref element="PF_R13" pad="2"/>
@@ -3602,7 +3602,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RAW_PF">
 <contactref element="PF_C2" pad="1"/>
-<contactref element="X1" pad="1"/>
+<contactref element="PF_IN" pad="1"/>
 <wire x1="96.27" y1="73" x2="0.57875" y2="-216.05875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$133">
@@ -3639,7 +3639,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RAW_PA">
 <contactref element="PA_C2" pad="1"/>
-<contactref element="X2" pad="1"/>
+<contactref element="PA_IN" pad="1"/>
 <wire x1="81.27" y1="73" x2="0.57875" y2="-251.61875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$137">
@@ -3650,14 +3650,14 @@ design rules under a new name.</description>
 <signal name="N$138">
 <contactref element="PA_R2" pad="1"/>
 <contactref element="PA_C1" pad="1"/>
-<contactref element="H4_PREAMP2" pad="3"/>
+<contactref element="PA_PREAMP2" pad="3"/>
 <contactref element="PA_R1" pad="2"/>
 <wire x1="0.57875" y1="-241.77625" x2="0.57875" y2="-246.6975" width="0" layer="19" extent="1-1"/>
 <wire x1="14.97875" y1="-246.6975" x2="0.57875" y2="-246.6975" width="0" layer="19" extent="1-1"/>
 <wire x1="12.08" y1="-227.38625" x2="0.57875" y2="-241.77625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AMPED_PA">
-<contactref element="H4_PREAMP2" pad="4"/>
+<contactref element="PA_PREAMP2" pad="4"/>
 <contactref element="PA_R2" pad="2"/>
 <contactref element="PA_C1" pad="2"/>
 <contactref element="PF_R20" pad="1"/>
@@ -3667,7 +3667,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$139">
 <contactref element="PA_R4" pad="1"/>
-<contactref element="H4_PREAMP2" pad="1"/>
+<contactref element="PA_PREAMP2" pad="1"/>
 <contactref element="PA_C3" pad="1"/>
 <contactref element="PA_R3" pad="1"/>
 <wire x1="0.57875" y1="-256.54" x2="9.945" y2="-256.54" width="0" layer="19" extent="1-1"/>
@@ -3676,7 +3676,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RAW_SF">
 <contactref element="SF_C2" pad="1"/>
-<contactref element="X3" pad="1"/>
+<contactref element="SF_IN" pad="1"/>
 <wire x1="0.57875" y1="-287.17875" x2="66.27" y2="73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$141">
@@ -3687,14 +3687,14 @@ design rules under a new name.</description>
 <signal name="N$142">
 <contactref element="SF_R2" pad="1"/>
 <contactref element="SF_C1" pad="1"/>
-<contactref element="H4_PREAMP3" pad="3"/>
+<contactref element="SF_PREAMP3" pad="3"/>
 <contactref element="SF_R1" pad="2"/>
 <wire x1="0.57875" y1="-277.33625" x2="12.08" y2="-262.94625" width="0" layer="19" extent="1-1"/>
 <wire x1="0.57875" y1="-282.2575" x2="0.57875" y2="-277.33625" width="0" layer="19" extent="1-1"/>
 <wire x1="14.97875" y1="-282.2575" x2="0.57875" y2="-282.2575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AMPED_SF">
-<contactref element="H4_PREAMP3" pad="4"/>
+<contactref element="SF_PREAMP3" pad="4"/>
 <contactref element="SF_R2" pad="2"/>
 <contactref element="SF_C1" pad="2"/>
 <contactref element="PF_R30" pad="1"/>
@@ -3704,7 +3704,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$143">
 <contactref element="SF_R4" pad="1"/>
-<contactref element="H4_PREAMP3" pad="1"/>
+<contactref element="SF_PREAMP3" pad="1"/>
 <contactref element="SF_C3" pad="1"/>
 <contactref element="SF_R3" pad="1"/>
 <wire x1="0.57875" y1="-272.415" x2="10.78" y2="-262.94625" width="0" layer="19" extent="1-1"/>
@@ -3713,7 +3713,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RAW_SA">
 <contactref element="SA_C2" pad="1"/>
-<contactref element="X4" pad="1"/>
+<contactref element="SA_IN" pad="1"/>
 <wire x1="0.57875" y1="-322.73875" x2="51.27" y2="73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$145">

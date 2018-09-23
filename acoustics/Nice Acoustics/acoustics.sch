@@ -16060,7 +16060,7 @@ naming: grid - package width</description>
 <part name="PF_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="AGND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="H4_PREAMP2" library="lio" deviceset="TLV6741" device=""/>
+<part name="PA_PREAMP2" library="lio" deviceset="TLV6741" device=""/>
 <part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="PA_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
@@ -16073,7 +16073,7 @@ naming: grid - package width</description>
 <part name="PA_R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10k"/>
 <part name="AGND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="H4_PREAMP3" library="lio" deviceset="TLV6741" device=""/>
+<part name="SF_PREAMP3" library="lio" deviceset="TLV6741" device=""/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="SF_C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100nF"/>
@@ -16206,10 +16206,10 @@ naming: grid - package width</description>
 <part name="U$2" library="headers(2mm)" deviceset="2X8" device=""/>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="X4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PF_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="PA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="SF_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="SA_IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -16295,14 +16295,14 @@ naming: grid - package width</description>
 <instance part="U$2" gate="G$1" x="30.48" y="48.26"/>
 <instance part="AGND2" gate="VR1" x="35.56" y="30.48"/>
 <instance part="AGND3" gate="VR1" x="22.86" y="30.48"/>
-<instance part="X1" gate="-1" x="129.54" y="81.28"/>
-<instance part="X1" gate="-2" x="129.54" y="78.74"/>
-<instance part="X2" gate="-1" x="129.54" y="66.04"/>
-<instance part="X2" gate="-2" x="129.54" y="63.5"/>
-<instance part="X3" gate="-1" x="129.54" y="50.8"/>
-<instance part="X3" gate="-2" x="129.54" y="48.26"/>
-<instance part="X4" gate="-1" x="129.54" y="35.56"/>
-<instance part="X4" gate="-2" x="129.54" y="33.02"/>
+<instance part="PF_IN" gate="-1" x="129.54" y="81.28"/>
+<instance part="PF_IN" gate="-2" x="129.54" y="78.74"/>
+<instance part="PA_IN" gate="-1" x="129.54" y="66.04"/>
+<instance part="PA_IN" gate="-2" x="129.54" y="63.5"/>
+<instance part="SF_IN" gate="-1" x="129.54" y="50.8"/>
+<instance part="SF_IN" gate="-2" x="129.54" y="48.26"/>
+<instance part="SA_IN" gate="-1" x="129.54" y="35.56"/>
+<instance part="SA_IN" gate="-2" x="129.54" y="33.02"/>
 <instance part="AGND4" gate="VR1" x="124.46" y="27.94"/>
 <instance part="AGND5" gate="VR1" x="124.46" y="43.18"/>
 <instance part="AGND6" gate="VR1" x="124.46" y="58.42"/>
@@ -16445,28 +16445,28 @@ naming: grid - package width</description>
 </net>
 <net name="RAW_PF" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="PF_IN" gate="-1" pin="S"/>
 <wire x1="127" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <label x="96.52" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAW_PA" class="0">
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
+<pinref part="PA_IN" gate="-1" pin="S"/>
 <wire x1="127" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <label x="96.52" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAW_SF" class="0">
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
+<pinref part="SF_IN" gate="-1" pin="S"/>
 <wire x1="127" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="96.52" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAW_SA" class="0">
 <segment>
-<pinref part="X4" gate="-1" pin="S"/>
+<pinref part="SA_IN" gate="-1" pin="S"/>
 <wire x1="127" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -16498,25 +16498,25 @@ naming: grid - package width</description>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-2" pin="S"/>
+<pinref part="SA_IN" gate="-2" pin="S"/>
 <wire x1="127" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="33.02" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="SF_IN" gate="-2" pin="S"/>
 <wire x1="127" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="48.26" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-2" pin="S"/>
+<pinref part="PA_IN" gate="-2" pin="S"/>
 <wire x1="127" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="63.5" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="PF_IN" gate="-2" pin="S"/>
 <wire x1="127" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="78.74" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="AGND7" gate="VR1" pin="AGND"/>
@@ -16569,7 +16569,7 @@ naming: grid - package width</description>
 <instance part="AGND49" gate="VR1" x="22.86" y="289.56" smashed="yes">
 <attribute name="VALUE" x="20.32" y="287.02" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="H4_PREAMP2" gate="G$1" x="48.26" y="259.08"/>
+<instance part="PA_PREAMP2" gate="G$1" x="48.26" y="259.08"/>
 <instance part="+3V26" gate="G$1" x="50.8" y="254"/>
 <instance part="AGND50" gate="VR1" x="58.42" y="269.24"/>
 <instance part="PA_C4" gate="G$1" x="50.8" y="241.3" rot="R180"/>
@@ -16587,7 +16587,7 @@ naming: grid - package width</description>
 <instance part="AGND53" gate="VR1" x="22.86" y="228.6" smashed="yes">
 <attribute name="VALUE" x="20.32" y="226.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="H4_PREAMP3" gate="G$1" x="48.26" y="198.12"/>
+<instance part="SF_PREAMP3" gate="G$1" x="48.26" y="198.12"/>
 <instance part="+3V27" gate="G$1" x="50.8" y="193.04"/>
 <instance part="AGND54" gate="VR1" x="58.42" y="208.28"/>
 <instance part="SF_C4" gate="G$1" x="50.8" y="180.34" rot="R180"/>
@@ -16644,7 +16644,7 @@ naming: grid - package width</description>
 <segment>
 <pinref part="+3V26" gate="G$1" pin="+3V3"/>
 <wire x1="50.8" y1="248.92" x2="50.8" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP2" gate="G$1" pin="V+"/>
+<pinref part="PA_PREAMP2" gate="G$1" pin="V+"/>
 <wire x1="45.72" y1="248.92" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="PA_R4" gate="G$1" pin="2"/>
@@ -16657,7 +16657,7 @@ naming: grid - package width</description>
 <segment>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
 <wire x1="50.8" y1="187.96" x2="50.8" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP3" gate="G$1" pin="V+"/>
+<pinref part="SF_PREAMP3" gate="G$1" pin="V+"/>
 <wire x1="45.72" y1="187.96" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="SF_R4" gate="G$1" pin="2"/>
@@ -16750,14 +16750,14 @@ naming: grid - package width</description>
 <wire x1="58.42" y1="335.28" x2="58.42" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="H4_PREAMP2" gate="G$1" pin="V-"/>
+<pinref part="PA_PREAMP2" gate="G$1" pin="V-"/>
 <wire x1="45.72" y1="271.78" x2="45.72" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="274.32" x2="58.42" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="AGND50" gate="VR1" pin="AGND"/>
 <wire x1="58.42" y1="274.32" x2="58.42" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="H4_PREAMP3" gate="G$1" pin="V-"/>
+<pinref part="SF_PREAMP3" gate="G$1" pin="V-"/>
 <wire x1="45.72" y1="210.82" x2="45.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="AGND54" gate="VR1" pin="AGND"/>
@@ -16854,7 +16854,7 @@ naming: grid - package width</description>
 <wire x1="27.94" y1="276.86" x2="27.94" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="PA_C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="281.94" x2="38.1" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP2" gate="G$1" pin="-IN"/>
+<pinref part="PA_PREAMP2" gate="G$1" pin="-IN"/>
 <pinref part="PA_R1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="264.16" x2="27.94" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="264.16" x2="30.48" y2="264.16" width="0.1524" layer="91"/>
@@ -16866,7 +16866,7 @@ naming: grid - package width</description>
 <net name="AMPED_PA" class="0">
 <segment>
 <wire x1="63.5" y1="276.86" x2="63.5" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP2" gate="G$1" pin="OUT"/>
+<pinref part="PA_PREAMP2" gate="G$1" pin="OUT"/>
 <wire x1="63.5" y1="261.62" x2="60.96" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="PA_R2" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="276.86" x2="63.5" y2="276.86" width="0.1524" layer="91"/>
@@ -16882,7 +16882,7 @@ naming: grid - package width</description>
 <net name="N$139" class="0">
 <segment>
 <pinref part="PA_R4" gate="G$1" pin="1"/>
-<pinref part="H4_PREAMP2" gate="G$1" pin="+IN"/>
+<pinref part="PA_PREAMP2" gate="G$1" pin="+IN"/>
 <wire x1="30.48" y1="259.08" x2="22.86" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="259.08" x2="22.86" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="PA_C3" gate="G$1" pin="1"/>
@@ -16916,7 +16916,7 @@ naming: grid - package width</description>
 <wire x1="27.94" y1="215.9" x2="27.94" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="SF_C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="220.98" x2="38.1" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP3" gate="G$1" pin="-IN"/>
+<pinref part="SF_PREAMP3" gate="G$1" pin="-IN"/>
 <pinref part="SF_R1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="203.2" x2="30.48" y2="203.2" width="0.1524" layer="91"/>
@@ -16928,7 +16928,7 @@ naming: grid - package width</description>
 <net name="AMPED_SF" class="0">
 <segment>
 <wire x1="63.5" y1="215.9" x2="63.5" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="H4_PREAMP3" gate="G$1" pin="OUT"/>
+<pinref part="SF_PREAMP3" gate="G$1" pin="OUT"/>
 <wire x1="63.5" y1="200.66" x2="60.96" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="SF_R2" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="215.9" x2="63.5" y2="215.9" width="0.1524" layer="91"/>
@@ -16944,7 +16944,7 @@ naming: grid - package width</description>
 <net name="N$143" class="0">
 <segment>
 <pinref part="SF_R4" gate="G$1" pin="1"/>
-<pinref part="H4_PREAMP3" gate="G$1" pin="+IN"/>
+<pinref part="SF_PREAMP3" gate="G$1" pin="+IN"/>
 <wire x1="30.48" y1="198.12" x2="22.86" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="198.12" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="SF_C3" gate="G$1" pin="1"/>
